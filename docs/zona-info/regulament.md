@@ -757,6 +757,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 
 ### 8.3 PERIMETRUL DE LUPTĂ
 - Confruntările sunt permise <span style="color: red;">EXCLUSIV</span> în interiorul perimetrului drop-ului. Este <span style="color: red;">INTERZIS</span> să vă luptați în afara acestuia.
+- Tragerea în perimetrul drop-ului este permisă **imediat după primirea SMS-ului** care anunță airdrop-ul, chiar dacă drop-ul **nu a aterizat încă**.
 
 ### 8.4 DISCONNECT CU ITEME DIN DROP
 - Este <span style="color: red;">STRICT INTERZIS</span> să vă dați disconnect având asupra voastră iteme provenite dintr-un airdrop, cu scopul de a le păstra și de a evita confruntarea sau jefuirea.
