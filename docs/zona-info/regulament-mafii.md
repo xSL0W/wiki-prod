@@ -32,7 +32,7 @@ outline: deep
 ### 1.3 MAFIE NEOFICIALĂ
 - Trecerea de la Familie IC la Mafie Neoficială se face doar la decizia **Membrilor Sindicat**, pe baza recomandărilor mafiilor neoficiale existente și prin îndeplinirea unor **taskuri speciale**.
 - Liderul trebuie să dețină o **casă mare plătită cu EG Coins**.
-- Taxa de înființare este de **20.000.000 € bani curați**, predați Sindicatului **înainte de ceremonia oficială de investire**.
+- Taxa de înființare, stabilită de Sindicat, se achită în **bani curați** și se predă Sindicatului **înainte de ceremonia oficială de investire**.
 - O Mafie Neoficială trebuie să aibă minim **15 membri** și maxim **35 de membri**.
 
 ### 1.4 MAFIE OFICIALĂ
