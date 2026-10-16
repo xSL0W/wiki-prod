@@ -22,21 +22,17 @@ in butoaiele din No Man's Land, si le pui pe arma tot acolo.
 
 - Materialele se gasesc in **butoaiele din No Man's Land** (Plantatie mac). Apropie-te de un butoi si cauta in el.
 - Un butoi poate fi si gol. Dupa ce il golesti, apare imediat altul, in alt loc din zona.
-- Dupa multe cautari la rand obosesti si trebuie sa faci o pauza scurta; serverul iti spune cat mai ai.
-- Materialele: **folie de vinil**, **pigmenti** (negru, verde, rosu, alb), **fulgi metalici** si **foita de aur**.
-- No Man's Land e zona PVP: poti fi atacat oricand.
+- Dupa multe cautari la rand obosesti si trebuie sa faci o pauza scurta.
+- Materialele: **folie de vinil**, **pigmenti** (negru, verde, rosu, alb), **fulgi metalici**, etc.
 
-## Folia de skin
+## Skin
 
-Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza skin**, apoi arma, apoi skin-ul. Primesti o
-**folie de skin** cu numele si poza skin-ului, facuta doar pentru arma aleasa (ex. *Skin Camuflaj - Pistol MK2*).
+Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza skin**, apoi arma, apoi skin-ul. Primesti un
+**skin** cu numele acestuia, facut doar pentru arma aleasa (ex. *Skin Camuflaj - Pistol MK2*).
 
-- Folia o pui pe arma cand vrei, nu trebuie aplicata imediat.
-- Foliile se pot **da sau vinde** altor jucatori, ca orice obiect.
-- Fiecare skin are un nivel. Skin-urile legendare (*Lux*, *Protocol*) si armele mai bune cer mai multe materiale.
-- **Skin Lux (aur) este doar pentru Sindicat**: doar membrii Sindicat il pot face, aplica si vedea pe arma. O arma cu
-  Lux ajunsa la altcineva merge normal, dar fara skin.
-
+- Skin-ul il pui pe arma cand vrei, nu trebuie aplicat imediat.
+- Skin-urile se pot **da sau vinde** altor jucatori, ca orice obiect.
+- Fiecare skin are un nivel. Skin-urile legendare (*Protocol*) si armele mai bune cer mai multe materiale.
 <div class="sk-tiers">
   <span class="sk-tier" style="--c:#9ca3af"><b>Comun</b></span>
   <span class="sk-tier" style="--c:#f5b301"><b>Legendar</b></span>
@@ -44,8 +40,8 @@ Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza ski
 
 ## Aplicare
 
-La atelier alege **Aplica skin**, arma, apoi folia ei. Ai nevoie de un **cutter** (Brico Depot) si treci printr-un
-minigame. La final folia si cutter-ul se consuma, iar skin-ul ramane pe arma.
+La atelier alege **Aplica skin**, arma, apoi skin-ul ei. Ai nevoie de un **cutter** (Brico Depot) si treci printr-un
+minigame. La final cutter-ul se consuma, iar skin-ul ramane pe arma.
 
 - O arma poate avea un singur skin.
 - Cand treci cu mouse-ul peste arma in inventar, vezi ce skin are.
