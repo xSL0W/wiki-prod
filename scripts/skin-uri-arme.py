@@ -18,6 +18,7 @@ SKINS_LUA = RES / '[eg]/eg-weaponskins/shared/config_skins.lua'
 WHITELIST_LUA = RES / '[eg]/eg-weaponskins/shared/config_whitelist.lua'
 WEAPONS_LUA = RES / '[ox]/ox_inventory/data/weapons.lua'
 SHOTS = RES / '[dev]/uz_AutoShot/shots/weapons'
+OX_IMAGES = RES / '[ox]/ox_inventory/images'
 OUT_IMG = WIKI / 'docs/public/skin-uri-arme'
 OUT_MD = WIKI / 'docs/general/skin-uri-arme-catalog.md'
 
@@ -46,6 +47,11 @@ def parse_whitelist(text):
     body = text.split('Config.SkinWhitelist = {', 1)[1]
     return {m.group(1): set(re.findall(r'(WEAPON_\w+) = true', m.group(2)))
             for m in re.finditer(r'\n    (skin_\w+) = \{(.*?)\n    \},', body, re.S)}
+
+
+def parse_skin_weapons(text):
+    """Config.SkinWeapons: every weapon the catalogue shows, with or without a skin"""
+    return re.findall(r"'(WEAPON_\w+)'", text.split('Config.SkinWeapons = {', 1)[1].split('\n}', 1)[0])
 
 
 def parse_weapon_tiers(text):
@@ -78,6 +84,18 @@ def image(name):
     return f'/skin-uri-arme/{name}.webp' if dst.exists() else None
 
 
+def weapon_image(weapon):
+    """The weapon's render (uz_AutoShot base shot), else its ox_inventory item image copied next to the renders"""
+    url = image(f'{weapon}__base')
+    if url:
+        return url
+    ox = OX_IMAGES / f'{weapon}.webp'
+    if not ox.exists():
+        return None
+    shutil.copyfile(ox, OUT_IMG / f'{weapon}__base.webp')
+    return f'/skin-uri-arme/{weapon}__base.webp'
+
+
 def card(img, title, tier, faction=None):
     label, color, _ = TIERS[tier]
     pic = f'<img src="{img}" alt="{title}" loading="lazy">' if img else '<div class="sk-noimg">fara imagine</div>'
@@ -92,7 +110,7 @@ def main():
     labels = dict(re.findall(r"\['(WEAPON_\w+)'\] = \{\s*label = '([^']+)'", WEAPONS_LUA.read_text()))
     OUT_IMG.mkdir(parents=True, exist_ok=True)
 
-    per_weapon = {}  # WEAPON -> [(skin, component)]
+    per_weapon = {w: [] for w in parse_skin_weapons(skins_text)}  # WEAPON -> [(skin, component)], also skin-less
     for item, skin in skins.items():
         for weapon in sorted(allowed.get(item, ())):
             if weapon in skin['weapons']:
@@ -100,26 +118,32 @@ def main():
 
     missing, out, total = [], [PAGE_HEAD], 0
     for key, title in CATEGORIES:
-        weapons = sorted((w for w in per_weapon if categories.get(w) == key), key=lambda w: labels.get(w, w))
+        # weapons with skins first, the skin-less ones (shown with 0) at the end of the group
+        weapons = sorted((w for w in per_weapon if categories.get(w) == key),
+                         key=lambda w: (not per_weapon[w], labels.get(w, w)))
         if not weapons:
             continue
         out.append(f'\n## {title}\n\n')
         for weapon in weapons:
             entries = sorted(per_weapon[weapon], key=lambda e: (TIERS[skins[e[0]]['tier']][2], skins[e[0]]['label']))
+            base = weapon_image(weapon)
+            pic = f'<img src="{base}" alt="" loading="lazy">' if base else ''
+            name = labels.get(weapon, weapon)
+            total += 1
+            if not entries:  # no skin for it yet: shown with 0, nothing to open
+                out.append(f'<div class="sk-weapon sk-empty"><div class="sk-row">{pic}<b>{name}</b>'
+                           f'<span>0 skin-uri</span></div></div>\n\n')
+                continue
             cards = []
             for item, component in entries:
                 img = image(f'{weapon}__{component}')
                 if not img:
                     missing.append(f'{weapon}__{component}')
                 cards.append(card(img, skins[item]['label'], skins[item]['tier'], skins[item]['faction']))
-            base = image(f'{weapon}__base')
-            pic = f'<img src="{base}" alt="" loading="lazy">' if base else ''
-            name = labels.get(weapon, weapon)
             count = len(entries)
             out.append(f'<details class="sk-weapon"><summary>{pic}<b>{name}</b>'
                        f'<span>{count} {"skin" if count == 1 else "skin-uri"}</span></summary>\n'
                        f'<div class="sk-grid">{"".join(cards)}</div>\n</details>\n\n')
-            total += 1
     OUT_MD.write_text(''.join(out))
     print(f'{total} weapons, {sum(len(v) for v in per_weapon.values())} skins -> {OUT_MD.relative_to(WIKI)}; '
           f'missing renders: {len(missing)}')
@@ -139,8 +163,10 @@ outline: [2, 2]
   .sk-weapon > summary::-webkit-details-marker { display: none; }
   .sk-weapon > summary::after { content: '+'; margin-left: auto; font-size: 1.3rem; color: #9ca3af; }
   .sk-weapon[open] > summary::after { content: '\\2212'; }
-  .sk-weapon > summary img { width: 128px; height: 128px; object-fit: contain; }
-  .sk-weapon > summary span { color: #9ca3af; font-size: .85rem; }
+  .sk-weapon > summary img, .sk-row img { width: 128px; height: 128px; object-fit: contain; }
+  .sk-weapon > summary span, .sk-row span { color: #9ca3af; font-size: .85rem; }
+  .sk-row { display: flex; align-items: center; gap: .9rem; padding: .5rem .9rem; }
+  .sk-empty { opacity: .55; }
   .sk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: .75rem;
     padding: 0 .9rem .9rem; }
   .sk-card { background: #ffffff08; border: 1px solid #ffffff14; border-top: 3px solid var(--c); border-radius: 8px;
