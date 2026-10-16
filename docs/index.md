@@ -89,6 +89,14 @@ onMounted(() => {
   </div>
 
   <div class="eg-card">
+    <img src="https://cdn.discordapp.com/avatars/295581149986553857/14ab973e2e0ad5cf4ecf5f55c0d8a94b.webp?size=1024" alt="sNok3" />
+    <div class="eg-name">sNok3</div>
+    <div class="eg-role">Developer</div>
+    <span class="eg-badge red">Developer</span>
+    <div class="eg-desc">Responsabil pe partea tehnică</div>
+  </div>
+
+  <div class="eg-card">
     <img src="https://cdn.discordapp.com/avatars/289800581420417025/9ad8a8799df6489541919ff4e1504343?size=1024" alt="Crixus99" />
     <div class="eg-name">Crixus99</div>
     <div class="eg-role">Community Manager</div>
