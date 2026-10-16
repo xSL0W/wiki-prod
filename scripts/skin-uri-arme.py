@@ -22,7 +22,8 @@ OX_IMAGES = RES / '[ox]/ox_inventory/images'
 OUT_IMG = WIKI / 'docs/public/skin-uri-arme'
 OUT_MD = WIKI / 'docs/general/skin-uri-arme-catalog.md'
 
-TIERS = {'legendary': ('Legendar', '#f5b301', 0), 'rare': ('Rar', '#a855f7', 1), 'common': ('Comun', '#9ca3af', 2)}
+TIERS = {'contraband': ('Contrabanda', '#ef4444', 0), 'premium': ('Premium', '#f5b301', 1), 'rare': ('Rar', '#a855f7', 2),
+         'common': ('Comun', '#9ca3af', 3)}
 CATEGORIES = [('rifle', 'Pusti, sniper-e si MG-uri'), ('smg', 'SMG-uri si shotgun-uri'), ('pistol', 'Pistoale'),
               ('melee', 'Corp la corp')]
 

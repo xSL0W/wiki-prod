@@ -32,11 +32,21 @@ Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza ski
 
 - Skin-ul il pui pe arma cand vrei, nu trebuie aplicat imediat.
 - Skin-urile se pot **da sau vinde** altor jucatori, ca orice obiect.
-- Fiecare skin are un nivel. Skin-urile legendare (*Protocol*) si armele mai bune cer mai multe materiale.
+- Fiecare skin are un nivel. Skin-urile premium (*Protocol*) si armele mai bune cer mai multe materiale.
+- Skin-urile de contrabanda (*Lux*) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
 <div class="sk-tiers">
   <span class="sk-tier" style="--c:#9ca3af"><b>Comun</b></span>
-  <span class="sk-tier" style="--c:#f5b301"><b>Legendar</b></span>
+  <span class="sk-tier" style="--c:#f5b301"><b>Premium</b></span>
+  <span class="sk-tier" style="--c:#ef4444"><b>Contrabanda</b></span>
 </div>
+
+### Skin-uri premium
+
+Categoria **Premium** se deblocheaza cu **EG Coins**, pentru **fiecare arma in parte** (deblocarea pe Assault Rifle nu
+se aplica si pe Machine Pistol).
+
+- Deblocarea iti da dreptul sa **faci**, sa **aplici** si sa **folosesti** skin-ul pe arma respectiva.
+- **Nu primesti skin-ul**: il faci tot la atelier, din materiale, ca pe oricare altul.
 
 ## Aplicare
 
