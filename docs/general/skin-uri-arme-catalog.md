@@ -34,7 +34,7 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__base.webp" alt="" loading="lazy"><b>Bullpup Rifle</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_VARMOD_LOW.webp" alt="Skin Metal" loading="lazy"><span>Skin Metal</span><small>Comun</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_VARMOD_LOW.webp" alt="Skin Metal" loading="lazy"><span>Skin Metal</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_CARBINERIFLE_MK2__base.webp" alt="" loading="lazy"><b>Carbine Rifle MK2</b><span>11 skin-uri</span></summary>
@@ -94,7 +94,7 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_REVOLVER__base.webp" alt="" loading="lazy"><b>Revolver</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_GOON.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_BOSS.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Comun</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_BOSS.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Contrabanda</small><small>Doar Sindicat</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_GOON.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_REVOLVER_MK2__base.webp" alt="" loading="lazy"><b>Revolver MK2</b><span>11 skin-uri</span></summary>
@@ -115,7 +115,7 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__base.webp" alt="" loading="lazy"><b>Briceag</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR2.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR1.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Comun</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR1.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Contrabanda</small><small>Doar Sindicat</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR2.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_KNUCKLE__base.webp" alt="" loading="lazy"><b>Rozeta</b><span>9 skin-uri</span></summary>

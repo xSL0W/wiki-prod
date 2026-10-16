@@ -33,7 +33,7 @@ Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza ski
 - Skin-ul il pui pe arma cand vrei, nu trebuie aplicat imediat.
 - Skin-urile se pot **da sau vinde** altor jucatori, ca orice obiect.
 - Fiecare skin are un nivel. Skin-urile premium (*Protocol*) si armele mai bune cer mai multe materiale.
-- Skin-urile de contrabanda (*Lux*, *Flacara dragonului*) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
+- Skin-urile de contrabanda (*Lux*, *Flacara dragonului*, *VIP*, *Metal* pe Bullpup Rifle) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
 <div class="sk-tiers">
   <span class="sk-tier" style="--c:#9ca3af"><b>Comun</b></span>
   <span class="sk-tier" style="--c:#f5b301"><b>Premium</b></span>
