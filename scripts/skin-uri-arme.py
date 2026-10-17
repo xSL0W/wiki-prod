@@ -22,8 +22,9 @@ OX_IMAGES = RES / '[ox]/ox_inventory/images'
 OUT_IMG = WIKI / 'docs/public/skin-uri-arme'
 OUT_MD = WIKI / 'docs/general/skin-uri-arme-catalog.md'
 
-TIERS = {'contraband': ('Contrabanda', '#ef4444', 0), 'premium': ('Premium', '#f5b301', 1), 'rare': ('Rar', '#a855f7', 2),
-         'common': ('Comun', '#9ca3af', 3)}
+TIERS = {'sindicat': ('Sindicat', '#ff2a2a', 0), 'premium': ('Premium', '#facc15', 1), 'legendary': ('Legendar', '#f97316', 2),
+         'contraband': ('Contrabanda', '#ec4899', 3), 'rare': ('Rar', '#a855f7', 4), 'special': ('Deosebit', '#3b82f6', 5),
+         'common': ('Comun', '#9ca3af', 6)}
 CATEGORIES = [('rifle', 'Pusti, sniper-e si MG-uri'), ('smg', 'SMG-uri si shotgun-uri'), ('pistol', 'Pistoale'),
               ('melee', 'Corp la corp')]
 
@@ -100,7 +101,7 @@ def weapon_image(weapon):
 def card(img, title, tier, faction=None):
     label, color, _ = TIERS[tier]
     pic = f'<img src="{img}" alt="{title}" loading="lazy">' if img else '<div class="sk-noimg">fara imagine</div>'
-    only = f'<small>Doar {faction.capitalize()}</small>' if faction else ''
+    only = f'<small>Doar {faction.capitalize()}</small>' if faction and faction.capitalize() != label else ''
     return f'<div class="sk-card" style="--c:{color}">{pic}<span>{title}</span><small>{label}</small>{only}</div>'
 
 

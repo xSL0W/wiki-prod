@@ -32,12 +32,17 @@ Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza ski
 
 - Skin-ul il pui pe arma cand vrei, nu trebuie aplicat imediat.
 - Skin-urile se pot **da sau vinde** altor jucatori, ca orice obiect.
-- Fiecare skin are un nivel. Skin-urile premium (*Protocol*) si armele mai bune cer mai multe materiale.
-- Skin-urile de contrabanda (*Lux*, *Flacara dragonului*, *VIP*, *Metal* pe Bullpup Rifle) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
+- Fiecare skin are un nivel (de la cel mai comun la cel mai rar, mai jos). Nivelurile mai rare si armele mai bune cer mai
+  multe materiale.
+- Skin-urile Sindicat (*Lux*, *Flacara dragonului*, *VIP*, *Metal* pe Bullpup Rifle) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
 <div class="sk-tiers">
   <span class="sk-tier" style="--c:#9ca3af"><b>Comun</b></span>
-  <span class="sk-tier" style="--c:#f5b301"><b>Premium</b></span>
-  <span class="sk-tier" style="--c:#ef4444"><b>Contrabanda</b></span>
+  <span class="sk-tier" style="--c:#3b82f6"><b>Deosebit</b></span>
+  <span class="sk-tier" style="--c:#a855f7"><b>Rar</b></span>
+  <span class="sk-tier" style="--c:#ec4899"><b>Contrabanda</b></span>
+  <span class="sk-tier" style="--c:#f97316"><b>Legendar</b></span>
+  <span class="sk-tier" style="--c:#facc15"><b>Premium</b></span>
+  <span class="sk-tier" style="--c:#ff2a2a"><b>Sindicat</b></span>
 </div>
 
 ### Skin-uri premium
@@ -55,7 +60,7 @@ minigame. La final cutter-ul se consuma, iar skin-ul ramane pe arma.
 
 - O arma poate avea un singur skin.
 - Cand treci cu mouse-ul peste arma in inventar, vezi ce skin are.
-- Skin-urile speciale (ex. *Holografic*, *Protocol*) schimba tot modelul armei; pe ele nu se aplica tint-ul armei.
+- Skin-urile speciale (ex. *Holografic*, *Protocol*, *Curcubeu*) schimba tot modelul armei; pe ele nu se aplica tint-ul armei.
 
 ## Scoatere
 

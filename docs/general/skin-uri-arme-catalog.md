@@ -30,11 +30,11 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 ## Pusti, sniper-e si MG-uri
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__base.webp" alt="" loading="lazy"><b>Assault Rifle</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__COMPONENT_ASSAULTRIFLE_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Contrabanda</small><small>Doar Sindicat</small></div><div class="sk-card" style="--c:#f5b301"><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__COMPONENT_ASSAULTRIFLE_SKIN_PROTOCOL.webp" alt="Skin Protocol" loading="lazy"><span>Skin Protocol</span><small>Premium</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__COMPONENT_ASSAULTRIFLE_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div><div class="sk-card" style="--c:#facc15"><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__COMPONENT_ASSAULTRIFLE_SKIN_PROTOCOL.webp" alt="Skin Protocol" loading="lazy"><span>Skin Protocol</span><small>Premium</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__base.webp" alt="" loading="lazy"><b>Bullpup Rifle</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_VARMOD_LOW.webp" alt="Skin Metal" loading="lazy"><span>Skin Metal</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_VARMOD_LOW.webp" alt="Skin Metal" loading="lazy"><span>Skin Metal</span><small>Sindicat</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_CARBINERIFLE_MK2__base.webp" alt="" loading="lazy"><b>Carbine Rifle MK2</b><span>11 skin-uri</span></summary>
@@ -42,7 +42,7 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_HEAVYSNIPER_MK2__base.webp" alt="" loading="lazy"><b>Heavy Sniper MK2</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_HEAVYSNIPER_MK2__COMPONENT_HEAVYSNIPER_MK2_SKIN_DRAGON.webp" alt="Skin Flacara dragonului" loading="lazy"><span>Skin Flacara dragonului</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_HEAVYSNIPER_MK2__COMPONENT_HEAVYSNIPER_MK2_SKIN_DRAGON.webp" alt="Skin Flacara dragonului" loading="lazy"><span>Skin Flacara dragonului</span><small>Sindicat</small></div></div>
 </details>
 
 <div class="sk-weapon sk-empty"><div class="sk-row"><img src="/skin-uri-arme/WEAPON_COMPACTRIFLE__base.webp" alt="" loading="lazy"><b>Compact Rifle</b><span>0 skin-uri</span></div></div>
@@ -55,15 +55,15 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 ## SMG-uri si shotgun-uri
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_ASSAULTSMG__base.webp" alt="" loading="lazy"><b>Assault SMG</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_ASSAULTSMG__COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_ASSAULTSMG__COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div></div>
 </details>
 
-<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_MICROSMG__base.webp" alt="" loading="lazy"><b>Micro SMG</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_MICROSMG__COMPONENT_MICROSMG_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Contrabanda</small><small>Doar Sindicat</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_MICROSMG__COMPONENT_MICROSMG_VARMOD_SECURITY.webp" alt="Skin Securitate" loading="lazy"><span>Skin Securitate</span><small>Comun</small></div></div>
+<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_MICROSMG__base.webp" alt="" loading="lazy"><b>Micro SMG</b><span>3 skin-uri</span></summary>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_MICROSMG__COMPONENT_MICROSMG_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div><div class="sk-card" style="--c:#f97316"><img src="/skin-uri-arme/WEAPON_MICROSMG__COMPONENT_MICROSMG_SKIN_CURCUBEU.webp" alt="Skin Curcubeu" loading="lazy"><span>Skin Curcubeu</span><small>Legendar</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_MICROSMG__COMPONENT_MICROSMG_VARMOD_SECURITY.webp" alt="Skin Securitate" loading="lazy"><span>Skin Securitate</span><small>Comun</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_SMG__base.webp" alt="" loading="lazy"><b>SMG</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_SMG__COMPONENT_SMG_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_SMG__COMPONENT_SMG_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_SMG_MK2__base.webp" alt="" loading="lazy"><b>SMG Mk2</b><span>11 skin-uri</span></summary>
@@ -78,23 +78,27 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_COMBATPISTOL__base.webp" alt="" loading="lazy"><b>Combat Pistol</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_COMBATPISTOL__COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_COMBATPISTOL__COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div></div>
 </details>
 
-<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__base.webp" alt="" loading="lazy"><b>Machine Pistol</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#f5b301"><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__COMPONENT_MACHINEPISTOL_SKIN_PROTOCOL.webp" alt="Skin Protocol" loading="lazy"><span>Skin Protocol</span><small>Premium</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__COMPONENT_MACHINEPISTOL_SKIN_HOLO.webp" alt="Skin Holografic" loading="lazy"><span>Skin Holografic</span><small>Comun</small></div></div>
+<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__base.webp" alt="" loading="lazy"><b>Machine Pistol</b><span>3 skin-uri</span></summary>
+<div class="sk-grid"><div class="sk-card" style="--c:#facc15"><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__COMPONENT_MACHINEPISTOL_SKIN_PROTOCOL.webp" alt="Skin Protocol" loading="lazy"><span>Skin Protocol</span><small>Premium</small></div><div class="sk-card" style="--c:#f97316"><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__COMPONENT_MACHINEPISTOL_SKIN_CURCUBEU.webp" alt="Skin Curcubeu" loading="lazy"><span>Skin Curcubeu</span><small>Legendar</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_MACHINEPISTOL__COMPONENT_MACHINEPISTOL_SKIN_HOLO.webp" alt="Skin Holografic" loading="lazy"><span>Skin Holografic</span><small>Comun</small></div></div>
+</details>
+
+<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_NAVYREVOLVER__base.webp" alt="" loading="lazy"><b>Navy Revolver</b><span>1 skin</span></summary>
+<div class="sk-grid"><div class="sk-card" style="--c:#f97316"><img src="/skin-uri-arme/WEAPON_NAVYREVOLVER__COMPONENT_NAVYREVOLVER_SKIN_CURCUBEU.webp" alt="Skin Curcubeu" loading="lazy"><span>Skin Curcubeu</span><small>Legendar</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_PISTOL__base.webp" alt="" loading="lazy"><b>Pistol</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_PISTOL__COMPONENT_PISTOL_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Contrabanda</small><small>Doar Sindicat</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_PISTOL__COMPONENT_PISTOL_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_PISTOL50__base.webp" alt="" loading="lazy"><b>Pistol .50</b><span>1 skin</span></summary>
 <div class="sk-grid"><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_PISTOL50__COMPONENT_PISTOL50_VARMOD_LUXE.webp" alt="Skin Perla" loading="lazy"><span>Skin Perla</span><small>Comun</small></div></div>
 </details>
 
-<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_REVOLVER__base.webp" alt="" loading="lazy"><b>Revolver</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_BOSS.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Contrabanda</small><small>Doar Sindicat</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_GOON.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div></div>
+<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_REVOLVER__base.webp" alt="" loading="lazy"><b>Revolver</b><span>3 skin-uri</span></summary>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_BOSS.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Sindicat</small></div><div class="sk-card" style="--c:#f97316"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_SKIN_CURCUBEU.webp" alt="Skin Curcubeu" loading="lazy"><span>Skin Curcubeu</span><small>Legendar</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_REVOLVER__COMPONENT_REVOLVER_VARMOD_GOON.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_REVOLVER_MK2__base.webp" alt="" loading="lazy"><b>Revolver MK2</b><span>11 skin-uri</span></summary>
@@ -105,8 +109,6 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 <div class="sk-grid"><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_SNSPISTOL__COMPONENT_SNSPISTOL_VARMOD_LOWRIDER.webp" alt="Skin Lemn" loading="lazy"><span>Skin Lemn</span><small>Comun</small></div></div>
 </details>
 
-<div class="sk-weapon sk-empty"><div class="sk-row"><img src="/skin-uri-arme/WEAPON_NAVYREVOLVER__base.webp" alt="" loading="lazy"><b>Navy Revolver</b><span>0 skin-uri</span></div></div>
-
 
 ## Corp la corp
 
@@ -115,7 +117,7 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__base.webp" alt="" loading="lazy"><b>Briceag</b><span>2 skin-uri</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ef4444"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR1.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Contrabanda</small><small>Doar Sindicat</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR2.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div></div>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR1.webp" alt="Skin VIP" loading="lazy"><span>Skin VIP</span><small>Sindicat</small></div><div class="sk-card" style="--c:#9ca3af"><img src="/skin-uri-arme/WEAPON_SWITCHBLADE__COMPONENT_SWITCHBLADE_VARMOD_VAR2.webp" alt="Skin Bodyguard" loading="lazy"><span>Skin Bodyguard</span><small>Comun</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_KNUCKLE__base.webp" alt="" loading="lazy"><b>Rozeta</b><span>9 skin-uri</span></summary>
