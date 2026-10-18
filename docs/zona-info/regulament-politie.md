@@ -27,7 +27,7 @@ outline: deep
 8. Nu aveți dreptul de a merge să verificați licențele fără aprobarea unui Inspector+.
 9. În cazul unei urmăriri este interzis să intrați în plin în mașina celui urmărit, trebuie cerută permisiunea la cineva cu grad mai mare să se intre în lateralul mașinii sau în bara. Aceasta manevră se numește PIT-STOP, se realizează cu mare precauție și este recomandată în afara orașului, pentru a reduce riscul de accidente. (Se cere permisiunea de la INSPECTOR+).
 10. Este permisă efectuarea manevrei de PIT-STOP după 10 minute de urmărire, dar nu la o viteză mai mare de 150 km/h și doar cu aprobarea unui Inspector+.
-11. Poliția are voie să tragă doar la roți, după minimum 10 minute de urmărire și cu aprobarea unui Inspector+, fără a pune în pericol viața suspectului sau a civililor. Se poate trage la maxim 150 km/h.
+11. Poliția are voie să tragă doar la roți, după minimum 10 minute de urmărire și cu aprobarea unui Inspector+, fără a pune în pericol viața suspectului sau a civililor. Se poate trage la maxim 150 km/h. Excepție: din momentul în care vehiculul urmărit intră într-o zonă roșie, se poate trage la roți fără cele 10 minute de urmărire și fără aprobarea unui Inspector+, cu respectarea limitei de 150 km/h.
 12. În caz de foc deschis, poliția poate trage asupra vehiculului sau a infractorului.
 13. Dacă în timpul unei urmăriri, un agent moto este lovit sau călcat, se declară Cod 0, iar poliția poate deschide focul fără avertizare.
 14. Este strict interzis să se intervină individual la o spargere de bancă. Este obligatoriu să fie prezenți minimum 3 polițiști, care să acționeze împreună.

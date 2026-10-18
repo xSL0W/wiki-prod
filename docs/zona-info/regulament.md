@@ -426,6 +426,20 @@ Ban temporar / Ban permanent
 Ban temporar / Ban permanent
 :::
 
+### 2.3.3 VERIFICARE CODURI
+- Singurele persoane autorizate să facă aceste verificări sunt membrii care au gradul oficial **Anti Cheating Team** pe serverul de Discord oficial al comunității.
+- Nimeni nu vă va cere vreodată acces la calculatorul vostru. În cazul unei verificări sunteți obligați:
+  - să dați **Share Screen** pe Discord;
+  - să rămâneți conectați în joc;
+  - să păstrați discreția (nu anunțați pe stație, pe Discord sau în alt mod că sunteți la verificare);
+  - să instalați programele de încredere indicate, pentru a se verifica dacă aveți sau nu programe interzise instalate.
+- Program interzis este orice program care vă poate aduce avantaje nedrepte față de alți jucători (aimbot, wallhack, ESP, weapon modifier, godmode etc.).
+- Refuzul unei verificări poate duce la ban temporar sau ban permanent.
+
+:::danger SANCTIUNE
+Ban temporar / Ban permanent
+:::
+
 ### 2.4 TOXICITATE
 - Orice tip de comportament toxic (jigniri/înjurături/plâns isteric/ limbaj vulgar,
 denigrare/discriminare de rasă, naționalitate, etnie, religie sau sex) afișate pe canalele
@@ -578,6 +592,9 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 - La prima alertă, poliția nu are voie să intervină cu elicopterul.
 - Este <span style="color: red;">INTERZIS</span> să folosiți glitch-uri sau exploatarea mecanicilor pentru a obține avantaje, a forța accesul sau a da bypass la mecanicile de securitate în cadrul oricărui jaf sau misiune.
 - Pentru toate tipurile de jaf este <span style="color: red;">INTERZIS</span> să chemi întăriri, atât pentru jefuitori cât și pentru poliție.
+  - **Excepție:** dacă jefuitorii (de la biju sau de la orice alt jaf) fug de poliție într-o <span style="color: red;">zonă roșie</span>, ambele tabere pot chema întăriri la urmărire. Membrii mafiei pot chema ca întăriri doar membri ai propriei familii.
+- La jafurile de **magazin**, **bijuterii** și **bancă** este <span style="color: red;">INTERZIS</span> să deschideți focul înainte ca negocierea să eșueze. Focul poate fi deschis doar după eșuarea negocierii.
+- În timpul unei urmăriri, din momentul în care vehiculul urmărit intră într-o <span style="color: red;">zonă roșie</span>, poliția poate trage la roțile acestuia fără să aștepte cele 10 minute de urmărire și fără aprobarea unui Inspector+. Limita de maxim **150 km/h** rămâne valabilă.
 
 :::danger SANCTIUNE
 Avertisment Verbal / Admin Jail / Warn / Ban temporar
