@@ -60,7 +60,7 @@ minigame. La final cutter-ul se consuma, iar skin-ul ramane pe arma.
 
 - O arma poate avea un singur skin.
 - Cand treci cu mouse-ul peste arma in inventar, vezi ce skin are.
-- Skin-urile speciale (ex. *Holografic*, *Protocol*, *Curcubeu*, *Balaur*, *Bestia*) schimba tot modelul armei; pe ele nu se aplica tint-ul armei.
+- Skin-urile speciale (ex. *Holografic*, *Protocol*, *Curcubeu*, *Balaur*, *Bestia*, *Banana*, *Bazalt Alb*, *Bazalt Negru*, *Viscol turcoaz*, *Viscol alb*, *Retro Pulse*, *Flama*, *Vector*, *Nebula*, *Lama*, *Carbon*, *Mostenirea*, *Craniul*) schimba tot modelul armei; pe ele nu se aplica tint-ul armei.
 
 ## Scoatere
 
