@@ -33,8 +33,8 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 <div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__COMPONENT_ASSAULTRIFLE_VARMOD_LUXE.webp" alt="Skin Lux (aur)" loading="lazy"><span>Skin Lux (aur)</span><small>Sindicat</small></div><div class="sk-card" style="--c:#facc15"><img src="/skin-uri-arme/WEAPON_ASSAULTRIFLE__COMPONENT_ASSAULTRIFLE_SKIN_PROTOCOL.webp" alt="Skin Protocol" loading="lazy"><span>Skin Protocol</span><small>Premium</small></div></div>
 </details>
 
-<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__base.webp" alt="" loading="lazy"><b>Bullpup Rifle</b><span>1 skin</span></summary>
-<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_VARMOD_LOW.webp" alt="Skin Metal" loading="lazy"><span>Skin Metal</span><small>Sindicat</small></div></div>
+<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__base.webp" alt="" loading="lazy"><b>Bullpup Rifle</b><span>3 skin-uri</span></summary>
+<div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_VARMOD_LOW.webp" alt="Skin Metal" loading="lazy"><span>Skin Metal</span><small>Sindicat</small></div><div class="sk-card" style="--c:#ec4899"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_SKIN_BALAUR.webp" alt="Skin Balaur" loading="lazy"><span>Skin Balaur</span><small>Contrabanda</small></div><div class="sk-card" style="--c:#ec4899"><img src="/skin-uri-arme/WEAPON_BULLPUPRIFLE__COMPONENT_BULLPUPRIFLE_SKIN_BESTIA.webp" alt="Skin Bestia" loading="lazy"><span>Skin Bestia</span><small>Contrabanda</small></div></div>
 </details>
 
 <details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_CARBINERIFLE_MK2__base.webp" alt="" loading="lazy"><b>Carbine Rifle MK2</b><span>11 skin-uri</span></summary>
@@ -45,11 +45,13 @@ se pun: [Skin-uri arme](./skin-uri-arme).
 <div class="sk-grid"><div class="sk-card" style="--c:#ff2a2a"><img src="/skin-uri-arme/WEAPON_HEAVYSNIPER_MK2__COMPONENT_HEAVYSNIPER_MK2_SKIN_DRAGON.webp" alt="Skin Flacara dragonului" loading="lazy"><span>Skin Flacara dragonului</span><small>Sindicat</small></div></div>
 </details>
 
+<details class="sk-weapon"><summary><img src="/skin-uri-arme/WEAPON_TACTICALRIFLE__base.webp" alt="" loading="lazy"><b>Tactical Rifle</b><span>2 skin-uri</span></summary>
+<div class="sk-grid"><div class="sk-card" style="--c:#ec4899"><img src="/skin-uri-arme/WEAPON_TACTICALRIFLE__COMPONENT_TACTICALRIFLE_SKIN_BALAUR.webp" alt="Skin Balaur" loading="lazy"><span>Skin Balaur</span><small>Contrabanda</small></div><div class="sk-card" style="--c:#ec4899"><img src="/skin-uri-arme/WEAPON_TACTICALRIFLE__COMPONENT_TACTICALRIFLE_SKIN_BESTIA.webp" alt="Skin Bestia" loading="lazy"><span>Skin Bestia</span><small>Contrabanda</small></div></div>
+</details>
+
 <div class="sk-weapon sk-empty"><div class="sk-row"><img src="/skin-uri-arme/WEAPON_COMPACTRIFLE__base.webp" alt="" loading="lazy"><b>Compact Rifle</b><span>0 skin-uri</span></div></div>
 
 <div class="sk-weapon sk-empty"><div class="sk-row"><img src="/skin-uri-arme/WEAPON_HEAVYRIFLE__base.webp" alt="" loading="lazy"><b>Heavy Rifle</b><span>0 skin-uri</span></div></div>
-
-<div class="sk-weapon sk-empty"><div class="sk-row"><img src="/skin-uri-arme/WEAPON_TACTICALRIFLE__base.webp" alt="" loading="lazy"><b>Tactical Rifle</b><span>0 skin-uri</span></div></div>
 
 
 ## SMG-uri si shotgun-uri
