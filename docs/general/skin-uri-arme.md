@@ -23,7 +23,10 @@ in butoaiele din No Man's Land, si le pui pe arma tot acolo.
 - Materialele se gasesc in **butoaiele din No Man's Land** (Plantatie mac). Apropie-te de un butoi si cauta in el.
 - Un butoi poate fi si gol. Dupa ce il golesti, apare imediat altul, in alt loc din zona.
 - Dupa multe cautari la rand obosesti si trebuie sa faci o pauza scurta.
-- Materialele: **folie de vinil**, **pigmenti** (negru, verde, rosu, alb), **fulgi metalici**, etc.
+- Materialele: **folie de vinil**, **pigmenti** in 10 culori (negru, alb, rosu, verde, albastru, galben, portocaliu,
+  mov, roz, turcoaz), **fulgi** (metalici, de cupru, holografici) si **foite** (de aur, de argint).
+- Orice skin se face din vinil + **pigmentii culorilor lui**; skin-urile rare si de lux mai cer si fulgi sau foite, pe
+  tonul modelului (ex. un skin galben-albastru cere pigment galben si albastru). Lista exacta o vezi la atelier.
 
 ## Skin
 
