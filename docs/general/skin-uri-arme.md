@@ -30,11 +30,11 @@ in butoaiele din No Man's Land, si le pui pe arma tot acolo.
 
 ## Skin
 
-Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza skin**, apoi arma, apoi skin-ul. Primesti un
+Un skin se face direct **pentru o anumita arma**, dupa ce l-ai **deblocat** pe acea arma (mai jos): la atelier alegi **Creeaza skin**, apoi arma, apoi skin-ul. Primesti un
 **skin** cu numele acestuia, facut doar pentru arma aleasa (ex. *Skin Camuflaj - Pistol MK2*).
 
 - Skin-ul il pui pe arma cand vrei, nu trebuie aplicat imediat.
-- Skin-urile se pot **da sau vinde** altor jucatori, ca orice obiect.
+- Skin-urile se pot **da sau vinde** altor jucatori, ca orice obiect, dar cine il primeste il poate aplica si vedea pe arma doar daca l-a deblocat si el pe acea arma.
 - Fiecare skin are un nivel (de la cel mai comun la cel mai rar, mai jos). Nivelurile mai rare si armele mai bune cer mai
   multe materiale.
 - Skin-urile Sindicat (*Lux*, *Flacara dragonului*, *VIP*, *Metal* pe Bullpup Rifle) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
@@ -48,13 +48,20 @@ Un skin se face direct **pentru o anumita arma**: la atelier alegi **Creeaza ski
   <span class="sk-tier" style="--c:#ff2a2a"><b>Sindicat</b></span>
 </div>
 
-### Skin-uri premium
+### Deblocare
 
-Categoria **Premium** se deblocheaza cu **EG Coins**, pentru **fiecare arma in parte** (deblocarea pe Assault Rifle nu
-se aplica si pe Machine Pistol).
+Orice skin trebuie **deblocat** inainte sa-l poti face, aplica sau vedea pe arma, pentru **fiecare arma in parte**
+(deblocarea pe Assault Rifle nu se aplica si pe Machine Pistol). La **Creeaza skin**, skin-urile blocate apar cu un
+lacat si pretul lor; apesi pe ele si confirmi plata.
 
-- Deblocarea iti da dreptul sa **faci**, sa **aplici** si sa **folosesti** skin-ul pe arma respectiva.
-- **Nu primesti skin-ul**: il faci tot la atelier, din materiale, ca pe oricare altul.
+- Skin-urile **Premium** se deblocheaza cu **EG Coins** (20 pe arme albe, 30 pe pistoale, 50 pe SMG-uri si shotgun-uri,
+  80 pe pusti, sniper-e si MG-uri).
+- Celelalte se deblocheaza cu **bani murdari**, de la **200.000 €** (Comun, arma alba) la **5.000.000 €** (Legendar,
+  pusca); pretul creste cu raritatea si cu arma.
+- Skin-urile Sindicat nu se deblocheaza: sunt doar pentru factiune.
+- Deblocarea iti da dreptul sa **faci**, sa **aplici** si sa **folosesti** skin-ul pe arma respectiva. **Nu primesti
+  skin-ul**: il faci tot la atelier, din materiale.
+- La **Character Kill** pastrezi doar deblocarile platite cu EG Coins.
 
 ## Aplicare
 
