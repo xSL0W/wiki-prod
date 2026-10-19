@@ -604,6 +604,12 @@ Pedepse Secundare:
 :::danger Atentie!
 - Amendă (10 000 €) + Închisoare (5 min)
 :::
+#### Art. 6.15 Purtarea ilegală a echipamentului tactic
+
+**(1) Purtarea, utilizarea sau deținerea neautorizată a echipamentelor tactice de protecție, precum căști balistice și veste antiglonț, în afara condițiilor permise de lege sau de regulament. (CONTRAVENȚIE)**
+:::danger Atentie!
+- Amendă (10 000 €)
+:::
 
 # CAP. 7 INFRACȚIUNI CONTRA BUNELOR MORAVURI
 
