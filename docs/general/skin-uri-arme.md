@@ -54,8 +54,8 @@ Orice skin trebuie **deblocat** inainte sa-l poti face, aplica sau vedea pe arma
 (deblocarea pe Assault Rifle nu se aplica si pe Machine Pistol). La **Creeaza skin**, skin-urile blocate apar cu un
 lacat si pretul lor; apesi pe ele si confirmi plata.
 
-- Skin-urile **Premium** se deblocheaza cu **EG Coins** (20 pe arme albe, 30 pe pistoale, 50 pe SMG-uri si shotgun-uri,
-  80 pe pusti, sniper-e si MG-uri).
+- Skin-urile **Premium** se deblocheaza cu **EG Coins**, la acelasi pret pe orice arma: *Bazalt Alb* si *Bazalt Negru*
+  60, *Retro Pulse* si *Craniul* 50, *Protocol* si *Mostenirea* 40, *Nebula* si *Spiritul Apei* 30, *Balaur* 25.
 - Celelalte se deblocheaza cu **bani murdari**, de la **200.000 €** (Comun, arma alba) la **5.000.000 €** (Legendar,
   pusca); pretul creste cu raritatea si cu arma.
 - Skin-urile Sindicat nu se deblocheaza: sunt doar pentru factiune.

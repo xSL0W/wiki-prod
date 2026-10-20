@@ -1,10 +1,11 @@
 """Build the weapon skin catalogue page (docs/general/skin-uri-arme-catalog.md): per weapon (collapsed, grouped by
-weapon category), the skins a player can make for it, from the eg-weaponskins catalogue + whitelist and the
-uz_AutoShot renders. No recipes: the general page (docs/general/skin-uri-arme.md, written by hand) explains the system.
+weapon category), the skins a player can make for it and what unlocking each one on it costs, from the eg-weaponskins catalogue +
+whitelist and the uz_AutoShot renders. No recipes: the general page (docs/general/skin-uri-arme.md, written by hand) explains the system.
 Re-run after a skin or weapon is added: python3 scripts/skin-uri-arme.py
 Renders: [dev]/uz_AutoShot/shots/weapons/<WEAPON>__<COMPONENT>.png and <WEAPON>__base.png; a custom skin (addon
 component, no uz_AutoShot shot) uses its card already placed in docs/public/skin-uri-arme. PNG -> WEBP with Pillow,
 or with ffmpeg (FFMPEG env var or on PATH) when Pillow is missing."""
+import math
 import os
 import re
 import shutil
@@ -57,13 +58,37 @@ def parse_skin_weapons(text):
 
 
 def parse_weapon_tiers(text):
-    """WEAPON -> category key (Config.SkinWeaponTiers)"""
+    """WEAPON -> category key, category key -> price multiplier (Config.SkinWeaponTiers)"""
     body = text.split('Config.SkinWeaponTiers = {', 1)[1].split('\n}', 1)[0]
-    tiers = {}
-    for m in re.finditer(r'\n    (\w+) = \{ multiplier = [\d.]+, weapons = \{(.*?)\} \},', body, re.S):
-        for weapon in re.findall(r'(WEAPON_\w+) = true', m.group(2)):
+    tiers, multipliers = {}, {}
+    for m in re.finditer(r'\n    (\w+) = \{ multiplier = ([\d.]+), weapons = \{(.*?)\} \},', body, re.S):
+        multipliers[m.group(1)] = float(m.group(2))
+        for weapon in re.findall(r'(WEAPON_\w+) = true', m.group(3)):
             tiers[weapon] = m.group(1)
-    return tiers
+    return tiers, multipliers
+
+
+def parse_unlock(text):
+    """Config.SkinUnlock: (tier -> dirty money price on a melee weapon, tiers paid in coins, category -> EG Coins,
+    skin item -> its own EG Coins price)"""
+    body = text.split('Config.SkinUnlock = {', 1)[1].split('\n}', 1)[0]
+
+    def table(key):
+        return re.findall(r'(\w+) = (\w+)', re.search(r'\b' + key + r' = \{(.*?)\}', body, re.S).group(1))
+    return ({k: int(v) for k, v in table('dirty')}, {k for k, _ in table('coinTiers')},
+            {k: int(v) for k, v in table('coins')}, {k: int(v) for k, v in table('skinCoins')})
+
+
+def unlock_price(item, skin, category, unlock, multipliers):
+    """Text of what unlocking the skin on a weapon of that category costs, like Skins.unlockPrice; None for a faction
+    skin (no unlock)"""
+    dirty, coin_tiers, coins, skin_coins = unlock
+    if skin['faction'] or not category:
+        return None
+    if skin['tier'] in coin_tiers:
+        return f'{skin_coins.get(item, coins[category])} EG Coins'
+    base = dirty.get(skin['tier'])
+    return base and f'{math.floor(base * multipliers[category] + 0.5):,} € bani murdari'.replace(',', '.')
 
 
 def to_webp(src, dst):
@@ -98,17 +123,19 @@ def weapon_image(weapon):
     return f'/skin-uri-arme/{weapon}__base.webp'
 
 
-def card(img, title, tier, faction=None):
+def card(img, title, tier, faction=None, price=None):
     label, color, _ = TIERS[tier]
     pic = f'<img src="{img}" alt="{title}" loading="lazy">' if img else '<div class="sk-noimg">fara imagine</div>'
     only = f'<small>Doar {faction.capitalize()}</small>' if faction and faction.capitalize() != label else ''
-    return f'<div class="sk-card" style="--c:{color}">{pic}<span>{title}</span><small>{label}</small>{only}</div>'
+    cost = f'<span class="sk-price">{price}</span>' if price else ''
+    return f'<div class="sk-card" style="--c:{color}">{pic}<span>{title}</span><small>{label}</small>{only}{cost}</div>'
 
 
 def main():
     skins_text = SKINS_LUA.read_text()
     skins, allowed = parse_skins(skins_text), parse_whitelist(WHITELIST_LUA.read_text())
-    categories = parse_weapon_tiers(skins_text)
+    categories, multipliers = parse_weapon_tiers(skins_text)
+    unlock = parse_unlock(skins_text)
     labels = dict(re.findall(r"\['(WEAPON_\w+)'\] = \{\s*label = '([^']+)'", WEAPONS_LUA.read_text()))
     OUT_IMG.mkdir(parents=True, exist_ok=True)
 
@@ -141,7 +168,9 @@ def main():
                 img = image(f'{weapon}__{component}')
                 if not img:
                     missing.append(f'{weapon}__{component}')
-                cards.append(card(img, skins[item]['label'], skins[item]['tier'], skins[item]['faction']))
+                skin = skins[item]
+                cards.append(card(img, skin['label'], skin['tier'], skin['faction'],
+                                  unlock_price(item, skin, categories.get(weapon), unlock, multipliers)))
             count = len(entries)
             out.append(f'<details class="sk-weapon"><summary>{pic}<b>{name}</b>'
                        f'<span>{count} {"skin" if count == 1 else "skin-uri"}</span></summary>\n'
@@ -175,13 +204,14 @@ outline: [2, 2]
     padding: .5rem; text-align: center; font-size: .85rem; display: flex; flex-direction: column; gap: .2rem; }
   .sk-card img { width: 100%; aspect-ratio: 1; object-fit: contain; }
   .sk-card small { color: var(--c); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; font-size: .7rem; }
+  .sk-price { color: #e5e7eb; font-weight: 600; }
   .sk-noimg { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; color: #6b7280; }
 </style>
 
 # Catalog skin-uri arme
 
-Fiecare arma, cu skin-urile pe care le poti face pentru ea. Apasa pe o arma ca sa vezi skin-urile. Cum se fac si cum
-se pun: [Skin-uri arme](./skin-uri-arme).
+Fiecare arma, cu skin-urile pe care le poti face pentru ea si pretul deblocarii lor pe acea arma. Apasa pe o arma ca sa
+vezi skin-urile. Cum se fac, se deblocheaza si se pun: [Skin-uri arme](./skin-uri-arme).
 '''
 
 if __name__ == '__main__':
