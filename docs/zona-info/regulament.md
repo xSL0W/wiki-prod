@@ -750,7 +750,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 ### 7.1 CE ESTE PERMIS ÎN NO MAN'S LAND
 1. **No Fear** - Nu ești obligat să simulezi frica în această zonă.
 2. **Jefuitul** - Poți jefui alți jucători fără restricții suplimentare, cu excepția **documentelor** și a **cheilor de la vehicul**.
-3. **Drop and Kill / Rob and Kill** - Este permis să omori un jucător după ce l-ai jefuit sau după ce a lăsat itemele.
+3. **Drop and Kill / Rob and Kill / Kill and Rob** - Este permis să omori un jucător după ce l-ai jefuit sau după ce a lăsat itemele, precum și să omori un jucător pentru a-l reînvia și jefui.
 4. **RDM (Random Deathmatch)** - Este permis să ataci/omori alți jucători fără un motiv RP prealabil.
 5. **Trasul / Omorâtul fără un minim de RP înainte** - Nu este necesar să inițiezi o interacțiune RP înainte de a trage sau omori pe cineva.
 
