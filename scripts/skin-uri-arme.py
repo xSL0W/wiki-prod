@@ -23,9 +23,10 @@ OX_IMAGES = RES / '[ox]/ox_inventory/images'
 OUT_IMG = WIKI / 'docs/public/skin-uri-arme'
 OUT_MD = WIKI / 'docs/general/skin-uri-arme-catalog.md'
 
-TIERS = {'sindicat': ('Sindicat', '#ff2a2a', 0), 'premium': ('Premium', '#facc15', 1), 'legendary': ('Legendar', '#f97316', 2),
-         'contraband': ('Contrabanda', '#ec4899', 3), 'rare': ('Rar', '#a855f7', 4), 'special': ('Deosebit', '#3b82f6', 5),
-         'common': ('Comun', '#9ca3af', 6)}
+TIERS = {'sindicat': ('Sindicat', '#ff2a2a', 0), 'premium': ('Premium', '#facc15', 1),
+         'event': ('Eveniment Special', '#14b8a6', 2), 'legendary': ('Legendar', '#f97316', 3),
+         'contraband': ('Contrabanda', '#ec4899', 4), 'rare': ('Rar', '#a855f7', 5), 'special': ('Deosebit', '#3b82f6', 6),
+         'common': ('Comun', '#9ca3af', 7)}
 CATEGORIES = [('rifle', 'Pusti, sniper-e si MG-uri'), ('smg', 'SMG-uri si shotgun-uri'), ('pistol', 'Pistoale'),
               ('melee', 'Corp la corp')]
 
@@ -81,10 +82,12 @@ def parse_unlock(text):
 
 def unlock_price(item, skin, category, unlock, multipliers):
     """Text of what unlocking the skin on a weapon of that category costs, like Skins.unlockPrice; None for a faction
-    skin (no unlock)"""
+    skin (no unlock); an event skin is never sold, only given"""
     dirty, coin_tiers, coins, skin_coins = unlock
     if skin['faction'] or not category:
         return None
+    if skin['tier'] == 'event':
+        return 'Doar din evenimente'
     if skin['tier'] in coin_tiers:
         return f'{skin_coins.get(item, coins[category])} EG Coins'
     base = dirty.get(skin['tier'])

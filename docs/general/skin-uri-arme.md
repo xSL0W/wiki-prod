@@ -38,12 +38,15 @@ Un skin se face direct **pentru o anumita arma**, dupa ce l-ai **deblocat** pe a
 - Fiecare skin are un nivel (de la cel mai comun la cel mai rar, mai jos). Nivelurile mai rare si armele mai bune cer mai
   multe materiale.
 - Skin-urile Sindicat (*Lux*, *Flacara dragonului*, *VIP*, *Metal* pe Bullpup Rifle) nu se fac la atelier: sunt doar pentru factiunea Sindicat.
+- Skin-urile **Eveniment Special** (*Dovleac*, *Panza de Paianjen*, *Oase*, *Luna si Lilieci*) nu se cumpara: le primesti
+  din evenimente (de exemplu, misiuni), pe o anumita arma. Dupa aceea le faci la atelier ca pe orice skin.
 <div class="sk-tiers">
   <span class="sk-tier" style="--c:#9ca3af"><b>Comun</b></span>
   <span class="sk-tier" style="--c:#3b82f6"><b>Deosebit</b></span>
   <span class="sk-tier" style="--c:#a855f7"><b>Rar</b></span>
   <span class="sk-tier" style="--c:#ec4899"><b>Contrabanda</b></span>
   <span class="sk-tier" style="--c:#f97316"><b>Legendar</b></span>
+  <span class="sk-tier" style="--c:#14b8a6"><b>Eveniment Special</b></span>
   <span class="sk-tier" style="--c:#facc15"><b>Premium</b></span>
   <span class="sk-tier" style="--c:#ff2a2a"><b>Sindicat</b></span>
 </div>
@@ -59,6 +62,7 @@ lacat si pretul lor; apesi pe ele si confirmi plata.
 - Celelalte se deblocheaza cu **bani murdari**, de la **200.000 €** (Comun, arma alba) la **5.000.000 €** (Legendar,
   pusca); pretul creste cu raritatea si cu arma.
 - Skin-urile Sindicat nu se deblocheaza: sunt doar pentru factiune.
+- Skin-urile Eveniment Special nu se pot cumpara: deblocarea o primesti din evenimente, pe o anumita arma.
 - Deblocarea iti da dreptul sa **faci**, sa **aplici** si sa **folosesti** skin-ul pe arma respectiva. **Nu primesti
   skin-ul**: il faci tot la atelier, din materiale.
 - La **Character Kill** pastrezi doar deblocarile platite cu EG Coins.
