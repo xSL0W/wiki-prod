@@ -76,8 +76,10 @@ Proprietarii pot inchiria camera/casa altor jucatori:
 Proprietarii si chiriasii pot dormi in case folosind comanda **/sleep** sau din K -> Jucator -> Casa -> Dormi.
 
 **Avantaje dormit:**
-- **Ore Jucate** - Acumulezi 50% din timpul petrecut dormind la numarul de ore
-- **Salariu VIP** - Daca esti VIP, primesti 30% din salariul VIP in timp ce dormi
+- **Ore Jucate** - Tot timpul petrecut dormind se adauga la numarul de ore jucate
+- **Fara taxe** - Nu platesti impozitul pe vehicule cat timp dormi
+
+Cat timp dormi nu primesti salarii (job, factiune, firma) si nici salariul VIP. Chiria se plateste in continuare.
 
 <div style="margin: 1.5rem 0; padding: 1.2rem; background: rgba(215,38,56,0.1); border-left: 6px solid #d72638; border-radius: 12px; box-shadow: 0 0 12px rgba(215,38,56,0.3);">
   <strong style="color: #d72638;">Atentie:</strong> Comanda /e sleep este doar o animatie! Pentru a dormi efectiv si a primi beneficiile, foloseste <b>/sleep</b>.

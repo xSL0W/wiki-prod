@@ -69,7 +69,7 @@ outline: deep
   <li><strong>/hudcompass</strong> - Ascunde/afiseaza compasul.</li>
   <li><strong>/ore [id]</strong> - Vezi orele jucate.</li>
   <li><strong>/k</strong> - Te pune in genunchi.</li>
-  <li><strong>/sleep</strong> - Dormi in casa (acumulezi ore si salariu VIP).</li>
+  <li><strong>/sleep</strong> - Dormi in casa (acumulezi orele jucate; nu primesti salarii si nu platesti taxe).</li>
   <li><strong>/quest</strong> - Porneste quest-urile disponibile.</li>
   <li><strong>/th</strong> - Ia un jucator ostatic (sau tasta G pe jucator).</li>
 </ul>

@@ -95,7 +95,7 @@ Sistemul Anti-AFK asigura ca:
 <div class="eg-box">
 
 - Daca trebuie sa te indepartezi de calculator, iesi din joc
-- Foloseste comanda /sleep daca ai casa - acumulezi 50% din ore dormind
+- Foloseste comanda /sleep daca ai casa - acumulezi orele jucate complet dormind (fara salarii si fara taxe)
 - Nu incerca sa eviti sistemul prin miscari automate - se detecteaza
 
 </div>
