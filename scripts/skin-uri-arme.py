@@ -23,16 +23,17 @@ OX_IMAGES = RES / '[ox]/ox_inventory/images'
 OUT_IMG = WIKI / 'docs/public/skin-uri-arme'
 OUT_MD = WIKI / 'docs/general/skin-uri-arme-catalog.md'
 
-TIERS = {'sindicat': ('Sindicat', '#ff2a2a', 0), 'premium': ('Premium', '#facc15', 1),
-         'event': ('Eveniment Special', '#14b8a6', 2), 'legendary': ('Legendar', '#f97316', 3),
-         'contraband': ('Contrabanda', '#ec4899', 4), 'rare': ('Rar', '#a855f7', 5), 'special': ('Deosebit', '#3b82f6', 6),
-         'common': ('Comun', '#9ca3af', 7)}
+TIERS = {'sindicat': ('Sindicat', '#ff2a2a', 0), 'politie': ('Politie', '#38bdf8', 1), 'premium': ('Premium', '#facc15', 2),
+         'event': ('Eveniment Special', '#14b8a6', 3), 'legendary': ('Legendar', '#f97316', 4),
+         'contraband': ('Contrabanda', '#ec4899', 5), 'rare': ('Rar', '#a855f7', 6), 'special': ('Deosebit', '#3b82f6', 7),
+         'common': ('Comun', '#9ca3af', 8)}
+JOB_LABELS = {'police': 'Politie'}  # eg-core job -> the name the card shows (Doar <name>)
 CATEGORIES = [('rifle', 'Pusti, sniper-e si MG-uri'), ('smg', 'SMG-uri si shotgun-uri'), ('pistol', 'Pistoale'),
               ('melee', 'Corp la corp')]
 
 
 def parse_skins(text):
-    """skin item -> { label, tier, faction (None = open to all), weapons: { WEAPON: COMPONENT } }"""
+    """skin item -> { label, tier, faction (None = open to all; a job skin: its job's label), weapons: { WEAPON: COMPONENT } }"""
     body = text.split('Config.Skins = {', 1)[1]
     skins = {}
     for m in re.finditer(r'\n    (skin_\w+) = \{(.*?)\n    \},', body, re.S):
@@ -40,7 +41,8 @@ def parse_skins(text):
         skins[m.group(1)] = {
             'label': re.search(r"label = '([^']+)'", block).group(1),
             'tier': re.search(r"tier = '(\w+)'", block).group(1),
-            'faction': (re.search(r"faction = '(\w+)'", block) or [None, None])[1],
+            'faction': (re.search(r"faction = '(\w+)'", block) or [None, None])[1]
+            or JOB_LABELS.get((re.search(r"job = '(\w+)'", block) or [None, None])[1]),
             'weapons': dict(re.findall(r"(WEAPON_\w+) = '(COMPONENT_\w+)'", block)),
         }
     return skins
