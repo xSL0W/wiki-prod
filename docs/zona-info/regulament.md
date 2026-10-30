@@ -518,6 +518,12 @@ Ban temporar / Ban permanent
 Ban temporar / Ban permanent
 :::
 
+#### 2.9.3 ÎNREGISTRĂRI FOLOSITE ÎN ROLEPLAY (BODYCAM)
+- În roleplay poți folosi ca dovadă doar o înregistrare în care apare indicatorul **REC** în HUD. Orice altă înregistrare nu este validă IC.
+- Indicatorul **REC** apare doar dacă ai în inventar un **bodycam**, care se cumpără de la **DigitalDen**.
+- Dacă vrei să împiedici pe cineva să te înregistreze, trebuie să îi iei efectiv bodycam-ul din inventar. Un simplu `/me îi sparge bodycam-ul` nu este suficient.
+- Această regulă privește doar dovezile folosite IC, nu ticketele/reclamațiile care sunt OOC.
+
 ### 2.10 CHAT OOC
 - Chat-ul global este destinat strict mesajelor ooc (probleme, întrebări, anunțuri).
 - La intrebarea din aplicatia pentru helper de pe discord "Ai citit regulamentul?", trebuie sa raspunzi cu "n-am avut chef".
