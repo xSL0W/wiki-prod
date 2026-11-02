@@ -599,7 +599,13 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 - Este <span style="color: red;">INTERZIS</span> să folosiți glitch-uri sau exploatarea mecanicilor pentru a obține avantaje, a forța accesul sau a da bypass la mecanicile de securitate în cadrul oricărui jaf sau misiune.
 - Pentru toate tipurile de jaf este <span style="color: red;">INTERZIS</span> să chemi întăriri, atât pentru jefuitori cât și pentru poliție.
   - **Excepție:** dacă jefuitorii (de la biju sau de la orice alt jaf) fug de poliție într-o <span style="color: red;">zonă roșie</span>, ambele tabere pot chema întăriri la urmărire. Membrii mafiei pot chema ca întăriri doar membri ai propriei familii.
-- La jafurile de **magazin**, **bijuterii** și **bancă** este <span style="color: red;">INTERZIS</span> să deschideți focul înainte ca negocierea să eșueze. Focul poate fi deschis doar după eșuarea negocierii.
+- **Ostatici și negocieri** (reguli comune pentru toate jafurile cu ostatici):
+  - Ostaticii pot fi luați doar din <span style="color: red;">zonele roșii (inclusiv NML)</span>.
+  - Este <span style="color: red;">INTERZIS</span> să luați ca ostatic un membru al propriei familii sau al unei familii aliate.
+  - Luarea unui ostatic trebuie precedată de un roleplay. Filmarea este obligatorie și trebuie să conțină atât roleplay-ul făcut în prealabil, cât și momentul răpirii ostaticului.
+  - La un jaf puteți lua maxim **2 ostatici**, dacă regulile jafului respectiv nu prevăd altfel.
+  - Este <span style="color: red;">INTERZIS</span> să cereți bani sau bunuri în schimbul ostaticilor, cu excepția jafurilor unde regulile jafului respectiv prevăd o valoare maximă.
+  - Este <span style="color: red;">INTERZIS</span> să deschideți focul cât timp negocierea este în desfășurare. Focul poate fi deschis doar după ce negocierea a eșuat sau după ce jefuitorii au reușit să fugă.
 - În timpul unei urmăriri, din momentul în care vehiculul urmărit intră într-o <span style="color: red;">zonă roșie</span>, poliția poate trage la roțile acestuia fără să aștepte cele 10 minute de urmărire și fără aprobarea unui Inspector+. Limita de maxim **150 km/h** rămâne valabilă.
 
 :::danger SANCTIUNE
@@ -663,7 +669,8 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 
 - Jaful asupra magazinului de bijuterii este permis doar după acumularea a minim **300 de ore IC**.
 - La un jaf asupra magazinului de bijuterii pot participa minim **2** și cel mult **8 jefuitori**, iar poliția poate interveni cu minim **2** și maximum **8 polițisti**.
-- Este permis să luați minim **1** și maxim **2 ostatici**, doar din <span style="color: red;">zonele roșii (inclusiv NML)</span>. Filmarea este obligatorie și trebuie să conțină momentul răpirii ostaticului.
+- La acest jaf trebuie să luați minim **1** și maxim **2 ostatici**.
+- Valoarea maximă a bunurilor negociate este de **100.000€**.
 
 :::danger SANCTIUNE
 Avertisment Verbal / Admin Jail / Warn / Ban temporar
@@ -674,6 +681,8 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 - Jaful de bancă este permis doar dacă **fiecare membru al echipei** are minim **500 de ore IC**.
 - La un jaf de bancă pot participa minim **15** și cel mult **20 de jefuitori**, iar poliția poate interveni cu minim **15** și maximum **20 de polițiști**.
 - Jaful de bancă poate fi început doar în intervalul orar **20:00 - 00:00**.
+- La acest jaf trebuie să luați minim **2** și maxim **4 ostatici**.
+- Valoarea maximă a bunurilor negociate este de **1.000.000€**.
 
 :::danger SANCTIUNE
 Avertisment Verbal / Admin Jail / Warn / Ban temporar
