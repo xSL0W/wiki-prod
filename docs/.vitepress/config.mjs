@@ -172,6 +172,44 @@ export default defineConfig({
         ],
       },
       {
+        text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Activitati si Job-uri',
+        activeMatch: `^/joburi/`,
+        items: [
+          {
+            text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><polyline points="20 6 9 17 4 12"/></svg>Activitati legale (joburi)',
+            collapsed: true,
+            items: [
+              { text: 'Curier - 0h', link: '/joburi/curier' },
+              { text: 'Livrator Pizza - 0h/10h', link: '/joburi/pizza' },
+              { text: 'Mecanic - 0h', link: '/joburi/mecanic' },
+              { text: 'Sofer de autobuz - 0h', link: '/joburi/sofer-de-autobuz' },
+              { text: 'Ciupercar - 10h/40h', link: '/joburi/ciupercar' },
+              { text: 'Miner - 10h/100h/300h', link: '/joburi/miner' },
+              { text: 'Pescar - 25h/200h/500h', link: '/joburi/pescar' },
+              { text: 'Gunoier - 30h', link: '/joburi/gunoier' },
+              { text: 'Taximetrist - 30h', link: '/joburi/taximetrist' },
+              { text: 'Electrician - 35h', link: '/joburi/electrician' },
+              { text: 'Tirist - 50h/200h', link: '/joburi/tirist' },
+              { text: 'Mecanic metrou - 400h', link: '/joburi/mecanic-metrou' },
+              { text: 'Vanator - 750h', link: '/joburi/vanator' },
+            ]
+          },
+          {
+            text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Activitati ilegale (jafuri)',
+            collapsed: true,
+            items: [
+              { text: 'Jaf la ATM - 10h', link: '/joburi/jafuriatm' },
+              { text: 'Jaf la magazin - 20h', link: '/joburi/jafurimagazin' },
+              { text: 'Jaf la masini - 30h', link: '/joburi/jafurimasini' },
+              { text: 'Jaf la case - 50h/100h', link: '/joburi/jafuricase' },
+              { text: 'Misiuni - 150h/200h', link: '/joburi/misiuni' },
+              { text: 'Jaf la bijuterii - 300h', link: '/joburi/jafuribijuterii' },
+              { text: 'Jaf la banca - 500h', link: '/joburi/jafuribanca' },
+            ]
+          }
+        ]
+      },
+      {
         text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>Sisteme Generale',
         activeMatch: '^/general/',
         items: [
@@ -196,44 +234,6 @@ export default defineConfig({
           { text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="m14.622 17.897-10.68-2.913"/><path d="M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z"/><path d="M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15"/></svg>Skin-uri Arme', link: '/general/skin-uri-arme' },
           { text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="m14.622 17.897-10.68-2.913"/><path d="M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z"/><path d="M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15"/></svg>Catalog Skin-uri', link: '/general/skin-uri-arme-catalog' },
         ],
-      },
-      {
-        text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Activitati si Job-uri',
-        activeMatch: `^/joburi/`,
-        items: [
-          { text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>Despre job-uri', link: '/joburi/joburi' },
-          {
-            text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><polyline points="20 6 9 17 4 12"/></svg>Activitati legale (joburi)',
-            collapsed: true,
-            items: [
-              { text: 'Curier - 0h', link: '/joburi/curier' },
-              { text: 'Livrator Pizza - 0h/10h', link: '/joburi/pizza' },
-              { text: 'Mecanic - 0h', link: '/joburi/mecanic' },
-              { text: 'Sofer de autobuz - 0h', link: '/joburi/sofer-de-autobuz' },
-              { text: 'Ciupercar - 10h/40h', link: '/joburi/ciupercar' },
-              { text: 'Miner - 10h/100h/300h', link: '/joburi/miner' },
-              { text: 'Pescar - 25h/200h/500h', link: '/joburi/pescar' },
-              { text: 'Gunoier - 30h', link: '/joburi/gunoier' },
-              { text: 'Taximetrist - 30h', link: '/joburi/taximetrist' },
-              { text: 'Electrician - 35h', link: '/joburi/electrician' },
-              { text: 'Tirist - 50h/200h', link: '/joburi/tirist' },
-              { text: 'Mecanic metrou - 400h', link: '/joburi/mecanic-metrou' },
-              { text: 'Vanator - 750h', link: '/joburi/vanator' },
-            ]
-          },
-          {
-            text: '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>Activitati ilegale',
-            collapsed: true,
-            items: [
-              { text: 'Jafuri la masini', link: '/joburi/jafurimasini' },
-              { text: 'Jafuri la case', link: '/joburi/jafuricase' },
-              { text: 'Jafuri la ATM', link: '/joburi/jafuriatm' },
-              { text: 'Jafuri la magazin', link: '/joburi/jafurimagazin' },
-              { text: 'Jaf la magazinul de bijuterii', link: '/joburi/jafuribijuterii' },
-              { text: 'Misiuni', link: '/joburi/misiuni' },
-            ]
-          }
-        ]
       },
       {
         text: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Afaceri si Locatii',
