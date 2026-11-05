@@ -1,11 +1,18 @@
 ---
 outline: deep
+pageClass: rule-book
 ---
+
+<script setup>
+import RuleBook from '../.vitepress/components/RuleBook.vue'
+</script>
+
+<RuleBook />
 
 <img src="../public/elitegamers.png" alt="pozaRegulament" width="256" height="256" style="display: block; margin: 0px auto; border-radius: 1%; border-radius: 5%;">
 
 ---
-# <center><span class="title-font">Sindicatul</span></center>
+# Sindicatul
 
 - Sindicatul reprezintă **autoritatea supremă** în lumea criminală și este format din cele mai influente și experimentate figuri ale orașului.
 - Sindicatul are rolul de a:
@@ -15,7 +22,7 @@ outline: deep
   - aproba sau respinge noi organizații
   - sancționa abaterile
 
-# <center><span class="title-font">1. Infiintare si statut</span></center>
+# 1. Infiintare si statut
 
 ### 1.1 FAMILIE IC
 - O Familie IC trebuie să aibă minim **10 membri activi** și maxim **25 de membri**.
@@ -43,7 +50,7 @@ outline: deep
 - Un succesor poate prelua conducerea doar cu **aprobarea Sindicatului**.
 - Succesorul trebuie să îndeplinească cerințele de lider, iar familia trebuie să mențină numărul minim de membri activi.
 
-# <center><span class="title-font">2. Conduita membrilor</span></center>
+# 2. Conduita membrilor
 
 ### 2.1 COMPORTAMENT ȘI LIMBAJ
 - Limbajul membrilor trebuie să fie **decent**.
@@ -73,7 +80,7 @@ Sancțiuni severe pentru întreaga grupare
 - Membrii pun familia **înaintea intereselor personale**.
 - Membrii au obligația de a răspunde la chemările familiei, indiferent de situație.
 
-# <center><span class="title-font">3. Sanctiuni colective</span></center>
+# 3. Sanctiuni colective
 
 ### 3.1 RESPONSABILITATE COLECTIVĂ
 - Mafiile Neoficiale și Oficiale răspund **colectiv** pentru abaterile membrilor (amenzi<!--, MW-->).
@@ -102,7 +109,7 @@ Sancțiuni severe pentru întreaga grupare
 Amendă către Sindicat
 :::
 
-# <center><span class="title-font">4. Razboi teritorial (Sentinel)</span></center>
+# 4. Razboi teritorial (Sentinel)
 
 - Războaiele pentru teritorii sunt gestionate **automat** de sistemul Sentinel, prin **Tableta Sentinel**. Programarea, lotul de luptători, eliminările, câștigătorul și plățile sunt stabilite de server.
 
@@ -175,7 +182,7 @@ Amendă către Sindicat
 - Familiile care dețin teritorii ilegale au datoria de a **proteja oamenii care livrează** și de a **colecta taxele de livrare**.
 - Obligația de a păzi teritoriile ilegale și de a proteja oamenii care livrează se menține în intervalul orar **20:00 - 02:00** în Los Santos și **18:00 - 00:00** pe insula Cayo Perico.
 
-# <center><span class="title-font">5. Rapirea membrilor de rang inalt</span></center>
+# 5. Rapirea membrilor de rang inalt
 
 ### 5.1 ȚINTE VALIDE
 - **Membrii Sindicatului**
@@ -207,7 +214,7 @@ Refuzul de plată = consecințe diplomatice severe
 Suportarea unei părți din răscumpărare / Sancțiuni interne pentru absențe repetate
 :::
 
-# <center><span class="title-font">6. Afaceri paravan</span></center>
+# 6. Afaceri paravan
 
 ### 6.1 SPONSORIZAREA
 - O Familie IC poate achiziționa o afacere legală prin **Elite Business Center** doar cu o **recomandare oficială** din partea unei Mafii Neoficiale care deține teritoriul pe care familia activează.

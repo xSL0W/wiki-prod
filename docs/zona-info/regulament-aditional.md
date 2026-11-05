@@ -1,10 +1,17 @@
 ---
 outline: deep
+pageClass: rule-book
 ---
+
+<script setup>
+import RuleBook from '../.vitepress/components/RuleBook.vue'
+</script>
+
+<RuleBook />
 
 <img src="../public/elitegamers.png" alt="pozaRegulament" width="256" height="256" style="display: block; margin: 0px auto; border-radius: 1%; border-radius: 5%;">
 
-# <center><span style="font-family: Conthrax; background: -webkit-linear-gradient(red, darkred); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Regulament Out-of-Character (OOC)</span></center>
+# Regulament Out-of-Character (OOC)
 
 #### 1.1 REVIVE
  - <span style="color: red;">NU</span> se da revive daca ati murit din missclick ( ati apasat F, v-ati aruncat de la inaltime, etc.)
@@ -29,7 +36,7 @@ outline: deep
 - După acceptarea într-o facțiune, membrii au obligația de a rămâne activi minimum 14 de zile.
 În cazul în care un membru este dat afară (OUT) sau primește ban înainte de împlinirea celor 14 de zile, din motive precum lipsă de activitate, lipsă pontaj, absența certificatelor sau comportament neadecvat, acesta va primi un cooldown de 14 zile la intrarea într-o altă facțiune.
 
-# <center><span style="font-family: Conthrax; background: -webkit-linear-gradient(red, darkred); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Regulament In-Character (Ic)</span></center>
+# Regulament In-Character (Ic)
 
 #### 2.1 ACȚIUNI CARE IMPLICĂ AUTOVEHICULELE 
 - Este <span style="color: green;">PERMIS</span> sa va urcati in autovehiculul unui player DOAR daca acesta va acorda permisiunea
@@ -90,7 +97,7 @@ outline: deep
 - Este <span style="color: green;">PERMIS</span> ca politia sa perchezitioneze orice persoana atat timp cat pare suspecta.
 - In cazul actiunilor politie – mafie, politistii pot da revive colegilor cazuti la datorie daca nu sunt medici on-duty.
 
-# <center><span style="font-family: Conthrax; background: -webkit-linear-gradient(red, darkred); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Sistem Cooldown Facțiuni/Joburi</span></center>
+# Sistem Cooldown Facțiuni/Joburi
 
 #### 3.1 REGULI GENERALE
 - La părăsirea unei facțiuni (fie ea mafie sau factiune pasnica), se aplică un **cooldown** înainte de a putea fi angajat într-un alt loc.

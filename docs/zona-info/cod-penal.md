@@ -1,10 +1,17 @@
 ---
 outline: deep
+pageClass: rule-book
 ---
+
+<script setup>
+import RuleBook from '../.vitepress/components/RuleBook.vue'
+</script>
+
+<RuleBook />
 
 <img src="../public/elitegamers.png" alt="pozaRegulament" width="256" height="256" style="display: block; margin: 0px auto; border-radius: 1%; border-radius: 5%;">
 
-# <center>***Introducerea codului penal***</center>
+# ***Introducerea codului penal***
 
 #### CUPRINS COD PENAL
 

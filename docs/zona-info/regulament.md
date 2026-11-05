@@ -1,11 +1,18 @@
 ---
 outline: deep
+pageClass: rule-book
 ---
+
+<script setup>
+import RuleBook from '../.vitepress/components/RuleBook.vue'
+</script>
+
+<RuleBook />
 
 <img src="../public/elitegamers.png" alt="pozaRegulament" width="256" height="256" style="display: block; margin: 0px auto; border-radius: 1%; border-radius: 5%;">
 
 ---
-# <center><span class="title-font">1. Regulamentul In-Character</span></center>
+# 1. Regulamentul In-Character
 
 ### 1. ROLEPLAY
 - Reprezintă simularea unui personaj real prin intermediul caracterului creat in joc,
@@ -51,6 +58,7 @@ imposibilă și în viața reală.
 ::: info Exemplu
 Intri cu 200 km/h într-un copac, după care mergi mai departe ca și cum nimic nu s-a
 întâmplat.
+:::
 
 :::danger SANCTIUNE
 Avertisment Verbal / Admin Jail / Warn / Ban temporar
@@ -371,7 +379,7 @@ Facțiunile fac parte dintr-un **sistem comun de cooldown**, aplicat automat de 
 - În limită se numără și cazierele șterse contra cost — plata îți curăță cazierul vizibil, dar nu și istoricul.
 - Verificarea este aplicată automat de server la angajare; îți poți vedea oricând propria situație (caziere active, șterse și totalul) la NPC-ul de ștergere a cazierului.
 
-# <center><span class="title-font">2. Regulament Out-of-Character (OOC)</span></center>
+# 2. Regulament Out-of-Character (OOC)
 
 ### 2.1 TIPURI DE SANCȚIUNI
 - AVERTISMENT VERBAL – prima sancțiune care se acordă pentru o abatere minoră de la regulament. Se acordă doar o singură dată pentru fiecare abatere și are rolul de a atrage atenția asupra greșelii comise, fără a afecta în mod direct experiența de joc.
@@ -736,7 +744,7 @@ ale regulamentului într-o singură scenă roleplay, adminul care va penaliza ju
 acorda sancțiunea cea mai severă.
 - 5.5 Pentru a avea acces pe insula Cayo Perico, este necesar să ai minim 100 de ore jucate pe server. Această regulă este impusă pentru a păstra echilibrul și calitatea roleplay-ului. Orice tentativă de a încălca această regulă poate duce la sancțiuni.
 
-# <center><span class="title-font">6. Ticketul în timpul roleplay-ului</span></center>
+# 6. Ticketul în timpul roleplay-ului
 
 ### 6.1 INTERDICȚIE TICKETE ÎN ROLEPLAY
 - Ticketul în timpul roleplay-ului este <span style="color: red;">INTERZIS</span>.
@@ -758,7 +766,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 ### 6.4 AUTO-SESIZAREA STAFF-ULUI
 - Un membru staff are dreptul de a se auto-sesiza oricând regulamentul este încălcat, cu sau fără ticket.
 
-# <center><span class="title-font">7. No Man's Land</span></center>
+# 7. No Man's Land
 
 - No Man's Land este o zonă specială în care regulile standard de RP nu se aplică în totalitate. Această zonă este desemnată pentru conflict liber și PvP intens.
 
@@ -776,7 +784,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 - **Poliția** și **SMIR-ul** nu au voie să intre sau să opereze în această zonă.
 - Este <span style="color: red;">INTERZIS</span> să aduci pe cineva FORTAT în No Man's Land cu scopul de a-l jefui sau omori.
 
-# <center><span class="title-font">8. Airdrop</span></center>
+# 8. Airdrop
 
 - În cazul unui airdrop, indiferent de zona în care aterizează (<span style="color: red;">zonă roșie</span> sau zonă normală), regulile aplicabile sunt dictate exclusiv de **culoarea drop-ului**, nu de zona în care a căzut.
 
@@ -802,7 +810,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 Avertisment Verbal / Admin Jail / Warn / Ban temporar
 :::
 
-# <center><span class="title-font">9. Firme / Afaceri</span></center>
+# 9. Firme / Afaceri
 
 ### 9.1 DEȚINEREA AFACERILOR
 - Fiecare persoană poate deține maximum **două (2)** afaceri înregistrate pe numele său.
@@ -824,7 +832,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 Închiderea afacerii
 :::
 
-# <center><span class="title-font">10. Sentinel</span></center>
+# 10. Sentinel
 
 ### 10.1 CERINȚE
 - De la momentul intrării în Sentinel, toate familiile trebuie să ne acorde temporar ownership-ul discordului mafiei unuia dintre fondatori, până la momentul desființării sau ieșirii din Sentinel.
