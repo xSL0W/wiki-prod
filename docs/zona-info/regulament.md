@@ -544,7 +544,7 @@ AFK înainte de a interacționa cu el.
 - În cazul în care sunteți în roleplay și vă pică curentul sau internetul, sunteti obligat să
 anunțați pe serverul de discord.
 - Este obligatoriu sa aveti urmatoarea setare in aplicatia FiveM! Settings --> Game -->
-Update Channel --> Latest (Unstable)
+Update Channel --> Beta
 
 :::danger SANCTIUNE
 Admin Jail / Warn / Ban temporar
