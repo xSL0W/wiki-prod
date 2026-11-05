@@ -178,8 +178,8 @@ outline: false
 
 <h2><small>Echipament</small>Ce iei cu tine</h2>
 <ul class="vn-pack">
-<li><strong>Pusca de vanatoare</strong><span>De la armurier, sau o fabrici la masa de lucru de acolo. Se uzeaza cu fiecare foc.</span></li>
-<li><strong>Munitie pentru pusca</strong><span>Tot de la armurier, cumparata sau fabricata.</span></li>
+<li><strong>Pusca de vanatoare</strong><span>De la magazinul de arme, sau o fabrici la masa de lucru de acolo. Se uzeaza cu fiecare foc.</span></li>
+<li><strong>Munitie pentru pusca</strong><span>Tot de la magazinul de arme, cumparata sau fabricata.</span></li>
 <li><strong>Un cutit</strong><span>Doar in inventar, nu trebuie tinut in mana. Fara el nu poti transa.</span></li>
 <li><strong>Un vehicul</strong><span>Oricare. Te ajuta sa duci marfa pana la punctul de vanzare.</span></li>
 </ul>

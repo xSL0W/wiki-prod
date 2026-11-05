@@ -76,7 +76,7 @@ O familie IC nu poate cumpăra singură o afacere legală - are nevoie de o reco
 
 - **Service auto** - recrutezi mecanici care "se dovedesc" a fi mai mult decât mecanici
 - **Club/bar** - locul perfect pentru a cunoaște oameni și a-i evalua
-- **Gunshop** - acces la arme și clienți cu interese similare
+- **Magazin de arme** - acces la arme și clienți cu interese similare
 - **Benzinărie** - punct strategic, trafic constant, locație ideală pentru întâlniri
 - **Magazin de haine** - fațadă elegantă, clienți variați, venituri stabile
 - **Magazin** - flux constant de clienți potențiali
