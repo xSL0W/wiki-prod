@@ -152,6 +152,9 @@ outline: false
 <li>adresa IP</li>
 <li>activitatea ta in joc</li>
 <li>numele de utilizator</li>
+<li>conturile asociate: Discord, licenta GTA V, HWID si altele de acest fel</li>
+<li>imagini din joc</li>
+<li>clipuri video fara sunet din joc</li>
 </ul>
 </div>
 <div class="egt-box">
