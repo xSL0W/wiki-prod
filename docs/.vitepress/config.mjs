@@ -10,7 +10,7 @@ export default defineConfig({
     // Inject dark background inline style at very top of <head> to prevent white flash during SSG
     return code.replace(
       '<head>',
-      '<head><style>html,body{background:#1b1b1f!important;color-scheme:dark}</style>'
+      '<head><style>html,body{background:#09090b!important;color-scheme:dark}</style>'
     )
   },
   vite: {

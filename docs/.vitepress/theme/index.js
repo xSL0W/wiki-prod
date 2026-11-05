@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import NotFound from './Custom/NotFound.vue'
+import '@fontsource-variable/inter'
 import './style.css'
 
 /** @type {import('vitepress').Theme} */

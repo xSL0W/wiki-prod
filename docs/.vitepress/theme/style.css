@@ -1,295 +1,115 @@
-/* Force dark background to prevent white flash on load */
+/**
+ * EliteGamers wiki theme (VitePress default theme, always dark).
+ * Zinc surfaces, one red accent, Inter (self-hosted, imported in theme/index.js).
+ * No backdrop-filter anywhere: the wiki also opens in the FiveM F6 overlay, where blur renders black.
+ */
+
+/* Force the dark background before the app loads (no white flash) */
 html, body {
-  background-color: #1b1b1f !important;
+  background-color: #09090b !important;
   color-scheme: dark;
 }
 
-/**
- * Customize default theme styling by overriding CSS variables:
- * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
- */
-:root {
-  --vp-c-primary: #b91c1c;
-}
-/**
- * Colors
- *
- * Each colors have exact same color scale system with 3 levels of solid
- * colors with different brightness, and 1 soft color.
- *
- * - `XXX-1`: The most solid color used mainly for colored text. It must
- *   satisfy the contrast ratio against when used on top of `XXX-soft`.
- *
- * - `XXX-2`: The color used mainly for hover state of the button.
- *
- * - `XXX-3`: The color for solid background, such as bg color of the button.
- *   It must satisfy the contrast ratio with pure white (#ffffff) text on
- *   top of it.
- *
- * - `XXX-soft`: The color used for subtle background such as custom container
- *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
- *   on top of it.
- *
- *   The soft color must be semi transparent alpha channel. This is crucial
- *   because it allows adding multiple "soft" colors on top of each other
- *   to create a accent, such as when having inline code block inside
- *   custom containers.
- *
- * - `default`: The color used purely for subtle indication without any
- *   special meanings attached to it such as bg color for menu hover state.
- *
- * - `brand`: Used for primary brand colors, such as link text, button with
- *   brand theme, etc.
- *
- * - `tip`: Used to indicate useful information. The default theme uses the
- *   brand color for this by default.
- *
- * - `warning`: Used to indicate warning to the users. Used in custom
- *   container, badges, etc.
- *
- * - `danger`: Used to show error, or dangerous message to the users. Used
- *   in custom container, badges, etc.
- * -------------------------------------------------------------------------- */
-
-/**
- * TEXT FONT
- * -------------------------------------------------------------------------- */
-/* Blochează selectarea textului pe întregul site */
-
-/* Dacă vrei să fie doar pentru anumite secțiuni, folosește o clasă */
-.nocopy {
-    user-select: none;
-}
-
-
- @font-face {
-  font-family: 'Orbitron';
-  src: url('/Orbitron.ttf') format('truetype'); /* Adjusted path */
-}
-
-.title-font {
-  font-family: 'Orbitron';
-}
-
-.header-font {
-  color: red;
-  font-family: 'Orbitron';
-}
-/* sfarsit text font */
-
-:root {
-  /* --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ab2e22 30%, #e82310);
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #ab2e22 50%, #e82310 50%);
-  --vp-home-hero-image-filter: blur(20px); */
-/* .VPSidebar {
-  background: linear-gradient(135deg, #000000 0%, #414141 100%) !important;
-} */
-  --vp-c-default-1: var(--vp-c-gray-1);
-  --vp-c-default-2: var(--vp-c-gray-2);
-  --vp-c-default-3: var(--vp-c-gray-3);
-  --vp-c-default-soft: var(--vp-c-gray-soft);
-
-  --vp-c-brand-1: var(--vp-c-primary);
-  --vp-c-brand-2: var(--vp-c-primary);
-  --vp-c-brand-3: var(--vp-c-primary);
-  --vp-c-brand-soft: var(--vp-c-red-soft);
-
-  --vp-c-tip-1: var(--vp-c-brand-1);
-  --vp-c-tip-2: var(--vp-c-brand-2);
-  --vp-c-tip-3: var(--vp-c-brand-3);
-  --vp-c-tip-soft: var(--vp-c-brand-soft);
-
-  --vp-c-warning-1: var(--vp-c-yellow-1);
-  --vp-c-warning-2: var(--vp-c-yellow-2);
-  --vp-c-warning-3: var(--vp-c-yellow-3);
-  --vp-c-warning-soft: var(--vp-c-yellow-soft);
-
-  --vp-c-danger-1: var(--vp-c-red-1);
-  --vp-c-danger-2: var(--vp-c-red-2);
-  --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
-}
-
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-button-brand-border: transparent;
-  --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
-  --vp-button-brand-hover-border: transparent;
-  --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
-  --vp-button-brand-active-border: transparent;
-  --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-c-brand-1);
-}
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-custom-block-tip-border: lightgreen;
-  --vp-custom-block-tip-text: darkgreen;
-  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-
-  --vp-custom-block-info-border: lightblue;
-  --vp-custom-block-info-text: darkblue;
-  --vp-custom-block-info-bg: var(--vp-c-brand-dimm);
-
-  --vp-custom-block-danger-border: lightcoral;
-  --vp-custom-block-danger-text: darkred;
-  --vp-custom-block-danger-bg: var(--vp-c-brand-dimm);
-}
-
+/* ---------------------------------------------------------------------------
+ * Tokens
+ * ------------------------------------------------------------------------- */
+:root,
 .dark {
-  --vp-custom-block-tip-border: darkgreen;
-  --vp-custom-block-tip-text: lightgreen;
-  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+  --eg-red: #dc2626;
+  --eg-red-hi: #ef4444;
+  --eg-red-lo: #b91c1c;
+  --eg-red-soft: rgba(220, 38, 38, 0.12);
+  --eg-red-line: rgba(220, 38, 38, 0.45);
 
-  --vp-custom-block-info-border: rgb(255, 247, 247);
-  --vp-custom-block-info-text: rgb(255, 255, 255);
-  --vp-custom-block-info-bg: var(--vp-c-brand-dimm);
+  --vp-font-family-base: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-mono: ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
 
-  --vp-custom-block-danger-border: darkred;
-  --vp-custom-block-danger-text: lightcoral;
-  --vp-custom-block-danger-bg: var(--vp-c-brand-dimm);
+  --vp-c-bg: #09090b;
+  --vp-c-bg-alt: #0c0c0e;
+  --vp-c-bg-soft: #141417;
+  --vp-c-bg-elv: #18181b;
+  --vp-c-divider: #1f1f23;
+  --vp-c-border: #27272a;
+  --vp-c-gutter: #09090b;
+  --vp-c-text-1: #f4f4f5;
+  --vp-c-text-2: #a1a1aa;
+  --vp-c-text-3: #71717a;
 
-  --vp-custom-block-warning-border: rgb(255, 238, 0);
-  --vp-custom-block-warning-text: rgb(211, 211, 42);
-  --vp-custom-block-warning-bg: var(--vp-c-brand-dimm);
+  --vp-c-default-1: #a1a1aa;
+  --vp-c-default-2: #3f3f46;
+  --vp-c-default-3: #27272a;
+  --vp-c-default-soft: rgba(161, 161, 170, 0.1);
+
+  --vp-c-brand-1: var(--eg-red-hi);
+  --vp-c-brand-2: var(--eg-red);
+  --vp-c-brand-3: var(--eg-red-lo);
+  --vp-c-brand-soft: var(--eg-red-soft);
+
+  --vp-c-tip-1: #4ade80;
+  --vp-c-tip-2: #22c55e;
+  --vp-c-tip-3: #16a34a;
+  --vp-c-tip-soft: rgba(34, 197, 94, 0.1);
+  --vp-c-note-1: #93c5fd;
+  --vp-c-note-2: #60a5fa;
+  --vp-c-note-3: #3b82f6;
+  --vp-c-note-soft: rgba(59, 130, 246, 0.1);
+  --vp-c-warning-1: #fbbf24;
+  --vp-c-warning-2: #f59e0b;
+  --vp-c-warning-3: #d97706;
+  --vp-c-warning-soft: rgba(245, 158, 11, 0.1);
+  --vp-c-danger-1: #f87171;
+  --vp-c-danger-2: var(--eg-red);
+  --vp-c-danger-3: var(--eg-red-lo);
+  --vp-c-danger-soft: var(--eg-red-soft);
+
+  --vp-nav-bg-color: rgba(9, 9, 11, 0.94);
+  --vp-sidebar-bg-color: #0c0c0e;
+  --vp-local-nav-bg-color: rgba(9, 9, 11, 0.94);
+
+  --vp-code-bg: #18181b;
+  --vp-code-color: #fca5a5;
+  --vp-code-block-bg: #111113;
+  --vp-code-copy-code-bg: #18181b;
+  --vp-code-copy-code-hover-bg: #27272a;
+
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: var(--eg-red-lo);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: var(--eg-red);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: var(--eg-red-hi);
+  --vp-button-alt-bg: #18181b;
+  --vp-button-alt-border: #27272a;
+  --vp-button-alt-hover-bg: #27272a;
+
+  --vp-custom-block-tip-border: rgba(34, 197, 94, 0.35);
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: rgba(34, 197, 94, 0.07);
+  --vp-custom-block-info-border: rgba(59, 130, 246, 0.35);
+  --vp-custom-block-info-text: var(--vp-c-text-1);
+  --vp-custom-block-info-bg: rgba(59, 130, 246, 0.07);
+  --vp-custom-block-warning-border: rgba(245, 158, 11, 0.35);
+  --vp-custom-block-warning-text: var(--vp-c-text-1);
+  --vp-custom-block-warning-bg: rgba(245, 158, 11, 0.07);
+  --vp-custom-block-danger-border: var(--eg-red-line);
+  --vp-custom-block-danger-text: var(--vp-c-text-1);
+  --vp-custom-block-danger-bg: var(--eg-red-soft);
+  --vp-custom-block-details-bg: #141417;
+  --vp-custom-block-details-border: #27272a;
+
+  --docsearch-primary-color: var(--eg-red) !important;
 }
 
-:root {
-  --vp-c-brand: #d65f02;
-  --vp-c-brand-light: #df3314;
-  --vp-c-brand-lighter: #eb5035;
-  --vp-c-brand-lightest: #ec7763;
-  --vp-c-brand-dark: #f12b08;
-  --vp-c-brand-darker: #b83515;
-  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
-}
+::selection { background: rgba(220, 38, 38, 0.35); color: #fff; }
 
-/* SCROLLBAR */
-
-/* Ascunde scrollbar-ul lateral din sidebar */
-.VPSidebar {
-  scrollbar-width: none; /* Firefox */
-}
-
-.VPSidebar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
-}
-
-
-/**
- * Component: Algolia
- * -------------------------------------------------------------------------- */
-
-.DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
-}
-
-/**
- * Component: BOXES
- * -------------------------------------------------------------------------- */
-
-/* Stiluri pentru casetele dintr-o secțiune specifică (de exemplu, doar pentru o secțiune cu clasa .vip-section) */
-/* Secțiunea VIP Cars - Stiluri pentru casetele VIP */
-.vip-selection .box-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin-bottom: 30px;
-}
-
-.vip-selection .box {
-  background-color: var(--vt-c-bg-soft); /* Fundal similar cu cel din exemplul tău */
-  border: 1px solid #850c0c; /* Bordură de culoare gri deschis */
-  padding: 20px;
-  width: 30%;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Umbra pentru adâncire */
-  transition: border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Efect de tranziție pentru hover */
-}
-
-/* Alternative box style */
-.box-alt {
-  background-color: #181c2f;
-  border: 1.5px solid #2e8b57;
-  padding: 20px;
-  width: 30%;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(46, 139, 87, 0.15);
-  transition: border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.box-alt:hover {
-  border-color: #44d17a;
-}
-
-/* Efectul de hover pentru casetă din secțiunea VIP */
-.vip-selection .box:hover {
-  border-color: #b82006; /* Culoare de border la hover */
-}
-
-/* Stiluri pentru titluri (h2) în cadrul casetelor VIP */
-.vip-selection .box h2 {
-  font-size: 1.5rem;
-  color: #bd0000;
-  margin-bottom: 10px;
-}
-
-/* Stiluri pentru lista de elemente din fiecare casetă */
-.vip-selection .box ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.vip-selection .box ul li {
-  font-size: 1rem;
-  color: var(--vt-c-text-2); /* Culoare similară cu textul din exemplul tău */
-  margin-bottom: 5px;
-}
-
-/* Stiluri suplimentare pentru secțiunea VIP */
-.vip-selection h2 {
-  font-size: 2rem;
-  color: #bd0000;
-  margin-bottom: 20px;
-}
-
-.vip-selection .box-container .box {
-  transition: transform 0.3s ease-in-out;
-}
-
-.vip-selection .box-container .box:hover {
-  transform: scale(1.05);
-}
-
-/* CARDS */
-
-/* Importuri globale: FONTURI și ICONIȚE */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-/* Font implicit */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--vp-font-family-base);
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 img {
@@ -297,153 +117,204 @@ img {
   user-select: none;
 }
 
+/* Thin scrollbars everywhere; the sidebar keeps its own hidden one */
+* { scrollbar-width: thin; scrollbar-color: #3f3f46 transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 10px; border: 3px solid transparent; background-clip: content-box; }
+::-webkit-scrollbar-track { background: transparent; }
 
-/* PENTRU INDEX.MD CONTRIBUITORI */
+:focus-visible { outline: 2px solid var(--eg-red-hi); outline-offset: 2px; }
 
-  /* ========== COMMON GRID STYLE ========== */
-.eg-cards-contributors,
-.eg-cards-team {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-  padding-bottom: 4rem;
+/* ---------------------------------------------------------------------------
+ * Navbar
+ * ------------------------------------------------------------------------- */
+.VPNavBar,
+.VPNavBar.has-sidebar .content-body,
+.VPNavBar .content-body { background: var(--vp-nav-bg-color) !important; }
+.VPNavBar .divider-line { background: var(--vp-c-divider) !important; }
+.VPNavBar:not(.home) { border-bottom: 1px solid var(--vp-c-divider); }
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .title { background: var(--vp-sidebar-bg-color) !important; }
 }
-
-/* ========== COMMON CARD STYLE ========== */
-.eg-card {
-  background-color: #1a0c0c;
-  border: 1px solid #ff4d4f;
-  border-radius: 1rem;
-  padding: 3.5rem 1rem 2rem;
-  color: #fff;
-  text-align: center;
-  box-shadow: 0 0 15px rgba(255, 77, 79, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  min-height: 420px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.VPNavBarTitle .title { font-weight: 700; letter-spacing: -0.01em; }
+.VPNavBarMenuLink, .VPNavBarMenuGroup .button { font-weight: 500 !important; }
+.VPNavBarMenuLink.active { color: #fff !important; position: relative; }
+.VPNavBarMenuLink.active::after {
+  content: ''; position: absolute; left: 12px; right: 12px; bottom: 10px; height: 2px; border-radius: 2px; background: var(--eg-red);
 }
+.VPSocialLink { transition: color 0.2s; }
+.VPSocialLink:hover { color: var(--eg-red-hi) !important; }
 
-.eg-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 25px rgba(255, 77, 79, 0.4);
+/* Search pill */
+.DocSearch-Button {
+  border: 1px solid var(--vp-c-border) !important;
+  background: #111113 !important;
+  border-radius: 10px !important;
 }
+.DocSearch-Button:hover { border-color: var(--eg-red-line) !important; }
 
-/* ========== AVATAR IMAGE ========== */
-.eg-card img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #ff4d4f;
-  background-color: #fff;
-  margin-top: -70px;
-  z-index: 1;
+/* ---------------------------------------------------------------------------
+ * Sidebar
+ * ------------------------------------------------------------------------- */
+.VPSidebar {
+  scrollbar-width: none;
+  border-right: 1px solid var(--vp-c-divider);
 }
+.VPSidebar::-webkit-scrollbar { display: none; }
+.VPSidebar .group + .group { border-top: 1px solid var(--vp-c-divider) !important; }
 
-/* ========== TEXTUAL INFO ========== */
-.eg-name {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 0.75rem;
-}
-
-.eg-role {
-  font-size: 0.95rem;
-  color: #ffcccc;
-  margin-bottom: 0.5rem;
-}
-
-.eg-desc {
-  font-size: 0.85rem;
-  color: #ddd;
-  margin: 0.5rem 0 1rem;
-  padding: 0 1rem;
-}
-
-/* ========== BADGE STYLES ========== */
-.eg-badge {
-  font-size: 0.75rem;
-  font-weight: bold;
+/* Group titles (Informatii Principale, Activitati si Job-uri, ...) */
+.VPSidebarItem.level-0 > .item .text {
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 0.3rem 0.75rem;
-  border-radius: 999px;
-  display: inline-block;
-  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-3) !important;
+}
+.VPSidebarItem.level-0 > .item svg { color: var(--eg-red); }
+
+/* Links: rounded hover, red pill on the active page */
+.VPSidebarItem.level-1 > .item,
+.VPSidebarItem.level-2 > .item,
+.VPSidebarItem.level-3 > .item {
+  border-radius: 8px;
+  padding-left: 10px !important;
+  margin-left: -10px;
+  transition: background 0.15s;
+}
+.VPSidebarItem.level-1 > .item:hover,
+.VPSidebarItem.level-2 > .item:hover,
+.VPSidebarItem.level-3 > .item:hover { background: rgba(255, 255, 255, 0.04); }
+.VPSidebarItem.is-active > .item { background: var(--eg-red-soft); }
+.VPSidebarItem.is-active > .item .link > .text { color: #fff !important; font-weight: 600; }
+.VPSidebarItem .indicator { display: none; }
+.VPSidebarItem.is-active > .item::before {
+  content: ''; position: absolute; left: 0; top: 7px; bottom: 7px; width: 3px; border-radius: 3px; background: var(--eg-red);
+}
+.VPSidebarItem .item { position: relative; }
+.VPSidebarItem .text { transition: color 0.15s; }
+.VPSidebarItem.level-1 .text, .VPSidebarItem.level-2 .text { color: var(--vp-c-text-2); }
+.VPSidebarItem .item:hover .text { color: var(--vp-c-text-1); }
+.VPSidebarItem .caret { color: var(--vp-c-text-3); }
+/* labels with a leading icon wrap under the text, not under the icon */
+.VPSidebarItem .text:has(> svg:first-child) { padding-left: 20px; text-indent: -20px; }
+
+/* ---------------------------------------------------------------------------
+ * Content
+ * ------------------------------------------------------------------------- */
+.vp-doc { font-size: 15.5px; }
+.vp-doc p, .vp-doc li { line-height: 1.75; }
+.vp-doc h1 { font-size: clamp(2rem, 4vw, 2.6rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
+.vp-doc h2 {
+  margin-top: 56px; padding-top: 0; border-top: 0;
+  font-size: 1.55rem; font-weight: 750; letter-spacing: -0.02em;
+}
+/* plain markdown headings only (direct children); custom pages style their own */
+.vp-doc > div > h2::before {
+  content: ''; display: inline-block; width: 8px; height: 8px; margin: 0 12px 4px 0;
+  background: var(--eg-red); transform: rotate(45deg); border-radius: 1px;
+}
+.vp-doc h3 { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.01em; }
+.vp-doc .header-anchor { color: var(--vp-c-text-3); }
+
+.vp-doc a {
+  color: var(--eg-red-hi);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(239, 68, 68, 0.35);
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.vp-doc a:hover { color: #fca5a5; text-decoration-color: currentColor; }
+.vp-doc .header-anchor, .vp-doc .header-anchor:hover { text-decoration: none; }
+
+.vp-doc strong, .vp-doc b { color: #fff; }
+.vp-doc hr { border-top: 1px solid var(--vp-c-divider); margin: 40px 0; }
+
+.vp-doc :not(pre) > code {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 0.86em;
 }
 
-.eg-badge.red {
-  background-color: #ff4d4f;
-  color: white;
+.vp-doc div[class*='language-'] {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px !important;
 }
 
-.eg-badge.orange {
-  background-color: #fa8c16;
-  color: white;
+/* Tables: rounded, zebra rows */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+@media (max-width: 640px) { .vp-doc table { display: block; overflow-x: auto; } }
+.vp-doc tr { border-top: 0; background: transparent; }
+.vp-doc tr:nth-child(2n) { background: rgba(255, 255, 255, 0.02); }
+.vp-doc th { background: #141417; color: #fff; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.02em; }
+.vp-doc th, .vp-doc td { border: 0; border-bottom: 1px solid var(--vp-c-divider); }
+.vp-doc tr:last-child td { border-bottom: 0; }
+
+/* Info boxes (::: tip / info / warning / danger / details) */
+.custom-block {
+  border-radius: 12px;
+  border-left-width: 3px !important;
+  padding: 14px 18px 2px !important;
+}
+.custom-block .custom-block-title { font-weight: 700; letter-spacing: 0.02em; }
+.custom-block.tip { border-left-color: #22c55e !important; }
+.custom-block.info { border-left-color: #3b82f6 !important; }
+.custom-block.warning { border-left-color: #f59e0b !important; }
+.custom-block.danger { border-left-color: var(--eg-red) !important; }
+.custom-block.details { border-left-width: 1px !important; }
+.custom-block a { color: inherit; }
+
+/* Images in plain markdown pages */
+.vp-doc img { border-radius: 12px; }
+
+/* ---------------------------------------------------------------------------
+ * Outline, prev/next, local nav, footer
+ * ------------------------------------------------------------------------- */
+.VPDocAsideOutline .outline-title { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--vp-c-text-3); }
+.VPDocAsideOutline .outline-link { color: var(--vp-c-text-2); transition: color 0.15s; }
+.VPDocAsideOutline .outline-link:hover,
+.VPDocAsideOutline .outline-link.active { color: #fff; }
+.VPDocAsideOutline .outline-marker { background-color: var(--eg-red) !important; width: 2px; }
+.VPDocAsideOutline .content { border-left-color: var(--vp-c-divider) !important; }
+
+.VPDocFooter .pager-link {
+  border-radius: 14px !important;
+  border: 1px solid var(--vp-c-border) !important;
+  background: #111113;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.VPDocFooter .pager-link:hover { border-color: var(--eg-red-line) !important; transform: translateY(-2px); }
+.VPDocFooter .pager-link .title { color: #fff !important; }
+.VPDocFooter .pager-link .desc { color: var(--eg-red-hi) !important; font-weight: 600; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.08em; }
+
+.VPLocalNav { border-bottom: 1px solid var(--vp-c-divider) !important; }
+
+.VPFooter { border-top: 1px solid var(--vp-c-divider) !important; background: var(--vp-c-bg) !important; }
+.VPFooter .message, .VPFooter .copyright { color: var(--vp-c-text-3); }
+
+@media (prefers-reduced-motion: reduce) {
+  .VPDocFooter .pager-link, .VPSidebarItem .item { transition: none; }
 }
 
-.eg-badge.yellow {
-  background-color: #fadb14;
-  color: black;
+/* ---------------------------------------------------------------------------
+ * Helpers still used by pages
+ * ------------------------------------------------------------------------- */
+.nocopy { user-select: none; }
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('/Orbitron.ttf') format('truetype');
+  font-display: swap;
 }
-
-.eg-badge.purple {
-  background-color: #9254de;
-  color: white;
-}
-
-.eg-badge.green {
-  background-color: #73d13d;
-  color: black;
-}
-
-.eg-badge.blue {
-  background-color: #40a9ff;
-  color: white;
-}
-
-/* ========== GITHUB / FOOTER LINK ========== */
-.eg-link {
-  margin-top: auto;
-  color: #ff7875;
-  font-weight: bold;
-  font-size: 0.9rem;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.eg-link:hover {
-  color: white;
-}
-
-/* ========== HEADINGS ========== */
-h2.eg-section-title {
-  text-align: center;
-  color: #ff4d4f;
-  font-size: 1.8rem;
-  margin-top: 4rem;
-  margin-bottom: 1.5rem;
-}
-
-.eg-card img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #ff4d4d;
-  margin: 20px auto 10px;
-  display: block;
-  box-shadow: 0 0 10px rgba(255, 77, 77, 0.4);
-  transition: transform 0.3s ease;
-}
-
-.eg-card:hover img {
-  transform: scale(1.05);
-}
-/* ---------------------------------------- */
-
-
+.title-font { font-family: 'Orbitron'; }
+.header-font { color: red; font-family: 'Orbitron'; }
