@@ -1,124 +1,106 @@
 ---
-outline: deep
+outline: false
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
-
-.joburi-container {
-  font-family: 'Poppins', sans-serif;
-  padding: 1rem;
-  color: #fff;
+.pdd {
+  --ink: #0c0c0e;
+  --panel: #18181b;
+  --panel2: #202024;
+  --line: #34343b;
+  --text: #f4f4f5;
+  --mute: #a1a1aa;
+  --red: #dc2626;
+  --acc: #60a5fa;
+  max-width: 960px;
+  margin: 0 auto;
+  color: var(--text);
 }
-
-.joburi-container h1 {
-  text-align: center;
-  color: #ff3c3c;
-  text-shadow: 1px 1px 3px rgba(255, 60, 60, 0.6);
-  margin-bottom: 1.5rem;
-  font-size: 2.5rem;
+.pdd *, .pdd *::before, .pdd *::after { box-sizing: border-box; }
+.pdd p, .pdd li { margin: 0; line-height: 1.6; color: var(--text); }
+.pdd ul, .pdd ol { list-style: none; padding: 0; margin: 0; }
+.pdd li + li { margin-top: 0; }
+.pdd b { color: #fff; font-weight: 650; }
+.pdd code { white-space: normal; overflow-wrap: anywhere; }
+.pdd a { color: #fff; text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: 3px; }
+.pdd a:hover { color: #fecaca; }
+.pdd a:focus-visible { outline: 3px solid var(--acc); outline-offset: 3px; border-radius: 6px; }
+.pdd .pdd-head {
+  background: var(--ink); border: 1px solid var(--line); border-left: 4px solid var(--acc);
+  border-radius: 18px; padding: clamp(1.2rem, 4vw, 2rem);
 }
-
-.job-box {
-  background: linear-gradient(135deg, #1a1a1a 70%, #ff2323 100%);
-  color: white;
-  border-left: 5px solid #ff3c3c;
-  padding: 1.5rem 2rem;
-  margin: 1.5rem auto;
-  max-width: 900px;
-  border-radius: 14px;
-  box-shadow: 0 8px 24px rgba(215, 38, 56, 0.25);
-  backdrop-filter: blur(3px);
-  transition: all 0.3s ease;
+.pdd .pdd-kicker { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--acc); margin-bottom: 0.5rem; }
+.pdd .pdd-head h1 {
+  margin: 0 0 0.7rem; border: 0; padding: 0;
+  font-size: clamp(2rem, 7vw, 3rem); line-height: 1.05; font-weight: 800; letter-spacing: -0.03em; color: #fff;
 }
-
-.job-box:hover {
-  box-shadow: 0 12px 35px rgba(255, 35, 35, 0.45);
-  transform: translateY(-4px);
+.pdd .pdd-lede { color: var(--mute); font-size: 1.05rem; max-width: 60ch; }
+.pdd .pdd-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 0.7rem; margin-top: 1rem; }
+.pdd .pdd-facts li { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0.9rem 1rem; }
+.pdd .pdd-facts b { display: block; font-size: 1.5rem; line-height: 1.1; color: var(--acc); font-variant-numeric: tabular-nums; }
+.pdd .pdd-facts span { color: var(--mute); font-size: 0.92rem; }
+.pdd h2 {
+  margin: 2.6rem 0 1rem; border: 0; padding: 0 0 0 0.8rem; border-left: 4px solid var(--acc);
+  font-size: 1.4rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-
-.framed-photo {
-  border-radius: 10px;
-  border: 2px solid #ff3c3c;
-  box-shadow: 0 0 15px rgba(255, 60, 60, 0.3);
-  margin: 1rem auto;
-  display: block;
-  max-width: 600px;
+.pdd .pdd-sub { color: var(--mute); margin: -0.4rem 0 1rem; max-width: 64ch; }
+.pdd kbd { display: inline-block; min-width: 1.6em; padding: 0 0.4em; border: 1px solid var(--line); border-bottom-width: 3px; border-radius: 6px; background: var(--panel2); color: #fff; font: 700 0.85em/1.6 Inter, system-ui, sans-serif; text-align: center; }
+.pdd .pdd-cat { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 0.4rem 1.1rem; }
+.pdd .pdd-cat + .pdd-cat { margin-top: 0.9rem; }
+.pdd .pdd-cat h3 { margin: 0.8rem 0 0.2rem; border: 0; padding: 0; font-size: 1.1rem; font-weight: 750; color: #fff; }
+.pdd .pdd-items li { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 0.3rem 1rem; padding: 0.7rem 0; border-top: 1px solid var(--line); }
+.pdd .pdd-items li:first-child { border-top: 0; }
+.pdd .pdd-items span { color: var(--mute); font-size: 0.95rem; }
+.pdd .pdd-notes { display: grid; gap: 0.5rem; }
+.pdd .pdd-end { margin-top: 1rem; }
+.pdd .pdd-notes li { position: relative; padding-left: 1.3rem; color: var(--mute); }
+.pdd .pdd-notes li::before { content: ''; position: absolute; left: 0.2rem; top: 0.62em; width: 0.45rem; height: 0.45rem; border-radius: 50%; background: var(--acc); }
+@media (max-width: 560px) {
+  .pdd .pdd-items li { grid-template-columns: minmax(0, 1fr); }
 }
 </style>
 
-
-<img src="../public/elitegamers.png" alt="logo" width="256" style="display: block; margin: 0 auto 30px auto; border-radius: 5%;">
-
-### <center> DigitalDen by eliteGamers</center>
-
-<div style="margin: 1.5rem 0; padding: 1.2rem; background: rgba(215,38,56,0.1); border-left: 6px solid #d72638; border-radius: 12px; box-shadow: 0 0 12px rgba(215,38,56,0.3);">
-  <strong style="color: #d72638;">Despre DigitalDen:</strong> Pe server avem mai multe locatii pentru DigitalDen, intra pe server si ai pe harta un blip de culoare albastra (cos de cumparaturi). <img src="../public/digitalden/blip.png" alt="DigitalDen BG" style="border: 2px; display: block; margin: 20px auto;">
-
+<div class="pdd">
+<section class="pdd-head">
+<p class="pdd-kicker">Proprietati · Magazin</p>
+<h1>DigitalDen</h1>
+<p class="pdd-lede">Magazinul de electronice din Vespucci. Aici iei telefon, radio, smartwatch, tableta si terminalul POS pentru firma, boxa EliteBox si drone. Oricine poate cumpara.</p>
+</section>
+<ul class="pdd-facts">
+<li><b>1</b><span>magazin, in Vespucci</span></li>
+<li><b>726</b><span>codul postal al magazinului</span></li>
+<li><b>11</b><span>produse, in 2 categorii</span></li>
+</ul>
+<h2>Unde il gasesti</h2>
+<ul class="pdd-notes">
+<li>Pe harta apare ca DigitalDen, cu un blip albastru, la codul postal <code>726</code>.</li>
+<li>Mergi langa vanzator si apasa <kbd>E</kbd> la Acceseaza magazinul. Banii se iau intai cash, iar ce lipseste se ia din banca.</li>
+<li>Magazinul e al unei firme. Banii din vanzari ajung la ea, iar firma isi poate pune propriile preturi. Stocul nu se termina niciodata.</li>
+</ul>
+<h2>Ce gasesti</h2>
+<p class="pdd-sub">Preturile se schimba in timp, le vezi direct in magazin.</p>
+<div class="pdd-cat">
+<h3>Diverse</h3>
+<ul class="pdd-items">
+<li><b>Telefon</b><span>Apeluri, mesaje si aplicatii. Cat il ai deschis, vezi GPS-ul pe minimapa. Detalii pe pagina <a href="/general/telefon">Telefon</a>.</span></li>
+<li><b>SmartWatch (GPS)</b><span>Cat il ai in inventar, minimapa cu GPS ramane pe ecran si fara sa deschizi telefonul.</span></li>
+<li><b>Radio</b><span>Statie radio: vorbesti cu ceilalti pe aceeasi frecventa.</span></li>
+<li><b>EliteBox</b><span>Boxa portabila. O pui jos si dai muzica pe ea din telefon. O poti ridica inapoi oricand.</span></li>
+<li><b>Body Camera</b><span>Cat o ai in inventar, pe HUD apare indicatorul REC.</span></li>
+<li><b>Tableta firma</b><span>Gestionezi firma ta din ea.</span></li>
+<li><b>Terminal POS</b><span>Faci facturi clientilor firmei tale.</span></li>
+<li><b>Acumulator</b><span>Sursa de curent. Intra in reteta de C4, la crafting.</span></li>
+</ul>
 </div>
-  <img src="../public/digitalden/digitalden.png" alt="DigitalDen BG" style="border: 2px solid #8B0000; border-radius: 8px; box-shadow: 0 4px 16px rgba(139,0,0,0.5); display: block; margin: 20px auto;">
-
-<div style="text-align: center; margin: 2rem 0;">
-  <h2 style="font-size: 2.2rem; font-family: 'Segoe UI', sans-serif; color: #d72638; letter-spacing: 1px; margin-bottom: 0.5rem;">
-    <span style="font-family: 'Orbitron', sans-serif; font-size: 2rem; color: #ce2525ff; letter-spacing: 2px;">
-      CE GASESTI ÎN MAGAZINELE NOASTRE?
-    </span>
-  </h2>
-
+<div class="pdd-cat">
+<h3>Drone</h3>
+<ul class="pdd-items">
+<li><b>Drona</b><span>Drona de baza, pentru recunoastere din aer.</span></li>
+<li><b>Drona NightVision</b><span>Are vedere de noapte.</span></li>
+<li><b>Drona FPV</b><span>Drona de curse: rapida, dar fragila, cu baterie care tine putin.</span></li>
+</ul>
 </div>
-
-### <center><span class="title-font">1. Telefon </span></center>
-
-<div class="job-box">
-- Un smartphone modern, ideal pentru apeluri, mesaje și social media.
-
-::: danger Pret
-Preț: 1000 €
-:::
-
-::: details Telefon
-  <img src="../public/digitalden/telefondigital.png" alt="DigitalDen Telefon" width="500" height="800" style="border: 2px solid #8B0000; border-radius: 8px; box-shadow: 0 4px 16px rgba(139,0,0,0.5); display: block; margin: 20px auto;">
-:::
-</div>
-
-
-### <center><span class="title-font">2. EliteBox </span></center>
-<div class="job-box">
-
-Boxă portabilă cu lumini LED integrate, perfectă pentru petreceri sau relaxare acasă.
-Sunet puternic și clar, ideal pentru orice tip de muzică.
-
-::: danger Pret
-Preț: 7500 €
-:::
-
-::: details EliteBox
-  <img src="../public/digitalden/boxadigital.png" alt="DigitalDen Telefon" width="500" height="800" style="border: 2px solid #8B0000; border-radius: 8px; box-shadow: 0 4px 16px rgba(139,0,0,0.5); display: block; margin: 20px auto;">
-:::
-</div>
-
-### <center><span class="title-font">3. SmartWatch (GPS) </span></center>
-<div class="job-box">
-
-Ceas inteligent cu funcție GPS integrată.
-::: danger Pret
-Preț: 5000 €
-:::
-
-::: details SmartWatch (GPS)
-  <img src="../public/digitalden/watchdigital.png" alt="DigitalDen Telefon" width="500" height="800" style="border: 2px solid #8B0000; border-radius: 8px; box-shadow: 0 4px 16px rgba(139,0,0,0.5); display: block; margin: 20px auto;">
-:::
-</div>
-
-### <center><span class="title-font">4. Statie Radio </span></center>
-<div class="job-box">
-Radio portabil, ușor de folosit.
-
-::: danger Pret
-Preț: 500 €
-:::
-
-::: details Statie Radio 
-  <img src="../public/digitalden/radiodigital.png" alt="DigitalDen Telefon" width="500" height="800" style="border: 2px solid #8B0000; border-radius: 8px; box-shadow: 0 4px 16px rgba(139,0,0,0.5); display: block; margin: 20px auto;">
-:::
+<ul class="pdd-notes pdd-end">
+<li>Cum zbori cu dronele afli pe pagina <a href="/general/sistem-drone">Sistem drone</a>.</li>
+</ul>
 </div>

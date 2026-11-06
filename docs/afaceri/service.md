@@ -119,7 +119,7 @@ outline: false
 </section>
 <ul class="asv-facts">
 <li><b>6</b><span>service-uri in oras</span></li>
-<li><b>4</b><span>dintre ele au si atelier de tuning</span></li>
+<li><b>6</b><span>toate au si atelier de tuning</span></li>
 <li><b>5</b><span>categorii de piese la furnizor</span></li>
 </ul>
 <h2>Ce gasesti la un service</h2>
@@ -128,7 +128,7 @@ outline: false
 <h3>Pentru clienti</h3>
 <ul class="asv-list">
 <li><b>Reparatii si revizii</b>Mecanicii pun masina pe tester, schimba piesele uzate, caroseria si fac revizia.</li>
-<li><b>Tuning</b>La 4 service-uri iti modifici masina. Firma primeste o parte din fiecare modificare.</li>
+<li><b>Tuning</b>La fiecare service iti modifici masina. Firma primeste o parte din fiecare modificare.</li>
 <li><b>Plata cu Terminalul POS</b>Mecanicul iti trimite factura, iar tu o accepti sau o refuzi.</li>
 <li><b>Politie si medici de serviciu</b>Facturile de la service le plateste statul, pana la o limita pe persoana, intr-un interval de timp. Peste ea, platesti tu.</li>
 </ul>
@@ -162,8 +162,8 @@ outline: false
 <li class="asv-loc"><b>Burton</b><span>Cod postal <code>627</code></span><em>Tuning</em></li>
 <li class="asv-loc"><b>East Vinewood</b><span>Cod postal <code>587</code></span><em>Tuning</em></li>
 <li class="asv-loc"><b>Cypress Flats</b><span>Cod postal <code>804</code></span><em>Tuning</em></li>
-<li class="asv-loc"><b>Murrieta Heights</b><span>Cod postal <code>768</code></span></li>
-<li class="asv-loc"><b>Grapeseed</b><span>Cod postal <code>317</code></span></li>
+<li class="asv-loc"><b>Murrieta Heights</b><span>Cod postal <code>768</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Grapeseed</b><span>Cod postal <code>317</code></span><em>Tuning</em></li>
 </ul>
 <p class="asv-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>
