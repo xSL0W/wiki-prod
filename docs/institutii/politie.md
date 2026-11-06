@@ -329,16 +329,25 @@ outline: false
 <li><b>Cod 5</b>Echipajul SMIR are o urgenta (trimis de medici)</li>
 </ul>
 <h3 class="pol-h3" style="margin-top:1.2rem">Coduri de statie</h3>
-<p class="pol-sub"><code>/coduripolitie</code> iti arata lista pe ecran (o mai scrii o data ca s-o inchizi). Cele mai folosite:</p>
+<p class="pol-sub"><code>/coduripolitie</code> iti arata lista pe ecran (o mai scrii o data ca s-o inchizi).</p>
 <ul class="pol-codes">
+<li><b>10-0</b>Suspect pierdut</li>
+<li><b>10-1</b>Schimbare frecventa radio</li>
+<li><b>10-2</b>Cerere permisiune depasire</li>
 <li><b>10-4</b>Receptionat</li>
 <li><b>10-8</b>Patrula</li>
 <li><b>10-9</b>Repeta</li>
 <li><b>10-11</b>Focuri de arma</li>
+<li><b>10-16</b>Vehicul fara numar de inmatriculare</li>
 <li><b>10-20</b>Locatia curenta</li>
+<li><b>10-23</b>Ajuns la destinatie</li>
+<li><b>10-28</b>Numar de inmatriculare</li>
 <li><b>10-38</b>Oprire in trafic</li>
-<li><b>10-77</b>Echipaje in plus</li>
-<li><b>10-80</b>Urmarire</li>
+<li><b>10-50</b>Accident</li>
+<li><b>10-60</b>Livrare in progres</li>
+<li><b>10-76</b>In drum spre</li>
+<li><b>10-77</b>Necesit echipaje aditionale</li>
+<li><b>10-80</b>Urmarire in desfasurare</li>
 <li><b>10-95</b>Suspect in custodie</li>
 </ul>
 <h2 class="pol-h2" id="vehicule">Vehicule</h2>
