@@ -319,9 +319,9 @@ outline: false
 </div>
 <div class="vtr-ledger" aria-label="Exemplu de registru de taxe">
 <div class="lh"><span>Registru taxe</span><span>Teritoriu</span></div>
-<div class="row"><span class="who">Atelier auto din zona</span><span class="d">7 zile</span><span class="w">Grove Street / trecut de un membru</span></div>
-<div class="row"><span class="who">Barul de pe colt</span><span class="d">3 zile</span><span class="w">Vespucci / trecut de un membru</span></div>
-<div class="row"><span class="who">Vanzatorul ambulant</span><span class="d">1 zi</span><span class="w">Vinewood / trecut de sef</span></div>
+<div class="row"><span class="who">Andrei Popescu</span><span class="d">7 zile</span><span class="w">Grove Street / incasata de Mihai Stan (ID: 27)</span></div>
+<div class="row"><span class="who">Radu Ionescu</span><span class="d">3 zile</span><span class="w">Vespucci / incasata de Vlad Marin (ID: 112)</span></div>
+<div class="row"><span class="who">Cristi Dobre</span><span class="d">1 zi</span><span class="w">Vinewood / incasata de Alex Neagu (ID: 64)</span></div>
 <ul class="vtr-pills" aria-label="Perioade de plata">
 <li>1 zi</li><li>2 zile</li><li class="on">3 zile</li><li>5 zile</li><li>7 zile</li>
 </ul>
