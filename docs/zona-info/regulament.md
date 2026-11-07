@@ -820,6 +820,15 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 - Afacerea câștigată nu poate fi atribuită, transferată sau oferită unei alte persoane, în special în situația în care persoana care a participat la licitație deține deja maximum **două (2)** afaceri.
 - Afacerile dobândite în urma licitațiilor <span style="color: red;">NU</span> pot fi vândute sau transferate către alte persoane.
 - În cazul în care proprietarul dorește să renunțe la afacere, acesta este obligat să cedeze drepturile asupra afacerii către **Business Center**, fără a avea dreptul la restituirea sumei achitate pentru aceasta.
+- O persoană care deține deja **două (2)** afaceri <span style="color: red;">NU</span> are dreptul de a participa la licitații pentru dobândirea unei a treia afaceri.
+- În cazul în care aceasta participă totuși la licitație și este declarată câștigătoare, rezultatul licitației va fi considerat nul, iar licitația va fi reluată.
+- De asemenea, dacă o persoană care deține deja **două (2)** afaceri participă la licitație exclusiv cu scopul de a crește artificial prețul acesteia și de a determina ceilalți participanți să ofere sume mai mari, aceasta poate fi sancționată cu o amendă stabilită proporțional cu suma maximă licitată.
+- Amenda trebuie achitată în termen de **72 de ore** de la comunicarea sancțiunii. În cazul neachitării acesteia în termenul menționat, **Business Center** își rezervă dreptul de a institui sechestru asupra afacerilor deținute de persoana sancționată, până la achitarea integrală a amenzii.
+- Dacă amenda nu este achitată în termen de **7 zile calendaristice** de la instituirea sechestrului, **Business Center** își rezervă dreptul de a prelua afacerile respective.
+
+:::danger SANCTIUNE
+Amendă / Sechestru / Închiderea afacerii
+:::
 
 ### 9.3 STOC ȘI ADMINISTRARE
 - Proprietarul unei afaceri are obligația de a asigura un stoc constant și suficient pentru desfășurarea activității acesteia.
@@ -830,6 +839,17 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 
 :::danger SANCTIUNE
 Închiderea afacerii
+:::
+
+### 9.5 STOCURI ȘI SANCȚIUNI
+- Un reprezentant al **Business Center** va efectua verificări periodice asupra stocurilor afacerilor.
+- În cazul în care o afacere are minimum **3 produse** cu stocul afișat pe <span style="color: #FFD700;">**galben**</span>, se va aplica o sancțiune de **0.5 puncte warn**. Dacă situația persistă, se va aplica încă o sancțiune de **0.5 puncte warn** la fiecare **72 de ore**.
+- În cazul în care stocul unui produs ajunge la **0**, se va aplica instant o sancțiune de **1 punct warn**. Dacă situația persistă, se va aplica o nouă sancțiune de **1 punct warn** la fiecare **72 de ore**.
+- La acumularea a **3/3 puncte warn**, afacerea va fi confiscată de către **Business Center**.
+- Fiecare avertisment expiră automat după **30 de zile** de la data aplicării.
+
+:::danger SANCTIUNE
+0.5 / 1 punct warn / Închiderea afacerii
 :::
 
 # 10. Sentinel
