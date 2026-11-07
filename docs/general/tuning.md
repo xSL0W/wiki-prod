@@ -96,10 +96,10 @@ outline: false
 .tng .tng-facts span { color: var(--mute); font-size: 0.9rem; }
 /* section heads */
 .tng .tng-h2 {
-  display: flex; align-items: center; gap: 0.7rem; margin: 3rem 0 0.9rem; border: 0; padding: 0;
+  display: flex; align-items: flex-start; gap: 0.7rem; margin: 3rem 0 0.9rem; line-height: 32px; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 850; letter-spacing: -0.015em; color: #fff; font-style: italic;
 }
-.tng .tng-h2 span { flex: none; font: 800 0.8rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: #fff; background: var(--red); border-radius: 6px; padding: 0.15rem 0.45rem; transform: skewX(-10deg); }
+.tng .tng-h2 span { flex: none; font: 800 0.8rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: #fff; background: var(--red); border-radius: 6px; padding: 0.15rem 0.45rem; transform: skewX(-10deg); margin-top: 6px; }
 .tng .tng-sub { color: var(--mute); margin: -0.3rem 0 1rem; max-width: 66ch; }
 .tng .tng-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.15rem; }
 .tng .tng-card h3 { margin: 0 0 0.45rem; border: 0; padding: 0; font-size: 1.02rem; font-weight: 800; color: #fff; }
@@ -136,7 +136,7 @@ outline: false
 @keyframes tng-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 .tng .tng-turbo { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 0.6rem; margin-top: 0.9rem; }
 .tng .tng-turbo li { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 0.7rem 0.9rem; color: var(--mute); font-size: 0.88rem; }
-.tng .tng-turbo li b { display: flex; justify-content: space-between; gap: 0.5rem; color: #fff; font-size: 0.98rem; }
+.tng .tng-turbo li b { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; color: #fff; font-size: 0.98rem; }
 .tng .tng-turbo li b i { font: 800 0.9rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: var(--amber); }
 .tng .tng-note { margin-top: 0.8rem; color: var(--mute); font-size: 0.92rem; }
 /* two col */
@@ -149,7 +149,7 @@ outline: false
 .tng .tng-steps li { counter-increment: tng; position: relative; padding: 0.6rem 0.9rem 0.6rem 3rem; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; color: var(--mute); }
 .tng .tng-steps li::before { content: counter(tng); position: absolute; left: 0.75rem; top: 0.55rem; width: 1.6rem; height: 1.6rem; display: grid; place-items: center; font: 900 0.85rem ui-monospace, Menlo, Consolas, monospace; color: #fff; background: var(--red); border-radius: 6px; transform: skewX(-10deg); }
 .tng .tng-steps li b { color: #fff; }
-.tng .tng-sliders { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.6rem; }
+.tng .tng-sliders { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.6rem 0; }
 .tng .tng-sliders li { font: 600 0.8rem ui-monospace, Menlo, Consolas, monospace; color: var(--amber); border: 1px solid rgba(245, 158, 11, 0.4); border-radius: 999px; padding: 0.1rem 0.6rem; }
 .tng .tng-warn { border-left: 4px solid var(--amber); }
 .tng .tng-foot { margin-top: 2.5rem; padding: 1rem 1.2rem; border: 1px dashed var(--line); border-radius: 14px; color: var(--mute); }

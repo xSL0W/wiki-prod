@@ -90,11 +90,11 @@ outline: false
 @keyframes hs-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 /* ---------- sections ---------- */
 .hs .hs-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 0.9rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; color: #fff;
 }
-.hs .hs-h2::before {
+.hs .hs-h2::before { margin-top: calc(0.5lh - 0.7rem / 2);
   content: ''; flex: none; width: 0.85rem; height: 0.7rem; background: var(--red);
   clip-path: polygon(50% 0, 100% 45%, 100% 100%, 0 100%, 0 45%);
 }
@@ -139,6 +139,7 @@ outline: false
 @media (max-width: 560px) {
   .hs .hs-board li { grid-template-columns: 4.4rem minmax(0, 1fr); }
   .hs .hs-board .kg { grid-column: 2; text-align: left; }
+  .hs .hs-board .nr { align-self: start; }
   .hs .hs-board .kg b { display: inline; margin-right: 0.3rem; }
 }
 /* rooms grid */

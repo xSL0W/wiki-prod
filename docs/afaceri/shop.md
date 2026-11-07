@@ -15,7 +15,8 @@ outline: false
   --acc-soft: rgba(74, 222, 128, 0.12);
   --paper: #f4f1ea;
   --paper-ink: #27272a;
-  max-width: 960px;
+  width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   color: var(--text);
 }
@@ -60,7 +61,7 @@ outline: false
 .ash .ash-facts span { color: var(--mute); font-size: 0.92rem; }
 /* sections */
 .ash h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: baseline; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
@@ -102,8 +103,8 @@ outline: false
 .ash .ash-notes li::before { content: ''; position: absolute; left: 0.2rem; top: 0.62em; width: 0.5rem; height: 0.5rem; border-radius: 2px; background: var(--acc); }
 /* locations */
 .ash .ash-locs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 0.7rem; }
-.ash .ash-loc { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0.9rem 1rem; }
-.ash .ash-loc b { display: block; }
+.ash .ash-loc { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0.9rem 1rem; }
+.ash .ash-loc b { display: block; flex: 1; }
 .ash .ash-loc span { display: block; margin-top: 0.35rem; color: var(--mute); font-size: 0.9rem; }
 .ash .ash-loc code { color: var(--acc); }
 .ash .ash-foot { margin-top: 2.5rem; padding: 1rem 1.2rem; border: 1px dashed var(--line); border-radius: 14px; color: var(--mute); }

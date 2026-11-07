@@ -299,6 +299,10 @@ export default defineConfig({
     ],
   },
   lastUpdated: true,
+  // A page without an outline drops the aside column too, so its content centers instead of leaving an empty right column
+  transformPageData(pageData) {
+    if (pageData.frontmatter.outline === false) pageData.frontmatter.aside = false
+  },
 
   head: [
     [

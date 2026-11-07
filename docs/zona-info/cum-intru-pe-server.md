@@ -22,7 +22,7 @@ outline: false
 .cj p, .cj li { line-height: 1.6; color: var(--text); margin: 0; }
 .cj ul, .cj ol { list-style: none; padding: 0; margin: 0; }
 .cj b { color: #fff; font-weight: 650; }
-.cj code { white-space: normal; overflow-wrap: anywhere; }
+.cj code { white-space: nowrap; }
 .cj a { color: #ff6b6b; text-decoration: underline; text-underline-offset: 3px; }
 .cj a:hover { color: #fff; }
 .cj a:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; border-radius: 4px; }
@@ -45,21 +45,22 @@ outline: false
 .cj-hero h1 span { color: var(--red); }
 .cj .cj-lead { max-width: 56ch; color: var(--mute); font-size: 1.05rem; }
 .cj .cj-track {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(158px, 1fr)); gap: 0.6rem;
   margin-top: 1.6rem; counter-reset: cj-t;
 }
 .cj .cj-track li {
   margin: 0; counter-increment: cj-t;
-  display: flex; align-items: center; gap: 0.6rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
   background: var(--card); border: 1px solid var(--edge); border-radius: 12px;
-  padding: 0.6rem 0.8rem; font-size: 0.92rem; font-weight: 600; line-height: 1.25;
+  padding: 0.6rem 0.65rem; font-size: 0.88rem; font-weight: 600; line-height: 1.25;
 }
 .cj .cj-track li::before {
   content: counter(cj-t); flex: none; display: grid; place-items: center;
-  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  width: 1.5rem; height: 1.5rem; border-radius: 50%;
   background: var(--red-deep); color: #fff; font-weight: 800; font-size: 0.85rem;
 }
-.cj .cj-track a { color: inherit; text-decoration: none; }
+/* flex-basis 0: a label wider than the space left drops under the number instead of overflowing */
+.cj .cj-track a { flex: 1 1 0; color: inherit; text-decoration: none; }
 /* steps */
 .cj .cj-steps { margin-top: 2.5rem; display: grid; gap: 1.1rem; }
 .cj .cj-step {
@@ -73,7 +74,7 @@ outline: false
   background: var(--bg); border: 2px solid var(--red); color: #fff; font-weight: 800; font-size: 1.3rem;
 }
 .cj .cj-step h2 {
-  margin: 0.2rem 0 0.5rem; border: 0; padding: 0;
+  margin: 0 0 0.3rem; min-height: 3rem; /* centred on the 3rem .cj-num */ border: 0; padding: 0;
   font-size: 1.3rem; font-weight: 750; letter-spacing: -0.01em; color: #fff;
   display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
 }
@@ -113,6 +114,7 @@ outline: false
 .cj .cj-shot figcaption { margin-top: 0.5rem; font-size: 0.85rem; color: var(--mute); text-align: center; }
 @media (max-width: 560px) {
   .cj .cj-step { grid-template-columns: minmax(0, 1fr); }
+  .cj .cj-step h2 { margin: 0.2rem 0 0.5rem; min-height: 0; }
   .cj .cj-num { width: 2.4rem; height: 2.4rem; font-size: 1.05rem; border-radius: 11px; margin-bottom: 0.4rem; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -128,8 +130,8 @@ outline: false
 <ol class="cj-track">
 <li><a href="#pas-1">Instaleaza FiveM</a></li>
 <li><a href="#pas-2">Treci pe Beta</a></li>
-<li><a href="#pas-3">Sterge cache-ul</a></li>
-<li><a href="#pas-4">Conecteaza-te</a></li>
+<li><a href="#pas-3">Sterge cache&#8209;ul</a></li>
+<li><a href="#pas-4">Conecteaza&#8209;te</a></li>
 <li><a href="#pas-5">Citeste regulile</a></li>
 </ol>
 </section>

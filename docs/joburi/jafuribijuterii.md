@@ -74,16 +74,17 @@ outline: false
   border-radius: 6px 14px 14px 6px;
   padding: 0.8rem 1rem 0.8rem 2.3rem;
 }
-.vjc .vjc-tag::before {
+/* dot sits on the value's first line, whatever the label wraps to */
+.vjc .vjc-tag strong::before {
   content: '';
-  position: absolute; left: 0.85rem; top: 50%;
+  position: absolute; left: -1.45rem; top: 0.8em; top: 0.5lh;
   width: 10px; height: 10px; margin-top: -5px;
   border-radius: 50%;
   border: 2px solid var(--gold);
   background: var(--velvet);
 }
 .vjc .vjc-tag span { display: block; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); }
-.vjc .vjc-tag strong { display: block; font-size: 1.15rem; color: #fff; }
+.vjc .vjc-tag strong { position: relative; display: block; font-size: 1.15rem; color: #fff; }
 
 /* sections */
 .vjc h2 {

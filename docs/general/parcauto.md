@@ -80,12 +80,12 @@ outline: false
 }
 /* ---------- sections ---------- */
 .ta h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
 .ta h2::before {
-  content: ''; flex: none; width: 14px; height: 18px;
+  content: ''; flex: none; width: 14px; height: 18px; margin-top: calc(0.5lh - 9px);
   background: var(--tag); clip-path: polygon(50% 0, 100% 28%, 100% 100%, 0 100%, 0 28%);
 }
 .ta h3 { margin: 0; border: 0; padding: 0; color: #fff; }
@@ -153,7 +153,7 @@ outline: false
 .ta .ta-pills li { font-size: 0.82rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.12rem 0.6rem; color: var(--text); }
 .ta .ta-keys { display: grid; gap: 0.55rem; }
 .ta .ta-keys li { display: flex; gap: 0.8rem; align-items: flex-start; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 0.75rem 0.9rem; }
-.ta .ta-keys kbd { flex: none; min-width: 2.4rem; text-align: center; font-size: 0.95rem; padding: 0.25rem 0.45rem; }
+.ta .ta-keys > li > kbd { flex: none; min-width: 2.4rem; text-align: center; font-size: 0.95rem; padding: 0.25rem 0.45rem; }
 .ta .ta-keys p { font-size: 0.92rem; color: var(--mute); }
 .ta .ta-keys p b { display: block; color: #fff; }
 @media (max-width: 720px) { .ta .ta-panel { grid-template-columns: minmax(0, 1fr); } }

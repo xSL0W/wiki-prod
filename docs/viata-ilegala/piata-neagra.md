@@ -75,6 +75,7 @@ outline: false
 .vpn .vpn-board .s { display: block; font-family: Inter, system-ui, sans-serif; font-weight: 500; font-size: 0.78rem; color: var(--dim); }
 .vpn .vpn-board li.free .t span { color: var(--green); }
 .vpn .vpn-board li.full .t span { color: var(--brass); }
+.vpn .vpn-board .t .n { display: block; }
 .vpn .vpn-board li.empty { opacity: 0.7; }
 .vpn .vpn-board-cap { margin-top: 0.45rem; font-size: 0.78rem; color: var(--dim); }
 @media (prefers-reduced-motion: reduce) { .vpn .vpn-kicker::before { animation: none; } }
@@ -146,7 +147,9 @@ outline: false
 .vpn .vpn-claim .q { font: 700 0.8rem/1 ui-monospace, Menlo, Consolas, monospace; color: var(--brass); }
 /* the rest of the underworld */
 .vpn .vpn-more { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 0.75rem; }
-.vpn .vpn-more li { display: flex; }
+/* two-level subgrid: tag, title, text and link share row heights across a row of cards, so a 2-line title doesn't push its text lower */
+.vpn .vpn-more li { display: grid; grid-row: span 4; grid-template-rows: subgrid; row-gap: 0; }
+.vpn .vpn-more li > a, .vpn .vpn-more li > div { grid-row: 1 / -1; display: grid; grid-template-rows: subgrid; row-gap: 0.35rem; align-content: start; }
 .vpn .vpn-more a, .vpn .vpn-more div {
   display: flex; flex-direction: column; gap: 0.35rem; width: 100%; padding: 1rem 1.1rem; border-radius: 16px; text-decoration: none; color: var(--text);
   background: linear-gradient(180deg, var(--panel2), var(--panel)); border: 1px solid var(--line); box-shadow: inset 0 1px 0 rgba(239, 68, 68, 0.16);
@@ -181,7 +184,7 @@ outline: false
 <div>
 <ul class="vpn-board" aria-label="Asa arata eticheta de deasupra unei tarabe in joc">
 <li class="free"><span class="k">E</span><span class="t">Stand #4 - <span>Liber</span><span class="s">Inchiriezi din meniul tarabei</span></span></li>
-<li class="full"><span class="k">E</span><span class="t">Stand #7 - Inchiriat - <span>Iteme: 6</span><span class="s">Deschizi lista si cumperi</span></span></li>
+<li class="full"><span class="k">E</span><span class="t">Stand #7 - Inchiriat<span class="n">Iteme: 6</span><span class="s">Deschizi lista si cumperi</span></span></li>
 <li class="empty"><span class="k">E</span><span class="t">Stand #12 - Inchiriat<span class="s">Niciun item listat inca</span></span></li>
 </ul>
 <p class="vpn-board-cap">Eticheta de deasupra fiecarei tarabe</p>

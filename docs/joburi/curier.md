@@ -63,6 +63,8 @@ outline: false
   text-transform: uppercase;
 }
 .cr-label-body { padding: 1rem 1.1rem 1.1rem; }
+/* narrow: header text drops below the tape and gets room between its two halves */
+@media (max-width: 520px) { .cr-label-top { flex-wrap: wrap; padding-top: 1.3rem; letter-spacing: 0.06em; } }
 .cr-hero h1 {
   margin: 0 0 0.5rem;
   border: 0;
@@ -219,6 +221,8 @@ outline: false
 .cr-care p { color: var(--cr-mute); font-size: 0.95rem; }
 
 .cr a:focus-visible { outline: 3px solid var(--cr-tape); outline-offset: 2px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.cr .cr-track > li + li { margin-top: 8px; }
 </style>
 
 <div class="cr">

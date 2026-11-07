@@ -272,8 +272,8 @@ outline: false
 <rect class="z c-violet d3" x="492.9" y="325" width="38.4" height="60" rx="3"/>
 <rect class="z c-violet d3" x="514.2" y="273.8" width="24" height="24" rx="3"/>
 <rect class="z c-gold" x="534.9" y="326.1" width="44.4" height="60" rx="3"/>
-<text class="lbl" x="512" y="402" text-anchor="middle">Cayo Crafting</text>
-<text class="pts" x="512" y="414" text-anchor="middle">500 p</text>
+<text class="lbl" x="486" y="352" text-anchor="end">Cayo Crafting</text>
+<text class="pts" x="486" y="364" text-anchor="end">500 p</text>
 <text class="lbl" x="560" y="308" text-anchor="middle">Cayo Plantatii</text>
 <text class="pts" x="560" y="320" text-anchor="middle">500 p</text>
 <text class="ttl" x="372" y="462">CAYO PERICO</text>
@@ -352,8 +352,8 @@ outline: false
 <svg viewBox="0 0 300 150" role="img" aria-label="Doua familii impotriva suzeranului hartii">
 <g fill="none" stroke-width="2.5"><path d="M60 40 l22 8 v18 c0 14 -10 24 -22 28 c-12 -4 -22 -14 -22 -28 v-18 z" stroke="#ef4444" fill="#1a0808"/><path d="M60 92 l22 8 v14 c0 10 -10 18 -22 21 c-12 -3 -22 -11 -22 -21 v-14 z" stroke="#71717a" fill="#151518"/><path d="M240 54 l32 11 v24 c0 20 -14 34 -32 40 c-18 -6 -32 -20 -32 -40 v-24 z" stroke="#d6a54a" fill="#141005"/></g>
 <text class="big" x="150" y="96">2 vs 1</text>
-<text class="side" x="60" y="20">RIVAL + ALIAT</text>
-<text class="side" x="240" y="34">SUZERAN</text>
+<text class="side" x="60" y="28">RIVAL + ALIAT</text>
+<text class="side" x="240" y="28">SUZERAN</text>
 </svg>
 </div>
 <div class="vtr-card">

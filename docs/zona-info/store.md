@@ -27,7 +27,7 @@ outline: false
 .egs ul, .egs ol { list-style: none; padding: 0; margin: 0; }
 .egs li + li { margin-top: 0; }
 .egs b { color: #fff; font-weight: 650; }
-.egs code { white-space: normal; overflow-wrap: anywhere; }
+.egs code { white-space: nowrap; }
 .egs a { color: #fff; text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: 3px; }
 .egs a:hover { color: #ffb4b4; }
 .egs a:focus-visible { outline: 3px solid var(--red); outline-offset: 3px; border-radius: 6px; }
@@ -39,7 +39,7 @@ outline: false
 .egs-hero {
   --cs: 150px;
   position: relative;
-  display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "head art" "body body";
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "head art" "body art";
   align-items: center; gap: 0.4rem 1.5rem;
   background:
     radial-gradient(40% 62% at 82% 44%, rgba(226, 176, 72, 0.17), rgba(226, 176, 72, 0) 72%),
@@ -269,7 +269,7 @@ outline: false
   border-top: 1px solid var(--line); font-size: 0.95rem;
 }
 .egs .egs-perks li span:first-child { color: var(--mute); }
-.egs .egs-perks li span:last-child { color: #fff; font-weight: 650; text-align: right; }
+.egs .egs-perks li span:last-child { color: #fff; font-weight: 650; text-align: right; white-space: nowrap; }
 .egs .egs-cars-h { margin-top: 1rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tier); }
 .egs .egs-cars { margin-top: 0.4rem; }
 .egs .egs-cars li { font-size: 0.95rem; padding: 0.15rem 0; }
@@ -277,7 +277,7 @@ outline: false
 .egs .egs-cars small { color: var(--mute); }
 .egs .egs-common { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .egs .egs-common li {
-  background: var(--panel2); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.85rem; font-size: 0.9rem;
+  background: var(--panel2); border: 1px solid var(--line); border-radius: 1.1rem; padding: 0.3rem 0.85rem; font-size: 0.9rem; /* pill on one line, rounded box when it wraps */
 }
 /* screenshot */
 .egs .egs-shot { margin: 1.25rem 0 0; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 0.5rem; }

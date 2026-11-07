@@ -99,7 +99,7 @@ outline: false
 .gym .gym-pass li { position: relative; overflow: hidden; border-radius: 16px; padding: 1rem 1.1rem; background: var(--panel2); border: 1px solid var(--line); }
 .gym .gym-pass li::after { content: ''; position: absolute; right: -24px; bottom: -24px; width: 80px; height: 80px; border-radius: 50%; border: 10px solid rgba(255, 255, 255, 0.04); }
 .gym .gym-pass b { display: block; font-size: 1.1rem; }
-.gym .gym-pass span { display: block; color: var(--mute); font-size: 0.9rem; }
+.gym .gym-pass span { display: block; color: var(--mute); font-size: 0.9rem; padding-right: 2.5rem; }
 .gym .gym-pass .vip { border-color: rgba(239, 68, 68, 0.45); background: linear-gradient(150deg, rgba(185, 28, 28, 0.25), var(--panel2) 60%); }
 @media (max-width: 600px) { .gym .gym-pass { grid-template-columns: minmax(0, 1fr); } }
 /* exercises */

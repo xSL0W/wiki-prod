@@ -95,10 +95,10 @@ outline: false
 @keyframes alg-spark { 0%, 12% { opacity: 0; transform: translate(0, 0); } 16% { opacity: 1; } 42%, 100% { opacity: 0; transform: translate(-70px, -26px); } }
 /* section heads */
 .alg .alg-h2 {
-  display: flex; align-items: center; gap: 0.7rem; margin: 3rem 0 0.9rem; border: 0; padding: 0;
+  display: flex; align-items: flex-start; gap: 0.7rem; margin: 3rem 0 0.9rem; line-height: 32px; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 850; letter-spacing: -0.015em; color: #fff; font-style: italic;
 }
-.alg .alg-h2 span { flex: none; font: 800 0.8rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: #fff; background: var(--red); border-radius: 6px; padding: 0.15rem 0.45rem; transform: skewX(-10deg); }
+.alg .alg-h2 span { flex: none; font: 800 0.8rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: #fff; background: var(--red); border-radius: 6px; padding: 0.15rem 0.45rem; transform: skewX(-10deg); margin-top: 6px; }
 .alg .alg-sub { color: var(--mute); margin: -0.3rem 0 1rem; max-width: 66ch; }
 .alg .alg-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.15rem; }
 .alg .alg-card h3 { margin: 0 0 0.45rem; border: 0; padding: 0; font-size: 1.02rem; font-weight: 800; color: #fff; }
@@ -113,9 +113,9 @@ outline: false
 }
 .alg .alg-needs li b { display: block; color: #fff; font-size: 1rem; }
 /* install timeline */
-.alg .alg-line { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
-.alg .alg-line li { padding: 1rem 1.1rem; background: var(--panel); color: var(--mute); font-size: 0.94rem; border-right: 1px solid var(--line); }
-.alg .alg-line li:last-child { border-right: 0; }
+.alg .alg-line { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--panel); }
+/* dividers as outer shadows: the outermost ones fall on the list border, so any column count works */
+.alg .alg-line li { padding: 1rem 1.1rem; color: var(--mute); font-size: 0.94rem; box-shadow: 1px 0 0 var(--line), 0 1px 0 var(--line); }
 .alg .alg-line li i { display: block; font: 900 1.6rem/1 ui-monospace, Menlo, Consolas, monospace; font-style: italic; color: var(--fire); margin-bottom: 0.4rem; }
 .alg .alg-line li b { display: block; color: #fff; }
 .alg .alg-bar { position: relative; height: 10px; margin-top: 0.7rem; border-radius: 3px; background: var(--panel2); overflow: hidden; }
@@ -166,7 +166,7 @@ outline: false
   .alg .alg-tele li .fx { grid-column: 1 / -1; }
   .alg .alg-tele li.head span:last-child { display: none; }
   .alg .alg-launch { grid-template-columns: 1fr; }
-  .alg .alg-tree { grid-auto-flow: column; justify-content: start; }
+  .alg .alg-tree { grid-auto-flow: column; justify-content: start; justify-self: start; }
 }
 @media (prefers-reduced-motion: reduce) {
   .alg-art .flame, .alg-art .ring, .alg-art .spark, .alg .alg-bar::after, .alg .alg-tree i { animation: none; }

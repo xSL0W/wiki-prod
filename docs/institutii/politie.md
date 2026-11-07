@@ -92,11 +92,11 @@ outline: false
 }
 /* ---------- sections ---------- */
 .pol .pol-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 0.9rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; color: #fff;
 }
-.pol .pol-h2::before {
+.pol .pol-h2::before { margin-top: calc(0.5lh - 0.55rem / 2);
   content: ''; flex: none; width: 0.85rem; height: 0.55rem; border-radius: 3px;
   background: linear-gradient(90deg, var(--red) 50%, var(--blue) 50%);
 }
@@ -138,8 +138,8 @@ outline: false
 .pol .pol-ladder .d { color: var(--mute); font-size: 0.92rem; line-height: 1.45; }
 .pol .pol-ladder li.boss .n { color: var(--gold); background: rgba(245, 197, 66, 0.14); }
 .pol .pol-ladder .tag {
-  display: inline-block; margin-left: 0.4rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
-  color: var(--gold); border: 1px solid rgba(245, 197, 66, 0.4); border-radius: 999px; padding: 0 0.45rem; vertical-align: 2px;
+  display: block; width: fit-content; margin-top: 0.3rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--gold); border: 1px solid rgba(245, 197, 66, 0.4); border-radius: 999px; padding: 0 0.45rem;
 }
 @media (max-width: 560px) {
   .pol .pol-ladder li { grid-template-columns: 2.4rem minmax(0, 1fr); }

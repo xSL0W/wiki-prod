@@ -64,11 +64,11 @@ outline: false
 .afz .afz-facts span { color: var(--mute); font-size: 0.92rem; }
 /* sections */
 .afz h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.afz h2::before {
+.afz h2::before { margin-top: calc(0.5lh - 1.3rem / 2);
   content: ''; flex: none; width: 0.6rem; height: 1.3rem; border-radius: 3px;
   background: repeating-linear-gradient(-45deg, var(--red) 0 4px, #f4f4f5 4px 8px, var(--acc) 8px 12px, #f4f4f5 12px 16px);
 }

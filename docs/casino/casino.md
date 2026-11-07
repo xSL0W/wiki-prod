@@ -143,11 +143,11 @@ outline: deep
 }
 /* ---------- sections ---------- */
 .csn .csn-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 0.9rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; color: #fff;
 }
-.csn .csn-h2::before {
+.csn .csn-h2::before { margin-top: calc(0.5lh - 0.9rem / 2);
   content: ''; flex: none; width: 0.9rem; height: 0.9rem; border-radius: 50%;
   background: var(--red-deep); border: 3px dashed #fff; box-shadow: 0 0 0 3px var(--red-soft);
 }
@@ -167,8 +167,10 @@ outline: deep
   display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.3rem; margin-top: 0.5rem;
   font-size: 0.9rem; font-weight: 650; color: #fff;
 }
-.csn .csn-path span { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 0.1rem 0.5rem; }
-.csn .csn-path i { font-style: normal; color: var(--red); }
+.csn .csn-path span { position: relative; background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 0.1rem 0.5rem; }
+/* the arrow belongs to the next chip, so a wrapped line never starts or ends on a lone arrow */
+.csn .csn-path > span + span { margin-left: 1.2rem; }
+.csn .csn-path > span + span::before { content: '\2192'; position: absolute; left: -1.05rem; color: var(--red); }
 /* money flow */
 .csn .csn-flow { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--panel); }
 .csn .csn-flow li {
@@ -206,6 +208,12 @@ outline: deep
 .csn .csn-game-head .csn-where-pill {
   font-size: 0.78rem; font-weight: 650; color: var(--mute); background: var(--panel2);
   border: 1px solid var(--line); border-radius: 999px; padding: 0.15rem 0.65rem;
+}
+@media (max-width: 560px) {
+  /* phone: the pill always goes under the title, next to the icon */
+  .csn .csn-game-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.3rem 0.85rem; }
+  .csn .csn-game-head svg { grid-row: span 2; align-self: center; }
+  .csn .csn-game-head .csn-where-pill { justify-self: start; }
 }
 .csn .csn-game > p:not(.csn-mini) { color: var(--mute); font-size: 0.97rem; max-width: 70ch; }
 .csn .csn-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.9rem 1.4rem; margin-top: 0.9rem; }
@@ -330,13 +338,13 @@ outline: deep
 <p class="csn-tag">Locatie</p>
 <h3 class="csn-h3">Diamond Casino, East Vinewood</h3>
 <p>Cauta pe harta iconita <b>Casino</b> si mergi la intrarea principala. Intri pe jos, pe usa din fata, nu ai nevoie de bilet sau de invitatie.</p>
-<p class="csn-path"><span>Telefon</span><i>&rarr;</i><span>Harti</span></p>
+<p class="csn-path"><span>Telefon</span><span>Harti</span></p>
 </div>
 <div class="csn-card">
 <p class="csn-tag">Fara masina</p>
 <h3 class="csn-h3">Vii cu Ryde</h3>
 <p>In aplicatia Ryde, <b>Diamond Casino</b> apare direct in lista de destinatii rapide.</p>
-<p class="csn-path"><span>Telefon</span><i>&rarr;</i><span>Ryde</span><i>&rarr;</i><span>Diamond Casino</span></p>
+<p class="csn-path"><span>Telefon</span><span>Ryde</span><span>Diamond Casino</span></p>
 </div>
 <div class="csn-card">
 <p class="csn-tag">Zona sigura</p>

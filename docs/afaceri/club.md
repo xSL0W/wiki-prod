@@ -68,11 +68,11 @@ outline: false
 .acl .acl-facts span { color: var(--mute); font-size: 0.92rem; }
 /* sections */
 .acl h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.acl h2::before {
+.acl h2::before { margin-top: calc(0.5lh - 1rem / 2);
   content: ''; flex: none; width: 1rem; height: 1rem;
   background: linear-gradient(var(--acc), var(--acc)) 0 100% / 24% 55% no-repeat,
               linear-gradient(var(--acc2), var(--acc2)) 50% 100% / 24% 100% no-repeat,

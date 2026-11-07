@@ -156,6 +156,8 @@ outline: false
 .pf-tips li::before { content: ''; width: 9px; height: 9px; margin-top: 0.55rem; border-radius: 50%; background: var(--coral); }
 .pf a { color: var(--sonar); }
 .pf a:focus-visible { outline: 3px solid var(--sonar); outline-offset: 2px; border-radius: 4px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.pf .pf-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="pf">

@@ -278,12 +278,12 @@ outline: false
 }
 .tf .tf-apps li:hover { transform: translateY(-3px); }
 .tf .tf-apps .tf-ico { width: 54px; height: 54px; padding: 13px; }
-.tf .tf-apps b { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; font-size: 1rem; line-height: 1.3; letter-spacing: -0.01em; }
+.tf .tf-apps b { display: flex; flex-direction: column; align-items: flex-start; gap: 0.25rem; font-size: 1rem; line-height: 1.3; letter-spacing: -0.01em; }
 .tf .tf-apps p { margin-top: 0.2rem; font-size: 0.86rem; line-height: 1.45; color: var(--mute); }
 .tf .tf-tag {
   font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
   color: #93c5fd; background: rgba(59, 130, 246, 0.14); border: 1px solid rgba(59, 130, 246, 0.3);
-  border-radius: 999px; padding: 0.05rem 0.45rem;
+  border-radius: 999px; padding: 0.05rem 0.45rem; white-space: nowrap;
 }
 /* ---------- lists in cards ---------- */
 .tf .tf-list li { position: relative; padding-left: 1.15rem; color: #d4d4d8; font-size: 0.95rem; }
@@ -291,11 +291,11 @@ outline: false
 .tf .tf-list li::before { content: ''; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; border-radius: 50%; background: var(--red); }
 .tf .tf-keys { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 0.6rem; }
 .tf .tf-keys li {
-  display: flex; align-items: center; gap: 0.8rem; padding: 0.75rem 0.9rem; border-radius: 16px;
+  display: grid; grid-template-columns: 5.2rem minmax(0, 1fr); align-items: center; gap: 0.8rem; padding: 0.75rem 0.9rem; border-radius: 16px;
   border: 1px solid var(--line); background: linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.01)), #0a0a0d;
   font-size: 0.92rem; color: #d4d4d8;
 }
-.tf .tf-keys kbd { flex: none; min-width: 2.2rem; text-align: center; }
+.tf .tf-keys kbd { justify-self: start; min-width: 2.2rem; text-align: center; }
 /* accessories */
 .tf .tf-acc { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 1rem; align-items: start; }
 .tf .tf-acc .tf-ico { width: 64px; height: 64px; padding: 15px; }

@@ -114,6 +114,8 @@ outline: false
 .gz-tips b { color: #fff; }
 
 .gz a:focus-visible { outline: 3px solid var(--vest); outline-offset: 2px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.gz .gz-steps > li + li, .gz .gz-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="gz">

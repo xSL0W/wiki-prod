@@ -124,6 +124,8 @@ outline: false
 }
 .el a { color: var(--arc); }
 .el a:focus-visible { outline: 3px solid var(--volt); outline-offset: 2px; border-radius: 4px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.el .el-trace > li + li { margin-top: 8px; }
 </style>
 
 <div class="el">
@@ -143,8 +145,8 @@ outline: false
 <path class="part" d="M546 156 l28 28 M574 156 l-28 28" fill="none"/>
 <circle class="node" cx="60" cy="60" r="6"/>
 <circle class="node" cx="560" cy="60" r="6"/>
-<text class="lbl" x="92" y="176">Sef</text>
-<text class="sub" x="92" y="196">tura</text>
+<text class="lbl" x="92" y="168">Sef</text>
+<text class="sub" x="92" y="186">tura</text>
 <text class="lbl" x="214" y="112">Duba</text>
 <text class="sub" x="214" y="132">scara</text>
 <text class="lbl" x="386" y="112">Stalp</text>

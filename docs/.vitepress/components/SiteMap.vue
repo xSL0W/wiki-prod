@@ -55,10 +55,8 @@ const items = sidebar.map(section => ({
 }
 
 #sitemap .container {
-  max-width: 900px;
-  margin: auto;
   columns: 1;
-  padding: 24px 32px;
+  padding: 24px 0;
 }
 
 @media (min-width: 768px) {
@@ -76,7 +74,7 @@ const items = sidebar.map(section => ({
 #sitemap h4 {
   font-weight: 500;
   color: var(--vt-c-text-1);
-  margin-bottom: 0.25em;
+  margin: 0 0 0.25em;
 }
 
 .sitemap-col {

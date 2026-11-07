@@ -53,7 +53,7 @@ import SiteMap from './.vitepress/components/SiteMap.vue'
 .hm .hm-btn.primary { background: var(--red-deep); border-color: var(--red-deep); }
 .hm .hm-btn.primary:hover { background: var(--red); }
 .hm .hm-join {
-  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; max-width: 100%; margin-top: 1.2rem; padding: 0.45rem 0.8rem; border-radius: 999px;
+  display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; max-width: 100%; margin-top: 1.2rem; padding: 0.45rem 0.8rem; border-radius: 1.35rem; /* full pill on one line (42px), rounded box when it wraps */
   background: var(--panel); border: 1px dashed var(--line); color: var(--mute); font-size: 0.9rem;
 }
 .hm .hm-join code { color: #fff; background: none; padding: 0; font-size: 0.9rem; overflow-wrap: anywhere; }
@@ -83,12 +83,13 @@ import SiteMap from './.vitepress/components/SiteMap.vue'
 .hm .hm-card p { margin-top: 0.25rem; color: var(--mute); font-size: 0.93rem; }
 .hm .hm-card .hm-go { position: absolute; top: 1.1rem; right: 1.1rem; color: var(--mute); transition: color 0.2s, transform 0.2s; }
 .hm .hm-card:hover .hm-go { color: var(--red); transform: translateX(3px); }
-.hm .hm-step { position: absolute; top: 1rem; right: 2.6rem; font: 700 0.7rem/1 ui-monospace, Menlo, monospace; color: var(--red); background: var(--red-soft); padding: 0.25rem 0.45rem; border-radius: 6px; }
+/* centred on the 26px .hm-go arrow: badge is 1.2rem tall */
+.hm .hm-step { position: absolute; top: calc(1.1rem + 13px - 0.6rem); right: calc(1.1rem + 30px); font: 700 0.7rem/1 ui-monospace, Menlo, monospace; color: var(--red); background: var(--red-soft); padding: 0.25rem 0.45rem; border-radius: 6px; }
 
 /* explore */
 .hm .hm-explore { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.7rem; margin-top: 1.3rem; }
 .hm .hm-tile {
-  display: flex; flex-direction: column; justify-content: flex-end; min-height: 120px; padding: 1rem;
+  display: flex; flex-direction: column; justify-content: flex-start; min-height: 120px; padding: 1rem;
   border-radius: 16px; border: 1px solid var(--line); transition: border-color 0.2s, transform 0.2s;
   background: linear-gradient(160deg, var(--tint, rgba(204, 43, 43, 0.18)), var(--panel) 60%);
 }

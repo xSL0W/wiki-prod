@@ -13,7 +13,8 @@ outline: false
   --red: #ef4444;
   --red-deep: #b91c1c;
   --red-soft: rgba(239, 68, 68, 0.14);
-  max-width: 1100px;
+  width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
   color: var(--text);
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -118,11 +119,11 @@ outline: false
 }
 .skc .skc-card:hover { transform: translateY(-3px); border-color: var(--c); }
 .skc .skc-img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; margin: 0; }
-.skc .skc-name { font-size: 0.9rem; font-weight: 700; color: #fff; line-height: 1.25; }
+.skc .skc-name { font-size: 0.9rem; font-weight: 700; color: #fff; line-height: 1.25; min-height: 2.5em; }
 .skc .skc-badge {
-  align-self: flex-start; font-size: 0.66rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
-  color: var(--c); border: 1px solid var(--c); border-radius: 999px; padding: 0.05rem 0.5rem;
-  letter-spacing: 0.04em; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis;
+  align-self: flex-start; font-size: 0.62rem; font-weight: 800; text-transform: uppercase;
+  color: var(--c); border: 1px solid var(--c); border-radius: 0.75em; padding: 0.05rem 0.3rem;
+  letter-spacing: 0; max-width: 100%;
 }
 .skc .skc-how { font-size: 0.74rem; color: var(--mute); line-height: 1.3; }
 .skc .skc-none { margin-top: 0.9rem; font-size: 0.85rem; color: var(--mute); }

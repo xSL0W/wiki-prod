@@ -115,6 +115,11 @@ outline: false
 .pg .pg-help .pg-do { margin-top: 0.6rem; }
 @media (max-width: 560px) {
   .pg .pg-num { width: 2.2rem; height: 2.2rem; font-size: 0.95rem; border-radius: 10px; }
+  /* title beside the number, lead below both at full width */
+  .pg .pg-head { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 0.6rem 0.75rem; }
+  .pg .pg-head > div:not(.pg-num) { display: contents; }
+  .pg .pg-fix h3 { margin: 0; }
+  .pg .pg-why { grid-column: 1 / -1; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .pg .pg-go a { transition: border-color 0.2s, color 0.2s; }

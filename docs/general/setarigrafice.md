@@ -108,7 +108,7 @@ outline: false
 /* gta settings */
 .sgp .sgp-tier { margin-top: 1.4rem; }
 .sgp .sgp-tier h3 {
-  display: flex; align-items: center; gap: 0.6rem; margin: 0 0 0.6rem; border: 0; padding: 0;
+  display: flex; align-items: flex-start; gap: 0.6rem; margin: 0 0 0.6rem; border: 0; padding: 0;
   font-size: 1.1rem; font-weight: 750; color: #fff;
 }
 .sgp .sgp-tier h3 em {
@@ -144,7 +144,7 @@ outline: false
 .sgp .sgp-help .sgp-do { margin-top: 0.6rem; }
 @media (max-width: 560px) {
   .sgp .sgp-cmd { grid-template-columns: 1fr; }
-  .sgp .sgp-row { grid-template-columns: 1fr 1fr; }
+  .sgp .sgp-row { grid-template-columns: 1fr; }
   .sgp .sgp-row .sgp-name { grid-column: 1 / -1; }
   .sgp .sgp-row.head { display: none; }
   .sgp .sgp-val small { display: inline; }

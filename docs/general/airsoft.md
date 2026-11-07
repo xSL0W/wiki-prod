@@ -131,7 +131,7 @@ outline: false
 .as .as-lobby { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 0.9rem; }
 .as .as-card { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 1.15rem 1.25rem; }
 .as .as-card h3 { font-size: 1.1rem; margin-bottom: 0.15rem; }
-.as .as-card .as-tag { display: block; font: 700 0.72rem/1.3 ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mute); margin-bottom: 0.65rem; }
+.as .as-card .as-tag { display: block; font: 700 0.72rem/1.3 ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mute); margin-bottom: 0.65rem; min-height: 2.6em; }
 .as .as-card .as-list li { position: relative; padding: 0.3rem 0 0.3rem 1.1rem; color: var(--text); font-size: 0.94rem; line-height: 1.45; }
 .as .as-card .as-list li + li { border-top: 1px solid var(--line); }
 .as .as-card .as-list li::before { content: ''; position: absolute; left: 0; top: 0.78rem; width: 6px; height: 6px; background: var(--hud); }
@@ -186,7 +186,8 @@ outline: false
 .as .as-keys li { display: flex; gap: 0.8rem; align-items: flex-start; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0.85rem 1rem; }
 .as .as-keys kbd { flex: none; min-width: 2.1rem; text-align: center; font-size: 1rem; padding: 0.3rem 0.5rem; }
 .as .as-keys p { font-size: 0.93rem; color: var(--mute); }
-.as .as-keys p b { display: block; color: #fff; }
+.as .as-keys p b { color: #fff; }
+.as .as-keys p b:first-child { display: block; }
 /* reward */
 .as .as-reward {
   border: 1px solid #3a2a12; border-radius: 18px; padding: 1.2rem 1.3rem;

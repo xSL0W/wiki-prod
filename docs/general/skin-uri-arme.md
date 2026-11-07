@@ -126,6 +126,11 @@ outline: false
 .skw .skw-scale { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; margin-top: 0.5rem; font-size: 0.88rem; }
 .skw .skw-scale span { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 0.2rem 0.6rem; }
 .skw .skw-scale em { font-style: normal; color: var(--red); font-weight: 800; }
+@media (min-width: 561px) { .skw .skw-recipe .part { flex: 1 1 auto; } }
+@media (max-width: 560px) {
+  .skw .skw-recipe, .skw .skw-scale { flex-direction: column; align-items: stretch; }
+  .skw .skw-recipe .op, .skw .skw-scale em { align-self: center; line-height: 1; }
+}
 /* tiers */
 .skw .skw-tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 0.6rem; }
 .skw .skw-tier { position: relative; background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 14px; padding: 0.75rem 0.9rem; }

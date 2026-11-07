@@ -130,11 +130,11 @@ outline: false
 }
 /* ---------- sections ---------- */
 .ebc .ebc-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 0.9rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; color: #fff;
 }
-.ebc .ebc-h2::before {
+.ebc .ebc-h2::before { margin-top: calc(0.5lh - 0.6rem / 2);
   content: ''; flex: none; width: 0.6rem; height: 0.6rem; border-radius: 2px; background: var(--red);
   transform: rotate(45deg); box-shadow: 0 0 0 4px var(--red-soft);
 }
@@ -198,8 +198,8 @@ outline: false
 .ebc .ebc-matrix .y { background: rgba(74, 222, 128, 0.15); color: var(--green); }
 .ebc .ebc-matrix .x { color: #52525b; }
 @media (max-width: 480px) {
-  .ebc .ebc-matrix li { grid-template-columns: minmax(0, 1fr) repeat(3, 2.7rem); padding: 0.55rem 0.6rem; font-size: 0.88rem; }
-  .ebc .ebc-matrix li:first-child { font-size: 0.62rem; letter-spacing: 0.02em; }
+  .ebc .ebc-matrix li { grid-template-columns: minmax(0, 1fr) repeat(3, 3.2rem); padding: 0.55rem 0.6rem; font-size: 0.88rem; }
+  .ebc .ebc-matrix li:first-child { font-size: 0.62rem; letter-spacing: 0; }
 }
 /* tablet mock */
 .ebc .ebc-tablet-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; align-items: start; }

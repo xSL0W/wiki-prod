@@ -13,7 +13,8 @@ outline: false
   --red: #cc2b2b;
   --red-deep: #b91c1c;
   --red-soft: rgba(204, 43, 43, 0.14);
-  max-width: 920px;
+  width: 920px;
+  max-width: 100%;
   margin: 0 auto;
   color: var(--text);
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;

@@ -135,7 +135,7 @@ outline: false
   text-align: center;
   margin-bottom: 1rem;
 }
-.xcar .xcar-specs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 0.6rem 1.4rem; }
+.xcar .xcar-specs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: 0.6rem 1.4rem; }
 .xcar .xcar-specs li {
   margin: 0;
   display: grid;
@@ -202,17 +202,24 @@ outline: false
   padding: 0 0 1.35rem 3.3rem;
 }
 .xcar .xcar-route li:last-child { padding-bottom: 0; }
-.xcar .xcar-route li::before {
-  content: counter(xcar-step);
+/* ::before draws the rotated diamond, ::after holds the upright step number on top of it */
+.xcar .xcar-route li::before, .xcar .xcar-route li::after {
   position: absolute;
   left: 0;
   top: 0;
   width: 37px;
   height: 37px;
+}
+.xcar .xcar-route li::after {
+  content: counter(xcar-step);
   display: grid;
   place-items: center;
+  font-size: 0.9rem;
   font-weight: 800;
   color: var(--pit);
+}
+.xcar .xcar-route li::before {
+  content: '';
   background: var(--hazard);
   border: 3px solid var(--pit);
   outline: 2px solid var(--hazard);

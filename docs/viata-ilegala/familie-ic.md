@@ -60,11 +60,11 @@ outline: deep
 @media (max-width: 640px) { .vif .vif-head { grid-template-columns: minmax(0, 1fr); } .vif .vif-rank { min-width: 0; } }
 /* ---------- sections ---------- */
 .vif .vif-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 2.8rem 0 0.6rem; padding: 0; border: 0;
   font-size: 1.45rem; line-height: 1.25; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.vif .vif-h2::before { content: ''; flex: none; width: 4px; height: 1.2em; border-radius: 2px; background: var(--red); }
+.vif .vif-h2::before { margin-top: calc(0.5lh - 1.2em / 2); content: ''; flex: none; width: 4px; height: 1.2em; border-radius: 2px; background: var(--red); }
 .vif .vif-h3 { margin: 0 0 0.35rem; padding: 0; border: 0; font-size: 1.05rem; line-height: 1.3; font-weight: 700; color: #fff; }
 .vif .vif-sub { color: var(--mute); max-width: 66ch; margin-bottom: 1rem; }
 .vif .vif-card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 1.1rem 1.2rem; }

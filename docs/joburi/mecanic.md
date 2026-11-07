@@ -149,13 +149,15 @@ outline: false
   padding: 0.45rem 0;
   border-bottom: 1px dashed #1f2d26;
 }
+/* .mc ol resets padding/margin with higher specificity: restore the screen's padding and its gap under the lead */
+.mc .mc-boot { padding: 1rem 1.1rem; margin-top: 1rem; }
 .mc-boot li:last-child { border-bottom: 0; }
 .mc-boot li > span { color: var(--mc-ok); font-weight: 700; }
 .mc-boot li.wait > span { color: var(--mc-amber); }
 .mc-boot p { color: var(--mc-text); font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 0.98rem; }
 
 /* tools as tablet tiles */
-.mc-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.9rem; }
+.mc-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-auto-flow: dense; gap: 0.9rem; }
 .mc-tile {
   background: var(--mc-shell);
   border: 1px solid var(--mc-line);
@@ -219,6 +221,8 @@ outline: false
 @media (max-width: 420px) { .mc-codes li { grid-template-columns: 1fr; gap: 0.4rem; } .mc-sev { justify-self: start; padding: 0.35rem 0.6rem; } }
 
 .mc a:focus-visible { outline: 3px solid var(--mc-ok); outline-offset: 2px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.mc .mc-boot > li + li, .mc .mc-codes > li + li { margin-top: 8px; }
 </style>
 
 <div class="mc">

@@ -12,7 +12,8 @@ outline: false
   --mute: #a1a1aa;
   --red: #dc2626;
   --acc: #60a5fa;
-  max-width: 960px;
+  width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   color: var(--text);
 }

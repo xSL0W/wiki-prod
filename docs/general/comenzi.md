@@ -85,10 +85,11 @@ outline: false
   background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
 }
 .cmd .cmd-list li {
-  display: grid; grid-template-columns: minmax(7.5rem, auto) minmax(0, 1fr); gap: 0.4rem 0.85rem; align-items: baseline;
+  display: grid; grid-template-columns: 10rem minmax(0, 1fr); gap: 0.4rem 0.85rem; align-items: baseline;
   padding: 0.62rem 0.9rem; box-shadow: 0 1px 0 var(--line), 1px 0 0 var(--line);
 }
-.cmd .cmd-list .c { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.cmd .cmd-list .c { display: flex; flex-wrap: wrap; gap: 0.25rem; min-width: 0; }
+.cmd .cmd-list .c code { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
 .cmd .cmd-list .d { color: var(--mute); font-size: 0.92rem; }
 @media (max-width: 420px) { .cmd .cmd-list li { grid-template-columns: minmax(0, 1fr); } }
 /* clothing chips */
@@ -211,7 +212,7 @@ outline: false
 <li><span class="c"><kbd>↓</kbd></span><span class="d">Avariile.</span></li>
 <li><span class="c"><kbd>Alt</kbd> tinut</span><span class="d">Impingi o masina stricata (<kbd>A</kbd> <kbd>D</kbd> o vireaza).</span></li>
 <li><span class="c"><code>/locatevehicles</code></span><span class="d">Vezi vehiculele tale scoase din garaj si pui un punct pe harta spre ele.</span></li>
-<li><span class="c"><code>/towdestroyedvehicles</code></span><span class="d">Tractezi in garaj vehiculele tale distruse, contra cost.</span></li>
+<li><span class="c"><code>/towdestroyed<wbr>vehicles</code></span><span class="d">Tractezi in garaj vehiculele tale distruse, contra cost.</span></li>
 <li><span class="c"><code>/ancora</code></span><span class="d">Arunci sau ridici ancora barcii (doar soferul).</span></li>
 </ul>
 <h2 class="cmd-h2" id="cmd-voce">Voce si statie</h2>

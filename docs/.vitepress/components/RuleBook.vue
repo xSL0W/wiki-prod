@@ -119,17 +119,23 @@ onMounted(() => {
 }
 .rule-book .rb-rule.rb-sub { margin-left: clamp(0px, 3vw, 28px); background: #0e0e10; border-style: dashed; }
 .rule-book .rb-rule > h2, .rule-book .rb-rule > h3, .rule-book .rb-rule > h4 {
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px;
+  display: flex; align-items: baseline; gap: 6px 10px;
   margin: 0 0 10px; font-size: 1.08rem; font-weight: 750; letter-spacing: 0; text-transform: none; color: #fff;
   scroll-margin-top: 220px;
 }
-.rule-book .rb-num { font-family: var(--vp-font-family-mono); font-size: 0.85em; color: var(--eg-red-hi); }
-.rule-book .rb-name { letter-spacing: 0.01em; }
+/* number, name and code badge stay on one row: only the name wraps, so every title starts at the same x */
+.rule-book .rb-num { flex: none; font-family: var(--vp-font-family-mono); font-size: 0.85em; color: var(--eg-red-hi); }
+.rule-book .rb-name { flex: 1; min-width: 0; letter-spacing: 0.01em; }
+/* text-only cards (chapter intros): no extra gap above the first line */
+.rule-book .rb-rule > :first-child { margin-top: 0; }
 .rule-book .rb-code {
+  flex: none; align-self: center; line-height: 1.2;
   margin-left: auto; padding: 2px 8px; border-radius: 6px; font-family: var(--vp-font-family-mono); font-size: 0.72em;
   background: rgba(220, 38, 38, 0.14); color: #fca5a5; border: 1px solid rgba(220, 38, 38, 0.35);
 }
-.rule-book .rb-rule ul, .rule-book .rb-rule ol { padding-left: 1.3rem; }
+.rule-book .rb-rule ul { padding-left: 1.3rem; }
+/* room for two-digit markers (10. - 32.) inside the card */
+.rule-book .rb-rule ol { padding-left: 2rem; }
 .rule-book .rb-rule li { margin: 6px 0; color: var(--vp-c-text-2); }
 .rule-book .rb-rule li::marker { color: var(--eg-red); }
 .rule-book .rb-rule p { color: var(--vp-c-text-2); }
@@ -137,19 +143,23 @@ onMounted(() => {
 /* INTERZIS words already colored red in the markdown */
 .rule-book .vp-doc span[style*='color: red'], .rule-book .vp-doc span[style*='color:red'] {
   color: #fecaca !important; background: rgba(220, 38, 38, 0.2); padding: 0 6px; border-radius: 5px; font-weight: 700; font-size: 0.92em;
+  white-space: nowrap;
 }
 
-/* Sanctions and examples inside a card */
-.rule-book .rb-rule .custom-block { margin: 14px -8px 12px; }
+/* Sanctions and examples inside a card: examples line up with the card text, the sanction strip runs a bit wider */
+.rule-book .rb-rule .custom-block { margin: 14px 0 12px; }
+.rule-book .rb-rule .rb-sanction { margin: 14px -8px 12px; }
+/* label in its own column, pills beside it: wrapped pills never push the label onto a row of its own */
 .rule-book .rb-sanction {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: 8px 10px;
   padding: 10px 12px !important; border: 0 !important; border-top: 1px dashed rgba(220, 38, 38, 0.35) !important;
   border-radius: 0 0 10px 10px; background: transparent !important;
 }
-.rule-book .rb-sanction .custom-block-title { margin: 0; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--eg-red-hi); }
+.rule-book .rb-sanction > :not(.custom-block-title) { grid-column: 2; }
+.rule-book .rb-sanction .custom-block-title { margin: 0; padding-top: 5px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--eg-red-hi); }
 .rule-book .rb-sanction p { margin: 0 !important; color: #fecaca; }
 .rule-book .rb-pills { display: flex; flex-wrap: wrap; gap: 6px; }
-.rule-book .rb-pills span { padding: 3px 10px; border-radius: 999px; background: rgba(220, 38, 38, 0.14); border: 1px solid rgba(220, 38, 38, 0.35); color: #fecaca; font-size: 12.5px; font-weight: 600; }
+.rule-book .rb-pills span { padding: 3px 10px; border-radius: 12px; background: rgba(220, 38, 38, 0.14); border: 1px solid rgba(220, 38, 38, 0.35); color: #fecaca; font-size: 12.5px; font-weight: 600; }
 .rule-book .rb-example { background: #141417 !important; border-left-color: #52525b !important; }
 .rule-book .rb-example .custom-block-title { color: var(--vp-c-text-3); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
 </style>

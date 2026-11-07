@@ -53,11 +53,11 @@ outline: false
 .att .att-facts span { color: var(--mute); font-size: 0.92rem; }
 /* sections */
 .att h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.att h2::before { content: ''; flex: none; width: 1.4rem; height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--acc), var(--red)); }
+.att h2::before { margin-top: calc(0.5lh - 3px / 2); content: ''; flex: none; width: 1.4rem; height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--acc), var(--red)); }
 .att .att-sub { color: var(--mute); margin: -0.4rem 0 1rem; max-width: 64ch; }
 /* body zones */
 .att .att-zones { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); gap: 0.6rem; }

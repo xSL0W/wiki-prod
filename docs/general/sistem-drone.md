@@ -133,6 +133,7 @@ outline: false
   display: inline-block; margin-top: 0.6rem; font-size: 0.86rem; font-weight: 650; color: var(--cyan);
   background: var(--cyan-soft); border: 1px solid rgba(103, 232, 249, 0.25); border-radius: 999px; padding: 0.2rem 0.7rem;
 }
+@media (max-width: 480px) { .drn .drn-path { border-radius: 10px; } }
 /* models */
 .drn .drn-model { display: flex; flex-direction: column; gap: 0.75rem; }
 .drn .drn-model.nv { background: linear-gradient(160deg, rgba(74, 222, 128, 0.08), var(--panel) 55%); }
@@ -143,6 +144,7 @@ outline: false
 }
 .drn .drn-model.nv .drn-tag { color: var(--green); border-color: rgba(74, 222, 128, 0.35); }
 .drn .drn-model.fpv .drn-tag { color: var(--red); border-color: rgba(239, 68, 68, 0.4); }
+.drn .drn-spec { margin-top: auto; }
 .drn .drn-spec li {
   display: flex; justify-content: space-between; gap: 1rem; padding: 0.42rem 0; border-top: 1px dashed var(--line);
   font-size: 0.92rem; color: var(--mute);
@@ -174,6 +176,7 @@ outline: false
 }
 .drn .drn-keys .k { display: flex; gap: 0.25rem; flex: none; min-width: 4.6rem; }
 .drn .drn-keys span:last-child { color: var(--mute); font-size: 0.93rem; line-height: 1.35; }
+.drn .drn-keys .nw { white-space: nowrap; }
 .drn .drn-note { margin-top: 0.85rem; color: var(--mute); font-size: 0.93rem; }
 /* hud readouts */
 .drn .drn-hud { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.55rem; }
@@ -306,7 +309,7 @@ outline: false
 <ul class="drn-keys">
 <li><span class="k"><kbd>W</kbd><kbd>S</kbd></span><span>Inainte / inapoi</span></li>
 <li><span class="k"><kbd>A</kbd><kbd>D</kbd></span><span>Stanga / dreapta</span></li>
-<li><span class="k"><kbd>Q</kbd><kbd>E</kbd></span><span>Rotesti drona (merg si <kbd>←</kbd> <kbd>→</kbd>)</span></li>
+<li><span class="k"><kbd>Q</kbd><kbd>E</kbd></span><span>Rotesti drona <span class="nw">(merg si <kbd>←</kbd> <kbd>→</kbd>)</span></span></li>
 <li><span class="k"><kbd>Shift</kbd></span><span>Urci</span></li>
 <li><span class="k"><kbd>Ctrl</kbd></span><span>Cobori</span></li>
 <li><span class="k"><kbd>↑</kbd><kbd>↓</kbd></span><span>Inclini camera in sus / in jos</span></li>

@@ -13,7 +13,8 @@ outline: false
   --red: #dc2626;
   --acc: #fb923c;
   --acc-soft: rgba(251, 146, 60, 0.13);
-  max-width: 960px;
+  width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   color: var(--text);
 }
@@ -60,11 +61,11 @@ outline: false
 .asv .asv-facts span { color: var(--mute); font-size: 0.92rem; }
 /* sections */
 .asv h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.asv h2::before {
+.asv h2::before { margin-top: calc(0.5lh - 1rem / 2);
   content: ''; flex: none; width: 1rem; height: 1rem; border-radius: 50%;
   background: radial-gradient(circle, var(--ink) 0 32%, transparent 33%), conic-gradient(var(--acc) 0 12.5%, transparent 0 25%, var(--acc) 0 37.5%, transparent 0 50%, var(--acc) 0 62.5%, transparent 0 75%, var(--acc) 0 87.5%, transparent 0);
   box-shadow: 0 0 0 2px var(--acc) inset;

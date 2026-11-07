@@ -173,6 +173,8 @@ outline: false
 }
 
 .cpr a:focus-visible { outline: 3px solid var(--leaf); outline-offset: 2px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.cpr .cpr-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="cpr">

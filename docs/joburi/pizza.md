@@ -49,7 +49,7 @@ outline: false
   letter-spacing: -0.03em;
   color: #fff;
 }
-.pz-hrs { color: var(--pz-cheese); }
+.pz-hrs { color: var(--pz-cheese); white-space: nowrap; }
 .pz-hero p { color: var(--pz-mute); font-size: 1.05rem; max-width: 46ch; }
 .pz .pz-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .pz-chips li {

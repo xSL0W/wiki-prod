@@ -175,6 +175,8 @@ outline: false
 .abz-tips li:last-child { margin-bottom: 0; }
 
 .abz a:focus-visible { outline: 3px solid var(--led); outline-offset: 2px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.abz .abz-line > li + li, .abz .abz-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="abz">

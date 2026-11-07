@@ -38,7 +38,7 @@ outline: deep
 }
 .vim .vim-kicker {
   margin-bottom: 0.55rem; font: 700 0.74rem/1.2 ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
-  letter-spacing: 0.18em; text-transform: uppercase; color: var(--red);
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--red); text-wrap: balance;
 }
 .vim .vim-head h1 {
   margin: 0 0 0.6rem; padding: 0; border: 0; color: #fff;
@@ -54,11 +54,11 @@ outline: deep
 .vim .vim-jump a:hover { border-color: #7f1d1d; color: #fff; }
 /* ---------- sections ---------- */
 .vim .vim-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 2.8rem 0 0.6rem; padding: 0; border: 0;
   font-size: 1.45rem; line-height: 1.25; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.vim .vim-h2::before { content: ''; flex: none; width: 4px; height: 1.2em; border-radius: 2px; background: var(--red); }
+.vim .vim-h2::before { margin-top: calc(0.5lh - 1.2em / 2); content: ''; flex: none; width: 4px; height: 1.2em; border-radius: 2px; background: var(--red); }
 .vim .vim-h3 { margin: 0 0 0.35rem; padding: 0; border: 0; font-size: 1.05rem; line-height: 1.3; font-weight: 700; color: #fff; }
 .vim .vim-sub { color: var(--mute); max-width: 66ch; margin-bottom: 1rem; }
 .vim .vim-card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 1.1rem 1.2rem; }
@@ -134,8 +134,9 @@ outline: deep
 }
 .vim .vim-op-top strong { font: 800 0.8rem/1.2 ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.16em; text-transform: uppercase; color: #fca5a5; }
 .vim .vim-op-top span { font-size: 0.85rem; color: var(--mute); }
-.vim .vim-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); border-bottom: 1px solid var(--line); }
-.vim .vim-facts li { padding: 0.8rem 1rem; box-shadow: inset -1px 0 0 var(--line), inset 0 -1px 0 var(--line); }
+/* flex, not grid: the last row stretches, so no empty bordered cell is left */
+.vim .vim-facts { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+.vim .vim-facts li { flex: 1 1 150px; min-width: 0; padding: 0.8rem 1rem; box-shadow: inset -1px 0 0 var(--line), inset 0 -1px 0 var(--line); }
 .vim .vim-facts b { display: block; font-size: 1.15rem; font-variant-numeric: tabular-nums; }
 .vim .vim-facts span { color: var(--mute); font-size: 0.85rem; line-height: 1.4; display: block; }
 .vim .vim-phases { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; padding: 1rem 1.2rem 1.2rem; }

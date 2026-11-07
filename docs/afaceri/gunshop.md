@@ -54,11 +54,11 @@ outline: false
 .ags .ags-facts span { color: var(--mute); font-size: 0.92rem; }
 /* sections */
 .ags h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 1rem; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 750; letter-spacing: -0.015em; color: #fff;
 }
-.ags h2::before {
+.ags h2::before { margin-top: calc(0.5lh - 1rem / 2);
   content: ''; flex: none; width: 1rem; height: 1rem; border-radius: 50%;
   border: 2px solid var(--acc); box-shadow: inset 0 0 0 3px var(--ink), inset 0 0 0 6px var(--red);
 }

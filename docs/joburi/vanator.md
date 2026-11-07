@@ -136,6 +136,8 @@ outline: false
 /* tips */
 .vn-tips li { padding: 0.85rem 0; border-top: 1px dashed var(--line); }
 .vn-tips li:last-child { border-bottom: 1px dashed var(--line); }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.vn .vn-trail > li + li, .vn .vn-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="vn">

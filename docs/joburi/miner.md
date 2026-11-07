@@ -187,6 +187,8 @@ outline: false
 .mnr-tips li:last-child { border-bottom: 1px dashed var(--edge); }
 
 .mnr a:focus-visible { outline: 3px solid var(--lamp); outline-offset: 2px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.mnr .mnr-rail > li + li, .mnr .mnr-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="mnr">

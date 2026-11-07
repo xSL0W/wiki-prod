@@ -75,6 +75,10 @@ outline: false
   85%, 100% { transform: rotate(250deg); }
 }
 .bvd .bvd-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.6rem; margin-top: 1.2rem; }
+/* desktop: the vault spans both rows so the facts sit right under the lead (one column: vault stays between them) */
+.bvd .bvd-hero > div { align-self: end; }
+.bvd .bvd-hero > .bvd-door { grid-row: span 2; }
+.bvd .bvd-hero > .bvd-facts { align-self: start; margin-top: 0; }
 .bvd .bvd-fact {
   margin: 0;
   background: var(--plate);

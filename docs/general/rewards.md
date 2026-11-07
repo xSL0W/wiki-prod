@@ -14,7 +14,8 @@ outline: false
   --red-deep: #b91c1c;
   --red-soft: rgba(239, 68, 68, 0.14);
   --gold: #f5b931;
-  max-width: 960px;
+  width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   color: var(--text);
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -150,6 +151,7 @@ outline: false
 @media (max-width: 520px) {
   .rwd .rwd-time { flex-basis: 100%; }
   .rwd .rwd-step span { font-size: 0.68rem; }
+  .rwd .rwd-see a { flex: 1 1 100%; }
 }
 </style>
 

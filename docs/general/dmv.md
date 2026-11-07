@@ -181,7 +181,7 @@ outline: false
 <text class="flag" x="14" y="200">START</text>
 <circle class="sign" cx="90" cy="60" r="20"/><text class="sign-t" x="90" y="65">100</text><text class="zone" x="90" y="100">ORAS</text>
 <circle class="sign" cx="240" cy="60" r="20"/><text class="sign-t" x="240" y="65">100</text><text class="zone" x="240" y="100">NATIONAL</text>
-<circle class="sign" cx="380" cy="170" r="20"/><text class="sign-t" x="380" y="175">200</text><text class="zone" x="380" y="128">AUTOSTRADA</text>
+<circle class="sign" cx="380" cy="170" r="20"/><text class="sign-t" x="380" y="175">200</text><text class="zone" x="380" y="206">AUTOSTRADA</text>
 <circle class="sign" cx="540" cy="160" r="20"/><text class="sign-t" x="540" y="165">150</text><text class="zone" x="540" y="196">ORAS</text>
 <text class="flag" x="560" y="36">ADMIS</text>
 </svg>

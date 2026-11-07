@@ -84,11 +84,11 @@ outline: false
 }
 /* ---------- sections ---------- */
 .smr .smr-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 0.9rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; color: #fff;
 }
-.smr .smr-h2::before {
+.smr .smr-h2::before { margin-top: calc(0.5lh - 0.8rem / 2);
   content: ''; flex: none; width: 0.8rem; height: 0.8rem;
   background: linear-gradient(var(--red), var(--red)) center / 100% 34% no-repeat, linear-gradient(var(--red), var(--red)) center / 34% 100% no-repeat;
 }
@@ -152,7 +152,8 @@ outline: false
 .smr .smr-time p { color: var(--mute); font-size: 0.94rem; }
 /* gear */
 .smr .smr-gear { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 0.6rem; }
-.smr .smr-gear li { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0.8rem 0.95rem; }
+/* subgrid: titles of one row share a height, so their descriptions line up */
+.smr .smr-gear li { display: grid; grid-row: span 2; grid-template-rows: subgrid; row-gap: 0; align-content: start; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 0.8rem 0.95rem; }
 .smr .smr-gear b { display: block; font-size: 0.97rem; }
 .smr .smr-gear span { display: block; color: var(--mute); font-size: 0.88rem; line-height: 1.45; margin-top: 0.2rem; }
 /* keys */

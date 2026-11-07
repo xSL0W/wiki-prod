@@ -82,10 +82,10 @@ outline: false
 .ofr .ofr-facts span { color: var(--mute); font-size: 0.9rem; }
 /* section heads */
 .ofr .ofr-h2 {
-  display: flex; align-items: center; gap: 0.7rem; margin: 3rem 0 0.9rem; border: 0; padding: 0;
+  display: flex; align-items: flex-start; gap: 0.7rem; margin: 3rem 0 0.9rem; line-height: 32px; border: 0; padding: 0;
   font-size: 1.45rem; font-weight: 850; letter-spacing: -0.015em; color: #fff; font-style: italic;
 }
-.ofr .ofr-h2 span { flex: none; font: 800 0.8rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: #fff; background: var(--red); border-radius: 6px; padding: 0.15rem 0.45rem; transform: skewX(-10deg); }
+.ofr .ofr-h2 span { flex: none; font: 800 0.8rem ui-monospace, Menlo, Consolas, monospace; font-style: normal; color: #fff; background: var(--red); border-radius: 6px; padding: 0.15rem 0.45rem; transform: skewX(-10deg); margin-top: 6px; }
 .ofr .ofr-sub { color: var(--mute); margin: -0.3rem 0 1rem; max-width: 66ch; }
 .ofr .ofr-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.15rem; }
 .ofr .ofr-card h3 { margin: 0 0 0.45rem; border: 0; padding: 0; font-size: 1.02rem; font-weight: 800; color: #fff; }
@@ -120,7 +120,9 @@ outline: false
 /* tyres path */
 .ofr .ofr-path { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin: 0.2rem 0 0.9rem; }
 .ofr .ofr-path li { font-weight: 700; font-size: 0.9rem; background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 0.2rem 0.65rem; }
-.ofr .ofr-path li.sep { background: none; border: 0; padding: 0; color: var(--mute); }
+/* the arrow belongs to the next chip, so a wrapped line never ends on a dangling arrow */
+.ofr .ofr-path > li + li { position: relative; margin-left: 1.2rem; }
+.ofr .ofr-path > li + li::before { content: '\2192'; position: absolute; left: -1.25rem; color: var(--mute); }
 .ofr .ofr-path li.end { border-color: var(--amber); color: var(--amber); }
 .ofr .ofr-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 0.7rem; }
 .ofr .ofr-list li { position: relative; padding: 0.45rem 0 0.45rem 1.2rem; color: var(--mute); }
@@ -129,7 +131,8 @@ outline: false
 .ofr .ofr-list li.minus::before { background: var(--red); }
 .ofr .ofr-list li b { color: #fff; }
 /* weather table */
-.ofr .ofr-table { width: 100%; border-collapse: collapse; display: table; margin: 0; font-size: 0.93rem; }
+.ofr .ofr-table { width: 100%; border-collapse: collapse; display: table; table-layout: fixed; margin: 0; font-size: 0.93rem; }
+.ofr .ofr-table th:first-child { width: 50%; }
 .ofr .ofr-wrap { border: 1px solid var(--line); border-radius: 14px; overflow-x: auto; }
 .ofr .ofr-table th, .ofr .ofr-table td { border: 0; border-bottom: 1px solid var(--line); padding: 0.6rem 0.8rem; text-align: left; background: var(--panel); }
 .ofr .ofr-table tr:last-child td { border-bottom: 0; }
@@ -208,7 +211,7 @@ outline: false
 </ul>
 <h2 class="ofr-h2"><span>03</span>Anvelope offroad</h2>
 <p class="ofr-sub">Nu e un item separat. Montezi orice janta din categoria Offroad, la un atelier de <a href="/general/tuning">Tuning</a>:</p>
-<ol class="ofr-path"><li>Aspect Exterior</li><li class="sep">→</li><li>Jante</li><li class="sep">→</li><li>Model jante</li><li class="sep">→</li><li class="end">Offroad</li></ol>
+<ol class="ofr-path"><li>Aspect Exterior</li><li>Jante</li><li>Model jante</li><li class="end">Offroad</li></ol>
 <div class="ofr-two">
 <div class="ofr-card">
 <h3>Ce primesti</h3>

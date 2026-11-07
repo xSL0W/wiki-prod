@@ -97,7 +97,7 @@ outline: false
 
 /* sections */
 .tr h2 {
-  display: flex; align-items: baseline; gap: 0.7rem;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.7rem;
   margin: 3rem 0 1rem;
   font-size: 1.5rem; font-weight: 780; letter-spacing: -0.015em; color: #fff;
 }
@@ -138,6 +138,8 @@ outline: false
   font-family: var(--mono); font-weight: 700; font-size: 1.05rem; color: var(--diesel);
   border: 1px solid var(--line); border-radius: 8px; text-align: center; padding: 0.35rem 0; height: fit-content;
 }
+/* first text line centred on the number box (box = 1.05rem x 1.6 line + 0.7rem padding + 2px border) */
+.tr-log li > p { padding-top: calc((2.38rem + 2px - 1.6em) / 2); }
 
 /* parking grades */
 .tr-park { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
@@ -161,6 +163,8 @@ outline: false
   background: linear-gradient(160deg, var(--diesel-soft), var(--cab) 55%);
   border: 1px solid var(--line); border-left: 4px solid var(--diesel); border-radius: 12px; padding: 0.9rem 1.1rem;
 }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.tr .tr-log > li + li { margin-top: 8px; }
 </style>
 
 <div class="tr">

@@ -154,6 +154,8 @@ outline: false
 }
 .tx a { color: var(--yellow); }
 .tx a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; border-radius: 4px; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.tx .tx-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="tx">

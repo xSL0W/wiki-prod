@@ -58,6 +58,7 @@ outline: false
   letter-spacing: -0.02em;
   color: #fff;
 }
+.mt-tail { white-space: nowrap; }
 .mt-hours {
   display: inline-block; font-size: 0.6em; vertical-align: 0.25em; color: var(--tunnel); background: var(--edge);
   border-radius: 8px; padding: 0.1em 0.45em; font-weight: 800;
@@ -109,6 +110,8 @@ outline: false
   content: counter(st); display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border-radius: 50%;
   background: var(--tile); border: 2px solid var(--signal); color: #fff; font-weight: 800;
 }
+/* first text line centred on the number circle; longer steps keep reading down from there */
+.mt-run li > p { padding-top: calc((2.6rem - 1.6em) / 2); }
 
 /* driver console */
 .mt-console {
@@ -116,6 +119,7 @@ outline: false
   background: var(--wall); border: 1px solid var(--line); border-radius: 16px; padding: 1rem;
 }
 .mt-console li { background: var(--tunnel); border: 1px solid var(--line); border-radius: 10px; padding: 0.8rem 0.9rem; }
+.mt .mt-console { padding: 1rem; }
 .mt-console .keys { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.35rem; }
 .mt-console p { color: var(--mute); font-size: 0.93rem; }
 
@@ -139,13 +143,15 @@ outline: false
 
 /* tips */
 .mt-tips li { padding: 0.8rem 0 0.8rem 1rem; border-left: 3px solid var(--edge); margin-bottom: 0.6rem; background: linear-gradient(90deg, rgba(255, 210, 63, 0.07), transparent 70%); border-radius: 0 10px 10px 0; }
+/* block list: keeps the 8px row spacing the theme no longer adds to classed lists */
+.mt .mt-q > li + li, .mt .mt-tips > li + li { margin-top: 8px; }
 </style>
 
 <div class="mt">
 
 <section class="mt-hero">
 <div class="mt-tag"><span class="mt-m">M</span>Linia de metrou Los Santos</div>
-<h1>Mecanic metrou - <span class="mt-hours">400h</span></h1>
+<h1>Mecanic metrou <span class="mt-tail">- <span class="mt-hours">400h</span></span></h1>
 <p>Conduci metroul orasului pe toata linia, opresti in fiecare statie si deschizi usile pentru pasageri. Cu cat opresti mai precis, cu atat tura iese mai bine.</p>
 <svg class="mt-map" viewBox="0 0 680 230" role="img" aria-label="Schema liniei de metrou: zece statii pe dus si zece pe intors, cu startul in statia Burton">
 <path class="track" d="M90 70 H590 A50 50 0 0 1 590 170 H90 A50 50 0 0 1 90 70 Z"/>

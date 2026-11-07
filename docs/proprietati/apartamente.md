@@ -57,6 +57,10 @@ outline: false
 .ap .ap-stats li { background: rgba(24, 24, 27, 0.9); border: 1px solid var(--line); border-radius: 14px; padding: 0.65rem 0.8rem; }
 .ap .ap-stats b { display: block; font-size: clamp(1.3rem, 4vw, 1.7rem); line-height: 1.1; font-weight: 800; font-variant-numeric: tabular-nums; }
 .ap .ap-stats span { display: block; margin-top: 0.2rem; color: var(--mute); font-size: 0.8rem; line-height: 1.35; }
+@media (max-width: 480px) {
+  .ap .ap-stats li { padding: 0.6rem 0.65rem; }
+  .ap .ap-stats span { font-size: 0.74rem; }
+}
 .ap .ap-tower { display: block; width: 100%; max-width: 420px; height: auto; margin: 0 auto; }
 .ap .ap-tower { padding: 0 1rem; }
 .ap-tower .star { fill: #fff; opacity: 0.3; animation: ap-twinkle 5s ease-in-out infinite; }
@@ -96,11 +100,11 @@ outline: false
 @keyframes ap-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 /* ---------- sections ---------- */
 .ap .ap-h2 {
-  display: flex; align-items: center; gap: 0.65rem;
+  display: flex; align-items: flex-start; gap: 0.65rem;
   margin: 3rem 0 0.9rem; border: 0; padding: 0;
   font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; color: #fff;
 }
-.ap .ap-h2::before {
+.ap .ap-h2::before { margin-top: calc(0.5lh - 0.95rem / 2);
   content: ''; flex: none; width: 0.55rem; height: 0.95rem; border-radius: 2px; background: var(--red);
   box-shadow: 0.75rem 0 0 -0.1rem var(--red-soft);
 }
@@ -119,7 +123,7 @@ outline: false
 }
 .ap .ap-tag.r { color: var(--red); }
 /* building directory: floors as rows */
-.ap .ap-bld { padding: 0; overflow: hidden; }
+.ap .ap-bld { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
 .ap .ap-bld-head { padding: 1rem 1.2rem 0.8rem; border-bottom: 1px solid var(--line); background: var(--panel2); }
 .ap .ap-bld-head p { font-size: 0.9rem; }
 .ap .ap-floors li {
@@ -130,7 +134,7 @@ outline: false
 .ap .ap-floors .t { font-weight: 700; color: #fff; }
 .ap .ap-floors .n { font: 800 0.9rem/1 ui-monospace, Menlo, Consolas, monospace; color: var(--glass); white-space: nowrap; }
 .ap .ap-floors .d { grid-column: 1 / -1; color: var(--mute); font-size: 0.88rem; line-height: 1.4; }
-.ap .ap-bld-foot { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.8rem 1.2rem 1rem; border-top: 1px solid var(--line); }
+.ap .ap-bld-foot { margin-top: auto; display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.8rem 1.2rem 1rem; border-top: 1px solid var(--line); }
 .ap .ap-chip {
   font-size: 0.8rem; font-weight: 650; color: var(--text); border: 1px solid var(--line); border-radius: 999px;
   padding: 0.2rem 0.65rem; background: rgba(9, 9, 11, 0.6);

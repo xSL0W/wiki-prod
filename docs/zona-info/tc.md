@@ -65,7 +65,7 @@ outline: false
   padding: clamp(1.1rem, 3vw, 1.5rem) clamp(1.1rem, 3vw, 1.6rem); scroll-margin-top: 80px;
 }
 .egt .egt-clause:target { border-color: rgba(204, 43, 43, 0.7); background: var(--panel2); }
-.egt .egt-clause.strong { border-left: 3px solid var(--red); }
+.egt .egt-clause.strong { border-left: 3px solid var(--red); padding-left: calc(clamp(1.1rem, 3vw, 1.6rem) - 2px); /* text in line with the 1px-border clauses */ }
 .egt h2 {
   display: flex; align-items: center; gap: 0.75rem;
   margin: 0 0 0.8rem; border: 0; padding: 0;

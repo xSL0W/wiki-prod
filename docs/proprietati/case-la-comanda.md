@@ -3,7 +3,7 @@ outline: false
 ---
 
 <style>
-.clc { max-width: 720px; margin: 2rem auto; }
+.clc { width: 720px; max-width: 100%; margin: 2rem auto; }
 .clc .clc-card {
   padding: clamp(1.5rem, 5vw, 2.5rem); border-radius: 20px; border: 1px solid #27272a;
   background: radial-gradient(120% 120% at 100% 0%, rgba(220, 38, 38, 0.18), transparent 60%), #111113;

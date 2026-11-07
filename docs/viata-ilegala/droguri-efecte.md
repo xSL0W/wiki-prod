@@ -156,7 +156,9 @@ outline: false
 /* deliveries */
 .vdr .vdr-route { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.2rem 0 1rem; }
 .vdr .vdr-route span { display: inline-flex; align-items: center; padding: 0.35rem 0.7rem; border-radius: 10px; background: var(--panel2); border: 1px solid var(--line2); font-weight: 650; font-size: 0.9rem; color: #fff; }
-.vdr .vdr-route i { color: var(--dim); font-style: normal; }
+.vdr .vdr-route > span + span { position: relative; margin-left: 1rem; }
+/* the slash belongs to the next step, so a wrapped line never starts on a lone slash */
+.vdr .vdr-route > span + span::before { content: '/'; position: absolute; left: -0.95rem; color: var(--dim); font-weight: 400; }
 .vdr .vdr-drops { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 0.6rem; }
 .vdr .vdr-drops li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.1rem 0.8rem; align-items: baseline; padding: 0.75rem 0.9rem; border-radius: 14px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--c); }
 .vdr .vdr-drops .p { font-weight: 700; color: #fff; }
@@ -270,7 +272,7 @@ outline: false
 </div>
 <h2 class="vdr-h2" id="livrari"><span>04</span>Livrari</h2>
 <p class="vdr-sub">Drogurile se vand prin livrari la clienti. Pornesti din meniul rapid, iar fiecare marfa are cartierul ei si un minim de ore jucate.</p>
-<div class="vdr-route"><span><kbd>K</kbd>&nbsp;Meniu rapid</span><i>/</i><span>Job</span><i>/</i><span>Livrari ilegale</span><i>/</i><span>Incepe livrari ...</span></div>
+<div class="vdr-route"><span><kbd>K</kbd>&nbsp;Meniu rapid</span><span>Job</span><span>Livrari ilegale</span><span>Incepe livrari ...</span></div>
 <ul class="vdr-drops">
 <li style="--c: var(--lsd)"><span class="p">Timbru LSD</span><span class="h">50<small>ore</small></span><span class="z">Mirror Park &amp; Amarillo</span></li>
 <li style="--c: var(--brass)"><span class="p">Pachet tigari</span><span class="h">75<small>ore</small></span><span class="z">Mirror Park &amp; Amarillo</span></li>
