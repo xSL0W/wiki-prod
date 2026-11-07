@@ -122,7 +122,7 @@ outline: false
 <div class="ash-sign" aria-hidden="true"><span class="n">24/7</span><span class="o">Deschis</span></div>
 </section>
 <ul class="ash-facts">
-<li><b>5</b><span>magazine 24/7 ale firmelor</span></li>
+<li><b>10</b><span>magazine 24/7 ale firmelor</span></li>
 <li><b>5</b><span>raioane pe raft</span></li>
 <li><b>1</b><span>depozit al firmei, din care se vinde</span></li>
 </ul>
@@ -168,6 +168,10 @@ outline: false
 <li class="ash-loc"><b>Davis</b><span>Cod postal <code>847</code></span></li>
 <li class="ash-loc"><b>Little Seoul</b><span>Cod postal <code>726</code></span></li>
 <li class="ash-loc"><b>Sandy Shores</b><span>Cod postal <code>297</code></span></li>
+<li class="ash-loc"><b>Grand Senora Desert</b><span>Cod postal <code>308</code></span></li>
+<li class="ash-loc"><b>Grapeseed</b><span>Cod postal <code>116</code></span></li>
+<li class="ash-loc"><b>Paleto Bay</b><span>Cod postal <code>039</code></span></li>
+<li class="ash-loc"><b>Tataviam Mountains</b><span>Cod postal <code>557</code></span></li>
 </ul>
 <p class="ash-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

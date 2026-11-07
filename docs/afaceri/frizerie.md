@@ -118,7 +118,7 @@ outline: false
 </div>
 </section>
 <ul class="afz-facts">
-<li><b>2</b><span>frizerii ale firmelor</span></li>
+<li><b>6</b><span>frizerii ale firmelor</span></li>
 <li><b>14</b><span>servicii, fiecare cu pretul lui</span></li>
 <li><b>3</b><span>consumabile de tinut in stoc</span></li>
 </ul>
@@ -160,6 +160,10 @@ outline: false
 <ul class="afz-locs">
 <li class="afz-loc"><b>Rockford Hills</b><span>Cod postal <code>651</code></span></li>
 <li class="afz-loc"><b>Hawick</b><span>Cod postal <code>617</code></span></li>
+<li class="afz-loc"><b>Davis</b><span>Cod postal <code>838</code></span></li>
+<li class="afz-loc"><b>Vespucci</b><span>Cod postal <code>689</code></span></li>
+<li class="afz-loc"><b>Sandy Shores</b><span>Cod postal <code>294</code></span></li>
+<li class="afz-loc"><b>Paleto Bay</b><span>Cod postal <code>044</code></span></li>
 </ul>
 <p class="afz-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

@@ -117,7 +117,7 @@ outline: false
 </svg>
 </section>
 <ul class="att-facts">
-<li><b>2</b><span>saloane de tatuaje ale firmelor</span></li>
+<li><b>5</b><span>saloane de tatuaje ale firmelor</span></li>
 <li><b>6</b><span>zone ale corpului</span></li>
 <li><b>1 + 1</b><span>masina de tatuaj si cerneala la fiecare tatuaj</span></li>
 </ul>
@@ -148,6 +148,9 @@ outline: false
 <ul class="att-locs">
 <li class="att-loc"><b>Vespucci Canals</b><span>Cod postal <code>696</code></span></li>
 <li class="att-loc"><b>Downtown Vinewood</b><span>Cod postal <code>596</code></span></li>
+<li class="att-loc"><b>El Burro Heights</b><span>Cod postal <code>792</code></span></li>
+<li class="att-loc"><b>Sandy Shores</b><span>Cod postal <code>293</code></span></li>
+<li class="att-loc"><b>Paleto Bay</b><span>Cod postal <code>045</code></span></li>
 </ul>
 <p class="att-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>
