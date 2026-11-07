@@ -164,7 +164,7 @@ outline: false
 <div class="tx-head">
 <div>
 <h1><span>Taximetrist</span> <span class="tx-dash">-</span> <span class="tx-hours">30h</span></h1>
-<p>Urci la volanul unui taxi si duci oamenii prin oras. Pasageri jucatori sau clienti NPC, esti platit dupa kilometri.</p>
+<p>Urci la volanul unui taxi si duci oamenii prin oras. Fie ca duci jucatori sau clienti NPC, iei bani pe kilometru.</p>
 </div>
 <div class="tx-meter" role="img" aria-label="Aparat de taxat care alterneaza intre liber si ocupat si numara kilometrii">
 <div class="tx-sign"><span>Taxi</span><span class="tx-status"><span class="free">LIBER</span><span class="busy">OCUPAT</span></span></div>
@@ -218,7 +218,7 @@ outline: false
 <h3>Client din oras</h3>
 <p>Cat esti in tura, primesti apeluri de la NPC in aplicatia <b>Servicii</b> (<kbd>F7</kbd>). Accepta unul si urmeaza GPS-ul pana la <b>Client taxi</b>.</p>
 <p>Opreste langa marcaj si clientul urca singur. Du-l la <b>Destinatie taxi</b>, opreste langa marcaj si clientul coboara. Primesti banii cash.</p>
-<p>Pretul il afli cand accepti apelul si depinde de distanta pana la destinatie. Iei o singura cursa NPC odata.</p>
+<p>Pretul il afli cand accepti apelul si depinde de distanta pana la destinatie. Iei o singura cursa NPC pe rand.</p>
 </div>
 </div>
 

@@ -130,7 +130,7 @@ import SiteMap from './.vitepress/components/SiteMap.vue'
 <div>
 <p class="hm-kicker">Wiki oficial</p>
 <h1>EliteGamers <span>Romania</span><br>Imersiv Roleplay</h1>
-<p class="hm-lede">Tot ce ai nevoie ca sa intri pe server, sa iti gasesti un job si sa te descurci in oras: reguli, sisteme, joburi si raspunsuri la intrebarile de zi cu zi.</p>
+<p class="hm-lede">Tot ce iti trebuie ca sa intri pe server, sa iti gasesti un job si sa te descurci in oras: reguli, sisteme, joburi si raspunsuri la intrebarile de zi cu zi.</p>
 <div class="hm-cta">
 <a class="hm-btn primary" href="/zona-info/cum-intru-pe-server">Cum intru pe server</a>
 <a class="hm-btn" href="/zona-info/regulament">Regulament</a>

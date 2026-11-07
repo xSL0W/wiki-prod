@@ -208,7 +208,7 @@ outline: false
 </ul>
 <p class="vdr-note">O noua doza luata cat inca esti sub efect reporneste cronometrul, nu dubleaza bonusul. In schimb, substanta se aduna in corp si creste riscurile.</p>
 <h2 class="vdr-h2" id="fisele-drogurilor"><span>02</span>Fisele drogurilor</h2>
-<p class="vdr-sub">Semintele le cumperi de la un magazin de seminte: unde e, afli in joc. Plicurile goale, hartia, foitele si substantele pentru metamfetamina sunt la <a href="/proprietati/homedepot">Home Depot</a>, iar kerosenul la magazinul aeronautic. Ca sa plantezi si sa culegi ai nevoie de un minim de ore jucate. Politistii si medicii nu pot lucra la mesele de iarba, metamfetamina, cocaina si heroina.</p>
+<p class="vdr-sub">Semintele le cumperi de la un magazin de seminte: unde e, afli in joc. Plicurile goale, hartia, foitele si substantele pentru metamfetamina sunt la <a href="/proprietati/homedepot">Home Depot</a>, iar kerosenul la magazinul aeronautic. Ca sa plantezi si sa culegi ai nevoie de un numar minim de ore jucate. Politistii si medicii nu pot lucra la mesele de iarba, metamfetamina, cocaina si heroina.</p>
 <div class="vdr-sheets">
 <article class="vdr-sheet" id="iarba" style="--c: var(--weed)">
 <div class="fx"><span class="it">Joint</span><h3>Iarba</h3><span class="big">+40 viata</span><span class="bigl">cate 1 la fiecare 15 secunde, dupa ce termini jointul</span><span class="dur">2 min fumat + 10 min efect</span><p class="vis">Culori mai vii, putin blur. La doze mari camera se misca si apar halucinatii.</p></div>
@@ -271,7 +271,7 @@ outline: false
 </div>
 </div>
 <h2 class="vdr-h2" id="livrari"><span>04</span>Livrari</h2>
-<p class="vdr-sub">Drogurile se vand prin livrari la clienti. Pornesti din meniul rapid, iar fiecare marfa are cartierul ei si un minim de ore jucate.</p>
+<p class="vdr-sub">Drogurile se vand prin livrari la clienti. Pornesti din meniul rapid, iar fiecare marfa are cartierul ei si un numar minim de ore jucate.</p>
 <div class="vdr-route"><span><kbd>K</kbd>&nbsp;Meniu rapid</span><span>Job</span><span>Livrari ilegale</span><span>Incepe livrari ...</span></div>
 <ul class="vdr-drops">
 <li style="--c: var(--lsd)"><span class="p">Timbru LSD</span><span class="h">50<small>ore</small></span><span class="z">Mirror Park &amp; Amarillo</span></li>

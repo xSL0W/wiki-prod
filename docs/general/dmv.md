@@ -273,6 +273,6 @@ outline: false
 <li>Ai nevoie de un permis valid, adica sa fi trecut proba practica.</li>
 <li>Nu poti cere duplicat cat timp permisul ti-e <b>suspendat</b> de politie. Instructorul iti spune cat mai ai.</li>
 <li>Daca ai deja in inventar un permis pe numele actual, optiunea e blocata. Daca ti-ai schimbat numele, iei duplicat pe numele nou.</li>
-<li>Daca ai permisul vechi la tine, el se actualizeaza pe loc. Altfel iti trebuie loc in inventar. Fara loc, nu platesti nimic.</li>
+<li>Daca ai permisul vechi la tine, ti se actualizeaza pe loc. Altfel iti trebuie loc in inventar. Fara loc, nu platesti nimic.</li>
 </ul>
 </div>

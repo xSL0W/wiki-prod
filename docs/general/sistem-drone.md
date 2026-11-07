@@ -325,7 +325,7 @@ outline: false
 <li><span class="l">Baterie</span><span class="d">Cat mai poti zbura, in procente.</span></li>
 <li><span class="l">Semnal</span><span class="d">Cat mai ai pana la marginea razei de 450 m.</span></li>
 <li><span class="l">Coordonate</span><span class="d">Pozitia exacta a dronei pe harta.</span></li>
-<li><span class="l">Fa o poza</span><span class="d">Poza ajunge in galeria telefonului. O poza la 15 secunde.</span></li>
+<li><span class="l">Fa o poza</span><span class="d">Poza ajunge in galeria telefonului. Poti face o poza la fiecare 15 secunde.</span></li>
 <li><span class="l">Vedere nocturna</span><span class="d">Doar pe Drona NightVision.</span></li>
 <li><span class="l">Opreste</span><span class="d">Opresti drona. Vezi mai jos cum o recuperezi.</span></li>
 </ul>

@@ -313,7 +313,7 @@ outline: false
 <li>Service auto</li><li>Magazin 24/7</li><li>Haine</li><li>Arme</li><li>Frizerie</li><li>Tatuaje</li><li>Club</li><li>Salon</li>
 </ul>
 <ul class="ebc-stats">
-<li><b>31</b><span>afaceri in oras</span></li>
+<li><b>31</b><span>de afaceri in oras</span></li>
 <li><b>8</b><span>tipuri diferite</span></li>
 <li><b>max. 2</b><span>afaceri pe numele tau</span></li>
 </ul>

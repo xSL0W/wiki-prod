@@ -305,7 +305,7 @@ outline: false
 <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="13" cy="13" r="6" fill="#ef4444"/><path d="M3 34c0-6 4.5-10 10-10s10 4 10 10z" fill="#ef4444"/><circle cx="27" cy="13" r="6" fill="#3b82f6"/><path d="M17 34c0-6 4.5-10 10-10s10 4 10 10z" fill="#3b82f6"/></svg>
 <h3>Team Deathmatch</h3>
 <div class="as-sub">Minim 4 jucatori</div>
-<p>Echipa Rosie contra Echipei Albastre, fiecare cu uniforma ei. In lobby-ul public echipele se impart la intamplare, jumatate-jumatate. In lobby-ul privat liderul le aranjeaza in 2 minute, altfel se impart la intamplare.</p>
+<p>Echipa Rosie contra Echipei Albastre, fiecare cu uniforma ei. In lobby-ul public echipele se impart la intamplare, jumatate-jumatate. In lobby-ul privat liderul are 2 minute sa le aranjeze, altfel se impart la intamplare.</p>
 <p>Daca ucizi un coechipier pierzi o ucidere. La al treilea coechipier ucis esti scos din meci.</p>
 <p class="as-win"><b>Castiga:</b> echipa cu cele mai multe ucideri. Toti membrii ei primesc recompensa.</p>
 </div>

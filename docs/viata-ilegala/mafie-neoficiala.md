@@ -233,7 +233,7 @@ outline: deep
 <li><span class="who">Sef</span><h3 class="vim-h3">Informatii</h3><p>Cumpara ponturi pe bani murdari: transporturi de armament, transporturi de persoane, airdrop-uri. Un pont de armament il pot cumpara cel mult doua familii.</p></li>
 <li><span class="who">Sef</span><h3 class="vim-h3">Seiful</h3><p>Alege gradul minim de la care membrii pot deschide seiful familiei.</p></li>
 <li><span class="who all">Orice membru</span><h3 class="vim-h3">Taxe</h3><p>Trece in registru taxa de protectie platita de cineva pe un teritoriu al familiei.</p></li>
-<li><span class="who sin">De la Sindicat</span><h3 class="vim-h3">Amenzi, obiective, avertismente</h3><p>Amenzile vin cu termen de plata, obiectivele cu termen de indeplinire. Avertismentele expira dupa 30 de zile. Se dau intregi sau pe jumatate, cel mult 3 active in total.</p></li>
+<li><span class="who sin">De la Sindicat</span><h3 class="vim-h3">Amenzi, obiective, avertismente</h3><p>Amenzile vin cu termen de plata, obiectivele cu termen de indeplinire. Avertismentele expira dupa 30 de zile. Sindicatul le da intregi sau pe jumatate, iar familia poate avea cel mult 3 active.</p></li>
 </ul>
 <h2 class="vim-h2" id="rapirea">Rapirea membrilor de rang inalt</h2>
 <p class="vim-sub">Una dintre cele mai riscante operatiuni din oras. Tensiune, negocieri si urmari serioase pentru ambele tabere.</p>

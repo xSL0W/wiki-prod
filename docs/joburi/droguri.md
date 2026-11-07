@@ -104,9 +104,9 @@ Tigarile speciale se crafteaza printr-un minigame interactiv si ofera efecte viz
 
 | Nivel | Efecte |
 |-------|--------|
-| **Nivel 1** | Schimbari de culori, blur vag, 5% sanse trip prost |
-| **Nivel 2** | Culori mai aprinse, camera shake, 10% sanse trip prost |
-| **Nivel 3** | Efecte vizuale intense, 20% sanse trip prost |
+| **Nivel 1** | Schimbari de culori, blur vag, 5% sanse de bad trip |
+| **Nivel 2** | Culori mai aprinse, camera shake, 10% sanse de bad trip |
+| **Nivel 3** | Efecte vizuale intense, 20% sanse de bad trip |
 
 - Cat fumezi o tigara speciala primesti +2 HP la fiecare 10 secunde, iar dupa aceea +1 HP la fiecare 15 secunde, timp de 10 minute
 

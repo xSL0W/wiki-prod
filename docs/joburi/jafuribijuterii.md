@@ -270,7 +270,7 @@ outline: false
 
 <h2>Planul, pas cu pas</h2>
 <ol class="vjc-plan">
-<li class="vjc-step" data-n="1"><h3>Liderul porneste jaful</h3><p>Din meniul lui Lester, <b>Incepe jaful</b>. Ceasul porneste imediat, iar GPS-ul te duce la magazinul de bijuterii. Cate minute aveti afli din notificarea de la pornire.</p></li>
+<li class="vjc-step" data-n="1"><h3>Liderul porneste jaful</h3><p>Din meniul lui Lester, <b>Incepe jaful</b>. Ceasul porneste imediat, iar GPS-ul te duce la magazinul de bijuterii. Din notificarea de la pornire afli cate minute ai la dispozitie.</p></li>
 <li class="vjc-step" data-n="2"><h3>Blocheaza usile</h3><p>Langa usile de la intrare, foloseste <b>Soricel</b> din inventar. Usile se inchid pentru toata lumea si jaful devine activ. La scurt timp porneste alarma.</p></li>
 <li class="vjc-step" data-n="3"><h3>Sparge vitrinele</h3><p>Cu arma in mana, apropie-te de o vitrina si apasa <kbd>E</kbd>. Spargi sticla si strangi bijuteriile. Pe o vitrina lucreaza un singur om si fiecare se sparge o singura data, asa ca impartiti-va.</p></li>
 <li class="vjc-step" data-n="4"><h3>Deschide usa seifului</h3><p>La usa din spatele magazinului apasa <kbd>H</kbd> si scanezi <b>Card acces</b>. Cardul se consuma, iar usa ramane deschisa pentru toata echipa.</p></li>
