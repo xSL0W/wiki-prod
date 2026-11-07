@@ -122,7 +122,7 @@ outline: false
 </svg>
 </section>
 <ul class="ach-facts">
-<li><b>7</b><span>magazine de haine ale firmelor</span></li>
+<li><b>7</b><span>magazine de haine pe harta</span></li>
 <li><b>15</b><span>categorii de haine si accesorii</span></li>
 <li><b>2</b><span>marimi de ghiozdan, la raftul de langa</span></li>
 </ul>

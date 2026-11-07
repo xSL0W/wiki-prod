@@ -117,7 +117,7 @@ outline: false
 </svg>
 </section>
 <ul class="att-facts">
-<li><b>5</b><span>saloane de tatuaje ale firmelor</span></li>
+<li><b>5</b><span>saloane de tatuaje pe harta</span></li>
 <li><b>6</b><span>zone ale corpului</span></li>
 <li><b>1 + 1</b><span>masina de tatuaj si cerneala la fiecare tatuaj</span></li>
 </ul>

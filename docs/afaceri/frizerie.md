@@ -118,7 +118,7 @@ outline: false
 </div>
 </section>
 <ul class="afz-facts">
-<li><b>6</b><span>frizerii ale firmelor</span></li>
+<li><b>6</b><span>frizerii pe harta</span></li>
 <li><b>14</b><span>servicii, fiecare cu pretul lui</span></li>
 <li><b>3</b><span>consumabile de tinut in stoc</span></li>
 </ul>

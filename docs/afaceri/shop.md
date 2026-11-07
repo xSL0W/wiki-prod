@@ -122,7 +122,7 @@ outline: false
 <div class="ash-sign" aria-hidden="true"><span class="n">24/7</span><span class="o">Deschis</span></div>
 </section>
 <ul class="ash-facts">
-<li><b>10</b><span>magazine 24/7 ale firmelor</span></li>
+<li><b>10</b><span>magazine 24/7 pe harta</span></li>
 <li><b>5</b><span>raioane pe raft</span></li>
 <li><b>1</b><span>depozit al firmei, din care se vinde</span></li>
 </ul>
