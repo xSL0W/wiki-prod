@@ -183,7 +183,7 @@ outline: deep
 <p class="vim-sub">Nu treci automat in stadiul urmator, oricate puncte ai. Decide Sindicatul.</p>
 <ol class="vim-steps">
 <li><b>Recomandarea.</b> Mafiile Neoficiale existente urmaresc Familiile IC si le recomanda pe cele care merita.</li>
-<li><b>Taskurile speciale.</b> Sindicatul va da obiective. Le vedeti in Tableta Sentinel, cu termenul lor.</li>
+<li><b>Misiunile speciale.</b> Sindicatul va da obiective. Le vedeti in Tableta Sentinel, cu termenul lor.</li>
 <li><b>Casa liderului.</b> Pentru Mafie Neoficiala, liderul trebuie sa detina o casa mare platita cu EG Coins.</li>
 <li><b>Taxa de infiintare.</b> O stabileste Sindicatul. Se plateste in bani curati, inainte de ceremonia de investire.</li>
 <li><b>Ceremonia.</b> Sindicatul schimba stadiul familiei. Limita de membri creste pe loc, iar seiful se mareste.</li>
@@ -233,10 +233,10 @@ outline: deep
 <li><span class="who">Sef</span><h3 class="vim-h3">Informatii</h3><p>Cumpara ponturi pe bani murdari: transporturi de armament, transporturi de persoane, airdrop-uri. Un pont de armament il pot cumpara cel mult doua familii.</p></li>
 <li><span class="who">Sef</span><h3 class="vim-h3">Seiful</h3><p>Alege gradul minim de la care membrii pot deschide seiful familiei.</p></li>
 <li><span class="who all">Orice membru</span><h3 class="vim-h3">Taxe</h3><p>Trece in registru taxa de protectie platita de cineva pe un teritoriu al familiei.</p></li>
-<li><span class="who sin">De la Sindicat</span><h3 class="vim-h3">Amenzi, obiective, avertismente</h3><p>Amenzile vin cu termen de plata, obiectivele cu termen de indeplinire. Avertismentele expira dupa 30 de zile, cel mult 3 active.</p></li>
+<li><span class="who sin">De la Sindicat</span><h3 class="vim-h3">Amenzi, obiective, avertismente</h3><p>Amenzile vin cu termen de plata, obiectivele cu termen de indeplinire. Avertismentele expira dupa 30 de zile. Se dau intregi sau pe jumatate, cel mult 3 active in total.</p></li>
 </ul>
 <h2 class="vim-h2" id="rapirea">Rapirea membrilor de rang inalt</h2>
-<p class="vim-sub">Una dintre cele mai riscante operatiuni din oras. Tensiune, negocieri si consecinte reale pentru ambele tabere.</p>
+<p class="vim-sub">Una dintre cele mai riscante operatiuni din oras. Tensiune, negocieri si urmari serioase pentru ambele tabere.</p>
 <div class="vim-op">
 <div class="vim-op-top"><strong>Operatiune: capturarea protejatului</strong><span>Regulament, sectiunea 5</span></div>
 <ul class="vim-facts">

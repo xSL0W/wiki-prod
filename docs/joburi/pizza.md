@@ -240,7 +240,7 @@ outline: false
 <li><div><strong>Urmeaza GPS-ul</strong><p>Pe harta apare <b>Urmatorul client</b>. Clientii sunt imprastiati prin tot orasul.</p></div></li>
 <li><div><strong>Scoate pizza din vehicul</strong><p>Cand ai ajuns aproape de client, tine apasat <kbd>G</kbd> pe vehicul si alege <b>Scoate pizza din vehicul</b>. Daca te-ai grabit, o poti pune la loc cu <b>Pune pizza in vehicul</b>.</p></div></li>
 <li><div><strong>Livreaza</strong><p>Mergi la client si apasa <kbd>E</kbd>. Plata intra in contul din banca dupa fiecare livrare, apoi primesti comanda urmatoare.</p></div></li>
-<li><div><strong>Inapoi la pizzerie</strong><p>Dupa ultima comanda, GPS-ul te duce inapoi la pizzerie si tura se incheie singura. Poti porni oricand o tura noua.</p></div></li>
+<li><div><strong>Inapoi la pizzerie</strong><p>Dupa ultima comanda, tura se incheie singura, iar GPS-ul te duce inapoi la pizzerie. Poti porni oricand o tura noua.</p></div></li>
 </ol>
 
 <h2>Sfaturi</h2>

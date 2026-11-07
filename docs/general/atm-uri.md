@@ -56,7 +56,7 @@ outline: false
 <header class="atm-head">
 <p class="atm-kicker">Sisteme generale</p>
 <h1>ATM-uri</h1>
-<p class="atm-lede">Peste 120 de bancomate in tot orasul. Nu ai nevoie de card sau PIN: te apropii, apesi <kbd>E</kbd> la bula <b>Bancomat</b> si lucrezi direct pe ecran.</p>
+<p class="atm-lede">Peste 100 de bancomate in tot orasul. Nu ai nevoie de card sau PIN: te apropii, apesi <kbd>E</kbd> la bula <b>Bancomat</b> si lucrezi direct pe ecran.</p>
 </header>
 
 <h2 class="atm-h2" id="ce-poti-face">Ce poti face</h2>
@@ -81,7 +81,7 @@ outline: false
 <ul class="atm-list">
 <li><b>Telefon → Banca:</b> vezi soldul si istoricul si faci transferuri si fara bancomat.</li>
 <li><b>Payday:</b> o data pe ora primesti in cont salariul de job, de factiune si de VIP. Tot atunci platesti impozitul pe vehicule.</li>
-<li><b>Poprire:</b> daca nu ai bani de impozit, nu mai intri in garaj pana platesti din <kbd>K</kbd> → <b>Plateste taxe</b> sau cu <code>/paytaxes</code>.</li>
+<li><b>Poprire:</b> daca nu ai bani de impozit, nu mai intri in garaj si nu mai cumperi din magazine pana platesti din <kbd>K</kbd> → <b>Jucator</b> → <b>Plateste taxe</b> sau cu <code>/paytaxes</code>.</li>
 <li><b>Bancomat spart:</b> dupa un jaf, bancomatul nu mai merge o vreme. Foloseste altul.</li>
 </ul>
 </div>

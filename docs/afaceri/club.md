@@ -145,12 +145,12 @@ outline: false
 <p class="acl-tag">Pe ring</p>
 <h3>Cabina de DJ</h3>
 <ul class="acl-chips"><li>Lumini</li><li>Lasere</li><li>Fum</li><li>Flacari</li></ul>
-<p>Doua deck-uri, cautare de melodii pe YouTube, coada de melodii si volum. Efectele se pornesc, se misca si isi schimba culoarea din cabina.</p>
+<p>Doua deck-uri, cautare de melodii pe YouTube, coada de melodii si volum. Din cabina pornesti efectele, le misti si le schimbi culoarea.</p>
 </div>
 <div class="acl-zone cyan">
 <p class="acl-tag">Peste tot</p>
 <h3>Zona sigura</h3>
-<p>Clubul e zona sigura: cand intri, ti se ia arma din mana. Membrii clubului nu sunt opriti. Ecranul mare din club il controleaza tot ei.</p>
+<p>Clubul e zona sigura: cand intri, ti se ia arma din mana. Membrii clubului isi pot folosi armele. Ecranul mare din club il controleaza tot ei.</p>
 </div>
 </div>
 <h2>Echipa clubului</h2>
@@ -161,7 +161,7 @@ outline: false
 <li><b>Aprovizionare</b>Furnizor Bar sta langa ceilalti furnizori, la codul postal <code>313</code>. Cumperi marfa cu banii tai, desfaci cutia si pui produsele in depozitul clubului.</li>
 </ul>
 <ul class="acl-staff acl-more">
-<li><b>Bani pentru firma</b>Firma primeste o parte din fiecare bilet si din fiecare comanda de la bar. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de club.</li>
+<li><b>Bani pentru firma</b>Firma primeste o parte din fiecare bilet si din fiecare comanda de la bar. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de club, pana la o limita.</li>
 <li><b>Seif</b>Seiful clubului il deschid doar patronul si sefii.</li>
 </ul>
 <h2>Locatie</h2>

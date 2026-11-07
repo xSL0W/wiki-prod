@@ -122,7 +122,7 @@ outline: false
 
 <section class="gz-hero">
 <h1>Gunoier <span class="gz-hours">- 30h</span></h1>
-<p>Un camion, un oras si o ruta de strans gunoiul. Mergi singur sau cu un prieten, iar la sfarsit te intorci la depozit cu buzunarele pline.</p>
+<p>Un camion, un oras si o ruta de strans gunoiul. Mergi singur sau cu un prieten, iar ruta se termina langa depozit.</p>
 <svg class="gz-route" viewBox="0 0 640 200" role="img" aria-label="O ruta pornind de la depozit, cu mai multe opriri, care se intoarce la depozit">
 <path class="road" pathLength="1" d="M60 150 C 110 40, 190 40, 240 80 S 330 150, 390 100 S 500 30, 560 70 S 560 160, 470 168 S 300 190, 200 172 S 100 160, 60 150"/>
 <path class="trip" d="M60 150 C 110 40, 190 40, 240 80 S 330 150, 390 100 S 500 30, 560 70 S 560 160, 470 168 S 300 190, 200 172 S 100 160, 60 150"/>
@@ -147,15 +147,15 @@ outline: false
 </section>
 
 <h2>Cum incep?</h2>
-<p>Angajeaza-te ca <b>Gunoier</b> la Primarie (<code>Telefon → Harti → Locatii importante → Primarie</code>). Jobul se deschide dupa ce ai petrecut ceva timp pe server. Apoi mergi la depozitul de salubritate si vorbeste cu angajatul de acolo.</p>
+<p>Angajeaza-te ca <b>Gunoier</b> la Primarie (<code>Telefon → Harti → Locatii importante → Primarie</code>). Ai nevoie de minim 30 de ore jucate. Apoi mergi la depozitul de salubritate si vorbeste cu seful de la salubritate.</p>
 
 <h2>O tura, pe scurt</h2>
 <ul class="gz-steps">
-<li><b>Porneste tura</b> de la angajatul din depozit. Liderul primeste camionul de gunoi.</li>
+<li><b>Porneste tura</b> de la seful din depozit. Liderul primeste camionul de gunoi.</li>
 <li><b>Urmeaza GPS-ul</b> pana la prima oprire. Opririle sunt langa tomberoane, in tot orasul.</li>
 <li><b>Ridica sacii</b> de langa tomberon cu <kbd>E</kbd>. Cari cate un sac odata.</li>
 <li><b>Arunca sacul</b> in spatele camionului cu <kbd>E</kbd>. Cand nu mai ramane niciun sac, GPS-ul te trimite mai departe.</li>
-<li><b>Ultimele opriri te aduc inapoi spre depozit.</b> Dupa cea de pe urma, primesti plata si poti porni o ruta noua.</li>
+<li><b>Ultimele opriri te aduc inapoi spre depozit.</b> Dupa ultima primesti plata, iar ruta noua porneste singura.</li>
 </ul>
 
 <h2>Singur sau in echipa</h2>

@@ -313,7 +313,7 @@ outline: false
 <li>Service auto</li><li>Magazin 24/7</li><li>Haine</li><li>Arme</li><li>Frizerie</li><li>Tatuaje</li><li>Club</li><li>Salon</li>
 </ul>
 <ul class="ebc-stats">
-<li><b>30</b><span>afaceri in oras</span></li>
+<li><b>31</b><span>afaceri in oras</span></li>
 <li><b>8</b><span>tipuri diferite</span></li>
 <li><b>max. 2</b><span>afaceri pe numele tau</span></li>
 </ul>
@@ -343,11 +343,11 @@ outline: false
 <div class="ebc-board-head"><span>Tip afacere</span><span>Locatii</span></div>
 <ul>
 <li><span class="t"><a href="/afaceri/service">Service auto</a></span><span class="n">6</span><span class="d">Mecanici pe tura, piese de la furnizor, facturi pentru reparatii.</span></li>
-<li><span class="t"><a href="/afaceri/shop">Magazin 24/7</a></span><span class="n">10</span><span class="d">Marfa din depozitul firmei, preturi puse de sef, vanzarile apar in tableta.</span></li>
+<li><span class="t"><a href="/afaceri/shop">Magazin 24/7</a></span><span class="n">5</span><span class="d">Marfa din depozitul firmei, preturi puse de sef, vanzarile apar in tableta.</span></li>
 <li><span class="t"><a href="/afaceri/clothing">Magazin de haine</a></span><span class="n">7</span><span class="d">Stoc pe fiecare categorie de haine, plus ghiozdane.</span></li>
 <li><span class="t"><a href="/afaceri/gunshop">Magazin de arme</a></span><span class="n">6</span><span class="d">Armele se vand din stocul firmei, la preturile puse de sef.</span></li>
-<li><span class="t"><a href="/afaceri/frizerie">Frizerie</a></span><span class="n">6</span><span class="d">Fiecare tunsoare consuma din stocul de consumabile al frizeriei.</span></li>
-<li><span class="t"><a href="/afaceri/tattoo">Salon de tatuaje</a></span><span class="n">5</span><span class="d">Fiecare tatuaj consuma din stocul de consumabile al salonului.</span></li>
+<li><span class="t"><a href="/afaceri/frizerie">Frizerie</a></span><span class="n">2</span><span class="d">Fiecare tunsoare consuma din stocul de consumabile al frizeriei.</span></li>
+<li><span class="t"><a href="/afaceri/tattoo">Salon de tatuaje</a></span><span class="n">3</span><span class="d">Fiecare tatuaj consuma din stocul de consumabile al salonului.</span></li>
 <li><span class="t"><a href="/afaceri/club">Club</a></span><span class="n">1</span><span class="d">Bar cu stoc propriu, bilete la intrare si cabina de DJ.</span></li>
 <li><span class="t">Salon de infrumusetare</span><span class="n">1</span><span class="d">Lucreaza cu creme si consumabile luate de la furnizorul de salon.</span></li>
 </ul>
@@ -412,7 +412,7 @@ outline: false
 <ul>
 <li><b>Partea din vanzari</b>Firma ia un procent din fiecare vanzare (produse, haine, tuning). Procentul creste cu fiecare angajat aflat in tura langa firma, pana la o limita.</li>
 <li><b>Facturi POS</b>Facturile date de angajati intra in contul firmei.</li>
-<li><b>Depuneri</b>Patronul si sefii pot pune bani din buzunar.</li>
+<li><b>Depuneri</b>Patronul si sefii pot pune bani de-ai lor, din cash sau din banca.</li>
 </ul>
 </div>
 <div class="col vault">
@@ -433,7 +433,7 @@ outline: false
 <div class="ebc-card">
 <h3 class="ebc-h3">Furnizorii de pe harta</h3>
 <p>Magazinele, magazinele de haine, frizeriile, saloanele de tatuaje, salonul de infrumusetare si barul clubului isi iau marfa de la furnizori NPC, marcati pe harta (<b>Furnizor Magazin</b>, <b>Furnizor Magazin Haine</b>, <b>Furnizor Frizer</b>, <b>Furnizor Tatuaje</b>, <b>Furnizor Salon</b>, <b>Furnizor Bar</b>).</p>
-<p>Doar angajatii firmei pot cumpara. Primesti o cutie cu marfa, iar cand o deschizi marfa intra in stocul firmei. Fiecare produs are o limita de stoc.</p>
+<p>Doar angajatii firmei pot cumpara. Primesti o cutie cu marfa. La haine, frizerie si tatuaje, cand o deschizi langa firma, marfa intra direct in stoc. La magazin, club si salon, marfa iti intra in inventar si o pui tu in depozitul firmei. Fiecare produs are o limita de stoc.</p>
 </div>
 <div class="ebc-card">
 <h3 class="ebc-h3">Furnizorul din tableta (service)</h3>
@@ -454,8 +454,8 @@ outline: false
 <div>
 <div class="ebc-receipt" aria-hidden="true">
 <p class="rh">CHITANTA</p>
-<ul><li><span>Serviciu</span><span>Reparatii motor</span></li><li><span>Incaseaza</span><span>firma ta</span></li><li><span>Status</span><span>achitat</span></li></ul>
-<p class="rf">Multumim!</p>
+<ul><li><span>Emitent</span><span>Andrei Popescu</span></li><li><span>Client</span><span>Mihai Ionescu</span></li><li><span>Motiv</span><span>Reparatii motor</span></li><li><span>Suma</span><span>800 €</span></li></ul>
+<p class="rf">08-11-2026 14:30</p>
 </div>
 <div class="ebc-card" style="margin-top:0.9rem">
 <ul class="ebc-dots">

@@ -281,7 +281,7 @@ outline: deep
 
 <h2 class="grj-h2" id="chei">Chei si telefon</h2>
 <div class="grj-grid">
-<div class="grj-card"><h3 class="grj-h3">Cheia masinii</h3><p>Cheia e un item in inventar (<b>Vehicle Keys</b>). Pune-le pe toate in <b>Key Bag</b>, ca sa nu-ti umple inventarul.</p><p>Ti-ai pierdut cheia? Urca in masina ta si foloseste o <b>Trusa de clonat cheile unei masini</b>, de la mecanici. Merge doar pe masinile tale.</p></div>
+<div class="grj-card"><h3 class="grj-h3">Cheia masinii</h3><p>Cheia e un item in inventar (<b>Vehicle Keys</b>). Pune-le pe toate in <b>Key Bag</b>, ca sa nu-ti umple inventarul.</p><p>Ti-ai pierdut cheia? Urca in masina ta si foloseste o <b>Trusa de clonat cheile unei masini</b>, din magazinele 24/7. Merge doar pe masinile tale.</p></div>
 <div class="grj-card"><h3 class="grj-h3">Telefon → Garaj</h3><p>Vezi ce vehicule ai si care sunt scoase. Pentru cele scoase pui destinatia pe harta. Pe cele din apropiere le incui sau descui din aplicatie.</p></div>
 <div class="grj-card"><h3 class="grj-h3"><kbd>K</kbd> → Vehicul</h3><p><b>Localizeaza-ti masinile</b> pune pe harta pozitia vehiculelor scoase. <b>Tracteaza vehicule distruse</b> aduce in garaj, contra cost, un vehicul distrus lasat afara.</p><p>Nu poti tracta daca alt jucator e la mai putin de 50 m de vehicul.</p></div>
 </div>
@@ -290,15 +290,15 @@ outline: deep
 <p class="grj-sub">Un vehicul blocat apare in garaj cu lacat si nu il poti scoate pana nu rezolvi motivul.</p>
 <div class="grj-grid">
 <div class="grj-card"><h3 class="grj-h3">Ridicat la Impound</h3><p>Politia poate cere ridicarea unui vehicul, iar un mecanic il duce la Impound.</p><p>Il recuperezi de la omul de la <b>Impound</b> (blip pe harta): <b>Recuperare vehicule</b>, platesti taxa si vehiculul se intoarce in garaj. Taxa depinde de valoarea vehiculului.</p></div>
-<div class="grj-card"><h3 class="grj-h3">Scos la vanzare</h3><p>Cat timp vehiculul e listat in <a href="/general/parcauto">Targul Auto</a>, ramane blocat in garaj. Se deblocheaza daca il retragi de la vanzare.</p></div>
-<div class="grj-card"><h3 class="grj-h3">Poprire</h3><p>Daca nu ai bani pentru impozitul pe vehicule la payday, primesti poprire si nu mai intri in garajul personal sau de factiune.</p><p>Platesti din <kbd>K</kbd> → <b>Plateste taxe</b> sau cu <code>/paytaxes</code>.</p></div>
+<div class="grj-card"><h3 class="grj-h3">Scos la vanzare</h3><p>Cat timp vehiculul e pus la vanzare in <a href="/general/parcauto">Targul Auto</a>, ramane blocat in garaj. Se deblocheaza daca il retragi de la vanzare.</p></div>
+<div class="grj-card"><h3 class="grj-h3">Poprire</h3><p>Daca nu ai bani pentru impozitul pe vehicule la payday, primesti poprire si nu mai intri in garajul personal sau de factiune.</p><p>Platesti din <kbd>K</kbd> → <b>Jucator</b> → <b>Plateste taxe</b> sau cu <code>/paytaxes</code>.</p></div>
 </div>
 
 <h2 class="grj-h2" id="vanzare">Vanzarea unui vehicul</h2>
 <div class="grj-card">
 <ul class="grj-list">
 <li><b>Catre un jucator:</b> mergi la <b>Notar</b> (Birou notarial) → <b>Vanzare vehicul</b>. Cumparatorul trebuie sa fie langa tine si sa aiba un slot liber. Vehiculele VIP nu se pot vinde asa.</li>
-<li><b>La targ:</b> il listezi in <a href="/general/parcauto">Targul Auto</a> si il cumpara cine vrea.</li>
+<li><b>La targ:</b> il pui la vanzare in <a href="/general/parcauto">Targul Auto</a> si il cumpara cine vrea.</li>
 </ul>
 </div>
 </div>

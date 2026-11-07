@@ -371,7 +371,7 @@ outline: false
 <div>
 <div class="tf-kicker tf-rise">Telefon</div>
 <h1 class="tf-rise r2">Tot orasul.<span>Intr-o mana.</span></h1>
-<p class="tf-lead tf-rise r3">Apeluri, mesaje, banca, harti, muzica, masinile si casele tale. Scoti telefonul cu <kbd>M</kbd> si ai totul la un deget distanta.</p>
+<p class="tf-lead tf-rise r3">Apeluri, mesaje, banca, harti, muzica, masinile si casele tale. Scoti telefonul cu <kbd>M</kbd> si ai totul la indemana.</p>
 <ul class="tf-chips tf-rise r4">
 <li><kbd>M</kbd> deschide telefonul</li>
 <li>Numar 07xx xxx xxx</li>
@@ -471,7 +471,7 @@ outline: false
 </section>
 <section class="tf-sec">
 <div class="tf-eyebrow">Aplicatii</div>
-<h2 class="tf-h2">Tot ce ai nevoie. <span>Nimic in plus.</span></h2>
+<h2 class="tf-h2">Tot ce iti trebuie. <span>Nimic in plus.</span></h2>
 <p class="tf-sub">Majoritatea vin instalate. Cele marcate <span class="tf-tag">App Store</span> le descarci gratuit din App Store, iar descarcarea are nevoie de semnal.</p>
 <div class="tf-cat">
 <div class="tf-cat-h"><h3>Comunicare</h3><span>4 aplicatii</span></div>
@@ -524,7 +524,7 @@ outline: false
 <ul class="tf-apps">
 <li><i class="tf-ico c-indigo"><svg class="tf-g"><use href="#tf-garage"/></svg></i><div><b>Garaj <span class="tf-tag">App Store</span></b><p>Masinile tale: unde sunt, combustibil, motor si caroserie. Le incui sau descui cand esti langa ele.</p></div></li>
 <li><i class="tf-ico c-emerald"><svg class="tf-g"><use href="#tf-house"/></svg></i><div><b>Case <span class="tf-tag">App Store</span></b><p>Casele si apartamentele tale, cumparate sau inchiriate. Incui usile si dai sau iei chei chiriasilor.</p></div></li>
-<li><i class="tf-ico c-teal"><svg class="tf-g"><use href="#tf-brief"/></svg></i><div><b>Servicii</b><p>Suni sau scrii Politiei (911), Ambulantei (912) si firmelor din oras. La job, intri sau iesi din tura de aici.</p></div></li>
+<li><i class="tf-ico c-teal"><svg class="tf-g"><use href="#tf-brief"/></svg></i><div><b>Servicii</b><p>Scrii Politiei, Ambulantei si firmelor din oras. La job, intri sau iesi din tura de aici.</p></div></li>
 <li><i class="tf-ico c-slate"><svg class="tf-g"><use href="#tf-cctv"/></svg></i><div><b>Supraveghere</b><p>Camerele de supraveghere la care ai acces, de exemplu cele din banci si magazine pentru Politie.</p></div></li>
 </ul>
 </div>
@@ -558,7 +558,7 @@ outline: false
 <div class="tf-three">
 <div class="tf-card"><h3>Apeluri</h3><ul class="tf-list"><li>Apel normal sau apel video.</li><li>Cine nu raspunde poate primi un mesaj vocal.</li><li>Favorite pentru apel dintr-o atingere.</li><li>Blochezi un numar din fisa contactului.</li></ul></div>
 <div class="tf-card"><h3>Mesaje</h3><ul class="tf-list"><li>Grupuri cu nume, pana la 16 oameni.</li><li>Locatia ta, o data sau live.</li><li>Trimiti sau ceri bani direct in conversatie.</li><li>Un contact trimis in chat se salveaza dintr-o atingere.</li></ul></div>
-<div class="tf-card"><h3>Contacte</h3><ul class="tf-list"><li>Le adaugi cu nume, numar si poza.</li><li>Trimiti un contact unui jucator de langa tine.</li><li>Numerele 911 si 912 suna la Politie si Ambulanta.</li></ul></div>
+<div class="tf-card"><h3>Contacte</h3><ul class="tf-list"><li>Le adaugi cu nume, numar si poza.</li><li>Trimiti un contact unui jucator de langa tine.</li></ul></div>
 </div>
 </section>
 <section class="tf-sec">

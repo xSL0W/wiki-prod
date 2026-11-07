@@ -6,6 +6,4 @@ outline: deep
 
 
 ### Despre Scoala de Soferi
-Înscrie-te la școala de șoferi pentru a obține permisul auto necesar pentru a conduce legal. Completează testele teoretice și practice, și fii atent la reguli pentru a nu pierde licența. Școala de șoferi este primul pas pentru o carieră legală în transport sau pentru a te bucura de o viață liniștită ca șofer amator.
-
-
+Înscrie-te la școala de șoferi ca să-ți iei permisul și să conduci legal. Dai proba teoretică și proba practică. Respectă regulile de circulație, altfel poți pierde permisul.

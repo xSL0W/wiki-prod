@@ -75,7 +75,7 @@ outline: false
 .vpn .vpn-board .s { display: block; font-family: Inter, system-ui, sans-serif; font-weight: 500; font-size: 0.78rem; color: var(--dim); }
 .vpn .vpn-board li.free .t span { color: var(--green); }
 .vpn .vpn-board li.full .t span { color: var(--brass); }
-.vpn .vpn-board .t .n { display: block; }
+.vpn .vpn-board .t .n { white-space: nowrap; }
 .vpn .vpn-board li.empty { opacity: 0.7; }
 .vpn .vpn-board-cap { margin-top: 0.45rem; font-size: 0.78rem; color: var(--dim); }
 @media (prefers-reduced-motion: reduce) { .vpn .vpn-kicker::before { animation: none; } }
@@ -176,7 +176,7 @@ outline: false
 <p class="vpn-lede">Un loc retras si pazit, unde inchiriezi o taraba si iti vinzi marfa fara sa iti arati fata. Cumparatorul vede doar numarul tarabei. Totul se plateste in bani murdari.</p>
 <ul class="vpn-chips">
 <li><b>19</b> tarabe</li>
-<li><b>0</b> nume afisate</li>
+<li>vanzatori <b>anonimi</b></li>
 <li>doar <b>bani murdari</b></li>
 <li>zona <b>sigura</b></li>
 </ul>
@@ -184,8 +184,8 @@ outline: false
 <div>
 <ul class="vpn-board" aria-label="Asa arata eticheta de deasupra unei tarabe in joc">
 <li class="free"><span class="k">E</span><span class="t">Stand #4 - <span>Liber</span><span class="s">Inchiriezi din meniul tarabei</span></span></li>
-<li class="full"><span class="k">E</span><span class="t">Stand #7 - Inchiriat<span class="n">Iteme: 6</span><span class="s">Deschizi lista si cumperi</span></span></li>
-<li class="empty"><span class="k">E</span><span class="t">Stand #12 - Inchiriat<span class="s">Niciun item listat inca</span></span></li>
+<li class="full"><span class="k">E</span><span class="t">Stand #7 - Inchiriat&nbsp;- <span class="n">Iteme: 6</span><span class="s">Deschizi lista si cumperi</span></span></li>
+<li class="empty"><span class="k">E</span><span class="t">Stand #12 - Inchiriat&nbsp;- <span class="n">Niciun item listat</span></span></li>
 </ul>
 <p class="vpn-board-cap">Eticheta de deasupra fiecarei tarabe</p>
 </div>
@@ -198,7 +198,7 @@ outline: false
 <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></svg></span><h3 class="vpn-h3">Fara politie si medici</h3><p>Cu jobul de politist sau de medic nu poti inchiria, vinde, cumpara si nici ridica bani de la NPC.</p></li>
 </ul>
 <h2 class="vpn-h2" id="cum-functioneaza"><span>02</span>Vanzator sau cumparator</h2>
-<p class="vpn-sub">La orice taraba te apropii si apesi <kbd>E</kbd>. Ce vezi depinde de cine esti: o taraba libera iti ofera chiria, a ta iti deschide gestiunea, a altcuiva iti arata marfa.</p>
+<p class="vpn-sub">La orice taraba te apropii si apesi <kbd>E</kbd>. Ce vezi depinde de cine esti: una libera o poti inchiria, pe a ta o gestionezi, iar la a altcuiva vezi marfa.</p>
 <div class="vpn-lanes">
 <div class="vpn-lane sell">
 <div class="who"><span>Vanzator</span><b>Iti deschizi taraba</b></div>
@@ -212,7 +212,7 @@ outline: false
 <div class="vpn-lane buy">
 <div class="who"><span>Cumparator</span><b>Faci cumparaturi</b></div>
 <ol class="vpn-steps">
-<li>Mergi la o taraba <b>inchiriata</b>. Eticheta iti arata cate iteme sunt listate.</li>
+<li>Mergi la o taraba <b>inchiriata</b>. Eticheta iti arata cate iteme sunt puse la vanzare.</li>
 <li>Vezi marfa si pretul pe bucata. La armele cu skin vezi si skin-ul. Pui in cos ce vrei.</li>
 <li>Confirmi. Banii murdari ies din inventar, iar marfa intra la tine.</li>
 <li>Ai nevoie de loc in inventar. Daca nu incape, cumpararea nu se face.</li>
@@ -222,12 +222,12 @@ outline: false
 </div>
 <h2 class="vpn-h2" id="reguli-de-listare"><span>03</span>Reguli de listare</h2>
 <ul class="vpn-rules">
-<li><b>Pret pe bucata</b>Fiecare item are un pret minim si unul maxim. Daca treci de ele, nu il poti lista.</li>
+<li><b>Pret pe bucata</b>Fiecare item are un pret minim si unul maxim. In afara lor nu il poti pune la vanzare.</li>
 <li><b>Arme si munitie</b>Au pret maxim separat pe bucata. Lista o gasesti la orice taraba, la <b>Preturi maxime arme</b>.</li>
 <li><b>Acelasi item, acelasi pret</b>Se aduna intr-un singur rand pe taraba.</li>
-<li><b>Iteme cu date proprii</b>Armele cu serie sau cu skin stau fiecare pe randul lor, ca sa nu se piarda nimic.</li>
+<li><b>Arme cu serie sau skin</b>Fiecare sta pe randul ei, ca sa nu se piarda seria sau skin-ul.</li>
 <li><b>Loc limitat</b>O taraba are un numar maxim de randuri. Meniul iti arata cate ai ocupat.</li>
-<li><b>Fara cumparat de la tine</b>Nu poti cumpara de la propria taraba.</li>
+<li><b>Nu cumperi de la tine</b>Nu poti cumpara de la propria taraba.</li>
 </ul>
 <h2 class="vpn-h2" id="ce-nu-se-vinde"><span>04</span>Ce nu intra pe taraba</h2>
 <div class="vpn-ban">
@@ -237,7 +237,7 @@ outline: false
 <li><span><b>Acte:</b> buletin, permis de conducere, documente.</span></li>
 <li><span><b>Iteme din magazinul premium:</b> sistem audio, antilag, jante premium, ghiozdan premium.</span></li>
 <li><span><b>Echipament medical:</b> NARCAN, defibrilator, truse si bandaje din farmacia ambulantei.</span></li>
-<li><span><b>Iteme date de politie sau ambulanta:</b> le recunoaste dupa marcaj.</span></li>
+<li><span><b>Iteme date de politie sau ambulanta:</b> filtrul le recunoaste dupa marcaj.</span></li>
 <li><span><b>Pusca de vanatoare</b> si munitia ei.</span></li>
 <li><span><b>Tableta Sentinel.</b></span></li>
 </ul>
@@ -249,7 +249,7 @@ outline: false
 <li style="--c: #d6a54a"><span class="k">Expira chiria</span><span class="v">Taraba devine libera</span><p>Ce era pe ea merge la NPC. Prelungeste la timp daca vrei sa o pastrezi.</p></li>
 <li style="--c: #ef4444"><span class="k">O inchizi tu</span><span class="v">Chiria nu se intoarce</span><p>Banii platiti pe zilele ramase se pierd. Marfa merge la NPC.</p></li>
 <li style="--c: #4ade80"><span class="k">Ai vandut tot</span><span class="v">Se inchide singura</span><p>Cand ultimul item se vinde, taraba se elibereaza si o poate lua altcineva.</p></li>
-<li style="--c: #71717a"><span class="k">Personajul primeste CK</span><span class="v">Toate tarabele se inchid</span><p>Marfa si banii nerevendicati raman pe personajul inchis.</p></li>
+<li style="--c: #71717a"><span class="k">Personajul primeste CK</span><span class="v">Toate tarabele se inchid</span><p>Marfa si banii nerevendicati raman pe personajul care a primit CK.</p></li>
 </ul>
 <h2 class="vpn-h2" id="npc-ul-de-recuperare"><span>06</span>NPC-ul de recuperare</h2>
 <div class="vpn-npc">

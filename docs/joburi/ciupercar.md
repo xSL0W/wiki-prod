@@ -271,7 +271,7 @@ outline: false
 
 <h2>Partea ascunsa</h2>
 <div class="cpr-dark">
-<p>Ciupercile <em>halucinogene</em> din Zona 2 nu se vand la punctul obisnuit. Din ele se pot face substante interzise, la o ferma din Grapeseed. <b>Asta este o activitate ilegala</b>, cu tot riscul care vine cu ea.</p>
+<p>Ciupercile <em>halucinogene</em> din Zona 2 nu se vand la punctul obisnuit. Din ele se pot face substante interzise, la o ferma din Grapeseed. <b>Asta este o activitate ilegala</b>, pe riscul tau.</p>
 <p>Unde gasesti restul, afli din indicii. Unul te asteapta in zona de cules, altul il primesti uneori chiar cand culegi o ciuperca halucinogena.</p>
 </div>
 

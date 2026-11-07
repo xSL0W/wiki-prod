@@ -64,27 +64,27 @@ outline: deep
 
 # Droguri si Substante
 
-Acest ghid documenteaza sistemul de substante din joc, incluzand alcoolul, tigarile speciale si drogurile.
+Aici afli cum functioneaza alcoolul, tigarile speciale si drogurile din joc.
 
 ## Sistem Alcool
 
 <div class="eg-box">
 
-Whiskey, Vodka si Berea pot fi consumate si ofera efecte in functie de nivelul de alcolemie:
+Whiskey-ul, vodka si berea te imbata. Efectele cresc odata cu alcoolemia:
 
-| Nivel Alcolemie | Efecte |
+| Nivel Alcoolemie | Efecte |
 |-----------------|--------|
 | **0.2** | Blur vag, mers mai incet |
 | **0.8** | Camera shake |
 | **1.0** | Camera shake puternic, blur intens |
 | **1.5** | Mers ingreunat, sansa de a cadea din picioare |
 | **2.0** | Toate efectele la maxim, sansa de damage |
-| **2.5** | Blackout - ecranul devine negru, caracterul cade |
+| **2.5** | Blackout - ecranul devine negru, personajul cade |
 
 **Informatii suplimentare:**
-- Orice bautura consumata creste setea
-- Dupa alcolemie peste 1.0, damage-ul pumnilor este crescut
-- Efectele persista si la reconectare pana cand alcoolul dispare din sistem
+- Orice bautura alcoolica iti creste setea
+- De la alcoolemie 1.0 in sus, pumnii tai dau mai mult damage
+- Efectele raman si daca te reconectezi, pana iti trece
 - La volan, daca esti beat, masina poate vira brusc la dreapta sau stanga
 
 </div>
@@ -106,9 +106,9 @@ Tigarile speciale se crafteaza printr-un minigame interactiv si ofera efecte viz
 |-------|--------|
 | **Nivel 1** | Schimbari de culori, blur vag, 5% sanse trip prost |
 | **Nivel 2** | Culori mai aprinse, camera shake, 10% sanse trip prost |
-| **Nivel 3** | Vizuale intense, efecte puternice, 20% sanse trip prost |
+| **Nivel 3** | Efecte vizuale intense, 20% sanse trip prost |
 
-- Fumatul tigarilor speciale da +2 HP la fiecare 10 secunde
+- Cat fumezi o tigara speciala primesti +2 HP la fiecare 10 secunde, iar dupa aceea +1 HP la fiecare 15 secunde, timp de 10 minute
 
 </div>
 
@@ -130,11 +130,10 @@ Tigarile speciale se crafteaza printr-un minigame interactiv si ofera efecte viz
 
 <div class="eg-box-warning">
 
-Consumul excesiv de substante poate duce la supradoza!
+Daca iei prea multe droguri, poti face supradoza!
 
-**Tratament:** Supradoza este tratabila cu **NARCAN**, disponibil la:
-- Spitalul mafiotilor
-- Armurarie
+**Tratament:** Supradoza se trateaza cu **NARCAN**. Doar medicii il pot administra. Il gasesti la:
+- Farmacia de la spitalul Pillbox
 - Spital (pentru medici)
 
 </div>
@@ -144,11 +143,11 @@ Consumul excesiv de substante poate duce la supradoza!
 <div class="eg-box">
 
 **Pentru Politie:**
-- Etilotest - Verifica nivelul de alcolemie al unui jucator
-- Drug Test - Verifica prezenta substantelor (disponibil pentru iarba si altele)
+- Etilotest - Verifica alcoolemia unui jucator
+- Kit test antidrog - Arata daca jucatorul a luat marijuana, cocaina, metamfetamina, LSD sau heroina
 
 **Pentru Medici:**
-- Verificare pacient - Vezi daca jucatorul prezinta in corp substante sau alcool
+- Verificare pacient - Vezi daca pacientul are in sange droguri sau alcool
 
 </div>
 

@@ -130,7 +130,7 @@ import SiteMap from './.vitepress/components/SiteMap.vue'
 <div>
 <p class="hm-kicker">Wiki oficial</p>
 <h1>EliteGamers <span>Romania</span><br>Imersiv Roleplay</h1>
-<p class="hm-lede">Tot ce ai nevoie ca sa intri pe server, sa iti gasesti un job si sa traiesti orasul: reguli, sisteme, joburi si raspunsuri la intrebarile de zi cu zi.</p>
+<p class="hm-lede">Tot ce ai nevoie ca sa intri pe server, sa iti gasesti un job si sa te descurci in oras: reguli, sisteme, joburi si raspunsuri la intrebarile de zi cu zi.</p>
 <div class="hm-cta">
 <a class="hm-btn primary" href="/zona-info/cum-intru-pe-server">Cum intru pe server</a>
 <a class="hm-btn" href="/zona-info/regulament">Regulament</a>
@@ -142,7 +142,7 @@ import SiteMap from './.vitepress/components/SiteMap.vue'
 </section>
 <section class="hm-sec">
 <h2>Primii pasi</h2>
-<p>Esti nou? Ia-le in ordine si esti gata de oras.</p>
+<p>Esti nou? Ia-le in ordine si poti intra in oras.</p>
 <div class="hm-quick">
 <a class="hm-card" href="/zona-info/cum-intru-pe-server"><span class="hm-step">PAS 1</span><svg class="hm-go" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><path d="M10 17l5-5-5-5"/><path d="M15 12H3"/></svg><h3>Intra pe server</h3><p>Instalezi FiveM si te conectezi in cinci pasi.</p></a>
 <a class="hm-card" href="/zona-info/regulament"><span class="hm-step">PAS 2</span><svg class="hm-go" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><h3>Citeste regulamentul</h3><p>Ce ai voie si ce nu ai voie in roleplay.</p></a>
@@ -164,7 +164,7 @@ import SiteMap from './.vitepress/components/SiteMap.vue'
 </section>
 <section class="hm-sec">
 <h2>Echipa</h2>
-<p>Oamenii care tin serverul in viata.</p>
+<p>Echipa care se ocupa de server.</p>
 <div class="hm-team">
 <div class="hm-member"><div class="hm-ava"><span aria-hidden="true">Q</span><img src="/quo.jpg" alt="Quo" loading="lazy" onerror="this.remove()"></div><h3>Quo</h3><span class="hm-role">Fondator</span><p>Conduce echipa de staff si coordoneaza proiectele comunitatii.</p></div>
 <div class="hm-member"><div class="hm-ava"><span aria-hidden="true">X</span><img src="https://cdn.discordapp.com/avatars/262600228719427584/cb935ab9648fedf2747866af9256ea85.png" alt="xSL0W" loading="lazy" onerror="this.remove()"></div><h3>xSL0W</h3><span class="hm-role">Developer si fondator</span><p>Raspunde de partea tehnica.</p></div>

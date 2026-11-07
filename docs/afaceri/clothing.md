@@ -140,13 +140,13 @@ outline: false
 <p class="ach-sub">Pentru angajatii unui magazin de haine. Stocul il vezi oricand in Tableta firma, la Stoc.</p>
 <ol class="ach-flow">
 <li><b>Mergi la furnizor</b><span>Furnizor Magazin Haine, langa ceilalti furnizori, la codul postal <code>313</code>. Vinde doar angajatilor unui magazin de haine.</span></li>
-<li><b>Cumperi cutii</b><span>Alegi categoria si cantitatea, platesti din banii tai si primesti o cutie, cu cel mult 10 bucati.</span></li>
+<li><b>Cumperi cutii</b><span>Alegi categoria si cantitatea, platesti din banii tai si primesti cutii de cel mult 10 bucati fiecare.</span></li>
 <li><b>Deschizi cutia in magazin</b><span>Trebuie sa fii langa magazinul tau. Bucatile intra direct in stocul firmei.</span></li>
 </ol>
 <ul class="ach-notes">
 <li>Fiecare categorie are o limita de stoc. Ce nu mai incape ramane in cutie.</li>
 <li>Preturile pe categorii si la ghiozdane le schimba conducerea din Tableta firma, la Preturi, pana la un plafon.</li>
-<li>Firma primeste o parte din fiecare vanzare. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de magazin.</li>
+<li>Firma primeste o parte din fiecare vanzare. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de magazin, pana la o limita.</li>
 </ul>
 <h2>Locatii</h2>
 <p class="ach-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta. Pe langa ele mai exista si magazine de haine fara patron.</p>

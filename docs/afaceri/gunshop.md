@@ -157,7 +157,7 @@ outline: false
 <li><p><b>Conducerea pune preturile</b>Din Tableta firma, la Preturi. Un produs fara pret nu se poate cumpara.</p></li>
 </ol>
 <ul class="ags-rules">
-<li>Firma primeste o parte din fiecare vanzare. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de magazin.</li>
+<li>Firma primeste o parte din fiecare vanzare. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de magazin, pana la o limita.</li>
 <li>Seiful din magazin il deschid doar patronul si sefii.</li>
 </ul>
 <h2>Locatii</h2>

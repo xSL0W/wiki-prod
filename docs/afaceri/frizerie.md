@@ -118,7 +118,7 @@ outline: false
 </div>
 </section>
 <ul class="afz-facts">
-<li><b>6</b><span>frizerii pe harta</span></li>
+<li><b>2</b><span>frizerii pe harta</span></li>
 <li><b>14</b><span>servicii, fiecare cu pretul lui</span></li>
 <li><b>3</b><span>consumabile de tinut in stoc</span></li>
 </ul>
@@ -153,17 +153,13 @@ outline: false
 </ol>
 <ul class="afz-notes">
 <li>Preturile serviciilor le schimba conducerea din Tableta firma, la Preturi.</li>
-<li>Firma primeste o parte din fiecare serviciu vandut. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de frizerie.</li>
+<li>Firma primeste o parte din fiecare serviciu vandut. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de frizerie, pana la o limita.</li>
 </ul>
 <h2>Locatii</h2>
 <p class="afz-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta.</p>
 <ul class="afz-locs">
 <li class="afz-loc"><b>Rockford Hills</b><span>Cod postal <code>651</code></span></li>
 <li class="afz-loc"><b>Hawick</b><span>Cod postal <code>617</code></span></li>
-<li class="afz-loc"><b>Davis</b><span>Cod postal <code>838</code></span></li>
-<li class="afz-loc"><b>Vespucci</b><span>Cod postal <code>689</code></span></li>
-<li class="afz-loc"><b>Sandy Shores</b><span>Cod postal <code>294</code></span></li>
-<li class="afz-loc"><b>Paleto Bay</b><span>Cod postal <code>044</code></span></li>
 </ul>
 <p class="afz-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

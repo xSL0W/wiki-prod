@@ -269,11 +269,10 @@ outline: false
 <li>Launch Control merge o data la <b>8 secunde</b>. 2-Step-ul merge cand ai pornit flacarile sau pocniturile.</li>
 </ul>
 </div>
-<h2 class="alg-h2"><span>06</span>Demontare si limite</h2>
+<h2 class="alg-h2"><span>06</span>Limite</h2>
 <div class="alg-card alg-warn">
 <ul>
-<li>Antilag-ul il demonteaza doar un <b>mecanic</b>, langa masina, cu optiunea <b>Demonteaza antilag</b>. Dureaza 8 secunde.</li>
-<li><b>Item-ul nu se returneaza</b> dupa demontare si nu il poti muta pe alta masina. Culoarea aleasa ramane salvata pe masina.</li>
+<li>Odata montat, <b>antilag-ul ramane pe masina</b>: nu il poti demonta si nu il poti muta pe alta masina. Culoarea si stilul alese raman salvate pe masina.</li>
 <li>Cu motorul oprit sau distrus, efectele se opresc.</li>
 <li>Efectele le vad si le aud jucatorii aflati la cel mult 80 m de masina.</li>
 </ul>

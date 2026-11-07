@@ -174,10 +174,10 @@ outline: deep
 <li><h3 class="vif-h3">Nucleul</h3><p>Strange 3-4 oameni de incredere. Stabiliti numele, povestea familiei, ce va uneste si ce vreti sa obtineti.</p></li>
 <li><h3 class="vif-h3">Infiintarea</h3><p>Cand ai minim 10 membri activi, Sindicatul creeaza familia, ii alege gradele si il numeste pe lider.</p></li>
 <li><h3 class="vif-h3">Proba</h3><p>Activitate constanta, roleplay bun, disciplina. Mafiile Neoficiale te urmaresc si te pot recomanda.</p></li>
-<li><h3 class="vif-h3">Avansarea</h3><p>Doar Sindicatul te poate urca la Mafie Neoficiala, pe baza recomandarilor si a unor taskuri speciale.</p></li>
+<li><h3 class="vif-h3">Avansarea</h3><p>Doar Sindicatul te poate urca la Mafie Neoficiala, pe baza recomandarilor si a unor misiuni speciale.</p></li>
 </ol>
 <h2 class="vif-h2" id="cerinte">Cerinte</h2>
-<p class="vif-sub">Doua liste diferite: regulamentul spune ce trebuie sa ai ca sa existi, tableta arata cat de sanatoasa e familia.</p>
+<p class="vif-sub">Doua liste diferite: regulamentul spune ce iti trebuie ca familia sa existe, iar tableta arata daca familia sta bine sau e in pericol.</p>
 <div class="vif-req">
 <div class="vif-card">
 <span class="vif-tag">Regulament</span>
@@ -205,10 +205,10 @@ outline: deep
 <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M12 9V7"/><path d="M3 9h2"/><path d="M3 15h2"/></svg></span><h3 class="vif-h3">Seiful familiei</h3><p>Il pune Sindicatul, intr-un loc ales de el. Seful decide de la ce grad il pot deschide membrii. Ce tii in seif (arme, munitie, bani, droguri, obiecte rare) aduce puncte in clasament.</p></li>
 <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></svg></span><h3 class="vif-h3">Meniul sefului</h3><p>Un punct pus de Sindicat unde liderul apasa <kbd>E</kbd> si angajeaza, promoveaza sau da afara membri.</p></li>
 <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3 class="vif-h3">Echipament</h3><p>Nea Marcel vinde doar familiilor: vesta anti-glont usoara si grea, catuse si punga de pus in cap. Locul il aflati IC.</p></li>
-<li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h13l3 3v2h-5l-1 2h-3l-1 4H5l1-6H3z"/></svg></span><h3 class="vif-h3">Arme de familie</h3><p>Armele de mai jos le pot tine in mana doar membrii familiilor. Altcuiva arma ii este scoasa din mana.</p><ul class="vif-guns"><li>Micro SMG</li><li>SMG</li><li>Assault Rifle</li><li>Compact Rifle</li><li>Marksman Pistol</li></ul></li>
+<li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h13l3 3v2h-5l-1 2h-3l-1 4H5l1-6H3z"/></svg></span><h3 class="vif-h3">Arme de familie</h3><p>Armele de mai jos le pot tine in mana doar membrii familiilor. Altcineva nu le poate folosi: cand scoate una, o pune automat inapoi.</p><ul class="vif-guns"><li>Micro SMG</li><li>SMG</li><li>Assault Rifle</li><li>Compact Rifle</li><li>Marksman Pistol</li></ul></li>
 <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span><h3 class="vif-h3">Atelierul de arme</h3><p>Familiile pot face arme, munitie si componente la un atelier dintr-o zona No Man's Land, deschis intre 18:00 si 02:00.</p></li>
 </ul>
-<p class="vif-small">Cu catuse sau punga in inventar, orice membru al unei familii poate folosi pe alt jucator optiunile <b>Pune catusele</b> si <b>Pune punga</b>.</p>
+<p class="vif-small">Daca esti intr-o familie si ai catuse sau punga in inventar, le poti pune pe alt jucator din optiunile <b>Pune catusele</b> si <b>Pune punga</b>.</p>
 <h2 class="vif-h2" id="angajarea">Angajarea</h2>
 <div class="vif-hire">
 <div class="vif-card">
@@ -246,7 +246,7 @@ outline: deep
 <h3 class="vif-h3">Ce datorezi mafiei sponsor</h3>
 <ul class="vif-dots">
 <li>Afacerea merge cinstit, ca orice firma.</li>
-<li>Mafia sponsor afla ce faceti acolo.</li>
+<li>Tineti mafia sponsor la curent cu ce faceti acolo.</li>
 <li>Nu ajutati rivalii ei.</li>
 <li>Recrutati discret, fara presiune.</li>
 </ul>

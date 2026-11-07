@@ -295,7 +295,7 @@ outline: false
 <div class="mnr-zone gems">
 <h3>Zona 3</h3>
 <span class="who">Miner expert · 300h</span>
-<p>Minereurile din Zona 2, plus <b>diamant, rubin, smarald si safir</b>.</p>
+<p>Carbune, fier, cupru, staniu, plumb, sulf si bauxita, plus <b>diamant, rubin, smarald si safir</b>. Aur nu gasesti aici.</p>
 </div>
 <div class="mnr-zone secret">
 <h3>Mina secreta</h3>

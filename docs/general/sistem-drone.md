@@ -232,10 +232,9 @@ outline: false
 </g>
 <path class="hud" d="M18 34 V18 H34 M606 18 H622 V34 M18 226 V242 H34 M606 242 H622 V226"/>
 <g class="reticle"><circle cx="320" cy="222" r="10"/><path d="M304 222 H312 M328 222 H336 M320 206 V214 M320 230 V238"/></g>
-<circle class="rec" cx="34" cy="44" r="4"/>
-<text class="hud-t" x="44" y="48">REC</text>
-<text class="hud-t" x="44" y="66"><tspan class="hud-m">ALT </tspan>42 m</text>
-<text class="hud-t" x="530" y="48"><tspan class="hud-m">BAT </tspan>86%</text>
+<text class="hud-t" x="34" y="48"><tspan class="hud-m">ALTITUDINE </tspan>42 m</text>
+<text class="hud-t" x="34" y="66"><tspan class="hud-m">DISTANTA </tspan>180 m</text>
+<text class="hud-t" x="508" y="48"><tspan class="hud-m">BATERIE </tspan>86%</text>
 <text class="hud-t" x="508" y="66"><tspan class="hud-m">SEMNAL </tspan>92%</text>
 </svg>
 <ul class="drn-stats">
@@ -326,7 +325,7 @@ outline: false
 <li><span class="l">Baterie</span><span class="d">Cat mai poti zbura, in procente.</span></li>
 <li><span class="l">Semnal</span><span class="d">Cat mai ai pana la marginea razei de 450 m.</span></li>
 <li><span class="l">Coordonate</span><span class="d">Pozitia exacta a dronei pe harta.</span></li>
-<li><span class="l">Fa o poza</span><span class="d">Poza ajunge in galeria telefonului. O poza la 5 secunde.</span></li>
+<li><span class="l">Fa o poza</span><span class="d">Poza ajunge in galeria telefonului. O poza la 15 secunde.</span></li>
 <li><span class="l">Vedere nocturna</span><span class="d">Doar pe Drona NightVision.</span></li>
 <li><span class="l">Opreste</span><span class="d">Opresti drona. Vezi mai jos cum o recuperezi.</span></li>
 </ul>

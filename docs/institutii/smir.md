@@ -302,12 +302,12 @@ outline: false
 </div>
 <div class="smr-card">
 <h3 class="smr-h3">In brate si pe pat</h3>
-<p>Il iei in brate (<b>Ia in brate</b>) si, langa un pat de spital, apesi <kbd>E</kbd> ca sa-l asezi. Pe pat sta cel mult 5 minute. Il poti si reanima direct pe pat.</p>
+<p>Il iei in brate (<b>Ia pacientul in brate</b>) si, langa un pat de spital, apesi <kbd>E</kbd> ca sa-l asezi. Pe pat sta cel mult 5 minute. Il poti si reanima direct pe pat.</p>
 </div>
 <div class="smr-card">
 <h3 class="smr-h3">Geanta medicala si haine</h3>
 <p>Asezi <b>Geanta medicala</b> pe jos si o folosesti ca depozit (30 de sloturi) langa pacient.</p>
-<p>Cu <b>Dezbraca pacientul</b> ii scoti palaria, ochelarii, masca si celelalte accesorii.</p>
+<p>Cu <b>Dezbraca pacientul</b> ii scoti palaria, ochelarii, masca si orice alta haina sau accesoriu.</p>
 </div>
 </div>
 <h2 class="smr-h2" id="apeluri">Apeluri si statie</h2>

@@ -227,7 +227,7 @@ outline: false
 </ol>
 <ul class="gym-list" style="margin-top:1rem">
 <li>Intre doua exercitii ai o pauza de <b>4 secunde</b>.</li>
-<li>Cat timp te antrenezi, arma se pune la loc si nu poti folosi inventarul.</li>
+<li>Cat timp te antrenezi, personajul pune arma la loc si nu poti folosi inventarul.</li>
 <li>Pe un aparat se antreneaza un singur jucator.</li>
 </ul>
 <h2 class="gym-h2">Suplimente</h2>

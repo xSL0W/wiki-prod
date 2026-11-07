@@ -238,7 +238,7 @@ outline: false
 <li><span class="n">4</span><span class="t">Agent Sef</span><span class="d">Publici anunturi in MDT si setezi indicativele colegilor.</span></li>
 <li><span class="n">5</span><span class="t">Inspector</span><span class="d">Scoti obiecte din evidenta, trimiti coduri radio fara pauza, trimiti notificari colegilor si planifici transporturi de persoane.</span></li>
 <li class="boss"><span class="n">6</span><span class="t">Comisar<span class="tag">conducere</span></span><span class="d">Creezi unitati in dispecerat, planifici transporturi de armament si trimiti SMS-uri publice.</span></li>
-<li class="boss"><span class="n">7</span><span class="t">Comisar Sef<span class="tag">conducere</span></span><span class="d">Deschizi computerul din sediu: vezi personalul, pontajul si cheltuielile.</span></li>
+<li class="boss"><span class="n">7</span><span class="t">Comisar Sef<span class="tag">conducere</span></span><span class="d">Deschizi computerul din sediu: vezi personalul, pontajul si cheltuielile si schimbi gradul colegilor sub tine.</span></li>
 <li class="boss"><span class="n">8</span><span class="t">Chestor General<span class="tag">conducere</span></span><span class="d">Angajezi, promovezi si concediezi, administrezi flota, armuraria, codul penal si mandatele.</span></li>
 </ol>
 <h2 class="pol-h2" id="tura">Tura</h2>

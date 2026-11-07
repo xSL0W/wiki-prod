@@ -138,7 +138,7 @@ outline: false
 <h3>Pentru firma</h3>
 <ul class="asv-list">
 <li><b>Bani din facturi</b>Factura data de un mecanic intra in contul firmei, iar mecanicul primeste o parte din ea.</li>
-<li><b>Bani din tuning</b>Partea firmei creste cu fiecare angajat pontat aflat la cel mult 100 m de service.</li>
+<li><b>Bani din tuning</b>Partea firmei creste cu fiecare angajat pontat aflat la cel mult 100 m de service, pana la o limita.</li>
 <li><b>Depozit comun si seif</b>Depozitul de piese e al tuturor angajatilor. Seiful il deschid doar patronul si sefii.</li>
 <li><b>Salarii</b>Angajatii pontati primesc salariul din contul firmei, la fiecare payday.</li>
 </ul>

@@ -260,7 +260,7 @@ outline: false
 <li><b>Etaj 3</b><span>parcare subterana</span></li>
 </ul>
 <ul class="ta-notes">
-<li>La targul de vehicule, masinile cele mai scumpe stau afara, la expozitie. Daca listezi una mai scumpa decat cea mai ieftina de afara, ii ia locul, iar cealalta coboara in parcare.</li>
+<li>La targul de vehicule, masinile cele mai scumpe stau afara, la expozitie. Daca pui la vanzare una mai scumpa decat cea mai ieftina de afara, ii ia locul, iar cealalta coboara in parcare.</li>
 <li>Restul masinilor stau in parcarea subterana. Ca sa ajungi la ele: <b>Nea Marian → Intra in parcare</b> si alegi etajul. Langa fiecare etaj vezi cate masini sunt.</li>
 <li>In parcare intri doar pe jos. La intrarea din parcare apesi <kbd>E</kbd> ca sa schimbi etajul sau sa iesi afara.</li>
 </ul>
@@ -296,8 +296,8 @@ outline: false
 <ul class="ta-pills"><li>Pret vanzator</li><li>Pret de lista</li><li>Telefon vanzator</li><li>Parcat pana la</li><li>Note vanzator</li></ul>
 <h3>Informatii generale</h3>
 <ul class="ta-pills"><li>Categorie</li><li>Viteza maxima (stock si full tuning)</li><li>Portbagaj</li><li>Capacitate</li><li>Kilometraj</li></ul>
-<h3>Tuning si piese</h3>
-<ul class="ta-pills"><li>Motor</li><li>Frane</li><li>Transmisie</li><li>Suspensie</li><li>Blindaj</li><li>Modificari custom</li><li>Starea pieselor de motor</li><li>Km ramasi la piesele de service</li></ul>
+<h3>Tuning performanta si piese</h3>
+<ul class="ta-pills"><li>Motor</li><li>Frane</li><li>Transmisie</li><li>Suspensie</li><li>Blindaj</li><li>Modificari custom</li><li>Piese motor (stare)</li><li>Piese service (km ramasi)</li></ul>
 </div>
 <ul class="ta-keys">
 <li><kbd>H</kbd><p><b>Cumpara</b>Confirmi si masina e a ta pe loc.</p></li>

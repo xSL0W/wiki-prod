@@ -230,7 +230,7 @@ outline: false
 </div>
 <h2 class="dmv-h2">Proba practica</h2>
 <div class="dmv-panel">
-<p class="dmv-p">Pornesti proba de la instructor. Te urci la volanul unei <b>Primo</b> a scolii, cu motorul pornit si plinul facut. Langa tine sta examinatorul (un politist), iar in spate doi pasageri. Primii 20 de metri nu ai coliziuni, ca sa iesi usor din parcare.</p>
+<p class="dmv-p">Pornesti proba de la instructor. Te urci la volanul unei <b>Primo</b> a scolii, cu motorul pornit si plinul facut. Langa tine sta examinatorul (un politist), iar in spate doi pasageri. Primii 20 de metri treci prin ceilalti jucatori, ca sa iesi usor din parcare.</p>
 <ul class="dmv-legs" style="margin-top:1rem">
 <li><i>100</i><div><b>Oras</b><span>12 puncte</span></div></li>
 <li><i>100</i><div><b>National</b><span>10 puncte</span></div></li>
@@ -273,6 +273,6 @@ outline: false
 <li>Ai nevoie de un permis valid, adica sa fi trecut proba practica.</li>
 <li>Nu poti cere duplicat cat timp permisul ti-e <b>suspendat</b> de politie. Instructorul iti spune cat mai ai.</li>
 <li>Daca ai deja in inventar un permis pe numele actual, optiunea e blocata. Daca ti-ai schimbat numele, iei duplicat pe numele nou.</li>
-<li>Daca ai permisul vechi la tine, el se actualizeaza pe loc. Altfel iti trebuie loc in inventar. Daca nu incape, primesti banii inapoi.</li>
+<li>Daca ai permisul vechi la tine, el se actualizeaza pe loc. Altfel iti trebuie loc in inventar. Fara loc, nu platesti nimic.</li>
 </ul>
 </div>

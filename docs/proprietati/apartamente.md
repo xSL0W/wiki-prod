@@ -283,7 +283,7 @@ outline: false
 <div class="ap-card"><p class="ap-h3">Patul</p><p>Ca proprietar sau chirias, scrii <code>/sleep</code> oriunde in apartament. Ce primesti si ce pierzi cand dormi afli pe pagina <a href="/proprietati/despre-case">Case</a>.</p></div>
 </div>
 <h2 class="ap-h2">Renovarea</h2>
-<p class="ap-sub">Din meniul proprietarului → <b>Renovare</b> schimbi stilul interiorului. Cand esti in apartament, <b>Previzualizeaza</b> iti arata stilul gratuit timp de 120 de secunde, apoi revine cel vechi. <b>Aplica renovarea</b> costa EG Coins, iar pretul il vezi in meniu.</p>
+<p class="ap-sub">Din meniul proprietarului → <b>Renovare</b> schimbi stilul interiorului. Cand esti in apartament, <b>Previzualizeaza</b> iti arata stilul gratuit timp de 120 de secunde, apoi revine cel vechi. <b>Aplica renovarea</b> costa EG Coins (unele stiluri sunt gratuite), iar pretul il vezi in meniu.</p>
 <div class="ap-two">
 <div class="ap-card"><span class="ap-tag">Penthouse Suite 1, 2, 3</span><p class="ap-h3">8 stiluri</p><ul class="ap-swatches">
 <li><i class="s1"></i>Modern</li><li><i class="s2"></i>Mohorat</li><li><i class="s3"></i>Vibrant</li><li><i class="s4"></i>Elegant</li><li><i class="s5"></i>Monocrom</li><li><i class="s6"></i>Seducator</li><li><i class="s7"></i>Regal</li><li><i class="s8"></i>Aqua</li>

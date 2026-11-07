@@ -209,7 +209,7 @@ outline: false
 <li class="hostile"><h3>Coiot <span class="vn-tag atk">ataca</span></h3><div class="vn-shots" aria-label="aproximativ 3 focuri"><i class="f"></i><i class="f"></i><i class="f"></i><i></i></div><p>Nu fuge de tine, vine dupa tine.</p></li>
 <li class="hostile"><h3>Puma <span class="vn-tag atk">ataca</span></h3><div class="vn-shots" aria-label="aproximativ 4 focuri"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></div><p>Rara si cea mai rezistenta. Nu se sperie de focuri.</p></li>
 </ul>
-<p class="vn-legend">Bulinele portocalii arata cam cate focuri ii trebuie fiecarui animal. Un foc in cap poate scurta drumul.</p>
+<p class="vn-legend">Bulinele portocalii arata cam cate focuri ii trebuie fiecarui animal. Cu un foc in cap il dobori mai repede.</p>
 
 <h2><small>Urme si vanzare</small>Unde gasesti si unde vinzi</h2>
 <div class="vn-two">
@@ -231,7 +231,7 @@ outline: false
 <li><b>Pusca se reincarca greu.</b> Daca ratezi primul foc in fata unei pume, ai o problema.</li>
 <li><b>Zona de vanatoare e zona sigura.</b> Acolo nu se trage cu alte arme. Pusca de vanatoare merge doar in zona de vanatoare si nu trage cand tintesti un jucator.</li>
 <li><b>Nu conteaza cati vanatori sunteti.</b> Fiecare are animalele lui in jur, dar oricine poate impusca si transa orice animal.</li>
-<li><b>Te obosesti.</b> Dupa multe animale transate intr-o ora primesti mai putin din fiecare, iar la un moment dat trebuie sa te odihnesti pana poti transa din nou.</li>
+<li><b>Obosesti.</b> Dupa multe animale transate intr-o ora primesti mai putin din fiecare, iar la un moment dat trebuie sa te odihnesti pana poti transa din nou.</li>
 <li><b>Licenta de vanatoare</b> se cumpara de la Centrul de licente si e valabila 7 zile. Jobul merge si fara ea.</li>
 </ul>
 

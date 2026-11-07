@@ -309,7 +309,7 @@ outline: false
 <div class="pf-box special">
 <h4>Captura speciala</h4>
 <strong>Scoica</strong>
-<p>O prinzi doar cu <b>Nada mare</b>. Cu naluca n-o prinzi, iar uneori scoti gunoi. Scoica o deschizi din inventar: poate avea o perla sau poate fi goala.</p>
+<p>O prinzi doar cu <b>Nada mare</b>. Cu naluca n-o prinzi, iar uneori scoti gunoi. Scoica o deschizi din inventar: poate avea o perla sau doar gunoi.</p>
 </div>
 </div>
 </div>
@@ -344,7 +344,7 @@ outline: false
 </div>
 <div class="pf-spot">
 <h3>Scoica si perlele</h3>
-<p>Foloseste <b>Scoica</b> din inventar ca s-o deschizi. Poate avea o perla sau poate fi goala. Perlele le vinzi la <b>Punctul de vanzare perle</b>, din Rockford Hills.</p>
+<p>Foloseste <b>Scoica</b> din inventar ca s-o deschizi. Poate avea o perla sau doar gunoi. Perlele le vinzi la <b>Punctul de vanzare perle</b>, din Rockford Hills.</p>
 <div class="pf-pearls" aria-hidden="true"><span style="background:#f4f1ea"></span><span style="background:#4fc98a"></span><span style="background:#4d8ff0"></span><span style="background:#e0505a"></span><span style="background:#f2c14e"></span></div>
 </div>
 </div>

@@ -164,7 +164,7 @@ outline: false
 <div class="tx-head">
 <div>
 <h1><span>Taximetrist</span> <span class="tx-dash">-</span> <span class="tx-hours">30h</span></h1>
-<p>Urci la volanul unui taxi, pornesti aparatul si duci oamenii prin oras. Pasageri jucatori sau clienti NPC, plata vine din kilometri.</p>
+<p>Urci la volanul unui taxi si duci oamenii prin oras. Pasageri jucatori sau clienti NPC, esti platit dupa kilometri.</p>
 </div>
 <div class="tx-meter" role="img" aria-label="Aparat de taxat care alterneaza intre liber si ocupat si numara kilometrii">
 <div class="tx-sign"><span>Taxi</span><span class="tx-status"><span class="free">LIBER</span><span class="busy">OCUPAT</span></span></div>
@@ -218,7 +218,7 @@ outline: false
 <h3>Client din oras</h3>
 <p>Cat esti in tura, primesti apeluri de la NPC in aplicatia <b>Servicii</b> (<kbd>F7</kbd>). Accepta unul si urmeaza GPS-ul pana la <b>Client taxi</b>.</p>
 <p>Opreste langa marcaj si clientul urca singur. Du-l la <b>Destinatie taxi</b>, opreste langa marcaj si clientul coboara. Primesti banii cash.</p>
-<p>Pretul e fix inca de la urcare si depinde de distanta pana la destinatie. Iei o singura cursa NPC odata.</p>
+<p>Pretul il afli cand accepti apelul si depinde de distanta pana la destinatie. Iei o singura cursa NPC odata.</p>
 </div>
 </div>
 
@@ -227,7 +227,7 @@ outline: false
 <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="14" cy="26" r="9" fill="#8a5a2b"/><circle cx="50" cy="26" r="9" fill="#8a5a2b"/><circle cx="32" cy="32" r="20" fill="#8a5a2b"/><ellipse cx="32" cy="38" rx="13" ry="11" fill="#e3b98a"/><circle cx="25" cy="29" r="3" fill="#1a1a1c"/><circle cx="39" cy="29" r="3" fill="#1a1a1c"/><path d="M26 42 q6 5 12 0" stroke="#1a1a1c" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
 <div>
 <h3>Trucul aparatului</h3>
-<p>Cu un pasager jucator in masina, deschide meniul cu <kbd>K</kbd>, apoi <b>Job → Maimuta</b>. La suma cursei se adauga un bonus. Exista insa o sansa ca pasagerul sa vada, iar atunci primeste mesajul <b>Soferul a folosit maimuta!</b>. La cursele NPC maimuta nu merge.</p>
+<p>Cu un pasager jucator in masina, deschide meniul cu <kbd>K</kbd>, apoi <b>Job → Maimuta</b>. La suma cursei se adauga un bonus. Uneori insa pasagerul te vede si primeste mesajul <b>Soferul a folosit maimuta!</b>. La cursele NPC maimuta nu merge.</p>
 </div>
 </div>
 
