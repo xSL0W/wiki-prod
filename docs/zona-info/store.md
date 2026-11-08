@@ -2,6 +2,30 @@
 outline: false
 ---
 
+<script setup>
+import { onMounted, onBeforeUnmount } from 'vue'
+
+let detach
+/** VIP car thumbnails open their full image in the in-page dialog; any click on the dialog closes it. */
+onMounted(() => {
+  const dlg = document.getElementById('egs-lb')
+  const big = dlg.querySelector('img')
+  const open = (e) => {
+    const link = e.target.closest('a.egs-car')
+    if (!link) return
+    e.preventDefault()
+    big.src = link.href
+    big.alt = link.querySelector('img').alt
+    dlg.showModal()
+  }
+  const close = () => dlg.close()
+  document.addEventListener('click', open)
+  dlg.addEventListener('click', close)
+  detach = () => { document.removeEventListener('click', open); dlg.removeEventListener('click', close) }
+})
+onBeforeUnmount(() => detach?.())
+</script>
+
 <style>
 .egs {
   --ink: #0c0c0e;
@@ -238,6 +262,31 @@ outline: false
 }
 .egs .egs-buy b { display: block; }
 .egs .egs-buy span { color: var(--mute); font-size: 0.92rem; }
+/* offer catalog */
+.egs-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.egs .egs-group + .egs-group { margin-top: 1.6rem; }
+.egs .egs-group h3 {
+  display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.7rem; border: 0; padding: 0;
+  font-size: 1.1rem; font-weight: 750; color: #fff;
+}
+.egs .egs-group h3 svg { width: 1.2rem; height: 1.2rem; color: var(--a, var(--coin)); }
+.egs .egs-offers { display: grid; grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); gap: 0.65rem; }
+.egs .egs-offers li {
+  display: flex; flex-direction: column; gap: 0.15rem;
+  background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--a, var(--coin));
+  border-radius: 12px; padding: 0.7rem 0.8rem 0.8rem;
+}
+.egs .egs-pic {
+  display: grid; place-items: center; aspect-ratio: 4 / 3; margin-bottom: 0.45rem; border-radius: 9px;
+  background: radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--a, var(--coin)) 16%, transparent), transparent 70%), var(--panel2);
+  color: var(--a, var(--coin));
+}
+.egs .egs-pic img { width: 70%; height: 70%; object-fit: contain; margin: 0; }
+.egs .egs-offers li.ic { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); column-gap: 0.7rem; align-content: center; }
+.egs .egs-offers li.ic .egs-pic { grid-row: span 2; aspect-ratio: 1; margin: 0; }
+.egs .egs-pic svg { width: 60%; height: 60%; }
+.egs .egs-offers b { font-size: 0.95rem; line-height: 1.3; }
+.egs .egs-offers span:last-child { color: var(--mute); font-size: 0.85rem; line-height: 1.45; }
 /* earn coins */
 .egs .egs-earn { counter-reset: egs; display: grid; gap: 0.75rem; }
 .egs .egs-earn li {
@@ -251,16 +300,17 @@ outline: false
 .egs .egs-earn p { color: var(--mute); }
 .egs .egs-earn b { color: #fff; }
 /* VIP tiers */
-.egs .egs-tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; align-items: stretch; }
+.egs .egs-tiers { display: grid; gap: 1rem; }
 .egs .egs-tier {
   --tier: var(--silver);
-  display: flex; flex-direction: column;
+  display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.4fr); gap: 1rem 1.75rem; align-items: start;
   --tier-soft: rgba(196, 199, 204, 0.12);
   background: linear-gradient(180deg, var(--tier-soft), var(--panel) 40%);
   border: 1px solid var(--line); border-top: 3px solid var(--tier); border-radius: 18px; padding: 1.25rem 1.3rem;
 }
 .egs .egs-tier.gold { --tier: var(--gold); --tier-soft: rgba(242, 207, 60, 0.12); }
 .egs .egs-tier.plat { --tier: var(--plat); --tier-soft: rgba(79, 227, 224, 0.12); border-color: rgba(79, 227, 224, 0.45); }
+@media (max-width: 640px) { .egs .egs-tier { grid-template-columns: minmax(0, 1fr); } }
 .egs .egs-tier h3 { margin: 0; border: 0; padding: 0; font-size: 1.35rem; font-weight: 800; color: #fff; }
 .egs .egs-tier h3 span { color: var(--tier); }
 .egs .egs-perks { margin-top: 0.9rem; }
@@ -270,9 +320,26 @@ outline: false
 }
 .egs .egs-perks li span:first-child { color: var(--mute); }
 .egs .egs-perks li span:last-child { color: #fff; font-weight: 650; text-align: right; white-space: nowrap; }
-.egs .egs-cars-h { margin-top: 1rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tier); }
-.egs .egs-cars { margin-top: 0.4rem; }
-.egs .egs-cars li { font-size: 0.95rem; padding: 0.15rem 0; }
+.egs .egs-cars-h { margin-top: 0.2rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--tier); }
+.egs .egs-cars { margin-top: 0.5rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); gap: 0.55rem; }
+.egs .egs-cars li {
+  display: flex; flex-direction: column; align-items: center; gap: 0.3rem; text-align: center; font-size: 0.9rem; line-height: 1.3;
+  background: rgba(0, 0, 0, 0.22); border: 1px solid var(--line); border-radius: 10px; padding: 0.45rem 0.5rem 0.6rem;
+}
+.egs .egs-cars li.inc { grid-column: 1 / -1; background: none; border: 0; padding: 0.1rem 0; align-items: flex-start; }
+.egs .egs-cars a.egs-car { display: block; width: 100%; border-radius: 6px; line-height: 0; cursor: zoom-in; }
+.egs-lb { padding: 0; border: 0; background: transparent; max-width: min(92vw, 1100px); overflow: visible; cursor: zoom-out; }
+.egs-lb::backdrop { background: rgba(0, 0, 0, 0.82); }
+.egs-lb img {
+  display: block; max-width: 100%; max-height: 85vh; margin: 0; padding: 1rem; border-radius: 14px;
+  background: radial-gradient(circle at 50% 45%, #2a2a30, #121214 75%); border: 1px solid var(--line);
+}
+.egs-lb button {
+  position: absolute; top: -0.7rem; right: -0.7rem; width: 2rem; height: 2rem; border-radius: 50%;
+  background: var(--red-deep); color: #fff; font-size: 1.2rem; line-height: 1; cursor: pointer;
+}
+.egs .egs-cars a.egs-car:hover img { transform: scale(1.08); }
+.egs .egs-cars img { width: 100%; height: 5.4rem; object-fit: contain; margin: 0; transition: transform 0.15s ease; }
 .egs .egs-cars li.inc { color: var(--mute); font-style: italic; }
 .egs .egs-cars small { color: var(--mute); }
 .egs .egs-common { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
@@ -329,14 +396,80 @@ outline: false
 <li><b>Comanda <code>/store</code></b><span>Scrisa in chat</span></li>
 </ul>
 <h2>Ce poti lua cu EG Coins</h2>
+<p class="egs-sub">Toate ofertele din magazinul din joc:</p>
+<svg class="egs-sprite" aria-hidden="true" focusable="false"><symbol id="egs-i-euro" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M3.6 2.25A1.35 1.35 0 0 0 2.25 3.6v16.8c0 .746.604 1.35 1.35 1.35h16.8a1.35 1.35 0 0 0 1.35-1.35V3.6a1.35 1.35 0 0 0-1.35-1.35zm10.27 4c-2.52 0-4.633 1.689-5.354 4H8a.75.75 0 0 0 0 1.5h.255a6 6 0 0 0 0 .5H8a.75.75 0 0 0 0 1.5h.516c.721 2.311 2.834 4 5.354 4c.883 0 1.72-.21 2.466-.582a.75.75 0 0 0-.671-1.341a4 4 0 0 1-1.795.423c-1.66 0-3.107-1.02-3.756-2.5H14a.75.75 0 0 0 0-1.5H9.757a5 5 0 0 1 0-.5H14a.75.75 0 0 0 0-1.5h-3.886c.649-1.48 2.096-2.5 3.756-2.5c.644 0 1.252.152 1.794.423a.75.75 0 1 0 .672-1.341a5.5 5.5 0 0 0-2.466-.582" clip-rule="evenodd"/></symbol><symbol id="egs-i-vip" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h18M3 19h18M4 9l2 6h1l2-6m3 0v6m4 0V9h2a2 2 0 1 1 0 4h-2"/></symbol><symbol id="egs-i-warn" viewBox="0 0 24 24"><path fill="currentColor" d="M1 21L12 2l11 19zm11.713-3.287Q13 17.425 13 17t-.288-.712T12 16t-.712.288T11 17t.288.713T12 18t.713-.288M11 15h2v-5h-2z"/></symbol><symbol id="egs-i-clock" viewBox="0 0 24 24"><path fill="currentColor" d="M12 20a8 8 0 0 0 8-8a8 8 0 0 0-8-8a8 8 0 0 0-8 8a8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10a10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67l-.75 1.23L11 13V7z"/></symbol><symbol id="egs-i-garage" viewBox="0 0 24 24"><path fill="currentColor" d="M19 20h-2v-9H7v9H5V9l7-4l7 4zM8 12h8v2H8zm0 3h8v2H8zm8 3v2H8v-2z"/></symbol><symbol id="egs-i-gym" viewBox="0 0 24 24"><path fill="currentColor" d="M20.57 14.86L22 13.43L20.57 12L17 15.57L8.43 7L12 3.43L10.57 2L9.14 3.43L7.71 2L5.57 4.14L4.14 2.71L2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57L3.43 12L7 8.43L15.57 17L12 20.57L13.43 22l1.43-1.43L16.29 22l2.14-2.14l1.43 1.43l1.43-1.43l-1.43-1.43L22 16.29z"/></symbol><symbol id="egs-i-box" viewBox="0 0 24 24"><path fill="currentColor" d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15l-1.89 1.07L16 8.61l1.96-1.11zM6.04 7.5L12 10.85l1.96-1.1l-5.88-3.4zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></symbol></svg>
+<div class="egs-group" style="--a:#1ae300">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg>Bani</h3>
+<ul class="egs-offers">
+<li class="ic" style="--a:#1ae300"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg></span><b>20.000 €</b><span>Direct in banca</span></li>
+<li class="ic" style="--a:#1ae300"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg></span><b>100.000 €</b><span>Direct in banca</span></li>
+<li class="ic" style="--a:#1ae300"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg></span><b>200.000 €</b><span>Direct in banca</span></li>
+<li class="ic" style="--a:#1ae300"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg></span><b>400.000 €</b><span>Direct in banca</span></li>
+<li class="ic" style="--a:#1ae300"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg></span><b>1.000.000 €</b><span>Direct in banca</span></li>
+<li class="ic" style="--a:#1ae300"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-euro"/></svg></span><b>2.000.000 €</b><span>Direct in banca</span></li>
+</ul>
+</div>
+<div class="egs-group" style="--a:#ffff0a">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg>VIP</h3>
+<ul class="egs-offers">
+<li class="ic" style="--a:#b0b0b0"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg></span><b>VIP Silver</b><span>30 de zile</span></li>
+<li class="ic" style="--a:#f5ed00"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg></span><b>VIP Gold</b><span>30 de zile</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg></span><b>VIP Platinum</b><span>30 de zile</span></li>
+<li class="ic" style="--a:#b0b0b0"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg></span><b>VIP Silver</b><span>90 de zile</span></li>
+<li class="ic" style="--a:#f5ed00"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg></span><b>VIP Gold</b><span>90 de zile</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-vip"/></svg></span><b>VIP Platinum</b><span>90 de zile</span></li>
+</ul>
+</div>
+<div class="egs-group" style="--a:#00f7f3">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg>Ore jucate</h3>
+<ul class="egs-offers">
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg></span><b>25 de ore</b><span>Se adauga la orele jucate</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg></span><b>50 de ore</b><span>Se adauga la orele jucate</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg></span><b>100 de ore</b><span>Se adauga la orele jucate</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg></span><b>250 de ore</b><span>Se adauga la orele jucate</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg></span><b>500 de ore</b><span>Se adauga la orele jucate</span></li>
+<li class="ic" style="--a:#00f7f3"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-clock"/></svg></span><b>1000 de ore</b><span>Se adauga la orele jucate</span></li>
+</ul>
+</div>
+<div class="egs-group" style="--a:#ff9500">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-box"/></svg>Iteme</h3>
+<ul class="egs-offers">
+<li style="--a:#ffff00"><span class="egs-pic"><img src="/store/items/sistem_audio.webp" alt="" loading="lazy"></span><b>Sistem audio vehicul</b><span>Sistem audio de lux pentru masina ta. Nu il poti transfera si, odata montat, nu il mai poti scoate.</span></li>
+<li style="--a:#ffee00"><span class="egs-pic"><img src="/store/items/jante_premium_a.webp" alt="" loading="lazy"></span><b>Jante premium A</b><span>Jante unicat pentru masina ta. Nu le poti transfera si, odata montate, nu le mai poti scoate.</span></li>
+<li style="--a:#ffee00"><span class="egs-pic"><img src="/store/items/jante_premium_b.webp" alt="" loading="lazy"></span><b>Jante premium B</b><span>Jante unicat pentru masina ta. Nu le poti transfera si, odata montate, nu le mai poti scoate.</span></li>
+<li style="--a:#ff5a00"><span class="egs-pic"><img src="/store/items/antilag.webp" alt="" loading="lazy"></span><b>Antilag</b><span>Pocnituri si flacari colorate din esapament. Merge doar cu turbo. Nu il poti transfera, iar daca il demontezi, il pierzi.</span></li>
+<li style="--a:#ff9500"><span class="egs-pic"><img src="/store/items/premium_backpack.webp" alt="" loading="lazy"></span><b>Ghiozdan premium (o saptamana)</b><span>Cari pana la 100 kg in inventar. Ghiozdanul nu ti-l poate fura nimeni.</span></li>
+<li style="--a:#ff9500"><span class="egs-pic"><img src="/store/items/premium_backpack.webp" alt="" loading="lazy"></span><b>Ghiozdan premium (2 saptamani)</b><span>Cari pana la 100 kg in inventar. Ghiozdanul nu ti-l poate fura nimeni.</span></li>
+<li style="--a:#ff9500"><span class="egs-pic"><img src="/store/items/premium_backpack.webp" alt="" loading="lazy"></span><b>Ghiozdan premium (o luna)</b><span>Cari pana la 100 kg in inventar. Ghiozdanul nu ti-l poate fura nimeni.</span></li>
+<li style="--a:#ff9500"><span class="egs-pic"><img src="/store/items/premium_backpack.webp" alt="" loading="lazy"></span><b>Ghiozdan premium (3 luni)</b><span>Cari pana la 100 kg in inventar. Ghiozdanul nu ti-l poate fura nimeni.</span></li>
+<li style="--a:#00f7f3"><span class="egs-pic"><img src="/store/items/document.webp" alt="" loading="lazy"></span><b>Licenta operator drone (30 de zile)</b><span>Permisul pentru drone in Los Santos, legat de CNP-ul tau.</span></li>
+<li style="--a:#00f7f3"><span class="egs-pic"><img src="/store/items/document.webp" alt="" loading="lazy"></span><b>Licenta operator drone (90 de zile)</b><span>Permisul pentru drone in Los Santos, legat de CNP-ul tau.</span></li>
+</ul>
+</div>
+<div class="egs-group" style="--a:#9b59b6">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-garage"/></svg>Sloturi de garaj</h3>
+<ul class="egs-offers">
+<li class="ic" style="--a:#9b59b6"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-garage"/></svg></span><b>+1 slot</b><span>Mai multe vehicule personale in garaj</span></li>
+<li class="ic" style="--a:#9b59b6"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-garage"/></svg></span><b>+3 sloturi</b><span>Mai multe vehicule personale in garaj</span></li>
+<li class="ic" style="--a:#9b59b6"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-garage"/></svg></span><b>+5 sloturi</b><span>Mai multe vehicule personale in garaj</span></li>
+<li class="ic" style="--a:#9b59b6"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-garage"/></svg></span><b>+10 sloturi</b><span>Mai multe vehicule personale in garaj</span></li>
+</ul>
+</div>
+<div class="egs-group" style="--a:#ff2f0a">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-warn"/></svg>Sanctiuni</h3>
+<ul class="egs-offers">
+<li class="ic" style="--a:#ff2f0a"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-warn"/></svg></span><b>Iesi din admin-jail</b><span>Iesi pe loc din admin-jail</span></li>
+<li class="ic" style="--a:#ff9500"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-warn"/></svg></span><b>Sterge un avertisment</b><span>Scoate cel mai vechi avertisment activ</span></li>
+</ul>
+</div>
+<div class="egs-group" style="--a:#e67e22">
+<h3><svg aria-hidden="true" focusable="false"><use href="#egs-i-gym"/></svg>Altele</h3>
+<ul class="egs-offers">
+<li class="ic" style="--a:#e67e22"><span class="egs-pic"><svg aria-hidden="true" focusable="false"><use href="#egs-i-gym"/></svg></span><b>Sala: stamina si putere</b><span>Stamina si puterea la maxim, plus 20 kg in inventar</span></li>
+</ul>
+</div>
+<p class="egs-sub egs-after">Cu EG Coins mai poti lua si:</p>
 <ul class="egs-buy">
-<li><b>VIP</b><span>Silver, Gold sau Platinum, pe 30 sau 90 de zile</span></li>
-<li><b>Bani in joc</b><span>Pachete de bani, direct in banca</span></li>
-<li><b>Ore jucate</b><span>Pachete de la 25 la 1000 de ore</span></li>
-<li><b>Iteme premium</b><span>Jante premium, antilag, sistem audio, ghiozdan premium, licenta de operator drone</span></li>
-<li><b>Sloturi de garaj</b><span>+1, +3, +5 sau +10 sloturi</span></li>
-<li><b>Sala</b><span>Stamina si putere la maxim</span></li>
-<li><b>Sanctiuni</b><span>Iesi din admin-jail sau stergi cel mai vechi avertisment</span></li>
 <li><b>Masini premium</b><span>In dealership, la categoria premium</span></li>
 <li><b>Case si skin-uri de arme</b><span>Case platite in EG Coins si <a href="/general/skin-uri-arme">skin-uri premium</a></span></li>
 </ul>
@@ -353,53 +486,65 @@ outline: false
 <p class="egs-sub">Trei niveluri. Un nivel mai mare are tot ce are cel de sub el, plus ceva in plus.</p>
 <div class="egs-tiers">
 <div class="egs-tier">
+<div class="egs-tier-info">
 <h3>VIP <span>Silver</span></h3>
 <ul class="egs-perks">
 <li><span>Boost la joburi</span><span>+5%</span></li>
 <li><span>Salariu VIP</span><span>2.000 € / ora</span></li>
 <li><span>Bani la cumparare (30 zile)</span><span>75.000 €</span></li>
 </ul>
+</div>
+<div class="egs-tier-cars">
 <p class="egs-cars-h">Masini VIP</p>
 <ul class="egs-cars">
-<li>Ubermacht Oracle XS-LE</li>
-<li>Ubermacht Sentinel 4CSL</li>
-<li>Obey 9R</li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/oracxsle.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/oracxsle.webp?v=2" alt="Ubermacht Oracle XS-LE" loading="lazy"></a><span>Ubermacht Oracle XS-LE</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/4csl.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/4csl.webp?v=2" alt="Ubermacht Sentinel 4CSL" loading="lazy"></a><span>Ubermacht Sentinel 4CSL</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/ninef.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/ninef.webp?v=2" alt="Obey 9R" loading="lazy"></a><span>Obey 9R</span></li>
 </ul>
 </div>
+</div>
 <div class="egs-tier gold">
+<div class="egs-tier-info">
 <h3>VIP <span>Gold</span></h3>
 <ul class="egs-perks">
 <li><span>Boost la joburi</span><span>+10%</span></li>
 <li><span>Salariu VIP</span><span>3.500 € / ora</span></li>
 <li><span>Bani la cumparare (30 zile)</span><span>150.000 €</span></li>
 </ul>
+</div>
+<div class="egs-tier-cars">
 <p class="egs-cars-h">Masini VIP</p>
 <ul class="egs-cars">
-<li>Pegassi Reaper Custom</li>
-<li>Grotti Turismo S</li>
-<li>Gallivanter Baller ST-D Platinum</li>
-<li>Pegassi Toros</li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/reagpr.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/reagpr.webp?v=2" alt="Pegassi Reaper Custom" loading="lazy"></a><span>Pegassi Reaper Custom</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/turismos.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/turismos.webp?v=2" alt="Grotti Turismo S" loading="lazy"></a><span>Grotti Turismo S</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/ssg_ballerstd.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/ssg_ballerstd.webp?v=2" alt="Gallivanter Baller ST-D Platinum" loading="lazy"></a><span>Gallivanter Baller ST-D Platinum</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/toros.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/toros.webp?v=2" alt="Pegassi Toros" loading="lazy"></a><span>Pegassi Toros</span></li>
 <li class="inc">+ toate masinile de la Silver</li>
 </ul>
 </div>
+</div>
 <div class="egs-tier plat">
+<div class="egs-tier-info">
 <h3>VIP <span>Platinum</span></h3>
 <ul class="egs-perks">
 <li><span>Boost la joburi</span><span>+15%</span></li>
 <li><span>Salariu VIP</span><span>5.000 € / ora</span></li>
 <li><span>Bani la cumparare (30 zile)</span><span>250.000 €</span></li>
 </ul>
+</div>
+<div class="egs-tier-cars">
 <p class="egs-cars-h">Masini VIP</p>
 <ul class="egs-cars">
-<li>Invetero Coquette VR1</li>
-<li>Benefactor Krieger</li>
-<li>Pfister Comet GTS2</li>
-<li>Annis Elegy RH8 FR-Works</li>
-<li>Pegassi Severo Widebody</li>
-<li>Pegassi Speeder <small>(barca)</small></li>
-<li>Sparrow <small>(elicopter)</small></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/coqvr.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/coqvr.webp?v=2" alt="Invetero Coquette VR1" loading="lazy"></a><span>Invetero Coquette VR1</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/krieger.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/krieger.webp?v=2" alt="Benefactor Krieger" loading="lazy"></a><span>Benefactor Krieger</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/ssg_comet6.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/ssg_comet6.webp?v=2" alt="Pfister Comet GTS2" loading="lazy"></a><span>Pfister Comet GTS2</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/rh82.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/rh82.webp?v=2" alt="Annis Elegy RH8 FR-Works" loading="lazy"></a><span>Annis Elegy RH8 FR-Works</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/saseverowb.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/saseverowb.webp?v=2" alt="Pegassi Severo Widebody" loading="lazy"></a><span>Pegassi Severo Widebody</span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/speeder.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/speeder.webp?v=2" alt="Pegassi Speeder" loading="lazy"></a><span>Pegassi Speeder <small>(barca)</small></span></li>
+<li><a class="egs-car" href="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/seasparrow2.webp?v=2"><img src="https://jiraeg-j7wl0gw55c3cwjox.fsn1.your-objectstorage.com/cdn/assets/images/vehicles/seasparrow2.webp?v=2" alt="Sparrow" loading="lazy"></a><span>Sparrow <small>(elicopter)</small></span></li>
 <li class="inc">+ toate masinile de la Gold</li>
 </ul>
+</div>
 </div>
 </div>
 <ul class="egs-common">
@@ -420,5 +565,6 @@ outline: false
 </ul>
 <p class="egs-gap"><b>Atentie:</b> respectarea regulamentului FiveM e obligatorie. Daca primesti <b>ban fara drept de plata</b>, pachetele cumparate nu se mai pot folosi.</p>
 </div>
+<dialog id="egs-lb" class="egs-lb"><img alt=""><button type="button" aria-label="Inchide">&times;</button></dialog>
 <p class="egs-foot">Ai intrebari? Echipa te asteapta pe <a href="https://discord.gg/elitegamers" target="_blank" rel="noopener">Discord</a>.</p>
 </div>
