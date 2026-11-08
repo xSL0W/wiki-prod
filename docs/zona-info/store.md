@@ -358,7 +358,6 @@ outline: false
 <li><span>Boost la joburi</span><span>+5%</span></li>
 <li><span>Salariu VIP</span><span>2.000 € / ora</span></li>
 <li><span>Bani la cumparare (30 zile)</span><span>75.000 €</span></li>
-<li><span>Prioritate la coada</span><span>Nivel 1</span></li>
 </ul>
 <p class="egs-cars-h">Masini VIP</p>
 <ul class="egs-cars">
@@ -373,7 +372,6 @@ outline: false
 <li><span>Boost la joburi</span><span>+10%</span></li>
 <li><span>Salariu VIP</span><span>3.500 € / ora</span></li>
 <li><span>Bani la cumparare (30 zile)</span><span>150.000 €</span></li>
-<li><span>Prioritate la coada</span><span>Nivel 2</span></li>
 </ul>
 <p class="egs-cars-h">Masini VIP</p>
 <ul class="egs-cars">
@@ -390,7 +388,6 @@ outline: false
 <li><span>Boost la joburi</span><span>+15%</span></li>
 <li><span>Salariu VIP</span><span>5.000 € / ora</span></li>
 <li><span>Bani la cumparare (30 zile)</span><span>250.000 €</span></li>
-<li><span>Prioritate la coada</span><span>Nivel 3</span></li>
 </ul>
 <p class="egs-cars-h">Masini VIP</p>
 <ul class="egs-cars">
@@ -418,10 +415,8 @@ outline: false
 <p>Ai primit ban temporar sau permanent si vrei sa platesti ridicarea lui? Pe Tebex gasesti <b>Unban temporar</b>, <b>Unban permanent</b> si <b>Clear warn</b>.</p>
 <ul class="egs-steps">
 <li><b>Inainte sa cumperi, deschide un ticket pe <a href="https://discord.gg/elitegamers" target="_blank" rel="noopener">Discord</a>.</b> Echipa iti spune daca sanctiunea ta se poate ridica.</li>
-<li>Unban-ul nu se aplica automat: dupa plata, staff-ul ridica sanctiunea manual, pe ticketul tau.</li>
+<li>Unban-ul nu se scoate automat, este nevoie sa deschizi un ticket inainte de a cumpara.</li>
 <li>Unban-ul temporar ridica doar un ban temporar. Pentru un ban permanent iei Unban permanent.</li>
-<li>Clear warn sterge cel mai vechi avertisment activ.</li>
-<li><b>Unban Discord:</b> dupa plata, deschide un ticket pe <a href="https://discord.gg/elitegamers" target="_blank" rel="noopener">Discord</a> si ataseaza dovada platii (emailul de confirmare).</li>
 </ul>
 <p class="egs-gap"><b>Atentie:</b> respectarea regulamentului FiveM e obligatorie. Daca primesti <b>ban fara drept de plata</b>, pachetele cumparate nu se mai pot folosi.</p>
 </div>
