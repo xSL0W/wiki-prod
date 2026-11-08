@@ -310,7 +310,7 @@ outline: false
 <g class="tipgrp"><circle class="pulse" cx="600" cy="40" r="7"/><circle class="tip" cx="600" cy="40" r="5"/></g>
 </svg>
 <ul class="ebc-badges" aria-label="Tipuri de afaceri">
-<li>Service auto</li><li>Magazin 24/7</li><li>Haine</li><li>Arme</li><li>Frizerie</li><li>Tatuaje</li><li>Club</li><li>Salon</li>
+<li>Service auto</li><li>Magazin 24/7</li><li>Haine</li><li>Arme</li><li>Frizerie</li><li>Tatuaje</li><li>Club</li>
 </ul>
 <ul class="ebc-stats">
 <li><b>31</b><span>de afaceri in oras</span></li>
@@ -343,13 +343,12 @@ outline: false
 <div class="ebc-board-head"><span>Tip afacere</span><span>Locatii</span></div>
 <ul>
 <li><span class="t"><a href="/afaceri/service">Service auto</a></span><span class="n">6</span><span class="d">Mecanici pe tura, piese de la furnizor, facturi pentru reparatii.</span></li>
-<li><span class="t"><a href="/afaceri/shop">Magazin 24/7</a></span><span class="n">5</span><span class="d">Marfa din depozitul firmei, preturi puse de sef, vanzarile apar in tableta.</span></li>
+<li><span class="t"><a href="/afaceri/shop">Magazin 24/7</a></span><span class="n">11</span><span class="d">Marfa din depozitul firmei, preturi puse de sef, vanzarile apar in tableta.</span></li>
 <li><span class="t"><a href="/afaceri/clothing">Magazin de haine</a></span><span class="n">7</span><span class="d">Stoc pe fiecare categorie de haine, plus ghiozdane.</span></li>
 <li><span class="t"><a href="/afaceri/gunshop">Magazin de arme</a></span><span class="n">6</span><span class="d">Armele se vand din stocul firmei, la preturile puse de sef.</span></li>
-<li><span class="t"><a href="/afaceri/frizerie">Frizerie</a></span><span class="n">2</span><span class="d">Fiecare tunsoare consuma din stocul de consumabile al frizeriei.</span></li>
-<li><span class="t"><a href="/afaceri/tattoo">Salon de tatuaje</a></span><span class="n">3</span><span class="d">Fiecare tatuaj consuma din stocul de consumabile al salonului.</span></li>
+<li><span class="t"><a href="/afaceri/frizerie">Frizerie</a></span><span class="n">6</span><span class="d">Fiecare tunsoare consuma din stocul de consumabile al frizeriei.</span></li>
+<li><span class="t"><a href="/afaceri/tattoo">Salon de tatuaje</a></span><span class="n">5</span><span class="d">Fiecare tatuaj consuma din stocul de consumabile al salonului.</span></li>
 <li><span class="t"><a href="/afaceri/club">Club</a></span><span class="n">1</span><span class="d">Bar cu stoc propriu, bilete la intrare si cabina de DJ.</span></li>
-<li><span class="t">Salon de infrumusetare</span><span class="n">1</span><span class="d">Lucreaza cu creme si consumabile luate de la furnizorul de salon.</span></li>
 </ul>
 </div>
 <h2 class="ebc-h2">Proprietar, sef, angajat</h2>
