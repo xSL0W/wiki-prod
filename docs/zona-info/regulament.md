@@ -814,6 +814,8 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 
 ### 9.1 DEȚINEREA AFACERILOR
 - Fiecare persoană poate deține maximum **două (2)** afaceri înregistrate pe numele său.
+- Persoanele care fac parte dintr-o facțiune legală (**Poliție** sau **SMIR**) <span style="color: red;">NU</span> au dreptul de a deține sau administra o afacere, întrucât această situație reprezintă un conflict de interese, având în vedere statutul de instituție de stat al facțiunilor respective.
+- În cazul în care o persoană care deține deja o afacere dorește să se alăture unei facțiuni legale, aceasta are obligația de a ceda integral drepturile asupra afacerii către **Business Center**. În schimbul cedării, persoana va primi o compensație financiară reprezentând **50%** din valoarea licitată pentru afacerea respectivă, sumă achitată de către **Business Center**.
 
 ### 9.2 LICITAȚII ȘI TRANSFER
 - Persoana care câștigă o afacere în urma unei licitații devine deținătorul de drept al acesteia.

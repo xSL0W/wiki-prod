@@ -336,7 +336,7 @@ outline: false
 <li><h3 class="ebc-h3">Primesti firma</h3><p>Firma e trecuta pe numele tau. Iti iei o <b>tableta de firma</b> de la Digital Den si de acolo o conduci.</p></li>
 <li><h3 class="ebc-h3">Iti faci echipa</h3><p>Angajezi oameni, le dai functie si salariu si numesti sefi care sa te ajute la conducere.</p></li>
 </ol>
-<p class="ebc-note">Poti detine cel mult <b>doua afaceri</b>. O afacere castigata la licitatie nu se vinde si nu se trece pe altcineva. Daca renunti la ea, o cedezi catre EBC si nu primesti banii inapoi. Toate regulile sunt in <a href="/zona-info/regulament#_9-firme-afaceri">Regulament, sectiunea 9</a>.</p>
+<p class="ebc-note">Poti detine cel mult <b>doua afaceri</b>. O afacere castigata la licitatie nu se vinde si nu se trece pe altcineva. Daca renunti la ea, o cedezi catre EBC si nu primesti banii inapoi. Daca esti in Politie sau SMIR, nu poti detine si nici conduce o afacere. Daca ai deja una si intri in Politie sau SMIR, o cedezi catre EBC si primesti inapoi jumatate din suma cu care ai castigat-o la licitatie. Toate regulile sunt in <a href="/zona-info/regulament#_9-firme-afaceri">Regulament, sectiunea 9</a>.</p>
 <h2 class="ebc-h2">Ce afaceri exista</h2>
 <p class="ebc-sub">Numarul de locatii pentru fiecare tip. Fiecare tip de afacere are pagina lui cu detaliile meseriei.</p>
 <div class="ebc-board">
