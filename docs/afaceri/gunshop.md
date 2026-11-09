@@ -163,12 +163,12 @@ outline: false
 <h2>Locatii</h2>
 <p class="ags-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta.</p>
 <ul class="ags-locs">
-<li class="ags-loc"><b>Pillbox Hill</b><span>Cod postal <code>745</code></span></li>
-<li class="ags-loc"><b>Hawick</b><span>Cod postal <code>608</code></span></li>
-<li class="ags-loc"><b>Little Seoul</b><span>Cod postal <code>726</code></span></li>
-<li class="ags-loc"><b>La Mesa</b><span>Cod postal <code>769</code></span></li>
-<li class="ags-loc"><b>Cypress Flats</b><span>Cod postal <code>807</code></span></li>
-<li class="ags-loc"><b>Sandy Shores</b><span>Cod postal <code>285</code></span></li>
+<li class="ags-loc"><b>Gunshop Central</b><span>Cod postal <code>745</code></span></li>
+<li class="ags-loc"><b>Gunshop 605</b><span>Cod postal <code>608</code></span></li>
+<li class="ags-loc"><b>Gunshop 726</b><span>Cod postal <code>726</code></span></li>
+<li class="ags-loc"><b>Gunshop 769</b><span>Cod postal <code>769</code></span></li>
+<li class="ags-loc"><b>Gunshop 807</b><span>Cod postal <code>807</code></span></li>
+<li class="ags-loc"><b>Gunshop Sandy</b><span>Cod postal <code>285</code></span></li>
 </ul>
 <p class="ags-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

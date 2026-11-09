@@ -151,13 +151,13 @@ outline: false
 <h2>Locatii</h2>
 <p class="ach-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta. Pe langa ele mai exista si magazine de haine fara patron.</p>
 <ul class="ach-locs">
-<li class="ach-loc"><b>Rockford Hills</b><span>Cod postal <code>643</code></span></li>
-<li class="ach-loc"><b>Burton</b><span>Cod postal <code>619</code></span></li>
-<li class="ach-loc"><b>Alta</b><span>Cod postal <code>616</code></span></li>
-<li class="ach-loc"><b>Textile City</b><span>Cod postal <code>759</code></span></li>
-<li class="ach-loc"><b>Strawberry</b><span>Cod postal <code>849</code></span></li>
-<li class="ach-loc"><b>Vespucci Canals</b><span>Cod postal <code>714</code></span></li>
-<li class="ach-loc"><b>Paleto Bay</b><span>Cod postal <code>026</code></span></li>
+<li class="ach-loc"><b>Magazin haine Primarie</b><span>Cod postal <code>643</code></span></li>
+<li class="ach-loc"><b>Magazin haine Las Lagunas</b><span>Cod postal <code>619</code></span></li>
+<li class="ach-loc"><b>Magazin haine Vinewood</b><span>Cod postal <code>616</code></span></li>
+<li class="ach-loc"><b>Magazin haine LSPD</b><span>Cod postal <code>759</code></span></li>
+<li class="ach-loc"><b>Magazin haine Groove</b><span>Cod postal <code>849</code></span></li>
+<li class="ach-loc"><b>Magazin haine Vespucci</b><span>Cod postal <code>714</code></span></li>
+<li class="ach-loc"><b>Magazin haine Paleto</b><span>Cod postal <code>026</code></span></li>
 </ul>
 <p class="ach-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

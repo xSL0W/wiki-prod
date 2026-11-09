@@ -118,7 +118,7 @@ outline: false
 </div>
 </section>
 <ul class="afz-facts">
-<li><b>2</b><span>frizerii pe harta</span></li>
+<li><b>3</b><span>frizerii pe harta</span></li>
 <li><b>14</b><span>servicii, fiecare cu pretul lui</span></li>
 <li><b>3</b><span>consumabile de tinut in stoc</span></li>
 </ul>
@@ -158,8 +158,9 @@ outline: false
 <h2>Locatii</h2>
 <p class="afz-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta.</p>
 <ul class="afz-locs">
-<li class="afz-loc"><b>Rockford Hills</b><span>Cod postal <code>651</code></span></li>
-<li class="afz-loc"><b>Hawick</b><span>Cod postal <code>617</code></span></li>
+<li class="afz-loc"><b>Frizerie Primarie</b><span>Cod postal <code>651</code></span></li>
+<li class="afz-loc"><b>Frizerie Vinewood</b><span>Cod postal <code>617</code></span></li>
+<li class="afz-loc"><b>Frizerie Groove</b><span>Cod postal <code>838</code></span></li>
 </ul>
 <p class="afz-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

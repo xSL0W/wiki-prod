@@ -146,9 +146,9 @@ outline: false
 <h2>Locatii</h2>
 <p class="att-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta.</p>
 <ul class="att-locs">
-<li class="att-loc"><b>Vespucci Canals</b><span>Cod postal <code>696</code></span></li>
-<li class="att-loc"><b>Downtown Vinewood</b><span>Cod postal <code>596</code></span></li>
-<li class="att-loc"><b>El Burro Heights</b><span>Cod postal <code>792</code></span></li>
+<li class="att-loc"><b>Salon tatuaje Vespucci</b><span>Cod postal <code>696</code></span></li>
+<li class="att-loc"><b>Salon tatuaje Vinewood</b><span>Cod postal <code>596</code></span></li>
+<li class="att-loc"><b>Salon tatuaje Amarillo</b><span>Cod postal <code>792</code></span></li>
 </ul>
 <p class="att-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

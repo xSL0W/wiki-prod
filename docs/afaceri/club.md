@@ -166,7 +166,7 @@ outline: false
 </ul>
 <h2>Locatie</h2>
 <div class="acl-loc">
-<div><b>West Vinewood</b><span>Scrie in chat <code>/cod 623</code> ca sa pui punct pe harta.</span></div>
+<div><b>Club Haute</b><span>Scrie in chat <code>/cod 623</code> ca sa pui punct pe harta.</span></div>
 </div>
 <p class="acl-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

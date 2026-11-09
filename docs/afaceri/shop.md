@@ -164,11 +164,11 @@ outline: false
 <h2>Locatii</h2>
 <p class="ash-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta.</p>
 <ul class="ash-locs">
-<li class="ash-loc"><b>Downtown Vinewood</b><span>Cod postal <code>594</code></span></li>
-<li class="ash-loc"><b>Strawberry</b><span>Cod postal <code>850</code></span></li>
-<li class="ash-loc"><b>Davis</b><span>Cod postal <code>847</code></span></li>
-<li class="ash-loc"><b>Little Seoul</b><span>Cod postal <code>726</code></span></li>
-<li class="ash-loc"><b>Sandy Shores</b><span>Cod postal <code>297</code></span></li>
+<li class="ash-loc"><b>24/7 Rockford</b><span>Cod postal <code>594</code></span></li>
+<li class="ash-loc"><b>24/7 Strawberry</b><span>Cod postal <code>850</code></span></li>
+<li class="ash-loc"><b>24/7 Davis</b><span>Cod postal <code>847</code></span></li>
+<li class="ash-loc"><b>24/7 Little Seoul</b><span>Cod postal <code>726</code></span></li>
+<li class="ash-loc"><b>24/7 Sandy</b><span>Cod postal <code>297</code></span></li>
 </ul>
 <p class="ash-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>

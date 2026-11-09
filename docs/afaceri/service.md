@@ -159,12 +159,12 @@ outline: false
 <h2>Locatii</h2>
 <p class="asv-sub">Scrie in chat <code>/cod</code> si numarul de mai jos, ca sa pui punct pe harta.</p>
 <ul class="asv-locs">
-<li class="asv-loc"><b>Strawberry</b><span>Cod postal <code>851</code></span><em>Tuning</em></li>
-<li class="asv-loc"><b>Burton</b><span>Cod postal <code>627</code></span><em>Tuning</em></li>
-<li class="asv-loc"><b>East Vinewood</b><span>Cod postal <code>587</code></span><em>Tuning</em></li>
-<li class="asv-loc"><b>Cypress Flats</b><span>Cod postal <code>804</code></span><em>Tuning</em></li>
-<li class="asv-loc"><b>Murrieta Heights</b><span>Cod postal <code>768</code></span><em>Tuning</em></li>
-<li class="asv-loc"><b>Grapeseed</b><span>Cod postal <code>317</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Service Bennys</b><span>Cod postal <code>851</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Service Rockford</b><span>Cod postal <code>627</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Mirror Customs</b><span>Cod postal <code>587</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Service Cypress Flats</b><span>Cod postal <code>804</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Service Murrieta Heights</b><span>Cod postal <code>768</code></span><em>Tuning</em></li>
+<li class="asv-loc"><b>Service Sandy</b><span>Cod postal <code>317</code></span><em>Tuning</em></li>
 </ul>
 <p class="asv-foot">Cum cumperi o firma, cum angajezi oameni si cum se platesc salariile afli la <a href="/afaceri/elite-business-center">Elite Business Center</a>.</p>
 </div>
