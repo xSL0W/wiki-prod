@@ -127,19 +127,19 @@ outline: false
 <div class="ags-rack">
 <h3>Arme albe</h3>
 <ul class="ags-tags">
-<li>Bata</li><li>Rozeta</li><li>Ciocan</li><li>Pumnal</li><li>Cutit</li><li>Briceag</li><li>Topor</li><li>Topor de lupta</li>
+<li><img class="eg-item" src="/items/WEAPON_BAT.webp" alt="">Bata</li><li><img class="eg-item" src="/items/WEAPON_KNUCKLE.webp" alt="">Rozeta</li><li><img class="eg-item" src="/items/WEAPON_HAMMER.webp" alt="">Ciocan</li><li><img class="eg-item" src="/items/WEAPON_DAGGER.webp" alt="">Pumnal</li><li><img class="eg-item" src="/items/WEAPON_KNIFE.webp" alt="">Cutit</li><li><img class="eg-item" src="/items/WEAPON_SWITCHBLADE.webp" alt="">Briceag</li><li><img class="eg-item" src="/items/WEAPON_HATCHET.webp" alt="">Topor</li><li><img class="eg-item" src="/items/WEAPON_BATTLEAXE.webp" alt="">Topor de lupta</li>
 </ul>
 </div>
 <div class="ags-rack">
 <h3>Arme de foc</h3>
 <ul class="ags-tags">
-<li>Pistol SNS</li><li>Pusca de vanatoare</li>
+<li><img class="eg-item" src="/items/WEAPON_SNSPISTOL.webp" alt="">Pistol SNS</li><li><img class="eg-item" src="/items/WEAPON_MUSKET.webp" alt="">Pusca de vanatoare</li>
 </ul>
 </div>
 <div class="ags-rack">
 <h3>Munitie</h3>
 <ul class="ags-tags">
-<li>.45 ACP, pentru SNS</li><li>Gloante pentru pusca de vanatoare</li>
+<li><img class="eg-item" src="/items/ammo-45.webp" alt="">.45 ACP, pentru SNS</li><li><img class="eg-item" src="/items/ammo-musket.webp" alt="">Gloante pentru pusca de vanatoare</li>
 </ul>
 </div>
 </div>
@@ -151,7 +151,7 @@ outline: false
 <h2>Cum lucrezi la magazinul de arme</h2>
 <p class="ags-sub">Te angajeaza conducerea magazinului. De acolo, drumul unei arme pana pe raft arata asa:</p>
 <ol class="ags-steps">
-<li><p><b>Strangi materialele</b>Bare de otel, fier, cupru, staniu si aluminiu, bare inferioare, lemn, carbune, praf de pusca si minereu de plumb. Barele inferioare le topesti din minereu sarac, la Topitoria Incepatori (vezi <a href="/joburi/miner">Miner</a>).</p></li>
+<li><p><b>Strangi materialele</b><img class="eg-item" src="/items/bara_otel.webp" alt="">Bare de otel, <img class="eg-item" src="/items/bara_fier.webp" alt="">fier, <img class="eg-item" src="/items/bara_cupru.webp" alt="">cupru, <img class="eg-item" src="/items/bara_staniu.webp" alt="">staniu si <img class="eg-item" src="/items/bara_aluminiu.webp" alt="">aluminiu, bare inferioare, <img class="eg-item" src="/items/lemn.webp" alt="">lemn, <img class="eg-item" src="/items/carbune.webp" alt="">carbune, <img class="eg-item" src="/items/praf_pusca.webp" alt="">praf de pusca si <img class="eg-item" src="/items/minereu_plumb.webp" alt="">minereu de plumb. Barele inferioare le topesti din minereu sarac, la Topitoria Incepatori (vezi <a href="/joburi/miner">Miner</a>).</p></li>
 <li><p><b>Fabrici la masa din magazin</b>Fiecare magazin de arme are o masa Crafting Arme Magazin. O folosesc doar angajatii unui magazin de arme.</p></li>
 <li><p><b>Pui marfa in depozitul magazinului</b>Ce depui in depozitul de langa tejghea apare la vanzare. Stocul il vezi in Tableta firma, la Stoc.</p></li>
 <li><p><b>Conducerea pune preturile</b>Din Tableta firma, la Preturi. Un produs fara pret nu se poate cumpara.</p></li>

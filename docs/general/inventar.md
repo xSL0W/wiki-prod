@@ -100,10 +100,10 @@ outline: false
 <h3 class="inv-h3">Ghiozdane</h3>
 <p>Un ghiozdan in inventar iti mareste greutatea pe care o duci. Daca ai mai multe, conteaza doar cel mai mare.</p>
 <ul class="inv-bags">
-<li>Ghiozdan mic <b>+20 kg</b></li>
-<li>Ghiozdan mediu <b>+35 kg</b></li>
-<li>Ghiozdan mare <b>+50 kg</b></li>
-<li>Ghiozdan premium <b>+80 kg</b></li>
+<li><span><img class="eg-item" src="/items/small_backpack.webp" alt="">Ghiozdan mic</span> <b>+20 kg</b></li>
+<li><span><img class="eg-item" src="/items/medium_backpack.webp" alt="">Ghiozdan mediu</span> <b>+35 kg</b></li>
+<li><span><img class="eg-item" src="/items/big_backpack.webp" alt="">Ghiozdan mare</span> <b>+50 kg</b></li>
+<li><span><img class="eg-item" src="/items/premium_backpack.webp" alt="">Ghiozdan premium</span> <b>+80 kg</b></li>
 </ul>
 <p style="margin-top:0.6rem">Ghiozdanul premium expira dupa o perioada si primesti avertisment inainte.</p>
 </div>
@@ -123,7 +123,7 @@ outline: false
 <div class="inv-grid">
 <div class="inv-card"><h3 class="inv-h3">Ofera</h3><p>Trage itemul pe <b>Ofera</b> si alege jucatorul din lista celor de langa tine.</p></div>
 <div class="inv-card"><h3 class="inv-h3">Arunca</h3><p>Trage itemul pe <b>Arunca</b>. Pe jos apare o punga pe care o poate lua oricine.</p></div>
-<div class="inv-card"><h3 class="inv-h3">Bani</h3><p>Banii cash sunt itemul <b>Euro</b> si sunt mereu egali cu numerarul tau. Daca ai inventarul plin, banii raman in cont si apar ca item cand faci loc. <b>Bani murdari</b> sunt un item separat.</p></div>
+<div class="inv-card"><h3 class="inv-h3">Bani</h3><p>Banii cash sunt itemul <b><img class="eg-item" src="/items/money.webp" alt="">Euro</b> si sunt mereu egali cu numerarul tau. Daca ai inventarul plin, banii raman in cont si apar ca item cand faci loc. <b><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</b> sunt un item separat.</p></div>
 </div>
 
 <h2 class="inv-h2" id="containere">Masini si depozite</h2>
@@ -140,13 +140,13 @@ outline: false
 <h3 class="inv-h3">Nu se arunca si nu se dau</h3>
 <p>Le poti muta doar in inventarul tau:</p>
 <ul class="inv-tags">
-<li>Moneda oficiala EG</li><li>Sistem Audio</li><li>Antilag</li><li>Jante Premium A</li><li>Jante Premium B</li><li>Ghiozdan premium</li><li>Starter Pack</li>
+<li><img class="eg-item" src="/items/eg_coin.webp" alt="">Moneda oficiala EG</li><li><img class="eg-item" src="/items/sistem_audio.webp" alt="">Sistem Audio</li><li><img class="eg-item" src="/items/antilag.webp" alt="">Antilag</li><li><img class="eg-item" src="/items/jante_premium_a.webp" alt="">Jante Premium A</li><li><img class="eg-item" src="/items/jante_premium_b.webp" alt="">Jante Premium B</li><li><img class="eg-item" src="/items/premium_backpack.webp" alt="">Ghiozdan premium</li><li><img class="eg-item" src="/items/starter_pack.webp" alt="">Starter Pack</li>
 </ul>
 </div>
 <div class="inv-card">
 <h3 class="inv-h3">Nu ti se pot fura</h3>
 <ul class="inv-tags">
-<li>Buletin</li><li>Permis de conducere</li><li>Talon de inmatriculare</li><li>Mapa documente</li><li>Documente</li><li>Vehicle Keys</li><li>Key Bag</li>
+<li><img class="eg-item" src="/items/id_card.webp" alt="">Buletin</li><li><img class="eg-item" src="/items/driving_license.webp" alt="">Permis de conducere</li><li><img class="eg-item" src="/items/registration_paper.webp" alt="">Talon de inmatriculare</li><li><img class="eg-item" src="/items/mapa_documente.webp" alt="">Mapa documente</li><li><img class="eg-item" src="/items/document.webp" alt="">Documente</li><li><img class="eg-item" src="/items/vehiclekey.webp" alt="">Vehicle Keys</li><li><img class="eg-item" src="/items/keybag.webp" alt="">Key Bag</li>
 </ul>
 </div>
 </div>

@@ -283,7 +283,7 @@ outline: false
 <ul class="xatm-pad">
 <li><span class="xatm-k">10h</span><p>jucate pe server. Sub 10 ore, bormasina nu porneste jaful.</p></li>
 <li><span class="xatm-k">2+</span><p>politisti in serviciu in oras. Cu mai putini, nu poti incepe.</p></li>
-<li><span class="xatm-k">Bormasina</span><p>in inventar. O gasesti la <b>Home depot</b>, la Unelte. Se consuma la fiecare incercare.</p></li>
+<li><span class="xatm-k"><img class="eg-item" src="/items/drill.webp" alt="">Bormasina</span><p>in inventar. O gasesti la <b>Home depot</b>, la Unelte. Se consuma la fiecare incercare.</p></li>
 <li><span class="xatm-k xatm-no">Nu</span><p>poti fi politist sau medic. Nici in zonele protejate nu poti sparge un bancomat.</p></li>
 </ul>
 
@@ -291,11 +291,11 @@ outline: false
 <div class="xatm-screen">
 <ol class="xatm-steps">
 <li><p><b>Stai lipit de bancomat.</b> Trebuie sa fii chiar in fata lui, nu la cativa pasi.</p></li>
-<li><p><b>Foloseste Bormasina</b> din inventar. Jaful porneste, iar bancomatul iese din functiune.</p></li>
+<li><p><b>Foloseste <img class="eg-item" src="/items/drill.webp" alt="">Bormasina</b> din inventar. Jaful porneste, iar bancomatul iese din functiune.</p></li>
 <li><p><b>Gaureste suruburile panoului.</b> Tine apasat <kbd>Space</kbd> ca sa gauresti si da drumul ca sa se raceasca burghiul. <kbd>Esc</kbd> abandoneaza jaful.<span class="xatm-sub">Urmareste bara CALDURA. Daca ajunge sus, burghiul se supraincalzeste: pierzi din adancime si astepti pana se raceste. Scoate toate suruburile inainte sa expire timpul.</span></p></li>
 <li><p><b>Politia primeste alerta</b> in clipa in care ai scos ultimul surub. Locul jafului apare pe harta lor.</p></li>
 <li><p><b>Strange banii.</b> Stai pe loc pana se umple bara. Nu poti merge, alerga, trage sau urca in masina cat timp strangi.<span class="xatm-sub">Daca anulezi bara, jaful esueaza si pleci fara nimic.</span></p></li>
-<li><p><b>Primesti Bani murdari</b> direct in inventar. Acum pleaca repede din zona.</p></li>
+<li><p><b>Primesti <img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</b> direct in inventar. Acum pleaca repede din zona.</p></li>
 </ol>
 </div>
 

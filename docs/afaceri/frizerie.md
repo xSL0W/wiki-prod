@@ -127,14 +127,14 @@ outline: false
 <div class="afz-board">
 <div class="afz-menu">
 <h3>Tuns</h3>
-<p class="afz-uses">Consuma o masina de tuns si o foarfeca</p>
+<p class="afz-uses">Consuma o <img class="eg-item" src="/items/hair_clipper.webp" alt="">masina de tuns si o <img class="eg-item" src="/items/scissors.webp" alt="">foarfeca</p>
 <ul class="afz-items">
 <li>Par<span>orice schimbare de tunsoare</span></li>
 </ul>
 </div>
 <div class="afz-menu">
 <h3>Fata si corp</h3>
-<p class="afz-uses">Consuma produse faciale, cate unul pe serviciu</p>
+<p class="afz-uses">Consuma <img class="eg-item" src="/items/face_products.webp" alt="">produse faciale, cate unul pe serviciu</p>
 <ul class="afz-chips">
 <li>Barba</li><li>Sprancene</li><li>Culoare ochi</li><li>Machiaj</li><li>Ruj</li><li>Fard de obraz</li><li>Ten</li><li>Imperfectiuni</li><li>Imbatranire</li><li>Arsuri solare</li><li>Alunite si pistrui</li><li>Par pe piept</li><li>Imperfectiuni corp</li>
 </ul>
@@ -148,7 +148,7 @@ outline: false
 <p class="afz-sub">Pentru angajatii unei frizerii. Stocul il vezi oricand in Tableta firma, la Stoc.</p>
 <ol class="afz-steps">
 <li><b>Furnizor Frizer</b><span>Sta langa ceilalti furnizori, la codul postal <code>313</code>. Vinde doar angajatilor unei frizerii.</span></li>
-<li><b>Cumperi consumabile</b><span>Masini de tuns, foarfeci si produse faciale. Platesti din banii tai si primesti o cutie.</span></li>
+<li><b>Cumperi consumabile</b><span><img class="eg-item" src="/items/hair_clipper.webp" alt="">Masini de tuns, <img class="eg-item" src="/items/scissors.webp" alt="">foarfeci si <img class="eg-item" src="/items/face_products.webp" alt="">produse faciale. Platesti din banii tai si primesti o <img class="eg-item" src="/items/clothes_box.webp" alt="">cutie.</span></li>
 <li><b>Deschizi cutia la frizerie</b><span>Langa frizeria ta, continutul intra direct in stocul firmei. Ce trece peste limita de stoc ramane in cutie.</span></li>
 </ol>
 <ul class="afz-notes">

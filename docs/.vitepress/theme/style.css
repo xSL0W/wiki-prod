@@ -328,3 +328,15 @@ img {
 }
 .title-font { font-family: 'Orbitron'; }
 .header-font { color: red; font-family: 'Orbitron'; }
+
+/* Item icon from ox_inventory, before an item name: <img class="eg-item" src="/items/<file>.webp" alt="">
+ * Files are copied by scripts/item-images.py */
+.vp-doc img.eg-item {
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  margin: -0.2em 0.35em -0.2em 0;
+  vertical-align: middle;
+  object-fit: contain;
+  flex: none;
+}

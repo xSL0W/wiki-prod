@@ -130,7 +130,7 @@ outline: false
 <ul class="asv-list">
 <li><b>Reparatii si revizii</b>Mecanicii pun masina pe tester, schimba piesele uzate, caroseria si fac revizia.</li>
 <li><b>Tuning</b>La fiecare service iti modifici masina. Firma primeste o parte din fiecare modificare.</li>
-<li><b>Plata cu Terminalul POS</b>Mecanicul iti trimite factura, iar tu o accepti sau o refuzi.</li>
+<li><b><img class="eg-item" src="/items/pos_terminal.webp" alt="">Plata cu Terminalul POS</b>Mecanicul iti trimite factura, iar tu o accepti sau o refuzi.</li>
 <li><b>Politie si medici de serviciu</b>Facturile de la service le plateste statul, pana la o limita pe persoana, intr-un interval de timp. Peste ea, platesti tu.</li>
 </ul>
 </div>

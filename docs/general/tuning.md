@@ -326,7 +326,7 @@ outline: false
 <p class="tng-sub">Le iei din <a href="/zona-info/store">Magazin</a>, cu EG Coins. Nu le poti da altcuiva, arunca sau vinde in Piata.</p>
 <div class="tng-two">
 <div class="tng-card">
-<h3>Jante Premium A si B</h3>
+<h3><img class="eg-item" src="/items/jante_premium_a.webp" alt="">Jante Premium A si <img class="eg-item" src="/items/jante_premium_b.webp" alt="">B</h3>
 <ol class="tng-steps" style="margin-top:0.5rem">
 <li>Urca-te in <b>masina ta</b> si foloseste item-ul din inventar.</li>
 <li>Pachetul se deblocheaza pe acea masina, pentru totdeauna. Item-ul se consuma.</li>
@@ -334,7 +334,7 @@ outline: false
 </ol>
 </div>
 <div class="tng-card">
-<h3>Antilag</h3>
+<h3><img class="eg-item" src="/items/antilag.webp" alt="">Antilag</h3>
 <p>Pops & bangs si flacari colorate pe evacuare. Ai nevoie de turbina montata. Tot ce trebuie sa stii e pe pagina <a href="/general/antilag">Antilag</a>.</p>
 </div>
 </div>
@@ -342,7 +342,7 @@ outline: false
 <div class="tng-two">
 <div class="tng-card">
 <h3>Stancer</h3>
-<p>Doar un mecanic, la volan, cu <b>Kit stancer</b> in inventar. Kitul il comanda angajatii service-ului din Tableta firmei, la Furnizor. Il folosesti oriunde, nu doar la atelier.</p>
+<p>Doar un mecanic, la volan, cu <b><img class="eg-item" src="/items/stancerkit.webp" alt="">Kit stancer</b> in inventar. Kitul il comanda angajatii service-ului din Tableta firmei, la Furnizor. Il folosesti oriunde, nu doar la atelier.</p>
 <ul class="tng-sliders"><li>Inaltime suspensie</li><li>Offset roti fata</li><li>Offset roti spate</li><li>Camber fata</li><li>Camber spate</li><li>Latime roti</li><li>Dimensiune roti</li></ul>
 <p>Latimea si dimensiunea rotilor se schimba doar pe jante montate la tuning. Setarile raman salvate pe masina si le vad toti jucatorii. Nu merge pe motociclete, biciclete, barci si aeronave.</p>
 </div>

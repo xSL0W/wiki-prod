@@ -264,25 +264,25 @@ outline: false
 <h2>Ce iei in geanta</h2>
 <p class="bvd-p">Lista exacta, cu cate bucati iti trebuie, o vezi in meniu la <b>Obiecte necesare</b>. Obiectele de hacking se consuma doar cand reusesti.</p>
 <ul class="bvd-lockers bvd-after">
-<li class="bvd-locker"><span class="bvd-no">CUTIA 01</span><h3>Telefon Hacking</h3><p>Pentru camere. Se face la <b>Hackeru' lui Peste</b>, langa Lester. Ia rezerve: politia poate lua camerele inapoi.</p></li>
-<li class="bvd-locker"><span class="bvd-no">CUTIA 02</span><h3>Soricel</h3><p>Blocheaza usa de la intrare. Il cumperi de la Home Depot.</p></li>
-<li class="bvd-locker"><span class="bvd-no">CUTIA 03</span><h3>C4</h3><p>Bomba pentru usa seifului. Se face la <b>Crafting Ilegale Sandy</b>.</p></li>
-<li class="bvd-locker"><span class="bvd-no">CUTIA 04</span><h3>Topor</h3><p>Sparge usa din interior. Un topor tine cateva folosiri, apoi se rupe.</p></li>
-<li class="bvd-locker"><span class="bvd-no">CUTIA 05</span><h3>Tableta Hacking</h3><p>Cate una pentru fiecare calculator. Se face la <b>Hackeru' lui Peste</b>.</p></li>
-<li class="bvd-locker"><span class="bvd-no">CUTIA 06</span><h3>Laptop de hacking</h3><p>Sparge codul seifului final. Se face la <b>Crafting Ilegale Sandy</b>.</p></li>
-<li class="bvd-locker"><span class="bvd-no">CUTIA 07</span><h3>Bormasina cu burghiu de diamant</h3><p>Gaureste cutiile cu valori si se uzeaza la fiecare cutie noua. Se face la <b>Crafting Ilegale Sandy</b>.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 01</span><h3><img class="eg-item" src="/items/telefon_hacking.webp" alt="">Telefon Hacking</h3><p>Pentru camere. Se face la <b>Hackeru' lui Peste</b>, langa Lester. Ia rezerve: politia poate lua camerele inapoi.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 02</span><h3><img class="eg-item" src="/items/ziptie.webp" alt="">Soricel</h3><p>Blocheaza usa de la intrare. Il cumperi de la Home Depot.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 03</span><h3><img class="eg-item" src="/items/c4.webp" alt="">C4</h3><p>Bomba pentru usa seifului. Se face la <b>Crafting Ilegale Sandy</b>.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 04</span><h3><img class="eg-item" src="/items/axe.webp" alt="">Topor</h3><p>Sparge usa din interior. Un topor tine cateva folosiri, apoi se rupe.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 05</span><h3><img class="eg-item" src="/items/tableta_hacking.webp" alt="">Tableta Hacking</h3><p>Cate una pentru fiecare calculator. Se face la <b>Hackeru' lui Peste</b>.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 06</span><h3><img class="eg-item" src="/items/laptop_hacking.webp" alt="">Laptop de hacking</h3><p>Sparge codul seifului final. Se face la <b>Crafting Ilegale Sandy</b>.</p></li>
+<li class="bvd-locker"><span class="bvd-no">CUTIA 07</span><h3><img class="eg-item" src="/items/diamond_drill.webp" alt="">Bormasina cu burghiu de diamant</h3><p>Gaureste cutiile cu valori si se uzeaza la fiecare cutie noua. Se face la <b>Crafting Ilegale Sandy</b>.</p></li>
 </ul>
 
 <h2>Combinatia: cele noua etape</h2>
 <p class="bvd-p">Etapele merg strict in ordine. O etapa noua se deschide doar dupa ce o terminati pe cea de dinainte, iar lista apare in HUD la toata echipa.</p>
 <ol class="bvd-combo bvd-after">
-<li class="bvd-step" data-n="1"><h3>Sparge camerele</h3><p>La cutia electrica de langa banca apasa <kbd>H</kbd>. Ai nevoie de <b>Telefon Hacking</b>: gasesti cipurile ascunse cu lanterna. <kbd>ESC</kbd> te scoate din joc. Cand reusesti, camerele bancii sunt ale voastre.</p></li>
-<li class="bvd-step alert" data-n="2"><h3>Blocheaza intrarea <span class="bvd-tag">alarma</span></h3><p>Foloseste <b>Soricel</b> din inventar langa usa de la intrare. Usa se incuie, porneste alarma si toti politistii de serviciu primesc alerta.</p></li>
-<li class="bvd-step alert" data-n="3"><h3>Planteaza bomba</h3><p>Stai cu fata la usa seifului si foloseste <b>C4</b>. Bomba numara invers si piuie tot mai des. Nu sta langa ea cand explodeaza: te omoara. Cat timp numara, treceti la etapele urmatoare.</p></li>
-<li class="bvd-step" data-n="4"><h3>Cauta prin hartiile rupte</h3><p>La rafturi apasa <kbd>H</kbd> si lipesti documentul la loc. Primesti o <b>Bucata de hartie</b> cu numarul unei cutii pline din seif. Daca gresesti, raftul se blocheaza pentru putin timp.</p></li>
+<li class="bvd-step" data-n="1"><h3>Sparge camerele</h3><p>La cutia electrica de langa banca apasa <kbd>H</kbd>. Ai nevoie de <b><img class="eg-item" src="/items/telefon_hacking.webp" alt="">Telefon Hacking</b>: gasesti cipurile ascunse cu lanterna. <kbd>ESC</kbd> te scoate din joc. Cand reusesti, camerele bancii sunt ale voastre.</p></li>
+<li class="bvd-step alert" data-n="2"><h3>Blocheaza intrarea <span class="bvd-tag">alarma</span></h3><p>Foloseste <b><img class="eg-item" src="/items/ziptie.webp" alt="">Soricel</b> din inventar langa usa de la intrare. Usa se incuie, porneste alarma si toti politistii de serviciu primesc alerta.</p></li>
+<li class="bvd-step alert" data-n="3"><h3>Planteaza bomba</h3><p>Stai cu fata la usa seifului si foloseste <b><img class="eg-item" src="/items/c4.webp" alt="">C4</b>. Bomba numara invers si piuie tot mai des. Nu sta langa ea cand explodeaza: te omoara. Cat timp numara, treceti la etapele urmatoare.</p></li>
+<li class="bvd-step" data-n="4"><h3>Cauta prin hartiile rupte</h3><p>La rafturi apasa <kbd>H</kbd> si lipesti documentul la loc. Primesti o <b><img class="eg-item" src="/items/bucata_de_hartie.webp" alt="">Bucata de hartie</b> cu numarul unei cutii pline din seif. Daca gresesti, raftul se blocheaza pentru putin timp.</p></li>
 <li class="bvd-step" data-n="5"><h3>Sparge usa cu toporul</h3><p>Langa usa apasa <kbd>H</kbd>, apoi apasa repetat <kbd>SPACE</kbd>. Daca tii tasta apasata, nu se intampla nimic. <kbd>BACKSPACE</kbd> anuleaza.</p></li>
-<li class="bvd-step" data-n="6"><h3>Sparge calculatoarele</h3><p>La fiecare calculator apasa <kbd>H</kbd> si ghicesti parola terminalului. Fiecare calculator spart consuma o <b>Tableta Hacking</b> si iti da inca o hartie cu numarul unei cutii pline.</p></li>
-<li class="bvd-step" data-n="7"><h3>Sparge codul seifului</h3><p>Merge doar dupa ce bomba a explodat. La tastatura apasa <kbd>H</kbd> si ghicesti codul din cateva incercari. Cand reusesti, <b>Laptop de hacking</b> se consuma si seiful se deschide.</p></li>
+<li class="bvd-step" data-n="6"><h3>Sparge calculatoarele</h3><p>La fiecare calculator apasa <kbd>H</kbd> si ghicesti parola terminalului. Fiecare calculator spart consuma o <b><img class="eg-item" src="/items/tableta_hacking.webp" alt="">Tableta Hacking</b> si iti da inca o hartie cu numarul unei cutii pline.</p></li>
+<li class="bvd-step" data-n="7"><h3>Sparge codul seifului</h3><p>Merge doar dupa ce bomba a explodat. La tastatura apasa <kbd>H</kbd> si ghicesti codul din cateva incercari. Cand reusesti, <b><img class="eg-item" src="/items/laptop_hacking.webp" alt="">Laptop de hacking</b> se consuma si seiful se deschide.</p></li>
 <li class="bvd-step" data-n="8"><h3>Deschide cutiile cu valori</h3><p>Langa un rand de cutii apasa <kbd>H</kbd> si alegi numarul. Gauresti cutia cu bormasina, apoi iei ce e in ea din inventar. Hartiile iti spun care sunt pline, dar nu le acopera pe toate: pe restul le cautati. Etapa se termina cand ati deschis toate cutiile pline.</p></li>
 <li class="bvd-step final" data-n="9"><h3>Ia banii</h3><p>La caruciorul cu bani apasa <kbd>H</kbd>. Strangi banii intr-o animatie lunga, pe care o poti anula. Lucreaza un singur om. Cand termina, jaful e gata.</p></li>
 </ol>
@@ -292,19 +292,19 @@ outline: false
 <div class="bvd-box">
 <h3>Cutiile pline</h3>
 <ul class="bvd-chips">
-<li class="bvd-chip">Bani murdari</li>
-<li class="bvd-chip">Bara de aur</li>
-<li class="bvd-chip">Diamant</li>
-<li class="bvd-chip">Rubin</li>
-<li class="bvd-chip">Safir</li>
-<li class="bvd-chip">Smarald</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/bara_aur.webp" alt="">Bara de aur</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/diamant.webp" alt="">Diamant</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/rubin.webp" alt="">Rubin</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/safir.webp" alt="">Safir</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/smarald.webp" alt="">Smarald</li>
 </ul>
 <p class="bvd-note">O cutie deschisa ramane deschisa pana la final: oricine din echipa ia ce a ramas in ea, fara sa mai gaureasca. Cutiile goale nu au nimic.</p>
 </div>
 <div class="bvd-box cash">
 <h3>Caruciorul</h3>
 <ul class="bvd-chips">
-<li class="bvd-chip">Bani murdari</li>
+<li class="bvd-chip"><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</li>
 </ul>
 <p class="bvd-note">Banii ajung la cel care i-a strans si se iau o singura data pe jaf. Fa-ti loc in inventar: daca nu ai loc, nu primesti banii si trebuie sa strangi din nou.</p>
 </div>
@@ -314,9 +314,9 @@ outline: false
 <h2>Politia si riscuri</h2>
 <ul class="bvd-rows">
 <li class="bvd-row"><b>Alerta vine la etapa 2.</b><p>Cand blochezi intrarea, politia primeste locatia, iar alarma suna in jurul bancii.</p></li>
-<li class="bvd-row"><b>Lupta pe camere.</b><p>Politia poate securiza camerele din nou, de la aceeasi cutie electrica. Ca sa le iei inapoi, ai nevoie de alt <b>Telefon Hacking</b>.</p></li>
-<li class="bvd-row"><b>Soricelul se taie.</b><p>Cu un <b>Cutter</b>, usa de la intrare se deblocheaza si politia intra.</p></li>
-<li class="bvd-row"><b>Bomba se poate dezamorsa.</b><p>Politia o dezamorseaza cu <b>Kit dezamorsare</b>. Daca reuseste, plantati alta. Daca greseste, bomba explodeaza pe loc.</p></li>
+<li class="bvd-row"><b>Lupta pe camere.</b><p>Politia poate securiza camerele din nou, de la aceeasi cutie electrica. Ca sa le iei inapoi, ai nevoie de alt <b><img class="eg-item" src="/items/telefon_hacking.webp" alt="">Telefon Hacking</b>.</p></li>
+<li class="bvd-row"><b>Soricelul se taie.</b><p>Cu un <b><img class="eg-item" src="/items/cutter.webp" alt="">Cutter</b>, usa de la intrare se deblocheaza si politia intra.</p></li>
+<li class="bvd-row"><b>Bomba se poate dezamorsa.</b><p>Politia o dezamorseaza cu <b><img class="eg-item" src="/items/defuse_kit.webp" alt="">Kit dezamorsare</b>. Daca reuseste, plantati alta. Daca greseste, bomba explodeaza pe loc.</p></li>
 <li class="bvd-row"><b>Fara zona sigura.</b><p>Cat timp ruleaza jaful, echipa nu mai e protejata in nicio zona sigura de pe harta.</p></li>
 </ul>
 

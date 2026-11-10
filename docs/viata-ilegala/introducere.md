@@ -273,7 +273,7 @@ outline: false
 </ul>
 </div>
 <div class="vii-card">
-<h3 class="vii-h3">Tableta Sentinel</h3>
+<h3 class="vii-h3"><img class="eg-item" src="/items/sentinel_tablet.webp" alt="">Tableta Sentinel</h3>
 <p>Un item din inventar care se deschide doar pentru membrii unei familii sau mafii. Tot ce tine de familie se vede aici:</p>
 <ul class="vii-tabs">
 <li><b>Clasament</b>Scorul familiilor, membrii si cerintele stadiului.</li>

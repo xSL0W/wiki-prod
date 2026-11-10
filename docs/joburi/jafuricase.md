@@ -235,7 +235,7 @@ outline: false
 <ul class="jc-spec">
 <li><span>Ore jucate</span><strong>50h</strong></li>
 <li><span>Echipa</span><strong>1-4 jucatori</strong></li>
-<li><span>Opresti alarma cu</span><strong>Telefon Hacking</strong></li>
+<li><span>Opresti alarma cu</span><strong><img class="eg-item" src="/items/telefon_hacking.webp" alt="">Telefon Hacking</strong></li>
 <li><span>Seif</span><strong>Nu</strong></li>
 </ul>
 <p class="jc-note">Casa poate fi jefuita chiar daca are proprietar.</p>
@@ -246,7 +246,7 @@ outline: false
 <ul class="jc-spec">
 <li><span>Ore jucate</span><strong>100h</strong></li>
 <li><span>Echipa</span><strong>1-6 jucatori</strong></li>
-<li><span>Opresti alarma cu</span><strong>Tableta Hacking</strong></li>
+<li><span>Opresti alarma cu</span><strong><img class="eg-item" src="/items/tableta_hacking.webp" alt="">Tableta Hacking</strong></li>
 <li><span>Seif</span><strong>Da</strong></li>
 </ul>
 <p class="jc-note">O casa de lux care are proprietar nu iese niciodata la jaf.</p>
@@ -259,21 +259,21 @@ outline: false
 <div class="jc-kit">
 <div class="jc-tool">
 <svg viewBox="0 0 48 48" aria-hidden="true"><path class="s" d="M8 30 L30 8 M26 12 L32 18 M22 16 L26 20"/><circle class="s" cx="34" cy="34" r="8"/><path class="s" d="M28 28 L14 42"/></svg>
-<h3>Lockpick avansat</h3>
+<h3><img class="eg-item" src="/items/advancedlockpick.webp" alt="">Lockpick avansat</h3>
 <p>Cu el spargi usa. <b>Fiecare incercare il consuma</b>, fie ca reusesti, fie ca nu, asa ca ia mai multe.</p>
 <p>Il cumperi de la <b>Home depot</b>. Mai pica uneori din jafurile de masini sau din tomberoane.</p>
 </div>
 <div class="jc-tool">
 <svg viewBox="0 0 48 48" aria-hidden="true"><path class="s" d="M12 40 L36 10 Q40 6 42 10 L40 14"/><path class="s" d="M12 40 Q8 42 6 38 L10 34"/></svg>
-<h3>Ranga</h3>
+<h3><img class="eg-item" src="/items/WEAPON_CROWBAR.webp" alt="">Ranga</h3>
 <p>Fara ranga nu poti cauta prin casa. <b>Se poate rupe</b> la orice punct, asa ca ia cateva.</p>
 <p>O gasesti pe un santier, cu optiunea <b>Obtine ranga</b> de la Lester. Detaliile sunt mai jos.</p>
 </div>
 <div class="jc-tool">
 <svg viewBox="0 0 48 48" aria-hidden="true"><rect class="s" x="14" y="6" width="20" height="36" rx="4"/><path class="s" d="M20 36 H28 M20 14 L24 18 L20 22 M26 22 H30"/></svg>
 <h3>Telefon / Tableta Hacking</h3>
-<p>Opreste alarma: <b>Telefon Hacking</b> la casele obisnuite, <b>Tableta Hacking</b> la cele de lux. Se consuma la fiecare incercare.</p>
-<p>Le craftezi la <b>Hackeru lui Peste</b>, langa Lester, dintr-un Telefon (de la DigitalDen) sau o Tableta (o gasesti la jafurile la case obisnuite) plus un <b>Sim hacking</b> (din jafurile de masini).</p>
+<p>Opreste alarma: <b><img class="eg-item" src="/items/telefon_hacking.webp" alt="">Telefon Hacking</b> la casele obisnuite, <b><img class="eg-item" src="/items/tableta_hacking.webp" alt="">Tableta Hacking</b> la cele de lux. Se consuma la fiecare incercare.</p>
+<p>Le craftezi la <b>Hackeru lui Peste</b>, langa Lester, dintr-un <img class="eg-item" src="/items/phone.webp" alt="">Telefon (de la DigitalDen) sau o <img class="eg-item" src="/items/tableta.webp" alt="">Tableta (o gasesti la jafurile la case obisnuite) plus un <b><img class="eg-item" src="/items/sim_hacking.webp" alt="">Sim hacking</b> (din jafurile de masini).</p>
 </div>
 </div>
 <h2>Ranga de pe santier</h2>
@@ -286,9 +286,9 @@ outline: false
 <ol class="jc-steps">
 <li><strong>Vorbeste cu Lester</strong><p>Alege <b>Jaf case obisnuite</b> sau <b>Jaf case de lux</b>. Daca joci in echipa, formeaz-o din <b>Meniu echipa</b>. Doar liderul apasa <b>Incepe jaf</b>. Singur poti porni direct.</p></li>
 <li><strong>Mergi la adresa</strong><p>Toata echipa primeste GPS spre o casa aleasa la intamplare si numarul ei in notificare. Ai un timp limitat pentru tot jaful. Pasii apar si pe ecran, in lista jafului.</p></li>
-<li><strong>Sparge usa</strong><p>Stai langa usa si foloseste <b>Lockpick avansat</b> din inventar. Treci minijocul si usa ramane deschisa pentru toata echipa.</p></li>
+<li><strong>Sparge usa</strong><p>Stai langa usa si foloseste <b><img class="eg-item" src="/items/advancedlockpick.webp" alt="">Lockpick avansat</b> din inventar. Treci minijocul si usa ramane deschisa pentru toata echipa.</p></li>
 <li class="alarm"><strong>Opreste alarma</strong><p>Cand se deschide usa porneste numaratoarea, iar notificarea iti spune cate secunde ai. Du-te la panoul de alarma, tine <kbd>H</kbd> si treci minijocul cu luminile. Cat timp lucrezi la panou, numaratoarea sta pe loc. O greseala porneste alarma pe loc, iar dupa cateva incercari ratate panoul se blocheaza.</p></li>
-<li><strong>Cauta prin casa</strong><p>Cu o ranga in inventar, apasa <kbd>E</kbd> la fiecare punct marcat si asteapta bara. Fiecare membru cauta separat si ce gaseste ajunge direct in inventarul lui. Daca nu ai loc, punctul ramane pentru alta incercare. Uneori nu gasesti nimic.</p></li>
+<li><strong>Cauta prin casa</strong><p>Cu o <img class="eg-item" src="/items/WEAPON_CROWBAR.webp" alt="">ranga in inventar, apasa <kbd>E</kbd> la fiecare punct marcat si asteapta bara. Fiecare membru cauta separat si ce gaseste ajunge direct in inventarul lui. Daca nu ai loc, punctul ramane pentru alta incercare. Uneori nu gasesti nimic.</p></li>
 <li class="safe"><strong>Seiful (doar la lux)</strong><p>Tine <kbd>G</kbd> pe seif si alege <b>Jefuieste seiful</b>. Dupa ce il spargi, se deschide ca un depozit pe care orice membru al echipei il poate goli cat timp jaful merge.</p></li>
 <li><strong>Final</strong><p>Jaful se termina singur cand expira timpul. Liderul il poate opri mai devreme din meniul lui Lester, cu <b>Opreste/finalizeaza jaf</b>, dar numai dupa o vreme de la pornire.</p></li>
 </ol>
@@ -314,25 +314,25 @@ outline: false
 <div class="jc-drawer">
 <h3>Punctele din casa</h3>
 <ul class="jc-items">
-<li>Bani cash</li>
-<li class="sell">Inel cu diamant</li>
-<li class="sell">Bratara de aur</li>
-<li class="sell">Cercei cu diamant</li>
-<li>Topor</li>
-<li>Tableta <em>(case obisnuite)</em></li>
-<li>Detector de electronice <em>(lux)</em></li>
+<li><img class="eg-item" src="/items/money.webp" alt="">Bani cash</li>
+<li class="sell"><img class="eg-item" src="/items/inel_diamant.webp" alt="">Inel cu diamant</li>
+<li class="sell"><img class="eg-item" src="/items/bratara_aur.webp" alt="">Bratara de aur</li>
+<li class="sell"><img class="eg-item" src="/items/cercei_diamant.webp" alt="">Cercei cu diamant</li>
+<li><img class="eg-item" src="/items/axe.webp" alt="">Topor</li>
+<li><img class="eg-item" src="/items/tableta.webp" alt="">Tableta <em>(case obisnuite)</em></li>
+<li><img class="eg-item" src="/items/metal_detector.webp" alt="">Detector de electronice <em>(lux)</em></li>
 </ul>
 <p>In happy hour ai sanse sa gasesti mai mult la fiecare punct.</p>
 </div>
 <div class="jc-drawer safe">
 <h3>Seiful (lux)</h3>
 <ul class="jc-items">
-<li class="sell">Bara de aur</li>
-<li>Laptop</li>
-<li>Pistol</li>
-<li>Munitie</li>
-<li>Plic de iarba</li>
-<li>Detector de electronice</li>
+<li class="sell"><img class="eg-item" src="/items/bara_aur.webp" alt="">Bara de aur</li>
+<li><img class="eg-item" src="/items/laptop.webp" alt="">Laptop</li>
+<li><img class="eg-item" src="/items/WEAPON_PISTOL.webp" alt="">Pistol</li>
+<li><img class="eg-item" src="/items/ammo-9.webp" alt="">Munitie</li>
+<li><img class="eg-item" src="/items/plic_iarba.webp" alt="">Plic de iarba</li>
+<li><img class="eg-item" src="/items/metal_detector.webp" alt="">Detector de electronice</li>
 </ul>
 <p>Seiful il deschide oricine din echipa, deci impartiti-va ce e inauntru.</p>
 </div>

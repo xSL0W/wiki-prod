@@ -200,7 +200,7 @@ outline: deep
 <li>Intra in atelierele de arme, componente si atasamente de pe Cayo Perico.</li>
 <li>Poate tine in mana si aceste arme:</li>
 </ul>
-<ul class="vim-guns"><li>Bullpup Rifle</li><li>Tactical Rifle</li><li>Navy Revolver</li></ul>
+<ul class="vim-guns"><li><img class="eg-item" src="/items/WEAPON_BULLPUPRIFLE.webp" alt="">Bullpup Rifle</li><li><img class="eg-item" src="/items/WEAPON_TACTICALRIFLE.webp" alt="">Tactical Rifle</li><li><img class="eg-item" src="/items/WEAPON_NAVYREVOLVER.webp" alt="">Navy Revolver</li></ul>
 </div>
 <div class="vim-card ofi">
 <h3 class="vim-h3">Mafie Oficiala</h3>

@@ -232,7 +232,7 @@ outline: false
 <h2 class="pol-h2" id="grade">Grade</h2>
 <p class="pol-sub">Fiecare grad iti deblocheaza ceva in plus. Masinile din garaj se deblocheaza tot pe grade.</p>
 <ol class="pol-ladder">
-<li><span class="n">1</span><span class="t">Cadet</span><span class="d">Primesti tableta MDT. In incidente poti trece doar contraventii.</span></li>
+<li><span class="n">1</span><span class="t">Cadet</span><span class="d">Primesti <img class="eg-item" src="/items/police_mdt.webp" alt="">tableta MDT. In incidente poti trece doar contraventii.</span></li>
 <li><span class="n">2</span><span class="t">Agent</span><span class="d">Poti trece si infractiuni in MDT.</span></li>
 <li><span class="n">3</span><span class="t">Agent Principal</span><span class="d">Acelasi acces ca Agentul, cu mai multa experienta pe teren.</span></li>
 <li><span class="n">4</span><span class="t">Agent Sef</span><span class="d">Publici anunturi in MDT si setezi indicativele colegilor.</span></li>
@@ -265,39 +265,39 @@ outline: false
 <div class="pol-card">
 <h3 class="pol-h3">Indicativul si harta</h3>
 <p>Iti setezi numarul matricol cu <code>/callsign numar</code> (0 - 9999). Colegii il vad pe harta, langa punctul tau.</p>
-<p>Pe harta apari si ii vezi pe colegi (si pe medicii SMIR din tura) doar daca ai la tine un <b>Tracker GPS</b> care nu e bruiat.</p>
+<p>Pe harta apari si ii vezi pe colegi (si pe medicii SMIR din tura) doar daca ai la tine un <b><img class="eg-item" src="/items/gps_tracker.webp" alt="">Tracker GPS</b> care nu e bruiat.</p>
 </div>
 </div>
 <h2 class="pol-h2" id="echipament">Echipament</h2>
 <p class="pol-sub">Iti iei echipamentul de la <b>Armurarie Politie</b>, in sectia din Vespucci, la Penitenciar si in Sandy Shores. Gasesti acolo armele, munitia, atasamentele, vestele si obiectele de mai jos.</p>
 <ul class="pol-gear">
-<li><b>Tableta MDT</b><span>Cazierele, incidentele, amenzile, mandatele si dispeceratul.</span></li>
-<li><b>Catuse</b><span>Necesare ca sa incatusezi pe cineva.</span></li>
-<li><b>Berbec</b><span>Sparge o usa incuiata. Se uzeaza la fiecare usa si se strica in timp.</span></li>
-<li><b>Benzi cu cuie</b><span>Le asezi pe drum si sparg rotile. Maxim 5 puse odata; le ridici tinand apasat <kbd>H</kbd>.</span></li>
-<li><b>Scut balistic</b><span>Il tii in mana sau il asezi pe sol cu <kbd>H</kbd>; il strangi cu <kbd>F5</kbd>.</span></li>
-<li><b>Etilotest</b><span>Masoara alcoolul si scoate bonul tiparit. Foloseste piese bucale.</span></li>
-<li><b>Kit test antidrog</b><span>Arata ce substante are in sange cel mai apropiat jucator.</span></li>
-<li><b>Scanner amprente</b><span>Identifica persoana dupa amprenta.</span></li>
-<li><b>Buton de panica</b><span>Fara el nu poti trimite codurile radio.</span></li>
-<li><b>Tracker GPS</b><span>Te arata pe harta colegilor si ti-i arata pe ei.</span></li>
-<li><b>Body Camera</b><span>Cat o ai la tine, pe HUD apare indicatorul REC.</span></li>
-<li><b>Radio si legitimatie</b><span>Statia pentru frecvente si Legitimatia de politie.</span></li>
+<li><b><img class="eg-item" src="/items/police_mdt.webp" alt="">Tableta MDT</b><span>Cazierele, incidentele, amenzile, mandatele si dispeceratul.</span></li>
+<li><b><img class="eg-item" src="/items/handcuffs.webp" alt="">Catuse</b><span>Necesare ca sa incatusezi pe cineva.</span></li>
+<li><b><img class="eg-item" src="/items/police_ram.webp" alt="">Berbec</b><span>Sparge o usa incuiata. Se uzeaza la fiecare usa si se strica in timp.</span></li>
+<li><b><img class="eg-item" src="/items/spikestrips.webp" alt="">Benzi cu cuie</b><span>Le asezi pe drum si sparg rotile. Maxim 5 puse odata; le ridici tinand apasat <kbd>H</kbd>.</span></li>
+<li><b><img class="eg-item" src="/items/police_shield.webp" alt="">Scut balistic</b><span>Il tii in mana sau il asezi pe sol cu <kbd>H</kbd>; il strangi cu <kbd>F5</kbd>.</span></li>
+<li><b><img class="eg-item" src="/items/breathalyzer.webp" alt="">Etilotest</b><span>Masoara alcoolul si scoate bonul tiparit. Foloseste <img class="eg-item" src="/items/breathalyzer_mouthpiece.webp" alt="">piese bucale.</span></li>
+<li><b><img class="eg-item" src="/items/drug_test_kit.webp" alt="">Kit test antidrog</b><span>Arata ce substante are in sange cel mai apropiat jucator.</span></li>
+<li><b><img class="eg-item" src="/items/fingerprint_scanner.webp" alt="">Scanner amprente</b><span>Identifica persoana dupa amprenta.</span></li>
+<li><b><img class="eg-item" src="/items/panic_button.webp" alt="">Buton de panica</b><span>Fara el nu poti trimite codurile radio.</span></li>
+<li><b><img class="eg-item" src="/items/gps_tracker.webp" alt="">Tracker GPS</b><span>Te arata pe harta colegilor si ti-i arata pe ei.</span></li>
+<li><b><img class="eg-item" src="/items/bodycam.webp" alt="">Body Camera</b><span>Cat o ai la tine, pe HUD apare indicatorul REC.</span></li>
+<li><b><img class="eg-item" src="/items/radio.webp" alt="">Radio si legitimatie</b><span>Statia pentru frecvente si <img class="eg-item" src="/items/document.webp" alt="">Legitimatia de politie.</span></li>
 </ul>
-<p class="pol-note">Cine are un detector de electronice iti poate lua camera, trackerul si butonul de panica. Fara ele dispari de pe harta colegilor si nu mai poti trimite coduri.</p>
+<p class="pol-note">Cine are un <img class="eg-item" src="/items/metal_detector.webp" alt="">detector de electronice iti poate lua camera, trackerul si butonul de panica. Fara ele dispari de pe harta colegilor si nu mai poti trimite coduri.</p>
 <h2 class="pol-h2" id="interventii">Interventii pe teren</h2>
 <p class="pol-sub">Majoritatea actiunilor le faci tintind jucatorul (ox_target) sau din meniul radial, cu <kbd>K</kbd> → <b>Politie</b>.</p>
 <ul class="pol-acts">
-<li><span class="a">Incatusare</span><span class="h">Tintesti jucatorul → <b>Pune catusele</b> (ai nevoie de catuse in inventar), sau <code>/cuff</code> pe cel mai apropiat. <code>/sc</code> pune catuse usoare. Cineva cu un advanced lockpick ii poate scoate catusele.</span></li>
+<li><span class="a">Incatusare</span><span class="h">Tintesti jucatorul → <b>Pune catusele</b> (ai nevoie de <img class="eg-item" src="/items/handcuffs.webp" alt="">catuse in inventar), sau <code>/cuff</code> pe cel mai apropiat. <code>/sc</code> pune catuse usoare. Cineva cu un <img class="eg-item" src="/items/advancedlockpick.webp" alt="">advanced lockpick ii poate scoate catusele.</span></li>
 <li><span class="a">Escorta</span><span class="h">Tintesti un jucator incatusat → <b>Escorteaza</b> (sau <code>/escort</code>). Suspectul poate incerca de 2 ori sa scape, cu un test de reflexe.</span></li>
 <li><span class="a">In masina</span><span class="h">Cu suspectul escortat, te duci la o usa a masinii si tii apasat <kbd>H</kbd>: <b>Pune in masina</b>. La fel il scoti.</span></li>
 <li><span class="a">Placaj</span><span class="h"><kbd>Shift</kbd> + <kbd>G</kbd> langa un jucator, doar in tura. El se poate opune.</span></li>
-<li><span class="a">Punga pe cap</span><span class="h">Tintesti jucatorul → <b>Pune punga</b>, cu o Punga de pus in cap in inventar. Il lasa fara vedere pana i-o scoti.</span></li>
+<li><span class="a">Punga pe cap</span><span class="h">Tintesti jucatorul → <b>Pune punga</b>, cu o <img class="eg-item" src="/items/headbag.webp" alt="">Punga de pus in cap in inventar. Il lasa fara vedere pana i-o scoti.</span></li>
 <li><span class="a">Inchisoare</span><span class="h">Din zona inchisorii (celulele din Vespucci sau Penitenciarul): <code>/jail</code> sau <kbd>K</kbd> → Politie → <b>Sentinta inchisoare</b>. Alegi 1 - 120 de luni pentru cel mai apropiat jucator. <code>/unjail ID</code> il elibereaza.</span></li>
 <li><span class="a">Amenda</span><span class="h">Din MDT, pe incident. Poti da reducere (25 - 90%) si puncte pe permis. Punctele se aduna pana la 15 si se sterg toate la 6 zile dupa prima amenda cu puncte.</span></li>
 <li><span class="a">Retinere acte</span><span class="h"><kbd>K</kbd> → Politie → <b>Retine permis</b> sau <b>Retine talon</b>: alegi jucatorul si durata, intre 1 si 720 de ore.</span></li>
 <li><span class="a">Ridicare masina</span><span class="h">Din MDT marchezi masina pentru ridicare, stand la cel mult 10 m de ea. Un mecanic preia comanda si o duce la parcare.</span></li>
-<li><span class="a">Berbec</span><span class="h">Folosesti berbecul langa o usa incuiata; dupa lovituri, usa se descuie.</span></li>
+<li><span class="a">Berbec</span><span class="h">Folosesti <img class="eg-item" src="/items/police_ram.webp" alt="">berbecul langa o usa incuiata; dupa lovituri, usa se descuie.</span></li>
 <li><span class="a">Supraveghere</span><span class="h"><kbd>K</kbd> → Politie → <b>Camere de supraveghere</b> (sau Telefon → Supraveghere): camerele din banci, magazine si bijuterii.</span></li>
 <li><span class="a">Obiecte pe drum</span><span class="h"><kbd>K</kbd> → Politie → <b>Obiecte</b>: conuri, bariere, semn de stop, lumini.</span></li>
 </ul>
@@ -307,7 +307,7 @@ outline: false
 <div class="pol-card">
 <h3 class="pol-h3">Ce gasesti in MDT</h3>
 <p><b>Bord</b> (colegi in tura, anunturi, persoane si masini cautate), <b>Profiluri</b>, <b>Incidente</b>, <b>Rapoarte</b>, <b>Plangeri</b>, <b>Vehicule</b>, <b>Dispecerat</b>, <b>Mandate</b>, <b>Transporturi</b>, <b>Top caziere</b>, <b>Lista</b> efectivului si <b>Acuzatii</b> (codul penal).</p>
-<p>De pe incident poti tipari un <b>Proces verbal</b> pe hartie si i-l dai persoanei de langa tine.</p>
+<p>De pe incident poti tipari un <b><img class="eg-item" src="/items/warrant.webp" alt="">Proces verbal</b> pe hartie si i-l dai persoanei de langa tine.</p>
 </div>
 <div class="pol-card">
 <h3 class="pol-h3">Apeluri si alerte</h3>

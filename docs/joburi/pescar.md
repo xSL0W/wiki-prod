@@ -219,26 +219,26 @@ outline: false
 <div class="pf-box">
 <h4>Ai nevoie de</h4>
 <ul class="pf-need">
-<li><span>Undita</span><small>magazin pescaresc</small></li>
-<li class="bait"><span>Rame premium</span><small>zona de rame, gratis</small></li>
-<li class="bait"><span>sau Rame</span><small>magazin pescaresc</small></li>
+<li><span><img class="eg-item" src="/items/pescar_undita.webp" alt="">Undita</span><small>magazin pescaresc</small></li>
+<li class="bait"><span><img class="eg-item" src="/items/pescar_rame_premium.webp" alt="">Rame premium</span><small>zona de rame, gratis</small></li>
+<li class="bait"><span>sau <img class="eg-item" src="/items/pescar_rame.webp" alt="">Rame</span><small>magazin pescaresc</small></li>
 </ul>
 </div>
 <div class="pf-box">
 <h4>Poti prinde</h4>
 <ul class="pf-fish">
-<li>Caras mic</li>
-<li>Platica mica</li>
-<li>Hamsii mici</li>
-<li>Morunas mic</li>
-<li>Sprot mic</li>
-<li>Guvid mic</li>
-<li>Rosioara mica</li>
+<li><img class="eg-item" src="/items/pescar_caras.webp" alt="">Caras mic</li>
+<li><img class="eg-item" src="/items/pescar_platica.webp" alt="">Platica mica</li>
+<li><img class="eg-item" src="/items/pescar_hamsii.webp" alt="">Hamsii mici</li>
+<li><img class="eg-item" src="/items/pescar_morunas.webp" alt="">Morunas mic</li>
+<li><img class="eg-item" src="/items/pescar_sprot.webp" alt="">Sprot mic</li>
+<li><img class="eg-item" src="/items/pescar_guvid.webp" alt="">Guvid mic</li>
+<li><img class="eg-item" src="/items/pescar_rosioara.webp" alt="">Rosioara mica</li>
 </ul>
 </div>
 <div class="pf-box special">
 <h4>Captura speciala</h4>
-<strong>Homar mic</strong>
+<strong><img class="eg-item" src="/items/pescar_homar.webp" alt="">Homar mic</strong>
 <p>Il prinzi doar cu <b>Rame premium</b>. Cu rame obisnuite nu musca, iar uneori scoti gunoi.</p>
 </div>
 </div>
@@ -253,27 +253,27 @@ outline: false
 <div class="pf-box">
 <h4>Ai nevoie de</h4>
 <ul class="pf-need">
-<li><span>Undita</span><small>magazin pescaresc</small></li>
-<li class="bait"><span>Nada medie</span><small>masa de momeala</small></li>
-<li class="bait"><span>sau Naluca medie</span><small>magazin pescaresc</small></li>
+<li><span><img class="eg-item" src="/items/pescar_undita.webp" alt="">Undita</span><small>magazin pescaresc</small></li>
+<li class="bait"><span><img class="eg-item" src="/items/pescar_nada2.webp" alt="">Nada medie</span><small>masa de momeala</small></li>
+<li class="bait"><span>sau <img class="eg-item" src="/items/pescar_naluca2.webp" alt="">Naluca medie</span><small>magazin pescaresc</small></li>
 <li><span>Barca</span><small>obligatorie</small></li>
 </ul>
 </div>
 <div class="pf-box">
 <h4>Poti prinde</h4>
 <ul class="pf-fish">
-<li>Somn mediu</li>
-<li>Salau mediu</li>
-<li>Biban mediu</li>
-<li>Avat mediu</li>
-<li>Pastrav mediu</li>
-<li>Stiuca medie</li>
-<li>Clean mediu</li>
+<li><img class="eg-item" src="/items/pescar_somn.webp" alt="">Somn mediu</li>
+<li><img class="eg-item" src="/items/pescar_salau.webp" alt="">Salau mediu</li>
+<li><img class="eg-item" src="/items/pescar_biban.webp" alt="">Biban mediu</li>
+<li><img class="eg-item" src="/items/pescar_avat.webp" alt="">Avat mediu</li>
+<li><img class="eg-item" src="/items/pescar_pastrav.webp" alt="">Pastrav mediu</li>
+<li><img class="eg-item" src="/items/pescar_stiuca.webp" alt="">Stiuca medie</li>
+<li><img class="eg-item" src="/items/pescar_clean.webp" alt="">Clean mediu</li>
 </ul>
 </div>
 <div class="pf-box special">
 <h4>Captura speciala</h4>
-<strong>Mandarin mediu</strong>
+<strong><img class="eg-item" src="/items/pescar_mandarin.webp" alt="">Mandarin mediu</strong>
 <p>Il prinzi doar cu <b>Nada medie</b>. Cu naluca nu musca, iar uneori scoti gunoi.</p>
 </div>
 </div>
@@ -288,27 +288,27 @@ outline: false
 <div class="pf-box">
 <h4>Ai nevoie de</h4>
 <ul class="pf-need">
-<li><span>Undita</span><small>magazin pescaresc</small></li>
-<li class="bait"><span>Nada mare</span><small>masa de momeala</small></li>
-<li class="bait"><span>sau Naluca mare</span><small>magazin pescaresc</small></li>
+<li><span><img class="eg-item" src="/items/pescar_undita.webp" alt="">Undita</span><small>magazin pescaresc</small></li>
+<li class="bait"><span><img class="eg-item" src="/items/pescar_nada3.webp" alt="">Nada mare</span><small>masa de momeala</small></li>
+<li class="bait"><span>sau <img class="eg-item" src="/items/pescar_naluca3.webp" alt="">Naluca mare</span><small>magazin pescaresc</small></li>
 <li><span>Barca</span><small>obligatorie</small></li>
 </ul>
 </div>
 <div class="pf-box">
 <h4>Poti prinde</h4>
 <ul class="pf-fish">
-<li>Ton mare</li>
-<li>Sturion mare</li>
-<li>Cega mare</li>
-<li>Pastruga mare</li>
-<li>Morun mare</li>
-<li>Peste spada mare</li>
-<li>Tipar mare</li>
+<li><img class="eg-item" src="/items/pescar_ton.webp" alt="">Ton mare</li>
+<li><img class="eg-item" src="/items/pescar_sturion.webp" alt="">Sturion mare</li>
+<li><img class="eg-item" src="/items/pescar_cega.webp" alt="">Cega mare</li>
+<li><img class="eg-item" src="/items/pescar_pastruga.webp" alt="">Pastruga mare</li>
+<li><img class="eg-item" src="/items/pescar_morun.webp" alt="">Morun mare</li>
+<li><img class="eg-item" src="/items/pescar_spada.webp" alt="">Peste spada mare</li>
+<li><img class="eg-item" src="/items/pescar_tipar.webp" alt="">Tipar mare</li>
 </ul>
 </div>
 <div class="pf-box special">
 <h4>Captura speciala</h4>
-<strong>Scoica</strong>
+<strong><img class="eg-item" src="/items/pescar_scoica.webp" alt="">Scoica</strong>
 <p>O prinzi doar cu <b>Nada mare</b>. Cu naluca n-o prinzi, iar uneori scoti gunoi. Scoica o deschizi din inventar: poate avea o perla sau doar gunoi.</p>
 </div>
 </div>
@@ -319,7 +319,7 @@ outline: false
 <h2>O aruncare, pas cu pas</h2>
 <ol class="pf-cast">
 <li><b>Intra in zona de pescuit.</b> Pe ecran apare <b>Esti in zona de pescuit</b>.</li>
-<li><b>Foloseste Undita</b> din inventar. Fiecare aruncare consuma o momeala potrivita zonei.</li>
+<li><b>Foloseste <img class="eg-item" src="/items/pescar_undita.webp" alt="">Undita</b> din inventar. Fiecare aruncare consuma o momeala potrivita zonei.</li>
 <li><b>Asteapta sa muste.</b> Stai pe loc pana se umple bara. Cu cat zona e mai grea, cu atat astepti mai mult. Te opresti oricand cu <kbd>Backspace</kbd>.</li>
 <li><b>Pestele musca si il scoti singur.</b> Apare <b>Ai prins ceva!</b>, iar captura intra in inventar. Arunca din nou si continua.</li>
 </ol>
@@ -328,15 +328,15 @@ outline: false
 <div class="pf-spots">
 <div class="pf-spot">
 <h3>Magazin pescaresc</h3>
-<p>Langa seful de la plaja, doar pentru pescari. Aici iei <b>Undita</b>, <b>Rame</b>, <b>Naluca medie</b> si <b>Naluca mare</b>.</p>
+<p>Langa seful de la plaja, doar pentru pescari. Aici iei <b><img class="eg-item" src="/items/pescar_undita.webp" alt="">Undita</b>, <b><img class="eg-item" src="/items/pescar_rame.webp" alt="">Rame</b>, <b><img class="eg-item" src="/items/pescar_naluca2.webp" alt="">Naluca medie</b> si <b><img class="eg-item" src="/items/pescar_naluca3.webp" alt="">Naluca mare</b>.</p>
 </div>
 <div class="pf-spot">
 <h3>Masa de momeala</h3>
-<p>Tot langa sef. Faci <b>Nada medie</b> din pestii de la ponton si <b>Nada mare</b> din pestii de pe Lacul Alamo.</p>
+<p>Tot langa sef. Faci <b><img class="eg-item" src="/items/pescar_nada2.webp" alt="">Nada medie</b> din pestii de la ponton si <b><img class="eg-item" src="/items/pescar_nada3.webp" alt="">Nada mare</b> din pestii de pe Lacul Alamo.</p>
 </div>
 <div class="pf-spot">
 <h3>Zona de rame</h3>
-<p>Marcata pe harta. Mergi la locul aratat si apasa <kbd>E</kbd> pe <b>Ia rame</b> ca sa culegi <b>Rame premium</b>, gratis. Dupa fiecare cules, locul se muta.</p>
+<p>Marcata pe harta. Mergi la locul aratat si apasa <kbd>E</kbd> pe <b>Ia rame</b> ca sa culegi <b><img class="eg-item" src="/items/pescar_rame_premium.webp" alt="">Rame premium</b>, gratis. Dupa fiecare cules, locul se muta.</p>
 </div>
 <div class="pf-spot">
 <h3>Punct de vanzare peste</h3>
@@ -344,7 +344,7 @@ outline: false
 </div>
 <div class="pf-spot">
 <h3>Scoica si perlele</h3>
-<p>Foloseste <b>Scoica</b> din inventar ca s-o deschizi. Poate avea o perla sau doar gunoi. Perlele le vinzi la <b>Punctul de vanzare perle</b>, din Rockford Hills.</p>
+<p>Foloseste <b><img class="eg-item" src="/items/pescar_scoica.webp" alt="">Scoica</b> din inventar ca s-o deschizi. Poate avea o perla sau doar gunoi. Perlele le vinzi la <b>Punctul de vanzare perle</b>, din Rockford Hills.</p>
 <div class="pf-pearls" aria-hidden="true"><span style="background:#f4f1ea"></span><span style="background:#4fc98a"></span><span style="background:#4d8ff0"></span><span style="background:#e0505a"></span><span style="background:#f2c14e"></span></div>
 </div>
 </div>

@@ -233,10 +233,10 @@ outline: false
 <h2 class="gym-h2">Suplimente</h2>
 <p class="gym-p">Le cumperi de la magazinul <b>Suplimente Sala</b>, langa receptie. Fiecare doza adauga efect, pana la maxim <b>3 doze</b> cumulate. Efectul scade treptat si primesti un mesaj cand se termina.</p>
 <ul class="gym-sup" style="margin-top:1rem">
-<li><b>Proteina</b><em>Pierzi forta mai incet</em><span>Cat timp e activa, pierderea vine la 20 de ore jucate in loc de 15.</span></li>
-<li><b>Creatina</b><em>+25% castig</em><span>Castigi forta si stamina mai repede la fiecare exercitiu.</span></li>
-<li><b>Bautura Energizanta</b><em>-15% timp</em><span>Exercitiile dureaza cu 15% mai putin.</span></li>
-<li class="risk"><b>Steroizi</b><em>+25% castig, cu risc</em><span>La fel ca creatina, dar pierzi 5 HP la fiecare 30 de minute cat sunt activi. Daca ii folosesti des, devii dependent.</span></li>
+<li><b><img class="eg-item" src="/items/gym_proteins.webp" alt="">Proteina</b><em>Pierzi forta mai incet</em><span>Cat timp e activa, pierderea vine la 20 de ore jucate in loc de 15.</span></li>
+<li><b><img class="eg-item" src="/items/gym_creatine.webp" alt="">Creatina</b><em>+25% castig</em><span>Castigi forta si stamina mai repede la fiecare exercitiu.</span></li>
+<li><b><img class="eg-item" src="/items/gym_energy_drink.webp" alt="">Bautura Energizanta</b><em>-15% timp</em><span>Exercitiile dureaza cu 15% mai putin.</span></li>
+<li class="risk"><b><img class="eg-item" src="/items/gym_steroids.webp" alt="">Steroizi</b><em>+25% castig, cu risc</em><span>La fel ca creatina, dar pierzi 5 HP la fiecare 30 de minute cat sunt activi. Daca ii folosesti des, devii dependent.</span></li>
 </ul>
 <h2 class="gym-h2">Pierderea statisticilor</h2>
 <p class="gym-p">Forta si stamina scad in timp, dar doar cat esti conectat. Cat esti offline nu pierzi nimic.</p>

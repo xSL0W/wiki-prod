@@ -315,15 +315,15 @@ outline: false
 </ul>
 <p class="xmag-group">Arme albe</p>
 <ul class="xmag-tags xmag-melee">
-<li>Cutit</li>
-<li>Pumnal</li>
-<li>Briceag</li>
-<li>Maceta</li>
-<li>Bata</li>
-<li>Box</li>
-<li>Ciocan</li>
-<li>Topor</li>
-<li>Secure</li>
+<li><img class="eg-item" src="/items/WEAPON_KNIFE.webp" alt="">Cutit</li>
+<li><img class="eg-item" src="/items/WEAPON_DAGGER.webp" alt="">Pumnal</li>
+<li><img class="eg-item" src="/items/WEAPON_SWITCHBLADE.webp" alt="">Briceag</li>
+<li><img class="eg-item" src="/items/WEAPON_MACHETE.webp" alt="">Maceta</li>
+<li><img class="eg-item" src="/items/WEAPON_BAT.webp" alt="">Bata</li>
+<li><img class="eg-item" src="/items/WEAPON_KNUCKLE.webp" alt="">Box</li>
+<li><img class="eg-item" src="/items/WEAPON_HAMMER.webp" alt="">Ciocan</li>
+<li><img class="eg-item" src="/items/WEAPON_HATCHET.webp" alt="">Topor</li>
+<li><img class="eg-item" src="/items/WEAPON_BATTLEAXE.webp" alt="">Secure</li>
 </ul>
 </div>
 </div>
@@ -335,7 +335,7 @@ outline: false
 <li class="xmag-alarm"><p><b class="xmag-t">Politia afla pe loc</b> Alerta pleaca in secunda in care incepe jaful, cu locul magazinului pe harta lor.</p></li>
 <li><p><b class="xmag-t">Vanzatorul goleste casa</b> Ridica mainile, scoate banii si apoi se ghemuieste speriat dupa tejghea.</p></li>
 <li><p><b class="xmag-t">Ramai in magazin</b> Asteapta pana se umple bara. Te poti misca prin magazin, dar nu poti alerga si nu poti urca in masina.</p></li>
-<li><p><b class="xmag-t">Ia banii si fugi</b> Primesti <b>Bani murdari</b> direct in inventar. Pleaca repede din zona.</p></li>
+<li><p><b class="xmag-t">Ia banii si fugi</b> Primesti <b><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</b> direct in inventar. Pleaca repede din zona.</p></li>
 </ol>
 
 <h2>Ce strica jaful</h2>

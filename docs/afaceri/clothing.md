@@ -134,13 +134,13 @@ outline: false
 <div class="ach-cards">
 <div class="ach-card"><b>Stoc pe categorii</b><span>Fiecare piesa cumparata scade o bucata din stocul categoriei ei. O categorie fara stoc nu se poate cumpara pana nu o aduc angajatii.</span></div>
 <div class="ach-card"><b>Tinutele tale</b><span>In magazin te poti imbraca si cu o tinuta salvata. Platesti o taxa, care merge la firma.</span></div>
-<div class="ach-card"><b>Ghiozdane</b><span>Langa magazin e un raft cu ghiozdan mic si ghiozdan mare, din stocul aceleiasi firme.</span></div>
+<div class="ach-card"><b>Ghiozdane</b><span>Langa magazin e un raft cu <img class="eg-item" src="/items/small_backpack.webp" alt="">ghiozdan mic si <img class="eg-item" src="/items/big_backpack.webp" alt="">ghiozdan mare, din stocul aceleiasi firme.</span></div>
 </div>
 <h2>Cum tii magazinul plin</h2>
 <p class="ach-sub">Pentru angajatii unui magazin de haine. Stocul il vezi oricand in Tableta firma, la Stoc.</p>
 <ol class="ach-flow">
 <li><b>Mergi la furnizor</b><span>Furnizor Magazin Haine, langa ceilalti furnizori, la codul postal <code>313</code>. Vinde doar angajatilor unui magazin de haine.</span></li>
-<li><b>Cumperi cutii</b><span>Alegi categoria si cantitatea, platesti din banii tai si primesti cutii de cel mult 10 bucati fiecare.</span></li>
+<li><b>Cumperi cutii</b><span>Alegi categoria si cantitatea, platesti din banii tai si primesti <img class="eg-item" src="/items/clothes_box.webp" alt="">cutii de cel mult 10 bucati fiecare.</span></li>
 <li><b>Deschizi cutia in magazin</b><span>Trebuie sa fii langa magazinul tau. Bucatile intra direct in stocul firmei.</span></li>
 </ol>
 <ul class="ach-notes">

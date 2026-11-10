@@ -211,7 +211,7 @@ outline: false
 </section>
 <h2 class="alg-h2"><span>01</span>Ce iti trebuie</h2>
 <ul class="alg-needs">
-<li><b>Item-ul Antilag</b>Il iei din <a href="/zona-info/store">Magazin</a>, cu EG Coins. Nu il poti da altcuiva, arunca sau vinde in Piata.</li>
+<li><b><img class="eg-item" src="/items/antilag.webp" alt="">Item-ul Antilag</b>Il iei din <a href="/zona-info/store">Magazin</a>, cu EG Coins. Nu il poti da altcuiva, arunca sau vinde in Piata.</li>
 <li><b>Turbina montata</b>Fara turbina nu poti monta antilag. O pui la <a href="/general/tuning">Tuning</a>, la Performanta.</li>
 <li><b>Masina ta, tu la volan</b>Montezi doar pe o masina personala, din scaunul soferului. O masina primeste un singur antilag.</li>
 </ul>

@@ -248,11 +248,11 @@ outline: false
 <ul class="vjc-tray">
 <li class="vjc-slot">
 <svg viewBox="0 0 44 44" aria-hidden="true"><path class="vjc-ico" d="M8 30 C 8 14, 36 14, 36 30 M14 30 h16 M22 30 v6"/></svg>
-<div><h3>Soricel</h3><p>Un singur soricel blocheaza toate usile magazinului. Il cumperi de la Home Depot.</p></div>
+<div><h3><img class="eg-item" src="/items/ziptie.webp" alt="">Soricel</h3><p>Un singur soricel blocheaza toate usile magazinului. Il cumperi de la Home Depot.</p></div>
 </li>
 <li class="vjc-slot">
 <svg viewBox="0 0 44 44" aria-hidden="true"><rect class="vjc-ico" x="8" y="12" width="28" height="20" rx="3"/><path class="vjc-ico" d="M8 18 h28 M13 26 h8"/></svg>
-<div><h3>Card acces</h3><p>Deschide usa spre seif. Il poti gasi la ultimul inamic din misiunile grele, dar nu de fiecare data.</p></div>
+<div><h3><img class="eg-item" src="/items/jew_keycard.webp" alt="">Card acces</h3><p>Deschide usa spre seif. Il poti gasi la ultimul inamic din misiunile grele, dar nu de fiecare data.</p></div>
 </li>
 <li class="vjc-slot">
 <svg viewBox="0 0 44 44" aria-hidden="true"><path class="vjc-ico" d="M4 20 h26 l4 -4 h6 v8 h-10 l-3 3 h-6 l-2 7 h-5 l2 -7 H4 z"/></svg>
@@ -264,16 +264,16 @@ outline: false
 </li>
 <li class="vjc-slot">
 <svg viewBox="0 0 44 44" aria-hidden="true"><path class="vjc-ico" d="M10 34 L30 14 M14 10 L34 30 M8 36 a4 4 0 1 0 0.1 0 M36 36 a4 4 0 1 0 0.1 0"/></svg>
-<div><h3>Cutter (optional)</h3><p>Taie soricelul de pe usi. Il cumperi tot de la Home Depot.</p></div>
+<div><h3><img class="eg-item" src="/items/cutter.webp" alt="">Cutter (optional)</h3><p>Taie soricelul de pe usi. Il cumperi tot de la Home Depot.</p></div>
 </li>
 </ul>
 
 <h2>Planul, pas cu pas</h2>
 <ol class="vjc-plan">
 <li class="vjc-step" data-n="1"><h3>Liderul porneste jaful</h3><p>Din meniul lui Lester, <b>Incepe jaful</b>. Ceasul porneste imediat, iar GPS-ul te duce la magazinul de bijuterii. Din notificarea de la pornire afli cate minute ai la dispozitie.</p></li>
-<li class="vjc-step" data-n="2"><h3>Blocheaza usile</h3><p>Langa usile de la intrare, foloseste <b>Soricel</b> din inventar. Usile se inchid pentru toata lumea si jaful devine activ. La scurt timp porneste alarma.</p></li>
+<li class="vjc-step" data-n="2"><h3>Blocheaza usile</h3><p>Langa usile de la intrare, foloseste <b><img class="eg-item" src="/items/ziptie.webp" alt="">Soricel</b> din inventar. Usile se inchid pentru toata lumea si jaful devine activ. La scurt timp porneste alarma.</p></li>
 <li class="vjc-step" data-n="3"><h3>Sparge vitrinele</h3><p>Cu arma in mana, apropie-te de o vitrina si apasa <kbd>E</kbd>. Spargi sticla si strangi bijuteriile. Pe o vitrina lucreaza un singur om si fiecare se sparge o singura data, asa ca impartiti-va.</p></li>
-<li class="vjc-step" data-n="4"><h3>Deschide usa seifului</h3><p>La usa din spatele magazinului apasa <kbd>H</kbd> si scanezi <b>Card acces</b>. Cardul se consuma, iar usa ramane deschisa pentru toata echipa.</p></li>
+<li class="vjc-step" data-n="4"><h3>Deschide usa seifului</h3><p>La usa din spatele magazinului apasa <kbd>H</kbd> si scanezi <b><img class="eg-item" src="/items/jew_keycard.webp" alt="">Card acces</b>. Cardul se consuma, iar usa ramane deschisa pentru toata echipa.</p></li>
 <li class="vjc-step" data-n="5"><h3>Sparge seiful</h3><p>La seif apasa <kbd>H</kbd> si treci minijocul. Lucreaza un singur om odata. Daca gresesti, mai incerci. Seiful se goleste o singura data pe jaf.</p></li>
 <li class="vjc-step" data-n="6"><h3>Iesi din magazin</h3><p>Cand ati terminat, liderul opreste jaful din meniu sau plecati din magazin. Usile se deblocheaza, iar vitrinele raman sparte o vreme.</p></li>
 </ol>
@@ -283,19 +283,19 @@ outline: false
 <div class="vjc-drawer">
 <h3>Din vitrine</h3>
 <ul class="vjc-chips">
-<li class="vjc-chip">Brosa cu ametist</li>
-<li class="vjc-chip">Lantisor cu ametist</li>
-<li class="vjc-chip gold">Ceas de aur</li>
+<li class="vjc-chip"><img class="eg-item" src="/items/brosa_ametist.webp" alt="">Brosa cu ametist</li>
+<li class="vjc-chip"><img class="eg-item" src="/items/lantisor_ametist.webp" alt="">Lantisor cu ametist</li>
+<li class="vjc-chip gold"><img class="eg-item" src="/items/ceas_aur.webp" alt="">Ceas de aur</li>
 </ul>
 <p class="vjc-note">Nu toate vitrinele au ceva in ele. Uneori pleci cu mana goala.</p>
 </div>
 <div class="vjc-drawer safe">
 <h3>Din seif</h3>
 <ul class="vjc-chips">
-<li class="vjc-chip">Lantisor de platina</li>
-<li class="vjc-chip">Ceas de platina</li>
-<li class="vjc-chip">Ceas cu diamante</li>
-<li class="vjc-chip extra">uneori un Temporizator</li>
+<li class="vjc-chip"><img class="eg-item" src="/items/lantisor_platina.webp" alt="">Lantisor de platina</li>
+<li class="vjc-chip"><img class="eg-item" src="/items/ceas_platina.webp" alt="">Ceas de platina</li>
+<li class="vjc-chip"><img class="eg-item" src="/items/ceas_diamant.webp" alt="">Ceas cu diamante</li>
+<li class="vjc-chip extra">uneori un <img class="eg-item" src="/items/temporizator.webp" alt="">Temporizator</li>
 </ul>
 <p class="vjc-note">Seiful are piesele cele mai scumpe. Il deschide un singur om si tot castigul ajunge la el.</p>
 </div>
@@ -305,8 +305,8 @@ outline: false
 <h2>Alarma, politia si riscuri</h2>
 <ul class="vjc-alarm">
 <li class="vjc-row"><b>La scurt timp dupa ce blochezi usile</b><p>Politistii de serviciu primesc alerta, iar alarma suna in toata zona. Alarma nu se poate opri pana la finalul jafului. Trecatorii se ghemuiesc la pamant.</p></li>
-<li class="vjc-row"><b>Politia taie soricelul</b><p>Cu un <b>Cutter</b>, politia deblocheaza usile si intra. Daca mai ai un <b>Soricel</b>, blochezi intrarea din nou si jaful continua.</p></li>
-<li class="vjc-row"><b>Seiful nu e garantat</b><p>Fara <b>Card acces</b> nu ajungi la seif, iar fara arma potrivita nu spargi nicio vitrina.</p></li>
+<li class="vjc-row"><b>Politia taie soricelul</b><p>Cu un <b><img class="eg-item" src="/items/cutter.webp" alt="">Cutter</b>, politia deblocheaza usile si intra. Daca mai ai un <b><img class="eg-item" src="/items/ziptie.webp" alt="">Soricel</b>, blochezi intrarea din nou si jaful continua.</p></li>
+<li class="vjc-row"><b>Seiful nu e garantat</b><p>Fara <b><img class="eg-item" src="/items/jew_keycard.webp" alt="">Card acces</b> nu ajungi la seif, iar fara arma potrivita nu spargi nicio vitrina.</p></li>
 </ul>
 
 <h2>Cand se termina jaful</h2>

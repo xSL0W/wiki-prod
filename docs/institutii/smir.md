@@ -280,18 +280,18 @@ outline: false
 </div>
 <div class="smr-card">
 <h3 class="smr-h3">3. Il readuci la viata</h3>
-<p>Daca pacientul e in coma si nu are rana fatala, il reanimezi cu <b>Defibrilatorul</b>. In supradoza ii dai <b>NARCAN</b>.</p>
+<p>Daca pacientul e in coma si nu are rana fatala, il reanimezi cu <b><img class="eg-item" src="/items/defibrillator.webp" alt="">Defibrilatorul</b>. In supradoza ii dai <b><img class="eg-item" src="/items/narcan.webp" alt="">NARCAN</b>.</p>
 </div>
 </div>
 <h3 class="smr-h3" style="margin-top:1.2rem">Ce folosesti pentru fiecare rana</h3>
 <ul class="smr-treat">
 <li><span>Cauza</span><span>Obiect</span></li>
-<li><span>Lovituri</span><b>Gheata</b></li>
-<li><span>Injunghiere</span><b>Kit de cusut</b></li>
-<li><span>Impuscatura</span><b>Penseta</b></li>
-<li><span>Arsura</span><b>Crema pentru arsuri</b></li>
-<li><span>Alte rani</span><b>Bandaj</b></li>
-<li class="fatal"><span>Rana fatala (cap, gat), doar in spital</span><b>Bisturiu</b></li>
+<li><span>Lovituri</span><b><img class="eg-item" src="/items/icepack.webp" alt="">Gheata</b></li>
+<li><span>Injunghiere</span><b><img class="eg-item" src="/items/suturekit.webp" alt="">Kit de cusut</b></li>
+<li><span>Impuscatura</span><b><img class="eg-item" src="/items/tweezers.webp" alt="">Penseta</b></li>
+<li><span>Arsura</span><b><img class="eg-item" src="/items/burncream.webp" alt="">Crema pentru arsuri</b></li>
+<li><span>Alte rani</span><b><img class="eg-item" src="/items/bandage.webp" alt="">Bandaj</b></li>
+<li class="fatal"><span>Rana fatala (cap, gat), doar in spital</span><b><img class="eg-item" src="/items/bisturiu.webp" alt="">Bisturiu</b></li>
 </ul>
 <p class="smr-note">Fiecare folosire scade 10% din durabilitatea obiectului. Doar medicii SMIR trateaza rani. Politistii, Sindicatul si membrii bandelor pot verifica un pacient si il pot reanima cu un defibrilator.</p>
 <h2 class="smr-h2" id="transport">Transportul pacientului</h2>
@@ -306,7 +306,7 @@ outline: false
 </div>
 <div class="smr-card">
 <h3 class="smr-h3">Geanta medicala si haine</h3>
-<p>Asezi <b>Geanta medicala</b> pe jos si o folosesti ca depozit (30 de sloturi) langa pacient.</p>
+<p>Asezi <b><img class="eg-item" src="/items/medicalbag.webp" alt="">Geanta medicala</b> pe jos si o folosesti ca depozit (30 de sloturi) langa pacient.</p>
 <p>Cu <b>Dezbraca pacientul</b> ii scoti palaria, ochelarii, masca si orice alta haina sau accesoriu.</p>
 </div>
 </div>
@@ -332,14 +332,14 @@ outline: false
 <h2 class="smr-h2" id="echipament">Echipament si vehicule</h2>
 <p class="smr-sub">Echipamentul il iei de la <b>Farmacie</b>, in spitalul Pillbox.</p>
 <ul class="smr-gear">
-<li><b>Defibrilator</b><span>Reanimezi un pacient in coma, fara rana fatala.</span></li>
-<li><b>NARCAN (Naloxona)</b><span>Opresti o supradoza.</span></li>
-<li><b>Gheata, Kit de cusut, Penseta</b><span>Pentru lovituri, injunghieri si impuscaturi.</span></li>
-<li><b>Crema pentru arsuri, Bandaj</b><span>Pentru arsuri si celelalte rani.</span></li>
-<li><b>Bisturiu</b><span>Pentru ranile fatale, doar in spital.</span></li>
-<li><b>Kit test antidrog</b><span>Arata ce substante are pacientul in sange.</span></li>
-<li><b>Geanta medicala</b><span>Depozitul pe care il asezi langa pacient.</span></li>
-<li><b>Legitimatie Medic</b><span>O arati cand ajungi la un apel, daca ti se cere.</span></li>
+<li><b><img class="eg-item" src="/items/defibrillator.webp" alt="">Defibrilator</b><span>Reanimezi un pacient in coma, fara rana fatala.</span></li>
+<li><b><img class="eg-item" src="/items/narcan.webp" alt="">NARCAN (Naloxona)</b><span>Opresti o supradoza.</span></li>
+<li><b><img class="eg-item" src="/items/icepack.webp" alt="">Gheata, <img class="eg-item" src="/items/suturekit.webp" alt="">Kit de cusut, <img class="eg-item" src="/items/tweezers.webp" alt="">Penseta</b><span>Pentru lovituri, injunghieri si impuscaturi.</span></li>
+<li><b><img class="eg-item" src="/items/burncream.webp" alt="">Crema pentru arsuri, <img class="eg-item" src="/items/bandage.webp" alt="">Bandaj</b><span>Pentru arsuri si celelalte rani.</span></li>
+<li><b><img class="eg-item" src="/items/bisturiu.webp" alt="">Bisturiu</b><span>Pentru ranile fatale, doar in spital.</span></li>
+<li><b><img class="eg-item" src="/items/drug_test_kit.webp" alt="">Kit test antidrog</b><span>Arata ce substante are pacientul in sange.</span></li>
+<li><b><img class="eg-item" src="/items/medicalbag.webp" alt="">Geanta medicala</b><span>Depozitul pe care il asezi langa pacient.</span></li>
+<li><b><img class="eg-item" src="/items/document.webp" alt="">Legitimatie Medic</b><span>O arati cand ajungi la un apel, daca ti se cere.</span></li>
 </ul>
 <div class="smr-grid" style="margin-top:0.75rem">
 <div class="smr-card">

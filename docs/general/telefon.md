@@ -463,7 +463,7 @@ outline: false
 <h2 class="tf-h2">Pornesti in patru miscari.</h2>
 <p class="tf-sub">Fiecare personaj nou primeste un telefon din prima zi. Restul vine de la sine.</p>
 <div class="tf-steps">
-<div class="tf-card"><div class="tf-num">1</div><h3>Ia un telefon</h3><p>Personajele noi il primesc in inventar. Daca l-ai pierdut, cumperi altul de la <b>DigitalDen</b>, magazinul marcat pe harta.</p></div>
+<div class="tf-card"><div class="tf-num">1</div><h3><img class="eg-item" src="/items/phone.webp" alt="">Ia un telefon</h3><p>Personajele noi il primesc in inventar. Daca l-ai pierdut, cumperi altul de la <b>DigitalDen</b>, magazinul marcat pe harta.</p></div>
 <div class="tf-card"><div class="tf-num">2</div><h3>Deschide-l cu <kbd>M</kbd></h3><p>Sau folosesti telefonul din inventar. Tasta se schimba din <span class="tf-path">Setari FiveM → Key Bindings</span>, la <b>Deschide telefonul</b>.</p></div>
 <div class="tf-card"><div class="tf-num">3</div><h3>Ai deja un numar</h3><p>Primul eSIM, <b>Principal</b>, e gratis si vine cu un numar de forma <b>07xx xxx xxx</b>.</p></div>
 <div class="tf-card"><div class="tf-num">4</div><h3>Ai si internet</h3><p>Un telefon nou vine cu date mobile gratuite. Le vezi si le reincarci din <b>InetMax</b>.</p></div>
@@ -585,15 +585,15 @@ outline: false
 <div class="tf-card"><h3>Coduri de destinatie</h3><p>Copiezi codul unei destinatii si il trimiti. Cine il primeste il lipeste la <b>Importa destinatie</b>.</p></div>
 <div class="tf-card"><h3>Prieteni pe harta</h3><p>Adaugi prieteni din Contacte sau dupa numar. Daca accepta, va vedeti unul pe altul pana opriti partajarea.</p></div>
 </div>
-<p class="tf-note2">Pe jos, minimapa apare doar cat ai telefonul deschis sau un <b>SmartWatch</b> la tine. In masina o ai mereu.</p>
+<p class="tf-note2">Pe jos, minimapa apare doar cat ai telefonul deschis sau un <b><img class="eg-item" src="/items/smartwatch.webp" alt="">SmartWatch</b> la tine. In masina o ai mereu.</p>
 </section>
 <section class="tf-sec">
 <div class="tf-eyebrow">Accesorii</div>
 <h2 class="tf-h2">Merg mana in mana.</h2>
 <p class="tf-sub">Le gasesti la DigitalDen, langa telefon.</p>
 <div class="tf-two">
-<div class="tf-card tf-acc"><i class="tf-ico c-dark"><svg class="tf-g"><use href="#tf-watch"/></svg></i><div><h3>SmartWatch (GPS)</h3><p>Cat il ai in inventar, vezi minimapa si pe jos, fara sa scoti telefonul.</p></div></div>
-<div class="tf-card tf-acc"><i class="tf-ico c-red"><svg class="tf-g"><use href="#tf-speaker"/></svg></i><div><h3>EliteBox</h3><p>Folosesti boxa din inventar si o asezi pe jos. Te conectezi din YouMusic sau din <span class="tf-path">Setari → Bluetooth</span>, iar muzica se aude din boxa pentru toti cei din jur.</p><p>O iei inapoi cu <b>Ridica boxa</b>. Tot asa te conectezi si la sistemul audio al masinii.</p></div></div>
+<div class="tf-card tf-acc"><i class="tf-ico c-dark"><svg class="tf-g"><use href="#tf-watch"/></svg></i><div><h3><img class="eg-item" src="/items/smartwatch.webp" alt="">SmartWatch (GPS)</h3><p>Cat il ai in inventar, vezi minimapa si pe jos, fara sa scoti telefonul.</p></div></div>
+<div class="tf-card tf-acc"><i class="tf-ico c-red"><svg class="tf-g"><use href="#tf-speaker"/></svg></i><div><h3><img class="eg-item" src="/items/elitebox.webp" alt="">EliteBox</h3><p>Folosesti boxa din inventar si o asezi pe jos. Te conectezi din YouMusic sau din <span class="tf-path">Setari → Bluetooth</span>, iar muzica se aude din boxa pentru toti cei din jur.</p><p>O iei inapoi cu <b>Ridica boxa</b>. Tot asa te conectezi si la sistemul audio al masinii.</p></div></div>
 </div>
 </section>
 <section class="tf-sec">

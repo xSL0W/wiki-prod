@@ -356,7 +356,7 @@ outline: false
 <li><span class="xcar-key">Ore jucate</span><span class="xcar-val">30h<span class="xcar-note">pentru fiecare om din echipa</span></span></li>
 <li><span class="xcar-key">Echipa</span><span class="xcar-val">1 - 2 jucatori<span class="xcar-note">singur sau cu un partener</span></span></li>
 <li><span class="xcar-key">Politie</span><span class="xcar-val">0 in serviciu<span class="xcar-note">poti incepe oricand</span></span></li>
-<li><span class="xcar-key">Scule</span><span class="xcar-val">Lockpick simplu<span class="xcar-note">de la Home depot; ia mai multe, se consuma la fiecare incercare</span></span></li>
+<li><span class="xcar-key">Scule</span><span class="xcar-val"><img class="eg-item" src="/items/lockpick.webp" alt="">Lockpick simplu<span class="xcar-note">de la Home depot; ia mai multe, se consuma la fiecare incercare</span></span></li>
 <li><span class="xcar-key">Inventar</span><span class="xcar-val">Loc liber<span class="xcar-note">piesele sunt grele si le iei in brate</span></span></li>
 <li><span class="xcar-key">Interzis</span><span class="xcar-val xcar-red">Politisti, medici<span class="xcar-note">nici ca parteneri</span></span></li>
 </ul>
@@ -381,11 +381,11 @@ outline: false
 <h2>Pas cu pas</h2>
 <ol class="xcar-route">
 <li><p><span class="xcar-t">Porneste jaful de la Nelu</span>Alege <b>Incepe jaf</b>. In echipa, doar liderul il poate porni. Daca cineva din echipa nu indeplineste conditiile, toata echipa vede cine si de ce.</p></li>
-<li><p><span class="xcar-t">Studiaza poza</span>Fiecare primeste o <b>Imagine cu masina</b>, cu modelul si numarul de inmatriculare. Pe harta apare un cerc cu zona in care e parcata. Culoarea din poza poate fi alta decat cea reala, asa ca te iei dupa numar.</p></li>
+<li><p><span class="xcar-t">Studiaza poza</span>Fiecare primeste o <b><img class="eg-item" src="/items/car_photo.webp" alt="">Imagine cu masina</b>, cu modelul si numarul de inmatriculare. Pe harta apare un cerc cu zona in care e parcata. Culoarea din poza poate fi alta decat cea reala, asa ca te iei dupa numar.</p></li>
 <li><p><span class="xcar-t">Gaseste masina</span>Masina apare cand intri in zona marcata. E incuiata. Ai un timp limitat pentru tot jaful, din momentul in care l-ai pornit.</p></li>
-<li class="xcar-risk"><p><span class="xcar-t">Sparge usa</span>Foloseste un <b>Lockpick simplu</b> langa masina si treci minijocul. Masina tinta o poti sparge chiar si intr-o zona protejata.<span class="xcar-alert">Lockpick-ul se consuma la fiecare incercare, reusita sau nu. Daca gresesti, politia poate primi o alerta.</span></p></li>
+<li class="xcar-risk"><p><span class="xcar-t">Sparge usa</span>Foloseste un <b><img class="eg-item" src="/items/lockpick.webp" alt="">Lockpick simplu</b> langa masina si treci minijocul. Masina tinta o poti sparge chiar si intr-o zona protejata.<span class="xcar-alert">Lockpick-ul se consuma la fiecare incercare, reusita sau nu. Daca gresesti, politia poate primi o alerta.</span></p></li>
 <li class="xcar-risk"><p><span class="xcar-t">Leaga firele</span>Nu ai cheie. Urca la volan si apasa <kbd>H</kbd> ca sa legi firele. Alarma masinii suna cat lucrezi. Nu iese din prima de fiecare data: incearca din nou.<span class="xcar-alert">Cand legi firele gresit, politia poate primi o alerta.</span></p></li>
-<li><p><span class="xcar-t">Goleste portbagajul si torpedoul</span>In ele gasesti bani, bani murdari si diverse obiecte. Ia tot inainte sa distrugi masina.</p></li>
+<li><p><span class="xcar-t">Goleste portbagajul si torpedoul</span>In ele gasesti <img class="eg-item" src="/items/money.webp" alt="">bani, <img class="eg-item" src="/items/dirtymoney.webp" alt="">bani murdari si diverse obiecte. Ia tot inainte sa distrugi masina.</p></li>
 <li><p><span class="xcar-t">Du masina la dezmembrat</span>Zona de dezmembrare e la codul postal 826. Primesti o notificare cand intri cu masina in ea.</p></li>
 <li><p><span class="xcar-t">Dezmembreaza piesele</span>Tine apasat <kbd>G</kbd> pe masina si alege piesa. Fiecare piesa ajunge in inventarul celui care a scos-o.</p></li>
 <li><p><span class="xcar-t">Distruge masina</span>Cand ai terminat, alege <b>Distruge masina</b> din acelasi meniu de pe <kbd>G</kbd>.</p></li>
@@ -414,10 +414,10 @@ outline: false
 </svg>
 <div>
 <ul class="xcar-parts">
-<li><span class="xcar-item">Roata de masina</span><p>de la fiecare roata</p></li>
-<li><span class="xcar-item">Usa de masina</span><p>usile din fata, plus cele din spate daca masina are</p></li>
-<li><span class="xcar-item">Capota de masina</span><p>capota din fata</p></li>
-<li><span class="xcar-item">Portbagaj de masina</span><p>capacul portbagajului</p></li>
+<li><span class="xcar-item"><img class="eg-item" src="/items/car_wheel.webp" alt="">Roata de masina</span><p>de la fiecare roata</p></li>
+<li><span class="xcar-item"><img class="eg-item" src="/items/car_door.webp" alt="">Usa de masina</span><p>usile din fata, plus cele din spate daca masina are</p></li>
+<li><span class="xcar-item"><img class="eg-item" src="/items/car_hood.webp" alt="">Capota de masina</span><p>capota din fata</p></li>
+<li><span class="xcar-item"><img class="eg-item" src="/items/car_trunk.webp" alt="">Portbagaj de masina</span><p>capacul portbagajului</p></li>
 </ul>
 <p class="xcar-chop-note">Piesele se scot doar cat masina sta in zona de dezmembrare. Cat cari o piesa o tii in brate: nu poti alerga si nu poti umbla in inventar.</p>
 </div>

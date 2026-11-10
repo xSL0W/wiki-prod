@@ -203,7 +203,7 @@ outline: false
 <div class="vpn-lane sell">
 <div class="who"><span>Vanzator</span><b>Iti deschizi taraba</b></div>
 <ol class="vpn-steps">
-<li>Alegi o taraba <b>libera</b> si ii platesti chiria pe cate zile vrei. Chiria se plateste in avans, in bani murdari din inventar. Numarul maxim de zile apare in fereastra.</li>
+<li>Alegi o taraba <b>libera</b> si ii platesti chiria pe cate zile vrei. Chiria se plateste in avans, in <img class="eg-item" src="/items/dirtymoney.webp" alt="">bani murdari din inventar. Numarul maxim de zile apare in fereastra.</li>
 <li>Din <b>Gestioneaza standul</b> pui iteme din inventar: alegi cantitatea si pretul pe bucata. Tot de aici retragi marfa sau schimbi pretul.</li>
 <li>Prelungesti chiria oricand din <b>Prelungeste chiria</b>, cat timp zilele ramase nu trec de maxim.</li>
 <li>Banii din vanzari nu ajung la tine in buzunar. Ii iei de la <b>NPC-ul de recuperare</b>, ca bani murdari.</li>
@@ -264,9 +264,9 @@ outline: false
 <div class="vpn-claim" aria-label="Exemplu de lista de revendicare">
 <p class="hd">Iteme de revendicat</p>
 <ul>
-<li><b>Bani murdari</b><span class="q">din vanzari</span></li>
-<li><b>Pistol</b><span class="q">x1</span></li>
-<li><b>Munitie 9mm</b><span class="q">x40</span></li>
+<li><b><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</b><span class="q">din vanzari</span></li>
+<li><b><img class="eg-item" src="/items/WEAPON_PISTOL.webp" alt="">Pistol</b><span class="q">x1</span></li>
+<li><b><img class="eg-item" src="/items/ammo-9.webp" alt="">Munitie 9mm</b><span class="q">x40</span></li>
 <li class="all">Revendica tot</li>
 </ul>
 </div>

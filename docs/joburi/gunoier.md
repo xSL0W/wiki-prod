@@ -173,7 +173,7 @@ outline: false
 <h2>Sfaturi</h2>
 <ul class="gz-tips">
 <li><b>Nu lasa camionul departe.</b> Sacii se arunca doar in camionul tau, de aproape.</li>
-<li><b>Fii atent la tomberoane.</b> Uneori te musca un sobolan, iar alteori gasesti o sticla de apa in sac.</li>
+<li><b>Fii atent la tomberoane.</b> Uneori te musca un sobolan, iar alteori gasesti o <img class="eg-item" src="/items/water.webp" alt="">sticla de apa in sac.</li>
 <li><b>Ia opririle in ordine,</b> asa cum le arata GPS-ul, ca sa nu pierzi timp.</li>
 <li><b>Daca renunti la job,</b> camionul dispare si tura se opreste.</li>
 </ul>

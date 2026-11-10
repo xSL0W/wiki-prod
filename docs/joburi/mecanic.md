@@ -255,7 +255,7 @@ outline: false
 <p class="mc-lead">Mecanicul nu se ia de la Primarie. Esti angajat de un <b>service</b>, o firma condusa de jucatori, iar jobul il primesti la prima tura.</p>
 <ol class="mc-boot">
 <li><span>[01]</span><p>Gaseste un service si vorbeste cu conducerea. Te angajeaza cand esti langa ei, dupa nume si ID.</p></li>
-<li><span>[02]</span><p>Ia-ti o <b>Tableta firma</b> din magazinele de electronice. De aici vezi firma, pontajul si furnizorul.</p></li>
+<li><span>[02]</span><p>Ia-ti o <b><img class="eg-item" src="/items/firm_tablet.webp" alt="">Tableta firma</b> din magazinele de electronice. De aici vezi firma, pontajul si furnizorul.</p></li>
 <li><span>[03]</span><p>Din tableta, la <b>Pontaj</b>, alege <b>Incepe tura</b>. Trebuie sa fii langa service sau langa o masina de lucru a mecanicilor.</p></li>
 <li class="wait"><span>[OK]</span><p>Primesti jobul de <b>Mecanic</b> si intri in tura. Masinile de lucru le iei din garajul mecanicilor de la service.</p></li>
 </ol>
@@ -264,7 +264,7 @@ outline: false
 <div class="mc-tiles">
 <div class="mc-tile">
 <h3><span>OBD</span>Diagnoza</h3>
-<p>Foloseste <b>Tester Auto</b> la capota sau de pe scaunul soferului. Se deschide tableta cu paginile Defecte, Date live, Revizii, Istoric si Fisa de lucru. Cu <kbd>ALT</kbd> folosesti cursorul.</p>
+<p>Foloseste <b><img class="eg-item" src="/items/t1ger_diagnostictool.webp" alt="">Tester Auto</b> la capota sau de pe scaunul soferului. Se deschide tableta cu paginile Defecte, Date live, Revizii, Istoric si Fisa de lucru. Cu <kbd>ALT</kbd> folosesti cursorul.</p>
 </div>
 <div class="mc-tile">
 <h3><span>LST</span>Agenda de lucru</h3>
@@ -274,17 +274,17 @@ outline: false
 <h3><span>PRT</span>Piese</h3>
 <p>Fiecare masina are doua feluri de piese. Le schimbi cu piesa din inventar, la masina, printr-un mic test de indemanare.</p>
 <div class="mc-parts">
-<p><b>Principale:</b> alternator, frane, injector, radiator, transmisie, pompa servo, motor si baterie la electrice. Se uzeaza la condus si in accidente.</p>
-<p><b>De revizie:</b> ulei si filtru, bujii, curea de distributie, placute, anvelope, lichide si filtre. Se termina dupa un numar de kilometri.</p>
+<p><b>Principale:</b> <img class="eg-item" src="/items/t1ger_alternator.webp" alt="">alternator, <img class="eg-item" src="/items/t1ger_brakes.webp" alt="">frane, <img class="eg-item" src="/items/t1ger_fuelinjector.webp" alt="">injector, <img class="eg-item" src="/items/t1ger_radiator.webp" alt="">radiator, <img class="eg-item" src="/items/t1ger_transmission.webp" alt="">transmisie, <img class="eg-item" src="/items/t1ger_powersteeringpump.webp" alt="">pompa servo, <img class="eg-item" src="/items/t1ger_electricmotor.webp" alt="">motor si <img class="eg-item" src="/items/t1ger_evbattery.webp" alt="">baterie la electrice. Se uzeaza la condus si in accidente.</p>
+<p><b>De revizie:</b> <img class="eg-item" src="/items/t1ger_oilfilter.webp" alt="">ulei si filtru, <img class="eg-item" src="/items/t1ger_sparkplugs.webp" alt="">bujii, <img class="eg-item" src="/items/t1ger_drivebelt.webp" alt="">curea de distributie, <img class="eg-item" src="/items/t1ger_brakepad.webp" alt="">placute, <img class="eg-item" src="/items/t1ger_tires.webp" alt="">anvelope, lichide si filtre. Se termina dupa un numar de kilometri.</p>
 </div>
 </div>
 <div class="mc-tile">
 <h3><span>CAR</span>Caroserie</h3>
-<p>Inspecteaza masina ca sa vezi ce e stricat, apoi pune usi, capota, portbagaj, geamuri si roti noi.</p>
+<p>Inspecteaza masina ca sa vezi ce e stricat, apoi pune <img class="eg-item" src="/items/t1ger_vehicledoor.webp" alt="">usi, <img class="eg-item" src="/items/t1ger_vehiclehood.webp" alt="">capota, <img class="eg-item" src="/items/t1ger_vehicletrunk.webp" alt="">portbagaj, <img class="eg-item" src="/items/t1ger_vehiclewindow.webp" alt="">geamuri si <img class="eg-item" src="/items/t1ger_vehiclewheel.webp" alt="">roti noi.</p>
 </div>
 <div class="mc-tile">
 <h3><span>LFT</span>Elevator si cric</h3>
-<p>Elevatoarele din service le urci si le cobori tinand apasat <kbd>G</kbd> pe ele. <b>Cricul Auto</b> il asezi sub roata cu <kbd>E</kbd> si il pui inapoi cu <kbd>F5</kbd>.</p>
+<p>Elevatoarele din service le urci si le cobori tinand apasat <kbd>G</kbd> pe ele. <b><img class="eg-item" src="/items/t1ger_carjack.webp" alt="">Cricul Auto</b> il asezi sub roata cu <kbd>E</kbd> si il pui inapoi cu <kbd>F5</kbd>.</p>
 </div>
 <div class="mc-tile">
 <h3><span>TOW</span>Platforma</h3>
@@ -304,14 +304,14 @@ outline: false
 </div>
 <div class="mc-tile">
 <h3><span>TUN</span>Tuning</h3>
-<p>Doar mecanicii monteaza <b>Kitul stancer</b>, cu care reglezi rotile din meniul lui. <b>Antilag</b>-ul se pune doar pe masini cu turbo.</p>
+<p>Doar mecanicii monteaza <b><img class="eg-item" src="/items/stancerkit.webp" alt="">Kitul stancer</b>, cu care reglezi rotile din meniul lui. <b><img class="eg-item" src="/items/antilag.webp" alt="">Antilag</b>-ul se pune doar pe masini cu turbo.</p>
 </div>
 </div>
 
 <h2><small>Venit</small>De unde vin banii</h2>
 <ul class="mc-pay">
 <li><b>Salariu</b>, cat timp esti in tura.</li>
-<li><b>Facturi</b> date clientilor cu <b>Terminalul POS</b>. Primesti o parte din fiecare.</li>
+<li><b>Facturi</b> date clientilor cu <b><img class="eg-item" src="/items/pos_terminal.webp" alt="">Terminalul POS</b>. Primesti o parte din fiecare.</li>
 <li><b>Livrari la Impound</b>, platite dupa masina adusa.</li>
 </ul>
 

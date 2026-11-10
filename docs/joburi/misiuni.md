@@ -247,30 +247,30 @@ outline: false
 <h3>Misiune normala</h3>
 <h4>Orice inamic poate lasa</h4>
 <ul class="ms-items">
-<li>Munitie de pistol</li>
-<li>Bandaj</li>
-<li>Vesta anti-glont usoara</li>
-<li>Vesta anti-glont grea</li>
+<li><img class="eg-item" src="/items/ammo-9.webp" alt="">Munitie de pistol</li>
+<li><img class="eg-item" src="/items/bandage.webp" alt="">Bandaj</li>
+<li><img class="eg-item" src="/items/armor.webp" alt="">Vesta anti-glont usoara</li>
+<li><img class="eg-item" src="/items/heavyarmor.webp" alt="">Vesta anti-glont grea</li>
 </ul>
 <h4>Ultimul inamic lasa</h4>
 <ul class="ms-items">
-<li class="key">Bani murdari</li>
+<li class="key"><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</li>
 </ul>
 </div>
 <div class="ms-crate hard">
 <h3>Misiune grea</h3>
 <h4>Orice inamic poate lasa</h4>
 <ul class="ms-items">
-<li>Munitie de pistol</li>
-<li>Munitie de pusca</li>
-<li>Bandaj</li>
-<li>Vesta anti-glont usoara</li>
-<li>Vesta anti-glont grea</li>
+<li><img class="eg-item" src="/items/ammo-9.webp" alt="">Munitie de pistol</li>
+<li><img class="eg-item" src="/items/ammo-rifle.webp" alt="">Munitie de pusca</li>
+<li><img class="eg-item" src="/items/bandage.webp" alt="">Bandaj</li>
+<li><img class="eg-item" src="/items/armor.webp" alt="">Vesta anti-glont usoara</li>
+<li><img class="eg-item" src="/items/heavyarmor.webp" alt="">Vesta anti-glont grea</li>
 </ul>
 <h4>Ultimul inamic lasa</h4>
 <ul class="ms-items">
-<li class="key">Bani murdari</li>
-<li class="key">uneori Card acces</li>
+<li class="key"><img class="eg-item" src="/items/dirtymoney.webp" alt="">Bani murdari</li>
+<li class="key">uneori <img class="eg-item" src="/items/jew_keycard.webp" alt="">Card acces</li>
 </ul>
 </div>
 </div>

@@ -180,9 +180,9 @@ outline: false
 
 <h2><small>Echipament</small>Ce iei cu tine</h2>
 <ul class="vn-pack">
-<li><strong>Pusca de vanatoare</strong><span>De la magazinul de arme, sau o fabrici la masa de lucru de acolo. Se uzeaza cu fiecare foc.</span></li>
-<li><strong>Munitie pentru pusca</strong><span>Tot de la magazinul de arme, cumparata sau fabricata.</span></li>
-<li><strong>Un cutit</strong><span>Doar in inventar, nu trebuie tinut in mana. Fara el nu poti transa.</span></li>
+<li><strong><img class="eg-item" src="/items/WEAPON_MUSKET.webp" alt="">Pusca de vanatoare</strong><span>De la magazinul de arme, sau o fabrici la masa de lucru de acolo. Se uzeaza cu fiecare foc.</span></li>
+<li><strong><img class="eg-item" src="/items/ammo-musket.webp" alt="">Munitie pentru pusca</strong><span>Tot de la magazinul de arme, cumparata sau fabricata.</span></li>
+<li><strong>Un <img class="eg-item" src="/items/WEAPON_KNIFE.webp" alt="">cutit</strong><span>Doar in inventar, nu trebuie tinut in mana. Fara el nu poti transa.</span></li>
 <li><strong>Un vehicul</strong><span>Oricare. Te ajuta sa duci marfa pana la punctul de vanzare.</span></li>
 </ul>
 
@@ -190,7 +190,7 @@ outline: false
 <ol class="vn-trail">
 <li><p><b>Intra in zona de vanatoare.</b> Intri automat in tura, iar cand iesi din zona tura se opreste.</p></li>
 <li><p><b>Cauta animalele.</b> In jurul tau apar cateva animale, iar pe masura ce le vanezi apar altele.</p></li>
-<li><p><b>Impusca animalul cu pusca de vanatoare.</b> Unele cad din doua focuri, altele au nevoie de trei sau patru.</p></li>
+<li><p><b>Impusca animalul cu <img class="eg-item" src="/items/WEAPON_MUSKET.webp" alt="">pusca de vanatoare.</b> Unele cad din doua focuri, altele au nevoie de trei sau patru.</p></li>
 <li><p><b>Tine apasat <kbd>E</kbd></b> langa cadavru ca sa il transezi. Dureaza cateva secunde.</p></li>
 <li><p><b>Primesti carne</b> si, din cand in cand, un trofeu: blana, piele, coarne, colti, pene sau gheare.</p></li>
 <li><p><b>Vinde tot</b> la punctul de vanzare cand ai strans destul.</p></li>
@@ -232,7 +232,7 @@ outline: false
 <li><b>Zona de vanatoare e zona sigura.</b> Acolo nu se trage cu alte arme. Pusca de vanatoare merge doar in zona de vanatoare si nu trage cand tintesti un jucator.</li>
 <li><b>Nu conteaza cati vanatori sunteti.</b> Fiecare are animalele lui in jur, dar oricine poate impusca si transa orice animal.</li>
 <li><b>Obosesti.</b> Dupa multe animale transate intr-o ora primesti mai putin din fiecare, iar la un moment dat trebuie sa te odihnesti pana poti transa din nou.</li>
-<li><b>Licenta de vanatoare</b> se cumpara de la Centrul de licente si e valabila 7 zile. Jobul merge si fara ea.</li>
+<li><b><img class="eg-item" src="/items/document.webp" alt="">Licenta de vanatoare</b> se cumpara de la Centrul de licente si e valabila 7 zile. Jobul merge si fara ea.</li>
 </ul>
 
 </div>

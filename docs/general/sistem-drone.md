@@ -247,13 +247,13 @@ outline: false
 <p class="drn-sub">Ai nevoie de doua lucruri in inventar: licenta de zbor si drona.</p>
 <ol class="drn-grid2 drn-need">
 <li class="drn-card">
-<h3 class="drn-h3">Licenta operator drone</h3>
+<h3 class="drn-h3"><img class="eg-item" src="/items/document.webp" alt="">Licenta operator drone</h3>
 <p>O cumperi din <a href="../zona-info/store">Magazinul EG</a>, cu EG Coins, pentru <b>30</b> sau <b>90 de zile</b>. Primesti un document legat de CNP-ul tau.</p>
 <p>Documentul trebuie sa fie in inventarul tau si sa nu fie expirat. Licenta cumparata de alt jucator nu te lasa sa zbori.</p>
 <span class="drn-path">Magazin EG → Iteme → Licenta operator drone</span>
 </li>
 <li class="drn-card">
-<h3 class="drn-h3">O drona</h3>
+<h3 class="drn-h3"><img class="eg-item" src="/items/drone.webp" alt="">O drona</h3>
 <p>Dronele se vand la magazinul <b>DigitalDen</b> din Little Seoul, cu bani din joc. Il gasesti pe harta dupa iconita DigitalDen.</p>
 <p>Fara licenta valida drona nu porneste, chiar daca o ai in inventar.</p>
 <span class="drn-path">DigitalDen → Drone</span>
@@ -264,7 +264,7 @@ outline: false
 <div class="drn-grid3">
 <div class="drn-card drn-model">
 <span class="drn-tag">Standard</span>
-<h3 class="drn-h3">Drona</h3>
+<h3 class="drn-h3"><img class="eg-item" src="/items/drone.webp" alt="">Drona</h3>
 <p>Drona de baza, echilibrata. Buna pentru recunoastere si filmari ziua.</p>
 <ul class="drn-spec">
 <li>Rezistenta <b><span class="drn-pips" aria-label="3 lovituri"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></b></li>
@@ -275,7 +275,7 @@ outline: false
 </div>
 <div class="drn-card drn-model nv">
 <span class="drn-tag">Vedere nocturna</span>
-<h3 class="drn-h3">Drona NightVision</h3>
+<h3 class="drn-h3"><img class="eg-item" src="/items/nvdrone.webp" alt="">Drona NightVision</h3>
 <p>Are butonul <b>Vedere nocturna</b> pe ecranul dronei. Cea mai rezistenta dintre cele trei.</p>
 <ul class="drn-spec">
 <li>Rezistenta <b><span class="drn-pips" aria-label="4 lovituri"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></b></li>
@@ -286,7 +286,7 @@ outline: false
 </div>
 <div class="drn-card drn-model fpv">
 <span class="drn-tag">De curse</span>
-<h3 class="drn-h3">Drona FPV</h3>
+<h3 class="drn-h3"><img class="eg-item" src="/items/fpvdrone.webp" alt="">Drona FPV</h3>
 <p>Mult mai rapida si mai usoara, dar fragila si cu baterie mica. Piloteaz-o cu grija.</p>
 <ul class="drn-spec">
 <li>Rezistenta <b><span class="drn-pips" aria-label="2 lovituri"><i class="on"></i><i class="on"></i><i></i><i></i></span></b></li>

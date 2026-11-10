@@ -83,22 +83,22 @@ outline: false
 <div class="pdd-cat">
 <h3>Diverse</h3>
 <ul class="pdd-items">
-<li><b>Telefon</b><span>Apeluri, mesaje si aplicatii. Cat il ai deschis, vezi GPS-ul pe minimapa. Detalii pe pagina <a href="/general/telefon">Telefon</a>.</span></li>
-<li><b>SmartWatch (GPS)</b><span>Cat il ai in inventar, minimapa cu GPS ramane pe ecran si fara sa deschizi telefonul.</span></li>
-<li><b>Radio</b><span>Statie radio: vorbesti cu ceilalti pe aceeasi frecventa.</span></li>
-<li><b>EliteBox</b><span>Boxa portabila. O pui jos si dai muzica pe ea din telefon. O poti ridica inapoi oricand.</span></li>
-<li><b>Body Camera</b><span>Cat o ai in inventar, pe HUD apare indicatorul REC.</span></li>
-<li><b>Tableta firma</b><span>Gestionezi firma ta din ea.</span></li>
-<li><b>Terminal POS</b><span>Faci facturi clientilor firmei tale.</span></li>
-<li><b>Acumulator</b><span>Sursa de curent. Intra in reteta de C4, la crafting.</span></li>
+<li><b><img class="eg-item" src="/items/phone.webp" alt="">Telefon</b><span>Apeluri, mesaje si aplicatii. Cat il ai deschis, vezi GPS-ul pe minimapa. Detalii pe pagina <a href="/general/telefon">Telefon</a>.</span></li>
+<li><b><img class="eg-item" src="/items/smartwatch.webp" alt="">SmartWatch (GPS)</b><span>Cat il ai in inventar, minimapa cu GPS ramane pe ecran si fara sa deschizi telefonul.</span></li>
+<li><b><img class="eg-item" src="/items/radio.webp" alt="">Radio</b><span>Statie radio: vorbesti cu ceilalti pe aceeasi frecventa.</span></li>
+<li><b><img class="eg-item" src="/items/elitebox.webp" alt="">EliteBox</b><span>Boxa portabila. O pui jos si dai muzica pe ea din telefon. O poti ridica inapoi oricand.</span></li>
+<li><b><img class="eg-item" src="/items/bodycam.webp" alt="">Body Camera</b><span>Cat o ai in inventar, pe HUD apare indicatorul REC.</span></li>
+<li><b><img class="eg-item" src="/items/firm_tablet.webp" alt="">Tableta firma</b><span>Gestionezi firma ta din ea.</span></li>
+<li><b><img class="eg-item" src="/items/pos_terminal.webp" alt="">Terminal POS</b><span>Faci facturi clientilor firmei tale.</span></li>
+<li><b><img class="eg-item" src="/items/acumulator.webp" alt="">Acumulator</b><span>Sursa de curent. Intra in reteta de <img class="eg-item" src="/items/c4.webp" alt="">C4, la crafting.</span></li>
 </ul>
 </div>
 <div class="pdd-cat">
 <h3>Drone</h3>
 <ul class="pdd-items">
-<li><b>Drona</b><span>Drona de baza, pentru recunoastere din aer.</span></li>
-<li><b>Drona NightVision</b><span>Are vedere de noapte.</span></li>
-<li><b>Drona FPV</b><span>Drona de curse: rapida, dar fragila, cu baterie care tine putin.</span></li>
+<li><b><img class="eg-item" src="/items/drone.webp" alt="">Drona</b><span>Drona de baza, pentru recunoastere din aer.</span></li>
+<li><b><img class="eg-item" src="/items/nvdrone.webp" alt="">Drona NightVision</b><span>Are vedere de noapte.</span></li>
+<li><b><img class="eg-item" src="/items/fpvdrone.webp" alt="">Drona FPV</b><span>Drona de curse: rapida, dar fragila, cu baterie care tine putin.</span></li>
 </ul>
 </div>
 <ul class="pdd-notes pdd-end">

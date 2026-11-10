@@ -133,13 +133,13 @@ outline: false
 <p class="head">MAGAZIN 24/7</p>
 <div class="rule"></div>
 <p class="cat">Kit-uri masina</p>
-<ul><li>Kit de reparatii roata</li><li>Kit de reparatii motor</li><li>Chinga de tractare</li><li>Kit de curatat</li><li>Trusa de clonat chei</li></ul>
+<ul><li><img class="eg-item" src="/items/tirekit_civil.webp" alt="">Kit de reparatii roata</li><li><img class="eg-item" src="/items/repairkit_civil.webp" alt="">Kit de reparatii motor</li><li><img class="eg-item" src="/items/tow_strap.webp" alt="">Chinga de tractare</li><li><img class="eg-item" src="/items/cleaningkit.webp" alt="">Kit de curatat</li><li><img class="eg-item" src="/items/clonekeystool.webp" alt="">Trusa de clonat chei</li></ul>
 <p class="cat">Mancare</p>
-<ul><li>Sandwich</li><li>Sandwich cu cascaval</li><li>Baton Twerks</li><li>Baton Snikkel</li></ul>
+<ul><li><img class="eg-item" src="/items/sandwich.webp" alt="">Sandwich</li><li><img class="eg-item" src="/items/tosti.webp" alt="">Sandwich cu cascaval</li><li><img class="eg-item" src="/items/twerks_candy.webp" alt="">Baton Twerks</li><li><img class="eg-item" src="/items/snikkel_candy.webp" alt="">Baton Snikkel</li></ul>
 <p class="cat">Bauturi</p>
-<ul><li>Apa, cola, cafea</li><li>Bere, whiskey, vodka</li></ul>
+<ul><li><img class="eg-item" src="/items/water_bottle.webp" alt="">Apa, <img class="eg-item" src="/items/kurkakola.webp" alt="">cola, <img class="eg-item" src="/items/coffee.webp" alt="">cafea</li><li><img class="eg-item" src="/items/beer.webp" alt="">Bere, <img class="eg-item" src="/items/whiskey.webp" alt="">whiskey, <img class="eg-item" src="/items/vodka.webp" alt="">vodka</li></ul>
 <p class="cat">Tigari si altele</p>
-<ul><li>Tigari</li><li>Bucata de hartie</li><li>Mapa documente</li><li>Megafon</li></ul>
+<ul><li><img class="eg-item" src="/items/tigari.webp" alt="">Tigari</li><li><img class="eg-item" src="/items/bucata_de_hartie_goala.webp" alt="">Bucata de hartie</li><li><img class="eg-item" src="/items/mapa_documente.webp" alt="">Mapa documente</li><li><img class="eg-item" src="/items/megaphone.webp" alt="">Megafon</li></ul>
 <div class="rule"></div>
 <p class="end">Va multumim!</p>
 </div>
@@ -153,7 +153,7 @@ outline: false
 <p class="ash-sub">Pentru angajatii unui magazin 24/7.</p>
 <ol class="ash-lane">
 <li><b>Furnizor Magazin</b><span>Sta langa ceilalti furnizori, la codul postal <code>313</code>. Vinde doar angajatilor magazinelor.</span></li>
-<li><b>Cumperi marfa</b><span>Alegi produsul si cantitatea, platesti din banii tai si primesti o cutie.</span></li>
+<li><b>Cumperi marfa</b><span>Alegi produsul si cantitatea, platesti din banii tai si primesti o <img class="eg-item" src="/items/clothes_box.webp" alt="">cutie.</span></li>
 <li><b>Desfaci cutia</b><span>Marfa iti intra in inventar.</span></li>
 <li><b>O pui in depozit</b><span>Depozitul firmei e chiar in magazin. Ce pui acolo apare la vanzare.</span></li>
 </ol>

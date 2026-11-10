@@ -281,7 +281,7 @@ outline: deep
 
 <h2 class="grj-h2" id="chei">Chei si telefon</h2>
 <div class="grj-grid">
-<div class="grj-card"><h3 class="grj-h3">Cheia masinii</h3><p>Cheia e un item in inventar (<b>Vehicle Keys</b>). Pune-le pe toate in <b>Key Bag</b>, ca sa nu-ti umple inventarul.</p><p>Ti-ai pierdut cheia? Urca in masina ta si foloseste o <b>Trusa de clonat cheile unei masini</b>, din magazinele 24/7. Merge doar pe masinile tale.</p></div>
+<div class="grj-card"><h3 class="grj-h3">Cheia masinii</h3><p>Cheia e un item in inventar (<b><img class="eg-item" src="/items/vehiclekey.webp" alt="">Vehicle Keys</b>). Pune-le pe toate in <b><img class="eg-item" src="/items/keybag.webp" alt="">Key Bag</b>, ca sa nu-ti umple inventarul.</p><p>Ti-ai pierdut cheia? Urca in masina ta si foloseste o <b><img class="eg-item" src="/items/clonekeystool.webp" alt="">Trusa de clonat cheile unei masini</b>, din magazinele 24/7. Merge doar pe masinile tale.</p></div>
 <div class="grj-card"><h3 class="grj-h3">Telefon → Garaj</h3><p>Vezi ce vehicule ai si care sunt scoase. Pentru cele scoase pui destinatia pe harta. Pe cele din apropiere le incui sau descui din aplicatie.</p></div>
 <div class="grj-card"><h3 class="grj-h3"><kbd>K</kbd> → Vehicul</h3><p><b>Localizeaza-ti masinile</b> pune pe harta pozitia vehiculelor scoase. <b>Tracteaza vehicule distruse</b> aduce in garaj, contra cost, un vehicul distrus lasat afara.</p><p>Nu poti tracta daca alt jucator e la mai putin de 50 m de vehicul.</p></div>
 </div>

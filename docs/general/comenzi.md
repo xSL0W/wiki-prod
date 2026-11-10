@@ -204,7 +204,7 @@ outline: false
 <h2 class="cmd-h2" id="cmd-vehicul">Vehicul</h2>
 <ul class="cmd-list">
 <li><span class="c"><kbd>L</kbd></span><span class="d">Incui sau descui vehiculul.</span></li>
-<li><span class="c"><kbd>X</kbd></span><span class="d">Pornesti sau opresti motorul (ai nevoie de cheie).</span></li>
+<li><span class="c"><kbd>X</kbd></span><span class="d">Pornesti sau opresti motorul (ai nevoie de <img class="eg-item" src="/items/vehiclekey.webp" alt="">cheie).</span></li>
 <li><span class="c"><kbd>O</kbd></span><span class="d">Meniul vehiculului: usi, geamuri, capota, portbagaj, computer de bord, muzica.</span></li>
 <li><span class="c"><kbd>B</kbd></span><span class="d">Pui sau scoti centura.</span></li>
 <li><span class="c"><kbd>Z</kbd></span><span class="d">Cruise control (doar soferul).</span></li>
@@ -219,7 +219,7 @@ outline: false
 <ul class="cmd-list">
 <li><span class="c"><kbd>`</kbd></span><span class="d">Schimbi cat de departe se aude vocea ta (tasta de sub <kbd>ESC</kbd>).</span></li>
 <li><span class="c"><kbd>Alt</kbd> tinut</span><span class="d">Vorbesti pe statie.</span></li>
-<li><span class="c"><kbd>=</kbd><code>/radio</code></span><span class="d">Deschizi statia (trebuie sa o ai in inventar).</span></li>
+<li><span class="c"><kbd>=</kbd><code>/radio</code></span><span class="d">Deschizi <img class="eg-item" src="/items/radio.webp" alt="">statia (trebuie sa o ai in inventar).</span></li>
 <li><span class="c"><kbd>.</kbd><kbd>,</kbd></span><span class="d">Treci pe canalul urmator / anterior.</span></li>
 <li><span class="c"><code>/vol <i>1-100</i></code></span><span class="d">Volumul statiei si al apelurilor.</span></li>
 </ul>

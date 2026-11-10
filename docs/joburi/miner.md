@@ -232,13 +232,13 @@ outline: false
 </svg>
 <ul class="mnr-facts">
 <li>Lucrezi singur, in ritmul tau</li>
-<li>Tarnacopul il cumperi de la mina</li>
+<li><img class="eg-item" src="/items/miner_tarnacop.webp" alt="">Tarnacopul il cumperi de la mina</li>
 <li>Plata depinde de ce minezi si unde vinzi</li>
 </ul>
 </section>
 
 <h2>Cum ma angajez?</h2>
-<p>Ai nevoie de <b>10 ore jucate</b>. Angajeaza-te ca <b>Miner</b> la Primarie (<code>Telefon → Harti → Locatii importante → Primarie</code>) sau direct de la seful minei, cu <kbd>E</kbd>. Langa sef gasesti <b>Magazinul miner</b>, de unde iei tarnacopul. Zonele de minat apar pe harta ca cercuri verzi, <b>Zona miner 1, 2 si 3</b>, toate in cariera de langa sef.</p>
+<p>Ai nevoie de <b>10 ore jucate</b>. Angajeaza-te ca <b>Miner</b> la Primarie (<code>Telefon → Harti → Locatii importante → Primarie</code>) sau direct de la seful minei, cu <kbd>E</kbd>. Langa sef gasesti <b>Magazinul miner</b>, de unde iei <img class="eg-item" src="/items/miner_tarnacop.webp" alt="">tarnacopul. Zonele de minat apar pe harta ca cercuri verzi, <b>Zona miner 1, 2 si 3</b>, toate in cariera de langa sef.</p>
 
 <h2>Grade</h2>
 <ul class="mnr-depth">
@@ -271,7 +271,7 @@ outline: false
 
 <h2>O tura in mina</h2>
 <ul class="mnr-rail">
-<li><b>Ia-ti un tarnacop</b> de la Magazinul miner. Fara el nu poti mina.</li>
+<li><b>Ia-ti un <img class="eg-item" src="/items/miner_tarnacop.webp" alt="">tarnacop</b> de la Magazinul miner. Fara el nu poti mina.</li>
 <li><b>Intra intr-o zona de minat.</b> Cand intri in cerc, intri automat in tura, iar bolovanii de minereu apar in jurul tau.</li>
 <li><b>Tine apasat <kbd>G</kbd></b> uitandu-te la un bolovan si alege <b>Culege minereu</b>.</li>
 <li><b>Stai pe loc</b> pana se umple bara <b>Minezi...</b> In Zona 1 merge de obicei mai repede decat in celelalte. Daca anulezi, nu primesti nimic.</li>
@@ -285,22 +285,22 @@ outline: false
 <div class="mnr-zone">
 <h3>Zona 1</h3>
 <span class="who">Miner incepator · 10h</span>
-<p>Carbune inferior si minereu sarac de fier, cupru, staniu si bauxita. Nu se vinde: il topesti in bare inferioare, pentru crafting.</p>
+<p><img class="eg-item" src="/items/carbune_inferior.webp" alt="">Carbune inferior si minereu sarac de <img class="eg-item" src="/items/minereu_fier_sarac.webp" alt="">fier, <img class="eg-item" src="/items/minereu_cupru_sarac.webp" alt="">cupru, <img class="eg-item" src="/items/minereu_staniu_sarac.webp" alt="">staniu si <img class="eg-item" src="/items/minereu_bauxita_sarac.webp" alt="">bauxita. Nu se vinde: il topesti in bare inferioare, pentru crafting.</p>
 </div>
 <div class="mnr-zone">
 <h3>Zona 2</h3>
 <span class="who">Miner · 100h</span>
-<p>Carbune, fier, cupru, staniu, plumb, sulf si bauxita. Daca ai noroc, si aur.</p>
+<p><img class="eg-item" src="/items/carbune.webp" alt="">Carbune, <img class="eg-item" src="/items/minereu_fier.webp" alt="">fier, <img class="eg-item" src="/items/minereu_cupru.webp" alt="">cupru, <img class="eg-item" src="/items/minereu_staniu.webp" alt="">staniu, <img class="eg-item" src="/items/minereu_plumb.webp" alt="">plumb, <img class="eg-item" src="/items/sulf.webp" alt="">sulf si <img class="eg-item" src="/items/bauxita.webp" alt="">bauxita. Daca ai noroc, si <img class="eg-item" src="/items/minereu_aur.webp" alt="">aur.</p>
 </div>
 <div class="mnr-zone gems">
 <h3>Zona 3</h3>
 <span class="who">Miner expert · 300h</span>
-<p>Carbune, fier, cupru, staniu, plumb, sulf si bauxita, plus <b>diamant, rubin, smarald si safir</b>. Aur nu gasesti aici.</p>
+<p><img class="eg-item" src="/items/carbune.webp" alt="">Carbune, <img class="eg-item" src="/items/minereu_fier.webp" alt="">fier, <img class="eg-item" src="/items/minereu_cupru.webp" alt="">cupru, <img class="eg-item" src="/items/minereu_staniu.webp" alt="">staniu, <img class="eg-item" src="/items/minereu_plumb.webp" alt="">plumb, <img class="eg-item" src="/items/sulf.webp" alt="">sulf si <img class="eg-item" src="/items/bauxita.webp" alt="">bauxita, plus <b><img class="eg-item" src="/items/diamant.webp" alt="">diamant, <img class="eg-item" src="/items/rubin.webp" alt="">rubin, <img class="eg-item" src="/items/smarald.webp" alt="">smarald si <img class="eg-item" src="/items/safir.webp" alt="">safir</b>. Aur nu gasesti aici.</p>
 </div>
 <div class="mnr-zone secret">
 <h3>Mina secreta</h3>
 <span class="who">Miner · 100h · 18:00 - 02:00</span>
-<p>Nu apare pe harta. Se mineaza doar seara si noaptea si da mai ales carbune. Este intr-o zona <b>No Man's Land</b>: oricine te poate ataca sau jefui, iar dupa ce intri nu poti pleca imediat.</p>
+<p>Nu apare pe harta. Se mineaza doar seara si noaptea si da mai ales <img class="eg-item" src="/items/carbune.webp" alt="">carbune. Este intr-o zona <b>No Man's Land</b>: oricine te poate ataca sau jefui, iar dupa ce intri nu poti pleca imediat.</p>
 </div>
 </div>
 
@@ -312,7 +312,7 @@ outline: false
 </div>
 <div>
 <h3>Topitorie</h3>
-<p>In oras, langa punctul de vanzare. Din minereu si carbune scoti bare, nituri sau praf de pusca, materiale pentru crafting.</p>
+<p>In oras, langa punctul de vanzare. Din minereu si carbune scoti bare, <img class="eg-item" src="/items/nituri.webp" alt="">nituri sau <img class="eg-item" src="/items/praf_pusca.webp" alt="">praf de pusca, materiale pentru crafting.</p>
 </div>
 <div>
 <h3>Punct de vanzare miner</h3>

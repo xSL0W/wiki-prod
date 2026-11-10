@@ -132,13 +132,13 @@ outline: false
 <div class="acl-zone">
 <p class="acl-tag">La intrare</p>
 <h3>Bilete</h3>
-<ul class="acl-chips"><li>Standard</li><li>VIP</li></ul>
+<ul class="acl-chips"><li><img class="eg-item" src="/items/ticket_standard.webp" alt="">Standard</li><li><img class="eg-item" src="/items/ticket_vip.webp" alt="">VIP</li></ul>
 <p>Le cumperi de la casa de bilete din club. Pe bilet scrie numele clubului, data si prenumele tau, ca sa-l poata verifica cei de la intrare.</p>
 </div>
 <div class="acl-zone cyan">
 <p class="acl-tag">La bar</p>
 <h3>Bauturi si tigari</h3>
-<ul class="acl-chips"><li>Apa</li><li>Cola</li><li>Cafea</li><li>Bere</li><li>Whiskey</li><li>Vodka</li><li>Tigari</li><li>Baton Twerks</li><li>Baton Snikkel</li></ul>
+<ul class="acl-chips"><li><img class="eg-item" src="/items/water_bottle.webp" alt="">Apa</li><li><img class="eg-item" src="/items/kurkakola.webp" alt="">Cola</li><li><img class="eg-item" src="/items/coffee.webp" alt="">Cafea</li><li><img class="eg-item" src="/items/beer.webp" alt="">Bere</li><li><img class="eg-item" src="/items/whiskey.webp" alt="">Whiskey</li><li><img class="eg-item" src="/items/vodka.webp" alt="">Vodka</li><li><img class="eg-item" src="/items/tigari.webp" alt="">Tigari</li><li><img class="eg-item" src="/items/twerks_candy.webp" alt="">Baton Twerks</li><li><img class="eg-item" src="/items/snikkel_candy.webp" alt="">Baton Snikkel</li></ul>
 <p>Barul vinde doar ce au adus angajatii in depozitul clubului.</p>
 </div>
 <div class="acl-zone">
@@ -158,7 +158,7 @@ outline: false
 <ul class="acl-staff">
 <li><b>Patron si sefi</b>Pun preturile la bar si la bilete, angajeaza oameni si vad vanzarile.</li>
 <li><b>DJ si restul echipei</b>Orice angajat al clubului poate folosi cabina de DJ. Daca nimeni din club nu e pontat, cabina e libera pentru oricine.</li>
-<li><b>Aprovizionare</b>Furnizor Bar sta langa ceilalti furnizori, la codul postal <code>313</code>. Cumperi marfa cu banii tai, desfaci cutia si pui produsele in depozitul clubului.</li>
+<li><b>Aprovizionare</b>Furnizor Bar sta langa ceilalti furnizori, la codul postal <code>313</code>. Cumperi marfa cu banii tai, desfaci <img class="eg-item" src="/items/clothes_box.webp" alt="">cutia si pui produsele in depozitul clubului.</li>
 </ul>
 <ul class="acl-staff acl-more">
 <li><b>Bani pentru firma</b>Firma primeste o parte din fiecare bilet si din fiecare comanda de la bar. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de club, pana la o limita.</li>

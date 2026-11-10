@@ -366,12 +366,12 @@ outline: deep
 <div class="csn-card">
 <p class="csn-tag">Magazin casino</p>
 <h3 class="csn-h3">Ghiseul de langa casierita</h3>
-<p>La ghiseu apesi <kbd>E</kbd> pe <b>Magazin casino</b>. Aici schimbi jetoanele pe bani (si invers), in pachete fixe, si cumperi <b>Zaruri</b> pentru barbut.</p>
+<p>La ghiseu apesi <kbd>E</kbd> pe <b>Magazin casino</b>. Aici schimbi jetoanele pe bani (si invers), in pachete fixe, si cumperi <b><img class="eg-item" src="/items/dices.webp" alt="">Zaruri</b> pentru barbut.</p>
 </div>
 <div class="csn-card">
 <p class="csn-tag">Casino Chips</p>
 <h3 class="csn-h3">De unde ai jetoane</h3>
-<p>Jetoanele sunt unul din premiile de la roata norocului. Nu joci cu ele la niciun aparat: le duci la ghiseu si le schimbi pe bani.</p>
+<p><img class="eg-item" src="/items/casinochips.webp" alt="">Jetoanele sunt unul din premiile de la roata norocului. Nu joci cu ele la niciun aparat: le duci la ghiseu si le schimbi pe bani.</p>
 </div>
 </div>
 
@@ -407,13 +407,13 @@ outline: deep
 <ul class="csn-prizes">
 <li class="top">Truffade Apex</li>
 <li>Bani</li>
-<li>Casino Chips</li>
-<li>SNS Pistol</li>
-<li>SmartWatch (GPS)</li>
-<li>Drona</li>
-<li>EliteBox</li>
-<li>Lockpick avansat</li>
-<li>Whiskey</li>
+<li><img class="eg-item" src="/items/casinochips.webp" alt="">Casino Chips</li>
+<li><img class="eg-item" src="/items/WEAPON_SNSPISTOL.webp" alt="">SNS Pistol</li>
+<li><img class="eg-item" src="/items/smartwatch.webp" alt="">SmartWatch (GPS)</li>
+<li><img class="eg-item" src="/items/drone.webp" alt="">Drona</li>
+<li><img class="eg-item" src="/items/elitebox.webp" alt="">EliteBox</li>
+<li><img class="eg-item" src="/items/advancedlockpick.webp" alt="">Lockpick avansat</li>
+<li><img class="eg-item" src="/items/whiskey.webp" alt="">Whiskey</li>
 </ul>
 </article>
 
@@ -489,7 +489,7 @@ outline: deep
 <h3 id="csn-g-barbut" class="csn-h3">Barbut (zaruri)</h3>
 <span class="csn-where-pill">jucator contra jucator</span>
 </div>
-<p>Joci cu un alt jucator, pe bani cash. Ai nevoie de <b>Zaruri</b> din inventar, le cumperi de la Magazin casino. Barbutul merge oriunde in oras, nu doar in casino.</p>
+<p>Joci cu un alt jucator, pe bani cash. Ai nevoie de <b><img class="eg-item" src="/items/dices.webp" alt="">Zaruri</b> din inventar, le cumperi de la Magazin casino. Barbutul merge oriunde in oras, nu doar in casino.</p>
 <div class="csn-cols">
 <div>
 <p class="csn-mini">Cum joci</p>

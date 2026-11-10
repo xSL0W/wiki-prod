@@ -134,12 +134,12 @@ outline: false
 <h2>Cum aprovizionezi salonul</h2>
 <p class="att-sub">Pentru angajatii unui salon de tatuaje. Stocul il vezi oricand in Tableta firma, la Stoc.</p>
 <div class="att-kit">
-<div class="att-item"><b>Masina de tatuaj</b><span>Se consuma una la fiecare tatuaj.</span></div>
-<div class="att-item"><b>Cerneala tatuaj</b><span>Se consuma una la fiecare tatuaj.</span></div>
+<div class="att-item"><b><img class="eg-item" src="/items/tattoo_machine.webp" alt="">Masina de tatuaj</b><span>Se consuma una la fiecare tatuaj.</span></div>
+<div class="att-item"><b><img class="eg-item" src="/items/ink_bottles.webp" alt="">Cerneala tatuaj</b><span>Se consuma una la fiecare tatuaj.</span></div>
 </div>
 <ul class="att-notes">
 <li>Le cumperi de la Furnizor Tatuaje, langa ceilalti furnizori, la codul postal <code>313</code>. Vinde doar angajatilor unui salon de tatuaje si platesti din banii tai.</li>
-<li>Primesti o cutie de consumabile. O deschizi langa salonul tau si continutul intra direct in stocul firmei. Ce trece peste limita de stoc ramane in cutie.</li>
+<li>Primesti o <img class="eg-item" src="/items/clothes_box.webp" alt="">cutie de consumabile. O deschizi langa salonul tau si continutul intra direct in stocul firmei. Ce trece peste limita de stoc ramane in cutie.</li>
 <li>Preturile pe zone le schimba conducerea din Tableta firma, la Preturi.</li>
 <li>Firma primeste o parte din fiecare tatuaj vandut. Partea creste cu fiecare angajat pontat aflat la cel mult 100 m de salon, pana la o limita.</li>
 </ul>

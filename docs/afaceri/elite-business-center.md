@@ -333,7 +333,7 @@ outline: false
 <h2 class="ebc-h2">De la licitatie la firma ta</h2>
 <ol class="ebc-road">
 <li><h3 class="ebc-h3">Castigi licitatia</h3><p>Afacerile libere se scot la licitatie. Cine castiga devine proprietarul de drept al firmei.</p></li>
-<li><h3 class="ebc-h3">Primesti firma</h3><p>Firma e trecuta pe numele tau. Iti iei o <b>tableta de firma</b> de la Digital Den si de acolo o conduci.</p></li>
+<li><h3 class="ebc-h3">Primesti firma</h3><p>Firma e trecuta pe numele tau. Iti iei o <b><img class="eg-item" src="/items/firm_tablet.webp" alt="">tableta de firma</b> de la Digital Den si de acolo o conduci.</p></li>
 <li><h3 class="ebc-h3">Iti faci echipa</h3><p>Angajezi oameni, le dai functie si salariu si numesti sefi care sa te ajute la conducere.</p></li>
 </ol>
 <p class="ebc-note">Poti detine cel mult <b>doua afaceri</b>. O afacere castigata la licitatie nu se vinde si nu se trece pe altcineva. Daca renunti la ea, o cedezi catre EBC si nu primesti banii inapoi. Daca esti in Politie sau SMIR, nu poti detine si nici conduce o afacere. Daca ai deja una si intri in Politie sau SMIR, o cedezi catre EBC si primesti inapoi jumatate din suma cu care ai castigat-o la licitatie. Toate regulile sunt in <a href="/zona-info/regulament#_9-firme-afaceri">Regulament, sectiunea 9</a>.</p>
@@ -368,7 +368,7 @@ outline: false
 </ul>
 <p class="ebc-note">Cand angajezi pe cineva, stai langa el si il cauti in tableta dupa nume si ID (campul se numeste CNP). Omul angajat primeste pe loc un <b>contract de munca</b>. Un angajat poate pleca singur din firma, din tableta.</p>
 <h2 class="ebc-h2">Tableta firmei</h2>
-<p class="ebc-sub">Firma se conduce dintr-un singur obiect: <b>tableta de firma</b>, de cumparat de la <a href="/proprietati/digitalden">Digital Den</a>. O folosesti din inventar. Daca lucrezi la mai multe firme, alegi intai firma.</p>
+<p class="ebc-sub">Firma se conduce dintr-un singur obiect: <b><img class="eg-item" src="/items/firm_tablet.webp" alt="">tableta de firma</b>, de cumparat de la <a href="/proprietati/digitalden">Digital Den</a>. O folosesti din inventar. Daca lucrezi la mai multe firme, alegi intai firma.</p>
 <div class="ebc-tablet-wrap">
 <div class="ebc-tablet" aria-hidden="true">
 <div class="ebc-tablet-top"><b>Firma ta</b><span class="ebc-shift">Incheie tura</span></div>
@@ -432,7 +432,7 @@ outline: false
 <div class="ebc-card">
 <h3 class="ebc-h3">Furnizorii de pe harta</h3>
 <p>Magazinele, magazinele de haine, frizeriile, saloanele de tatuaje, salonul de infrumusetare si barul clubului isi iau marfa de la furnizori NPC, marcati pe harta (<b>Furnizor Magazin</b>, <b>Furnizor Magazin Haine</b>, <b>Furnizor Frizer</b>, <b>Furnizor Tatuaje</b>, <b>Furnizor Salon</b>, <b>Furnizor Bar</b>).</p>
-<p>Doar angajatii firmei pot cumpara. Primesti o cutie cu marfa. La haine, frizerie si tatuaje, cand o deschizi langa firma, marfa intra direct in stoc. La magazin, club si salon, marfa iti intra in inventar si o pui tu in depozitul firmei. Fiecare produs are o limita de stoc.</p>
+<p>Doar angajatii firmei pot cumpara. Primesti o <img class="eg-item" src="/items/clothes_box.webp" alt="">cutie cu marfa. La haine, frizerie si tatuaje, cand o deschizi langa firma, marfa intra direct in stoc. La magazin, club si salon, marfa iti intra in inventar si o pui tu in depozitul firmei. Fiecare produs are o limita de stoc.</p>
 </div>
 <div class="ebc-card">
 <h3 class="ebc-h3">Furnizorul din tableta (service)</h3>
@@ -445,7 +445,7 @@ outline: false
 <h2 class="ebc-h2">Facturi cu terminalul POS</h2>
 <div class="ebc-two">
 <ol class="ebc-steps">
-<li>Cumpara un <b>Terminal POS</b> de la <a href="/proprietati/digitalden">Digital Den</a> si foloseste-l din inventar.</li>
+<li>Cumpara un <b><img class="eg-item" src="/items/pos_terminal.webp" alt="">Terminal POS</b> de la <a href="/proprietati/digitalden">Digital Den</a> si foloseste-l din inventar.</li>
 <li>Daca lucrezi la mai multe firme, alegi firma care incaseaza. Apoi scrii numele clientului: trebuie sa fie langa tine.</li>
 <li>Alegi o factura libera (suma si motivul le scrii tu, pana la o limita) sau un serviciu din lista. Mecanicii au gata facute: reparatii complete, reparatii motor, pana.</li>
 <li>Clientul vede factura si o accepta sau o refuza. Daca accepta, banii se iau intai din cash, apoi din banca.</li>

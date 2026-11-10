@@ -70,7 +70,7 @@ Aici afli cum functioneaza alcoolul, tigarile speciale si drogurile din joc.
 
 <div class="eg-box">
 
-Whiskey-ul, vodka si berea te imbata. Efectele cresc odata cu alcoolemia:
+<img class="eg-item" src="/items/whiskey.webp" alt="">Whiskey-ul, <img class="eg-item" src="/items/vodka.webp" alt="">vodka si <img class="eg-item" src="/items/beer.webp" alt="">berea te imbata. Efectele cresc odata cu alcoolemia:
 
 | Nivel Alcoolemie | Efecte |
 |-----------------|--------|
@@ -96,8 +96,8 @@ Whiskey-ul, vodka si berea te imbata. Efectele cresc odata cu alcoolemia:
 Tigarile speciale se crafteaza printr-un minigame interactiv si ofera efecte vizuale.
 
 **Tigari normale:**
-- Se cumpara din magazine (pachet de 20 tigari)
-- Scoate tigara din pachet: K -> Jucator -> Scoate tigara din pachet
+- Se cumpara din magazine (<img class="eg-item" src="/items/tigari.webp" alt="">pachet de 20 tigari)
+- Scoate <img class="eg-item" src="/items/tigara.webp" alt="">tigara din pachet: K -> Jucator -> Scoate tigara din pachet
 - Se pot da altor jucatori
 
 **Tigari speciale - Efecte pe nivel:**
@@ -120,9 +120,9 @@ Tigarile speciale se crafteaza printr-un minigame interactiv si ofera efecte viz
 
 | Substanta | Efect |
 |-----------|-------|
-| **LSD (Timbre)** | Reduce timpul de crafting la iarba/tigari/meta |
-| **Cocaina** | Mareste temporar capacitatea inventarului |
-| **Iarba (Marijuana)** | Regenereaza HP incet |
+| <img class="eg-item" src="/items/timbru_lsd.webp" alt="">**LSD (Timbre)** | Reduce timpul de crafting la iarba/tigari/meta |
+| <img class="eg-item" src="/items/plic_coca.webp" alt="">**Cocaina** | Mareste temporar capacitatea inventarului |
+| <img class="eg-item" src="/items/joint.webp" alt="">**Iarba (Marijuana)** | Regenereaza HP incet |
 
 </div>
 
@@ -132,7 +132,7 @@ Tigarile speciale se crafteaza printr-un minigame interactiv si ofera efecte viz
 
 Daca iei prea multe droguri, poti face supradoza!
 
-**Tratament:** Supradoza se trateaza cu **NARCAN**. Doar medicii il pot administra. Il gasesti la:
+**Tratament:** Supradoza se trateaza cu <img class="eg-item" src="/items/narcan.webp" alt="">**NARCAN**. Doar medicii il pot administra. Il gasesti la:
 - Farmacia de la spitalul Pillbox
 - Spital (pentru medici)
 
@@ -143,8 +143,8 @@ Daca iei prea multe droguri, poti face supradoza!
 <div class="eg-box">
 
 **Pentru Politie:**
-- Etilotest - Verifica alcoolemia unui jucator
-- Kit test antidrog - Arata daca jucatorul a luat marijuana, cocaina, metamfetamina, LSD sau heroina
+- <img class="eg-item" src="/items/breathalyzer.webp" alt="">Etilotest - Verifica alcoolemia unui jucator
+- <img class="eg-item" src="/items/drug_test_kit.webp" alt="">Kit test antidrog - Arata daca jucatorul a luat marijuana, cocaina, metamfetamina, LSD sau heroina
 
 **Pentru Medici:**
 - Verificare pacient - Vezi daca pacientul are in sange droguri sau alcool

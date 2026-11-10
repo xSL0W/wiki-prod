@@ -87,36 +87,36 @@ outline: false
 <div class="phd-cat">
 <h3>Unelte</h3>
 <ul class="phd-items">
-<li><b>Lockpick simplu</b><span>Deschizi o masina incuiata, din afara ei. Se poate rupe la o incercare.</span></li>
-<li><b>Lockpick avansat</b><span>Spargi usile la <a href="/joburi/jafuricase">jaful de case</a> si scoti catusele altui jucator. Se consuma la fiecare incercare, reusita sau nu.</span></li>
-<li><b>Bormasina</b><span>Pentru <a href="/joburi/jafuriatm">jaful de bancomat</a>. Din ea se face si Bormasina cu burghiu de diamant, la crafting.</span></li>
-<li><b>Soricel</b><span>Blochezi usile la <a href="/joburi/jafuribanca">jaful de banca</a> si la <a href="/joburi/jafuribijuterii">jaful de bijuterii</a>.</span></li>
-<li><b>Cutter</b><span>Tai soricelul de pe o usa blocata.</span></li>
-<li><b>Binoclu</b><span>Vezi departe, cu zoom.</span></li>
-<li><b>Kit Scuba Diving</b><span>Iti da oxigen sub apa: pana la 10 minute cu kitul intreg.</span></li>
+<li><b><img class="eg-item" src="/items/lockpick.webp" alt="">Lockpick simplu</b><span>Deschizi o masina incuiata, din afara ei. Se poate rupe la o incercare.</span></li>
+<li><b><img class="eg-item" src="/items/advancedlockpick.webp" alt="">Lockpick avansat</b><span>Spargi usile la <a href="/joburi/jafuricase">jaful de case</a> si scoti catusele altui jucator. Se consuma la fiecare incercare, reusita sau nu.</span></li>
+<li><b><img class="eg-item" src="/items/drill.webp" alt="">Bormasina</b><span>Pentru <a href="/joburi/jafuriatm">jaful de bancomat</a>. Din ea se face si <img class="eg-item" src="/items/diamond_drill.webp" alt="">Bormasina cu burghiu de diamant, la crafting.</span></li>
+<li><b><img class="eg-item" src="/items/ziptie.webp" alt="">Soricel</b><span>Blochezi usile la <a href="/joburi/jafuribanca">jaful de banca</a> si la <a href="/joburi/jafuribijuterii">jaful de bijuterii</a>.</span></li>
+<li><b><img class="eg-item" src="/items/cutter.webp" alt="">Cutter</b><span>Tai soricelul de pe o usa blocata.</span></li>
+<li><b><img class="eg-item" src="/items/binoculars.webp" alt="">Binoclu</b><span>Vezi departe, cu zoom.</span></li>
+<li><b><img class="eg-item" src="/items/scuba_kit.webp" alt="">Kit Scuba Diving</b><span>Iti da oxigen sub apa: pana la 10 minute cu kitul intreg.</span></li>
 </ul>
 </div>
 <div class="phd-cat">
 <h3>Substante</h3>
 <ul class="phd-items">
-<li><b>Bicarbonat de sodiu</b><span>Intra in Timbru LSD, impreuna cu Hartie.</span></li>
-<li><b>Propilen glicol</b><span>Intra in <a href="/joburi/meta">Metamfetamina</a>, impreuna cu Benzoat de sodiu.</span></li>
-<li><b>Benzoat de sodiu</b><span>Intra in <a href="/joburi/meta">Metamfetamina</a>, impreuna cu Propilen glicol.</span></li>
+<li><b><img class="eg-item" src="/items/sodium_bicarbonate.webp" alt="">Bicarbonat de sodiu</b><span>Intra in <img class="eg-item" src="/items/timbru_lsd.webp" alt="">Timbru LSD, impreuna cu Hartie.</span></li>
+<li><b><img class="eg-item" src="/items/propilen_glicol.webp" alt="">Propilen glicol</b><span>Intra in <a href="/joburi/meta"><img class="eg-item" src="/items/meth.webp" alt="">Metamfetamina</a>, impreuna cu Benzoat de sodiu.</span></li>
+<li><b><img class="eg-item" src="/items/benzoat_sodiu.webp" alt="">Benzoat de sodiu</b><span>Intra in <a href="/joburi/meta">Metamfetamina</a>, impreuna cu Propilen glicol.</span></li>
 </ul>
 </div>
 <div class="phd-cat">
 <h3>Altele</h3>
 <ul class="phd-items">
-<li><b>Plic gol</b><span>In el ambalezi <a href="/joburi/droguri">drogurile</a>: Plic de iarba, Plic coca, Plic heroina, Plic metamfetamina.</span></li>
-<li><b>Hartie</b><span>Intra in Timbru LSD.</span></li>
-<li><b>Foite tigari</b><span>Pentru Joint si Pachet tigari.</span></li>
-<li><b>Filtre tigari, Folie transparenta</b><span>Pentru Pachet tigari.</span></li>
-<li><b>Lemn</b><span>La crafting de arme albe (ciocan, cutit, topor si altele), muscheta si paturi de arme.</span></li>
-<li><b>Baterie de masina</b><span>Intra in Bruiatorul mobil, la crafting.</span></li>
-<li><b>Extinctor</b><span>Stingi focul.</span></li>
-<li><b>Flare Gun si Flare round</b><span>Pistolul de semnalizare si munitia lui.</span></li>
-<li><b>Parachute</b><span>Parasuta. O echipezi din inventar inainte sa sari.</span></li>
-<li><b>Staniol, Banda adeziva, Carton</b><span>Se vand aici, dar acum nu intra in nicio reteta.</span></li>
+<li><b><img class="eg-item" src="/items/empty_drug_bag.webp" alt="">Plic gol</b><span>In el ambalezi <a href="/joburi/droguri">drogurile</a>: <img class="eg-item" src="/items/plic_iarba.webp" alt="">Plic de iarba, <img class="eg-item" src="/items/plic_coca.webp" alt="">Plic coca, <img class="eg-item" src="/items/plic_heroina.webp" alt="">Plic heroina, <img class="eg-item" src="/items/plic_metamfetamina.webp" alt="">Plic metamfetamina.</span></li>
+<li><b><img class="eg-item" src="/items/paper.webp" alt="">Hartie</b><span>Intra in <img class="eg-item" src="/items/timbru_lsd.webp" alt="">Timbru LSD.</span></li>
+<li><b><img class="eg-item" src="/items/foite_tigari.webp" alt="">Foite tigari</b><span>Pentru <img class="eg-item" src="/items/joint.webp" alt="">Joint si <img class="eg-item" src="/items/pachet_tigari.webp" alt="">Pachet tigari.</span></li>
+<li><b><img class="eg-item" src="/items/filtre_tigari.webp" alt="">Filtre tigari, <img class="eg-item" src="/items/folie_transparenta.webp" alt="">Folie transparenta</b><span>Pentru Pachet tigari.</span></li>
+<li><b><img class="eg-item" src="/items/lemn.webp" alt="">Lemn</b><span>La crafting de arme albe (ciocan, cutit, topor si altele), <img class="eg-item" src="/items/WEAPON_MUSKET.webp" alt="">muscheta si paturi de arme.</span></li>
+<li><b><img class="eg-item" src="/items/carbattery.webp" alt="">Baterie de masina</b><span>Intra in <img class="eg-item" src="/items/mobile_jammer.webp" alt="">Bruiatorul mobil, la crafting.</span></li>
+<li><b><img class="eg-item" src="/items/WEAPON_FIREEXTINGUISHER.webp" alt="">Extinctor</b><span>Stingi focul.</span></li>
+<li><b><img class="eg-item" src="/items/WEAPON_FLAREGUN.webp" alt="">Flare Gun si <img class="eg-item" src="/items/ammo-flare.webp" alt="">Flare round</b><span>Pistolul de semnalizare si munitia lui.</span></li>
+<li><b><img class="eg-item" src="/items/parachute.webp" alt="">Parachute</b><span>Parasuta. O echipezi din inventar inainte sa sari.</span></li>
+<li><b><img class="eg-item" src="/items/staniol.webp" alt="">Staniol, <img class="eg-item" src="/items/banda_adeziva.webp" alt="">Banda adeziva, <img class="eg-item" src="/items/carton.webp" alt="">Carton</b><span>Se vand aici, dar acum nu intra in nicio reteta.</span></li>
 </ul>
 </div>
 <ul class="phd-notes">

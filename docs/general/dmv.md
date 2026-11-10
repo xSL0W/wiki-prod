@@ -262,7 +262,7 @@ outline: false
 </div>
 </div>
 <ul class="dmv-list">
-<li>Permisul intra direct in inventar, pe numele, data nasterii si CNP-ul tau.</li>
+<li><img class="eg-item" src="/items/driving_license.webp" alt="">Permisul intra direct in inventar, pe numele, data nasterii si CNP-ul tau.</li>
 <li>Pornesti cu <b>0 puncte de penalizare</b>. Categoria scrisa pe el e <b>B</b>.</li>
 <li>Pe document scrie data eliberarii si o valabilitate de <b>10 ani</b>.</li>
 </ul>
