@@ -676,7 +676,7 @@ Avertisment Verbal / Admin Jail / Warn / Ban temporar
 #### 3.2.7 JAF MAGAZIN DE BIJUTERII
 
 - Jaful asupra magazinului de bijuterii este permis doar după acumularea a minim **300 de ore IC**.
-- La un jaf asupra magazinului de bijuterii pot participa minim **2** și cel mult **8 jefuitori**, iar poliția poate interveni cu minim **2** și maximum **8 polițisti**.
+- La un jaf asupra magazinului de bijuterii pot participa minim **2** și cel mult **8 jefuitori**, iar poliția poate interveni cu minim **2** și maximum **10 polițiști**.
 - La acest jaf trebuie să luați minim **1** și maxim **2 ostatici**.
 - Valoarea maximă a bunurilor negociate este de **100.000€**.
 
